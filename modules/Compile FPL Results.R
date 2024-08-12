@@ -189,7 +189,8 @@ tryCatch({
               `Red cards`=Predicted_red_cards_logit,
               Bonus=Predicted_bonus_rf,
               Strength=strength,
-              Difficulty=difficulty) %>%
+              Difficulty=difficulty,
+              Value=value) %>%
        mutate(
          `Penalty saves`=ifelse(Position!='GKP', 0, `Penalty saves`),
          Saves=ifelse(Position!='GKP', 0, Saves),
@@ -210,7 +211,7 @@ tryCatch({
          rc_points=-3*`Red cards`,
          `Expected points`=played_points+goal_points+assist_points+cs_points+gc_points+og_points+pen_miss_points+pen_save_points+save_points+yc_points+rc_points+Bonus
        ) %>%
-       select(Player, Position, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
+       select(Player, Position, Value, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
               `Expected points`, Goals, Assists, Played, `Played 60`,`Clean Sheet`,
               `Goals conceded`, `Own goals`, `Penalty saves`, `Penalties missed`, `Saves`,
               `Yellow cards`, `Red cards`, Bonus)
@@ -301,7 +302,7 @@ if(nrow(temp) > 0) {
           `Red cards validation`=`Red cards`-red_cards,
           `Bonus validation`=Bonus-bonus
         ) %>% select(
-          Player, Position, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
+          Player, Position, Value, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
           `Expected points`, Goals, Assists, Played, `Played 60`, `Clean Sheet`,
           `Goals conceded`, `Own goals`, `Penalty saves`, `Penalties missed`, Saves, `Yellow cards`,
           `Red cards`, Bonus, xG, xA, contains('validation') 
@@ -342,7 +343,7 @@ suppressMessages(
 suppressMessages(
   suppressWarnings(
     results4 <- results3 %>%
-      group_by(Player, `Full name`, Position, Team) %>%
+      group_by(Player, `Full name`, Position, Value, Team) %>%
       summarize(
         `Expected points`=sum(`Expected points`, na.rm = T),
         Goals=sum(Goals, na.rm = T),
@@ -358,7 +359,13 @@ suppressMessages(
         `Yellow cards`=sum(`Yellow cards`, na.rm = T),
         `Red cards`=sum(`Red cards`, na.rm = T),
         Bonus=sum(Bonus, na.rm = T)
-      )
+      ) %>%
+      ungroup() %>%
+      mutate(`Points/value`=ifelse(Value==0, 0, `Expected points`/Value)) %>%
+      group_by(Position) %>%
+      mutate(`Points/value rank`= rank(-`Points/value`)) %>%
+      select(Player, `Full name`, Position, Value, Team, `Points/value`, `Points/value rank`, everything()) %>%
+      ungroup()
   )
 )
 

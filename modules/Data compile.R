@@ -127,7 +127,7 @@ df <- rbind(
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
-           total_points
+           total_points, value
     ) %>%
     rename(GW=round, id=element, goals=goals_scored, h_a=was_home) %>%
     mutate(h_a=ifelse(h_a=='True', 'h', 'a'),
@@ -152,7 +152,7 @@ df <- rbind(
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
-           total_points
+           total_points, value
     ) %>%
     rename(GW=round, id=element, goals=goals_scored, h_a=was_home) %>%
     mutate(h_a=ifelse(h_a=='True', 'h', 'a'),
@@ -182,7 +182,7 @@ df <- rbind(
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists,own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
-           expected_goals, expected_assists, total_points
+           expected_goals, expected_assists, total_points, value
     ) %>%
     rename(GW=round, id=element, goals=goals_scored, h_a=was_home,
            xG=expected_goals, xA=expected_assists) %>%
@@ -294,8 +294,8 @@ ids <- ls$elements %>%
          name=paste0(first_name,' ', second_name)) %>%
   filter(status!='u') %>%
   left_join(teams %>% rename(team_name=name), by=c('team'='id')) %>%
-  mutate(team=team_name) %>%
-  select(id, web_name, position, name, status, team)
+  mutate(team=team_name, value=value_season) %>%
+  select(id, web_name, position, name, status, value, team)
 
 df2 <- data.frame()
 
@@ -328,7 +328,7 @@ for (i in ids$id) {
              assists, penalties_missed, id, team_a_score, team_h_score, h_a,
              bonus, minutes, yellow_cards, red_cards, goals_conceded, saves,
              penalties_saved, team_score, opponent_score, season, opponent, difficulty,
-             strength, xG, xA, total_points, finished)
+             strength, xG, xA, total_points, value, finished)
     
     temp <- c('name', 'web_name', 'team', 'position', 'kickoff_time', 'h_a', 'opponent', 'finished')
     
@@ -348,7 +348,7 @@ for (i in ids$id) {
              assists, penalties_missed, id, opponent, team_a_score, team_h_score, h_a,
              bonus, minutes, yellow_cards, red_cards, goals_conceded, saves,
              penalties_saved, team_score, opponent_score, season, difficulty,
-             strength, xG, xA, total_points, finished)
+             strength, xG, xA, total_points, value, finished)
     
     temp <- c('name', 'web_name', 'team', 'position', 'kickoff_time', 'h_a', 'opponent', 'finished')
     
@@ -508,7 +508,7 @@ df3 <- arrivals %>% filter(!grepl('End of loan', transfer_notes)) %>%
   rename(name=name.x) %>%
   select(name, web_name, league_2, position, team, kickoff_time, GW, id, 
          team_h_score, h_a, team_a_score, team_score, opponent_score, season, opponent,
-         difficulty, strength, difficulty, finished) %>%
+         difficulty, strength, difficulty, value, finished) %>%
   left_join(transfer_data) %>%
   rename(comp_name=league_2) %>%
   left_join(values, by='comp_name') %>%
@@ -572,13 +572,6 @@ temp <- val_data %>%
 
 val_data <- val_data %>% left_join(temp) %>%
   mutate_if(is.numeric, replace_na, 0)
-
-## Create a names dictionary between the two so we can join the 2024 name changes
-temp <- est_data %>% filter(season==2023) %>% distinct(name) %>%
-  rename(name_23=name)
-
-temp2 <- val_data %>% distinct(name) %>% rename(name_24=name) %>%
-  filter(!(name_24 %in% temp$name_23))
 
 objects <- ls()
 keep <- objects[grep('results|comp|data|fixtures|ids', objects)]

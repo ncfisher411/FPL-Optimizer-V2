@@ -154,7 +154,7 @@ temp <- val_data %>% filter(finished!='TRUE')
 if (nrow(temp)==0) {
   
   df2 <- val_data %>% 
-    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty) %>%
+    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, value) %>%
     left_join(avg_season) %>%
     left_join(avg_h_a) %>%
     left_join(avg_team) %>%
@@ -163,7 +163,7 @@ if (nrow(temp)==0) {
                 (xG_season*0.5) + (xG_a*0.3) + (xG_opp*0.2)),
       ict_index=ifelse(h_a=='h', (ict_index_season*0.5) + (ict_index_h)*0.3 + (ict_index_opp*0.2),
                        (ict_index_season*0.5) + (ict_index_a*0.3) + (ict_index_opp*0.2))
-    ) %>% select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index) %>%
+    ) %>% select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index, value) %>%
     distinct(name, GW, .keep_all = T) %>%
     # mutate_if(is.numeric, function(x) ifelse(is.na(x), 0, x)) %>%
     group_by(team, h_a, strength, difficulty, position) %>%
@@ -174,7 +174,7 @@ if (nrow(temp)==0) {
 } else if (nrow(temp) > 0) {
   
   temp2 <- temp %>%
-    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty) %>%
+    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, value) %>%
     left_join(avg_season) %>%
     left_join(avg_h_a) %>%
     left_join(avg_team) %>%
@@ -183,7 +183,7 @@ if (nrow(temp)==0) {
                 (xG_season*0.5) + (xG_a*0.3) + (xG_opp*0.2)),
       ict_index=ifelse(h_a=='h', (ict_index_season*0.5) + (ict_index_h)*0.3 + (ict_index_opp*0.2),
                        (ict_index_season*0.5) + (ict_index_a*0.3) + (ict_index_opp*0.2))
-    ) %>% select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index) %>%
+    ) %>% select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index, value) %>%
     distinct(name, GW, .keep_all = T) %>%
     # mutate_if(is.numeric, function(x) ifelse(is.na(x), 0, x)) %>%
     group_by(team, h_a, strength, difficulty, position) %>%
@@ -193,7 +193,7 @@ if (nrow(temp)==0) {
   
   df2 <- val_data %>%
     filter(!(GW %in% temp$GW)) %>%
-    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index) %>%
+    select(name, web_name, team, position, season, GW, kickoff_time, h_a, opponent, strength, difficulty, xG, ict_index, value) %>%
     rbind(temp2) %>%
     distinct(name, GW, .keep_all = T) %>%
     # mutate_if(is.numeric, function(x) ifelse(is.na(x), 0, x))
@@ -371,8 +371,8 @@ goals_results <- linear_predictions %>%
   left_join(rf_pen_predictions %>%
               distinct(name, GW, .keep_all = T)) %>%
   left_join(temp2) %>%
-  left_join(df2 %>% select(name, position, team, GW, opponent, h_a, season)) %>%
-  select(name, position, team, GW, opponent, h_a, everything(), -contains('validation')) %>%
+  left_join(df2 %>% select(name, position, team, GW, opponent, h_a, season, value)) %>%
+  select(name, position, team, value, GW, opponent, h_a, everything(), -contains('validation')) %>%
   rename(Player=name, Position=position, Gameweek=GW, Opponent=opponent,
          `Home/Away`=h_a, Team=team, Season=season) %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away'),
