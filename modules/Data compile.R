@@ -309,11 +309,12 @@ for (i in ids$id) {
     
     d <- d  %>%
       mutate(season=min(fixtures$season)) %>%
-      left_join(ids, by=c('element_code'='id')) %>%
+      left_join(ids, by=c('element'='id')) %>%
       mutate(h_a=ifelse(was_home=='TRUE', 'h', 'a'),
              team_score=ifelse(h_a=='h', team_h_score, team_a_score),
              opponent_score=ifelse(h_a=='h', team_a_score, team_h_score),
-             kickoff_time=substr(kickoff_time, start = 1, stop = 10))
+             kickoff_time=substr(kickoff_time, start = 1, stop = 10),
+             value=value.x)
     
     d2 <- fixtures %>% filter(team==d$team[[1]]) %>%
       mutate(kickoff_time=substr(kickoff_time, start = 1, stop = 10)) %>%
@@ -572,6 +573,193 @@ temp <- val_data %>%
 
 val_data <- val_data %>% left_join(temp) %>%
   mutate_if(is.numeric, replace_na, 0)
+
+## Get the data averages prepared
+
+##### Get correlations
+cor <- cor(est_data %>% mutate(position=as.numeric(as.factor(position))) %>% select(where(is.numeric))) %>%
+  as.data.frame()
+
+#### In the goals model we are estimating goals, own goals, and penalties missed
+
+##### Goals
+cor2 <- cor %>% select(goals) %>% arrange(-goals)
+    #### est vars = xG, ict_index, xA, value, played, played60, position, strength, difficulty, h_a
+
+##### Own goals
+cor2 <- cor %>% select(own_goals) %>% arrange(-own_goals)
+    #### est vars = ict_index_opponent, xG_opponent, played, played60, position, strength, difficulty, h_a
+
+##### Penalties missed
+cor2 <- cor %>% select(penalties_missed) %>% arrange(-penalties_missed)
+    #### est vars = xG, ict_index, value, position, strength, difficulty, h_a
+
+### In the assists model we are estimating assists
+
+##### Assists
+cor2 <- cor %>% select(assists) %>% arrange(-assists)
+    #### est vars = xA, ict_index, xG, value, played60, played, position, strength, difficulty, h_a
+
+### In the bonus model we are estimating bonus points
+cor2 <- cor %>% select(bonus) %>% arrange(-bonus)
+    #### est vars = ict_index, xG, xA, clean_sheet, played, played60, ict_index_opponent, position, strength, difficulty, h_a
+
+### In the cards model we are estimating yellow and red cards probability
+
+###### Yellow cards
+cor2 <- cor %>% select(yellow_cards) %>% arrange(-yellow_cards)
+    #### est vars = played60, played, ict_index_opponent, xG_opponent, goals_conceded, position, strength, difficulty, h_a
+
+###### Red cards
+cor2 <- cor %>% select(red_cards) %>% arrange(-red_cards)
+    #### est vars = goals_conceded, played, xG_opponent, ict_index_opponent, position, strengthm difficulty, h_a
+
+### In the saves model we are estimating saves, penalties saved, and goals conceded
+
+##### Saves
+cor2 <- cor %>% select(saves) %>% arrange(-saves)
+    #### est vars = ict_index_opponent, xG_opponent, played60, goals_conceded, played, strength, difficulty, h_a
+
+##### Pens saved
+cor2 <- cor %>% select(penalties_saved) %>% arrange(-penalties_saved)
+    #### est vars = saves, xG_opponent, ict_index_opponent, played60, position, strength, difficulty, h_a
+
+##### Goals conceded
+cor2 <- cor %>% select(goals_conceded) %>% arrange(-goals_conceded)
+    #### est vars = xG_opponent, ict_index_opponent, played60, played, ict_index, position, strength, difficulty, h_a
+
+### In the time model we are estimating the probability of playing, playing 60 minutes, and getting a clean sheet
+
+#### Played
+cor2 <- cor %>% select(played) %>% arrange(-played)
+    #### est_data = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, position, strength, difficulty h_a
+
+#### Played 60 minutes
+cor2 <- cor %>% select(played60) %>% arrange(-played60)
+    #### est vars = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, strength, difficulty, h_a
+
+#### Clean sheet
+cor2 <- cor %>% select(clean_sheet) %>% arrange(-clean_sheet)
+    #### est vars = played60, played, ict_index, ict_index_opponent, xG_opponent, strength, difficulty, h_a
+
+# Now set up the data for predictions
+
+### Average the independent variables by difficulty for each player
+avg_team <- est_data %>%
+  group_by(name, strength, difficulty) %>%
+  summarize(
+    xG_opp=mean(xG, na.rm = T),
+    xA_opp=mean(xA, na.rm = T),
+    ict_index_opp=mean(ict_index, na.rm = T),
+    played_opp=mean(played, na.rm = T),
+    played60_opp=mean(played60, na.rm = T),
+    clean_sheet_opp=mean(clean_sheet, na.rm = T),
+    ict_index_opponent_opp=mean(ict_index_opponent, na.rm = T),
+    xG_opponent_opp=mean(xG_opponent, na.rm = T),
+    saves_opp=mean(saves, na.rm = T),
+    goals_conceded_opp=mean(goals_conceded, na.rm = T)
+    ) %>% ungroup()
+
+avg_season <- est_data %>%
+  group_by(name, position, season) %>%
+  summarize(
+    xG_season=mean(xG, na.rm = T),
+    xA_season=mean(xA, na.rm = T),
+    ict_index_season=mean(ict_index, na.rm = T),
+    played_season=mean(played, na.rm = T),
+    played60_season=mean(played60, na.rm = T),
+    clean_sheet_season=mean(clean_sheet, na.rm = T),
+    ict_index_opponent_season=mean(ict_index_opponent, na.rm = T),
+    xG_opponent_season=mean(xG_opponent, na.rm = T),
+    saves_season=mean(saves, na.rm = T),
+    goals_conceded_season=mean(goals_conceded, na.rm = T)
+    ) %>%
+  ungroup()
+
+if(max(avg_season$season)==max(val_data$season)) {
+  avg_season <- avg_season %>% filter(season==max(season))
+} else if (max(avg_season$season)!=max(val_data$season)) {
+  avg_season <- avg_season %>%
+    filter(season==max(season)) %>%
+    mutate(season=max(val_data$season))
+  
+  temp <- avg_season %>%
+    group_by(position) %>%
+    summarize(
+      xG_season=mean(xG, na.rm = T),
+      xA_season=mean(xA, na.rm = T),
+      ict_index_season=mean(ict_index, na.rm = T),
+      played_season=mean(played, na.rm = T),
+      played60_season=mean(played60, na.rm = T),
+      clean_sheet_season=mean(clean_sheet, na.rm = T),
+      ict_index_opponent_season=mean(ict_index_opponent, na.rm = T),
+      xG_opponent_season=mean(xG_opponent, na.rm = T),
+      saves_season=mean(saves, na.rm = T),
+      goals_conceded_season=mean(goals_conceded, na.rm = T)
+    ) %>%
+    ungroup()
+  
+  avg_season2 <- val_data %>%
+    distinct(name, team, position, season) %>%
+    filter(team %in% new_teams) %>%
+    mutate(season=max(val_data$season)) %>%
+    left_join(temp)
+  
+  avg_season <- avg_season %>%
+    filter(team %in% val_data$team) %>%
+    rbind(avg_season2) %>%
+    group_by(name, position, season) %>%
+    summarize(
+      xG_season=mean(xG, na.rm = T),
+      xA_season=mean(xA, na.rm = T),
+      ict_index_season=mean(ict_index, na.rm = T),
+      played_season=mean(played, na.rm = T),
+      played60_season=mean(played60, na.rm = T),
+      clean_sheet_season=mean(clean_sheet, na.rm = T),
+      ict_index_opponent_season=mean(ict_index_opponent, na.rm = T),
+      xG_opponent_season=mean(xG_opponent, na.rm = T),
+      saves_season=mean(saves, na.rm = T),
+      goals_conceded_season=mean(goals_conceded, na.rm = T)
+    ) %>%
+    ungroup()
+}
+
+  avg_h_a <- est_data %>%
+    group_by(name, h_a) %>%
+    summarize(
+      xG_h_a=mean(xG, na.rm = T),
+      xA_h_a=mean(xA, na.rm = T),
+      ict_index_h_a=mean(ict_index, na.rm = T),
+      played_h_a=mean(played, na.rm = T),
+      played60_h_a=mean(played60, na.rm = T),
+      clean_sheet_h_a=mean(clean_sheet, na.rm = T),
+      ict_index_opponent_h_a=mean(ict_index_opponent, na.rm = T),
+      xG_opponent_h_a=mean(xG_opponent, na.rm = T),
+      saves_h_a=mean(saves, na.rm = T),
+      goals_conceded_h_a=mean(goals_conceded, na.rm = T)
+    ) %>% ungroup()
+  
+predict_data <- ids %>%
+  select(name, web_name, team, position, value) %>%
+  left_join(fixtures) %>%
+  left_join(avg_team) %>%
+  left_join(avg_h_a) %>%
+  left_join(avg_season) %>% ### get weighted avgs here: 70% season, 15% h_a, 15% strength/difficulty
+  mutate(
+    xG= 0.7*xG_season + 0.15*xG_h_a + 0.15*xG_season,
+    xA= 0.7*xA_season + 0.15*xA_h_a + 0.15*xA_season,
+    ict_index= 0.7*ict_index_season + 0.15*ict_index_h_a + 0.15*ict_index_season,
+    played= 0.7*played_season + 0.15*played_h_a + 0.15*played_season,
+    played60= 0.7*played60_season + 0.15*played60_h_a + 0.15*played60_season,
+    clean_sheet= 0.7*clean_sheet_season + 0.15*clean_sheet_h_a + 0.15*clean_sheet_season,
+    ict_index_opponent= 0.7*ict_index_opponent_season + 0.15*ict_index_opponent_h_a + 0.15*ict_index_opponent_opp,
+    xG_opponent= 0.7*xG_opponent_season + 0.15*xG_opponent_h_a + 0.15*xG_opponent_opp,
+    saves= 0.7*saves_season + 0.15*saves_h_a + 0.15*saves_opp,
+    goals_conceded= 0.7*goals_conceded_season + 0.15*goals_conceded_h_a + 0.15*goals_conceded_opp
+  ) %>%
+  select(name, web_name, team, position, season, value, GW, opponent, h_a, strength, difficulty, xG, xA, ict_index, played, played60, clean_sheet, ict_index_opponent,
+         xG_opponent, saves, goals_conceded)
+
 
 objects <- ls()
 keep <- objects[grep('results|comp|data|fixtures|ids', objects)]

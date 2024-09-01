@@ -361,7 +361,7 @@ suppressMessages(
         Bonus=sum(Bonus, na.rm = T)
       ) %>%
       ungroup() %>%
-      mutate(`Points/value`=ifelse(Value==0, 0, `Expected points`/Value)) %>%
+      mutate(`Points/value`=ifelse(Value==0, 0, `Expected points`/as.numeric(Value))) %>%
       group_by(Position) %>%
       mutate(`Points/value rank`= rank(-`Points/value`)) %>%
       select(Player, `Full name`, Position, Value, Team, `Points/value`, `Points/value rank`, everything()) %>%

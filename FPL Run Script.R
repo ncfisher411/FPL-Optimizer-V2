@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Run script for FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 2 2024
+# Last updated: August 31 2024
 #---------------------------------------#
 # This script is used to run the FPL optimizer models. This script will begin a
 # set of models that will predict statistics by match and then calculate 
@@ -19,7 +19,7 @@
 
 packages <- c('tidyverse', 'worldfootballR', 'randomForest', 'rstudioapi',
               'httr', 'jsonlite', 'fuzzyjoin', 'openxlsx', 'data.table',
-              'stringdist')
+              'stringdist', 'stats')
 
 for (package in packages) {
   if (!requireNamespace(package, quietly = T)) {
