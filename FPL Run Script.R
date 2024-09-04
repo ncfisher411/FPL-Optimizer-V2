@@ -8,7 +8,7 @@
 # predicted points
 # 
 # Current model run time: ~ 60 minutes
-# If the model appears stuck, click "stop" and restart your R session
+# If the model appears stuck, restart your R session
 # 
 # To use the model, press control + enter on each command below. This may require
 # installation of several R packages.

@@ -160,6 +160,9 @@ metrics <- metrics %>%
 ### Red cards = logit
 ### Saves = random forest
 ### Yellow cards = logit
+### Played = linear
+### Played 60 = random forest
+### Clean sheet = linear
 
 ## Compile the results; need to use the lowest denominator for number of observations and calculate expected points
 
@@ -361,7 +364,8 @@ suppressMessages(
         Bonus=sum(Bonus, na.rm = T)
       ) %>%
       ungroup() %>%
-      mutate(`Points/value`=ifelse(Value==0, 0, `Expected points`/as.numeric(Value))) %>%
+      mutate(Value=as.numeric(Value),
+             `Points/value`=ifelse(Value==0, 0, `Expected points`/as.numeric(Value))) %>%
       group_by(Position) %>%
       mutate(`Points/value rank`= rank(-`Points/value`)) %>%
       select(Player, `Full name`, Position, Value, Team, `Points/value`, `Points/value rank`, everything()) %>%
