@@ -298,6 +298,8 @@ ids <- ls$elements %>%
   select(id, web_name, position, name, status, value, team)
 
 df2 <- data.frame()
+max <- fixtures %>% filter(finished==T)
+max <- max(max$GW)
 
 for (i in ids$id) {
   url <- paste0('https://fantasy.premierleague.com/api/element-summary/', i, '/')
@@ -336,12 +338,10 @@ for (i in ids$id) {
     d2 <- d2 %>%
       mutate_at(vars(-one_of(temp)), as.numeric)
     
-    df2 <- rbind(df2, d2)
-    
   } else if(length(d)==0) {
     
     d2 <- fixtures %>%
-      left_join(ids) %>%
+      left_join(ids %>% filter(id==i)) %>%
       mutate(total_points=NA, goals=NA, xG=NA, xA=NA, ict_index=NA, own_goals=NA, assists=NA, penalties_missed=NA,
              team_a_score=NA, team_h_score=NA, bonus=NA, minutes=NA, yellow_cards=NA, red_cards=NA,
              goals_conceded=NA, saves=NA, penalties_saved=NA, team_score=NA, opponent_score=NA) %>%
@@ -349,15 +349,18 @@ for (i in ids$id) {
              assists, penalties_missed, id, opponent, team_a_score, team_h_score, h_a,
              bonus, minutes, yellow_cards, red_cards, goals_conceded, saves,
              penalties_saved, team_score, opponent_score, season, difficulty,
-             strength, xG, xA, total_points, value, finished)
+             strength, xG, xA, total_points, value, finished) %>% 
+      filter(GW <= max) %>% filter(!is.na(name))
     
     temp <- c('name', 'web_name', 'team', 'position', 'kickoff_time', 'h_a', 'opponent', 'finished')
     
     d2 <- d2 %>%
       mutate_at(vars(-one_of(temp)), as.numeric)
     
-    df2 <- d2
+
   }
+  
+  df2 <- rbind(df2, d2)
 }
 
 ## Deal with transfers here
@@ -462,6 +465,7 @@ est_data <- est_data %>% left_join(temp) %>%
          ict_index_opponent=ict_index_opponent*(minutes/90))
 
 val_data <- df2 %>% mutate_all(., replace_na, 0) %>%
+  filter(finished=='TRUE') %>%
   mutate(played = ifelse(minutes > 0, 1, 0),
          played60 = ifelse(minutes > 59, 1, 0),
          clean_sheet=ifelse(played60==1 & goals_conceded==0, 1, 0))
@@ -660,7 +664,7 @@ avg_team <- est_data %>%
     goals_conceded_opp=mean(goals_conceded, na.rm = T)
     ) %>% ungroup()
 
-avg_season <- est_data %>%
+avg_season <- val_data %>%
   group_by(name, position, season) %>%
   summarize(
     xG_season=mean(xG, na.rm = T),

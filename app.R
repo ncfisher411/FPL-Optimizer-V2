@@ -452,6 +452,8 @@ server <- function(input, output, session) {
     data <- upload() %>%
       filter(`Full name` %in% input$playercomp) %>%
       filter(Gameweek %in% input$gameweek2) %>%
+      mutate(Value=as.numeric(Value)) %>%
+      rename(`FPL Value`=Value) %>%
       pivot_longer(cols = c(-Player, -Gameweek, -`Full name`, -Opponent, -`Home/Away`,
                             -Strength, -Difficulty, -Position, -Team, -status),
                    names_to = 'stat', values_to = 'value') %>%
