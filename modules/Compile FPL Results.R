@@ -265,7 +265,7 @@ tryCatch({
   
 if(nrow(temp) > 0) {
   
-  temp2 <- c(max(temp$GW):38)
+  temp2 <- c(min(temp$GW):38)
   df <- data.frame()
   
   for (i in temp2) {

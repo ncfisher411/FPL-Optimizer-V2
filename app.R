@@ -552,7 +552,7 @@ server <- function(input, output, session) {
     
   })
   
-  # Panel 4: validation scatter plot
+  # Panel 4: validation line plot
   
   output$PlayerValidation <- renderUI({
     selectizeInput(
@@ -576,7 +576,7 @@ server <- function(input, output, session) {
     
     output$ValidationPlot <- renderPlotly({
       fig <- plot_ly(data, x= ~Gameweek, y= ~`Expected points`, name = 'Expected points', type = 'scatter', mode = 'lines', color = 'black', text = ~paste('Gameweek:', Gameweek, '<br>Exp. Points:', `Expected points`)) %>%
-        layout(yaxis = list(title='Points'),
+        layout(yaxis = list(title='Points', range=c(0, 25)),
                xaxis = list(title='Gameweek', dtick = 1))
       fig <- fig %>% add_trace(y = ~`Actual points`, name = 'Actual points', type = 'scatter', mode = 'lines', color = 'orange', text= ~paste('Gameweek:', Gameweek, '<br>Actual Points:', `Actual points`))
       return(fig)
