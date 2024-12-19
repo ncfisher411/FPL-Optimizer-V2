@@ -272,7 +272,7 @@ fixtures <- fromJSON(json) %>%
   mutate(team=name,
          h_a='h',
          season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
-         season=min(season)) %>%
+         season=min(season, na.rm = T)) %>%
   select(GW, GW_id, season, finished, kickoff_time, team, h_a, strength,
          opponent, difficulty)
 
@@ -766,6 +766,6 @@ predict_data <- ids %>%
 
 
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|dev', objects)]
 rm(list=setdiff(objects, keep))
 gc()

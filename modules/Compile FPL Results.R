@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Data compiler for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: May 15 2024
+# Last updated: Dec 12 2024
 #---------------------------------------#
 
 ## Paste timestamp for model beginning
@@ -26,6 +26,28 @@ tryCatch({
 }, finally = {
   print(paste0('Data compilation complete: ', Sys.time()))
 })
+
+### New DEV step - 12/12/2024
+print(paste0('Model choices beginning at: ', Sys.time()))
+  
+tryCatch({
+  suppressMessages(
+    suppressWarnings(
+      source('modules/Model_choice.R', local = T) 
+    )
+  )
+}, error = function(err){
+  error_occured <<- TRUE
+  cat('Error in model choice: ', conditionMessage(err), '\n')
+  cat('Traceback: \n')
+  traceback()
+}, finally = {
+  print(paste0('Model choices complete: ', Sys.time()))
+})
+
+if(dev=='Yes'){
+  quietly(stop)
+}
 
 print(paste0('Goals model beginning at: ', Sys.time()))
 
@@ -131,39 +153,6 @@ tryCatch({
 
 print(paste0('Modules complete: ', Sys.time()))
 
-## Compile the metrics to make model choices
-objects <- ls()
-temp <- mget(objects[grep('comp', objects)])
-metrics <- do.call(rbind, temp) %>%
-  mutate(`User score`=RMSE/3+R2/3+(1-abs(Validation))/3) %>%
-  data.frame()
-rownames(metrics) <- NULL
-metrics <- metrics %>% 
-  arrange(Stat, -User.score) %>%
-    rbind(data.frame(
-    Stat='User Score = average value of RMSE, R2, and 1-Validation. Highest user score should represent the preferred model',
-    Model=NA,
-    RMSE=NA,
-    R2=NA,
-    Validation=NA,
-    User.score=NA
-  )) %>% rename(`User score`=User.score)
-
-## Models to use:
-### Assists = logit
-### Bonus points = random forest
-### Goals = random forest
-### Goals conceded = random forest
-### Own goals = logit
-### Penalties missed = random forest
-### Penalty saves = linear
-### Red cards = logit
-### Saves = random forest
-### Yellow cards = logit
-### Played = linear
-### Played 60 = random forest
-### Clean sheet = linear
-
 ## Compile the results; need to use the lowest denominator for number of observations and calculate expected points
 
 print(paste0('Compiling final results: ', Sys.time()))
@@ -177,20 +166,22 @@ tryCatch({
        left_join(time_results) %>%
        left_join(save_results) %>%
        left_join(bonus_results) %>%
+       left_join(val_data %>% distinct(name, team, opponent, strength, difficulty),
+                 by=c('Player'='name', 'Team'='team', 'Opponent'='opponent')) %>%
        mutate_all(funs(ifelse(is.na(.), 0, .))) %>%
-       rename(Goals=Predicted_goals_rf,
-              Assists=Predicted_assists_logit,
-              Played=Probability_played_linear, 
-              `Played 60`=Probability_played60_rf,
-              `Clean Sheet`=Probability_cs_linear,
-              `Goals conceded`=Predicted_goals_conceded_rf,
-              `Own goals`=Predicted_og_logit, 
-              `Penalties missed`=Predicted_pen_rf,
-              `Penalty saves`=Predicted_pen_saves_linear,
-              Saves=Predicted_saves_rf,
-              `Yellow cards`=Predicted_yellow_cards_logit,
-              `Red cards`=Predicted_red_cards_logit,
-              Bonus=Predicted_bonus_rf,
+       rename(Goals=Predicted_goals,
+              Assists=Predicted_assists,
+              Played=Probability_played, 
+              `Played 60`=Probability_played60,
+              `Clean Sheet`=Probability_cs,
+              `Goals conceded`=Predicted_goals_conceded,
+              `Own goals`=Predicted_og, 
+              `Penalties missed`=Predicted_pen_missed,
+              `Penalty saves`=Predicted_pen_saves,
+              Saves=Predicted_saves,
+              `Yellow cards`=Predicted_yellow_cards,
+              `Red cards`=Predicted_red_cards,
+              Bonus=Predicted_bonus,
               Strength=strength,
               Difficulty=difficulty,
               Value=value) %>%
@@ -251,7 +242,8 @@ tryCatch({
   
   temp <- fixtures %>%
     # mutate(finished=ifelse(GW==38, 'FALSE', finished)) %>%
-    filter(finished=='FALSE')
+    filter(finished=='FALSE') %>%
+    filter(!is.na(GW))
   
   ls <- fromJSON(json)
   status <- ls$elements %>%
@@ -405,6 +397,12 @@ suppressMessages(
 print(paste0('Writing final results: ', Sys.time()))
 
 tryCatch({
+  
+  suppressMessages(
+    suppressWarnings(
+      metrics <- read.csv('data/model_metrics.csv')
+    )
+  )
   
   suppressMessages(
     suppressWarnings(

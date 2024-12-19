@@ -1,19 +1,19 @@
 #---------------------------------------#
 # Run script for FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: Dec 19 2024
 #---------------------------------------#
 # This script is used to run the FPL optimizer models. This script will begin a
 # set of models that will predict statistics by match and then calculate 
 # predicted points
 # 
-# Current model run time: ~ 60 minutes
+# Current model run time: ~ 45 minutes
 # If the model appears stuck, restart your R session
 # 
 # To use the model, press control + enter on each command below. This may require
 # installation of several R packages.
 #
-# WARNING: THERE IS OCCASIONAL TIMEOUT OF WEB-BASED FUNCTIONS IN THE DATA.
+# WARNING: THERE IS OCCASIONAL TIMEOUT OF WEB-BASED FUNCTIONS IN THE DATA
 # COMPILATION. IF THE MODEL DOES NOT COMPLETE DUE TO A TIMEOUT, RUN THE
 # MODEL AGAIN. 
 
@@ -30,5 +30,10 @@ for (package in packages) {
 }
 
 setwd(dirname(getActiveDocumentContext()$path))
+
+#---------------------------------------------------------------------------------#
+#### DEV VERSION? Only change to "Yes" if attempting to re-assess/estimate the models
+dev = 'No'
+#---------------------------------------------------------------------------------#
 
 source('modules/Compile FPL Results.R')
