@@ -1,5 +1,5 @@
 # DEV SCRIPT FOR ASSESSING BEST MODELS
-## updated 12/12/2024
+## updated 1/2/2024
 ## Run this after compiling data if assessing estimates or adding model strategies
 
 ### IF dev="Yes", then this will automatically run and assess all models for comparison
@@ -117,23 +117,19 @@ rf_og_predictions <- predict(rf_og_model, predict_data) %>%
          rf_og_validation=own_goals-Predicted_og_rf) %>%
   select(-own_goals)
 
-
 ## Metrics summary for model choice justification
 comp_goals <- data.frame(Stat='Goals',
                          Model=c('Linear', 'Logit'),
                          RMSE=c(sqrt(mean(resid(linear_goals_model)^2)),
                                 sqrt(mean(resid(logit_goals_model)^2))),
                          R2=c(summary(linear_goals_model)$r.squared,
-                              summary(logit_goals_model)$r.squared),
-                         Validation=c(mean(linear_predictions$linear_goals_validation),
-                                      mean(logit_predictions$logit_goals_validation))
+                              summary(logit_goals_model)$r.squared)
 ) %>%
   rbind(
     data.frame(Stat='Goals',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_goals_model$mse)),
-               R2=mean(rf_goals_model$rsq),
-               Validation=mean(rf_predictions$rf_goals_validation))
+               R2=mean(rf_goals_model$rsq))
   ) %>%
   rbind(
     data.frame(
@@ -142,16 +138,13 @@ comp_goals <- data.frame(Stat='Goals',
       RMSE=c(sqrt(mean(resid(linear_og_model)^2)),
              sqrt(mean(resid(logit_og_model)^2))),
       R2=c(summary(linear_og_model)$r.squared,
-           summary(logit_og_model)$r.squared),
-      Validation=c(mean(linear_og_predictions$linear_og_validation),
-                   mean(logit_og_predictions$logit_og_validation))
+           summary(logit_og_model)$r.squared)
     ),
     data.frame(
       Stat='Own goals',
       Model='Random Forest',
       RMSE=sqrt(mean(rf_og_model$mse)),
-      R2=mean(rf_og_model$rsq),
-      Validation=c(mean(rf_og_predictions$rf_og_validation))
+      R2=mean(rf_og_model$rsq)
     ),
     data.frame(
       Stat='Penalties missed',
@@ -159,9 +152,7 @@ comp_goals <- data.frame(Stat='Goals',
       RMSE=c(sqrt(mean(resid(linear_pen_model)^2)),
              sqrt(mean(resid(logit_pen_model)^2))),
       R2=c(summary(linear_pen_model)$r.squared,
-           summary(logit_pen_model)$r.squared),
-      Validation=c(mean(linear_pen_predictions$linear_pen_validation),
-                   mean(logit_pen_predictions$logit_pen_validation))
+           summary(logit_pen_model)$r.squared)
     ),
     data.frame(
       Stat='Penalties missed',
@@ -197,26 +188,38 @@ goals_results <- linear_predictions %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away')) %>%
   distinct(Player, Gameweek, .keep_all = T)
 
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_goals_model, linear_og_model, linear_pen_model, logit_goals_model,
+            logit_og_model, logit_pen_model, rf_goals_model, rf_og_model, rf_pen_model)
 
+names <- c('linear_goals_model', 'linear_og_model', 'linear_pen_model', 'logit_goals_model',
+               'logit_og_model', 'logit_pen_model', 'rf_goals_model', 'rf_og_model', 'rf_pen_model')
 
-## Validation: want to check for overfitting 
-### Using k-fold cross validation  
-# set.seed(123)
-# temp <- trainControl(method = 'cv', number = 5)
-# train_linear <- train(goals ~ xG + ict_index + position + h_a + team + opponent,
-#                       data = df2, method ='lm', trControl = temp)
-# print(train_linear$results$RMSE)
-# 
-# train_logit <- train(goals ~ xG + ict_index + position + h_a + team + opponent,
-#                      data = df2, method='glm', trControl = temp)
-# print(train_logit$results$RMSE)
+names(models) = names
 
-# train_rf <- train(goals ~ xG + ict_index + position + h_a + team + opponent,
-#                      data = df2, method='rf', trControl = temp)
-# print(train_rf$results$RMSE)
+validation <- est_data %>%
+  select(name, team, strength, position, season, GW, opponent, difficulty, goals, own_goals, penalties_missed,
+         assists, yellow_cards, red_cards, saves, penalties_saved, goals_conceded,
+         played, played60, clean_sheet, bonus)
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_goals_model=2, linear_og_model=3, linear_pen_model=4,
+             logit_goals_model=5, logit_og_model=6, logit_pen_model=7,
+             rf_goals_model=8, rf_og_model=9, rf_pen_model=10) %>%
+      select(-n)
+  )
 
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|validation', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 
@@ -277,8 +280,7 @@ for(i in model_list) {
       Stat = 'Assists',
       Model = i,
       RMSE = sqrt(mean(model$residuals^2)),
-      R2=summary(model)$r.squared,
-      Validation=mean
+      R2=summary(model)$r.squared
     )
   } else if(grepl('logit', i)) {
     summary <- summary(model)
@@ -287,16 +289,14 @@ for(i in model_list) {
       Stat = 'Assists',
       Model = i,
       RMSE = sqrt(mean(model$residuals^2)),
-      R2=1-(summary$deviance/summary$null.deviance),
-      Validation=mean
+      R2=1-(summary$deviance/summary$null.deviance)
     )
   } else if(grepl('rf', i)){
     data <- data.frame(
       Stat = 'Assists',
       Model = i,
       RMSE=sqrt(mean(model$mse)),
-      R2=mean(model$rsq),
-      Validation=mean
+      R2=mean(model$rsq)
     ) 
   }
   
@@ -314,8 +314,29 @@ assists_results <- linear_predictions %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away')) %>%
   distinct(Player, Gameweek, .keep_all = T)
 
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_assist_model, logit_assist_model, rf_assist_model)
+
+names <- c('linear_assist_model', 'logit_assist_model', 'rf_assist_model')
+
+names(models) = names
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_assist_model=2, logit_assist_model=3, rf_assist_model=4) %>%
+      select(-n)
+  )
+
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|validation', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 
@@ -414,34 +435,52 @@ comp_cards <- data.frame(Stat='Yellow cards',
                          RMSE=c(sqrt(mean(resid(linear_yc_model)^2)),
                                 sqrt(mean(resid(logit_yc_model)^2))),
                          R2=c(summary(linear_yc_model)$r.squared,
-                              summary(logit_yc_model)$r.squared),
-                         Validation=c(mean(linear_yc_predictions$linear_yellow_cards_validation),
-                                      mean(logit_yc_predictions$logit_yellow_cards_validation))
+                              summary(logit_yc_model)$r.squared)
 ) %>%
   rbind(
     data.frame(Stat='Yellow cards',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_yc_model$mse)),
-               R2=mean(rf_yc_model$rsq),
-               Validation=mean(rf_yc_predictions$rf_yellow_cards_validation)),
+               R2=mean(rf_yc_model$rsq)),
     data.frame(Stat='Red cards',
                Model=c('Linear', 'Logit'),
                RMSE=c(sqrt(mean(resid(linear_rc_model)^2)),
                       sqrt(mean(resid(logit_rc_model)^2))),
                R2=c(summary(linear_rc_model)$r.squared,
-                    summary(logit_rc_model)$r.squared),
-               Validation=c(mean(linear_rc_predictions$linear_red_cards_validation),
-                            mean(logit_rc_predictions$logit_red_cards_validation))),
+                    summary(logit_rc_model)$r.squared)),
     data.frame(Stat='Red cards',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_rc_model$mse)),
-               R2=mean(rf_rc_model$rsq),
-               Validation=mean(rf_rc_predictions$rf_red_cards_validation))
+               R2=mean(rf_rc_model$rsq))
     
   )
 
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_yc_model, linear_rc_model, logit_yc_model, logit_rc_model,
+               rf_yc_model, rf_rc_model)
+
+names <- c('linear_yc_model', 'linear_rc_model', 'logit_yc_model', 'logit_rc_model',
+           'rf_yc_model', 'rf_rc_model')
+
+names(models) = names
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_yc_model=2, linear_rc_model=3, logit_yc_model=4,
+             logit_rc_model=5, rf_yc_model=6, rf_rc_model=7) %>%
+      select(-n)
+  )
+
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|validation', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 
@@ -556,16 +595,13 @@ comp_saves <- data.frame(Stat='Saves',
                          RMSE=c(sqrt(mean(resid(linear_saves_model)^2)),
                                 sqrt(mean(resid(logit_saves_model)^2))),
                          R2=c(summary(linear_saves_model)$r.squared,
-                              summary(logit_saves_model)$r.squared),
-                         Validation=c(mean(linear_save_predictions$linear_saves_validation),
-                                      mean(logit_save_predictions$logit_saves_validation))
+                              summary(logit_saves_model)$r.squared)
 ) %>%
   rbind(
     data.frame(Stat='Saves',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_saves_model$mse)),
-               R2=mean(rf_saves_model$rsq),
-               Validation=mean(rf_save_predictions$rf_saves_validation))
+               R2=mean(rf_saves_model$rsq))
   ) %>%
   rbind(
     data.frame(Stat='Penalty saves',
@@ -573,16 +609,13 @@ comp_saves <- data.frame(Stat='Saves',
                RMSE=c(sqrt(mean(resid(linear_pen_model)^2)),
                       sqrt(mean(resid(logit_pen_model)^2))),
                R2=c(summary(linear_pen_model)$r.squared,
-                    summary(logit_pen_model)$r.squared),
-               Validation=c(mean(linear_pen_predictions$linear_pen_saves_validation),
-                            mean(logit_pen_predictions$logit_pen_saves_validation)))
+                    summary(logit_pen_model)$r.squared))
   ) %>%
   rbind(
     data.frame(Stat='Penalty saves',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_pen_model$mse)),
-               R2=mean(rf_pen_model$rsq),
-               Validation=mean(rf_pen_predictions$rf_pen_saves_validation))
+               R2=mean(rf_pen_model$rsq))
   ) %>%
   rbind(
     data.frame(Stat='Goals conceded',
@@ -590,14 +623,11 @@ comp_saves <- data.frame(Stat='Saves',
                RMSE=c(sqrt(mean(resid(linear_goals_conceded_model)^2)),
                       sqrt(mean(resid(logit_goals_conceded_model)^2))),
                R2=c(summary(linear_goals_conceded_model)$r.squared,
-                    summary(logit_goals_conceded_model)$r.squared),
-               Validation=c(mean(linear_goals_conceded_prediction$linear_goals_conceded_validation),
-                            mean(logit_goals_conceded_prediction$logit_goals_conceded_validation))),
+                    summary(logit_goals_conceded_model)$r.squared)),
     data.frame(Stat='Goals conceded',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_goals_conceded_model$mse)),
-               R2=mean(rf_goals_conceded_model$rsq),
-               Validation=mean(rf_goals_conceded_prediction$rf_goals_conceded_validation))
+               R2=mean(rf_goals_conceded_model$rsq))
   )
 
 save_results <- rf_save_predictions %>%
@@ -616,23 +646,34 @@ save_results <- rf_save_predictions %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away')) %>%
   distinct(Player, Gameweek, .keep_all = T)
 
-## Validation
-# set.seed(123)
-# temp <- trainControl(method = 'cv', number = 5)
-# train_linear <- train(saves ~ xG_against + overperformance_against + ict_index_against + minutes + team + opponent + h_a,
-#                       data = df3, method ='lm', trControl = temp)
-# print(train_linear$results$RMSE)
-# 
-# train_logit <- train(saves ~ xG_against + overperformance_against + ict_index_against + minutes + team + opponent + h_a,
-#                      data = df3, method='glm', trControl = temp)
-# print(train_logit$results$RMSE)
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_saves_model, linear_pen_model, linear_goals_conded_model,
+               logit_saves_model, logit_pen_model, logit_goals_conceded_model, 
+               rf_saves_model, rf_pen_model, rf_goals_conceded_model)
 
-# train_rf <- train(saves ~ xG_against + overperformance_against + ict_index_against + minutes + team + opponent + h_a,
-#                   data = df2, method='rf', trControl = temp)
-# print(train_rf$results$RMSE)
+names <- c('linear_saves_model', 'linear_pen_model', 'linear_goals_conded_model',
+           'logit_saves_model', 'logit_pen_model', 'logit_goals_conceded_model', 
+           'rf_saves_model', 'rf_pen_model', 'rf_goals_conceded_model')
+
+names(models) = names
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_saves_model=2, linear_pen_model=3, linear_goals_conceded_model=4,
+             logit_saves_model=5, logit_pen_model=6, logit_goals_conceded_model=7) %>%
+      select(-n)
+  )
 
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|validation', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 
@@ -776,16 +817,13 @@ comp_time <- data.frame(
   RMSE=c(sqrt(mean(resid(linear_played_model)^2)),
          sqrt(mean(resid(logit_played_model)^2))),
   R2=c(summary(linear_played_model)$r.squared,
-       summary(logit_played_model)$r.squared),
-  Validation=c(mean(linear_played_predictions$linear_played_validation),
-               mean(logit_played_predictions$logit_played_validation))
+       summary(logit_played_model)$r.squared)
 ) %>% rbind(
   data.frame(
     Stat='Played > 0 Minutes',
     Model='Random Forest',
     RMSE=sqrt(mean(rf_played_model$mse)),
-    R2=mean(rf_played_model$rsq),
-    Validation=mean(rf_played_predictions$rf_played_validation)
+    R2=mean(rf_played_model$rsq)
   )
 ) %>% rbind(
   data.frame(
@@ -794,17 +832,14 @@ comp_time <- data.frame(
     RMSE=c(sqrt(mean(resid(linear_played60_model)^2)),
            sqrt(mean(resid(logit_played60_model)^2))),
     R2=c(summary(linear_played60_model)$r.squared,
-         summary(logit_played60_model)$r.squared),
-    Validation=c(mean(linear_played60_predictions$linear_played60_validation),
-                 mean(logit_played60_predictions$logit_played60_validation))
+         summary(logit_played60_model)$r.squared)
   )
 ) %>% rbind(
   data.frame(
     Stat='Played 60 Minutes',
     Model='Random Forest',
     RMSE=sqrt(mean(rf_played60_model$mse)),
-    R2=mean(rf_played_model$rsq),
-    Validation=mean(rf_played60_predictions$rf_played60_validation)
+    R2=mean(rf_played_model$rsq)
   )
 ) %>%
   rbind(data.frame(
@@ -813,17 +848,14 @@ comp_time <- data.frame(
     RMSE=c(sqrt(mean(resid(linear_cs_model)^2)),
            sqrt(mean(resid(logit_cs_model)^2))),
     R2=c(summary(linear_cs_model)$r.squared,
-         summary(logit_cs_model)$r.squared),
-    Validation=c(mean(linear_cs_prediction$linear_cs_validation),
-                 mean(logit_cs_prediction$logit_cs_validation))
+         summary(logit_cs_model)$r.squared)
   )
   ) %>% rbind(
     data.frame(
       Stat='Clean Sheet',
       Model='Random Forest',
       RMSE=sqrt(mean(rf_cs_model$mse)),
-      R2=mean(rf_cs_model$rsq),
-      Validation=mean(rf_played60_predictions$rf_played60_validation)
+      R2=mean(rf_cs_model$rsq)
     )
   )
 
@@ -848,8 +880,35 @@ time_results <- linear_played_predictions %>%
          Probability_cs_rf=ifelse(Probability_played60_rf<0.25, 0, Probability_cs_rf)) %>%
   distinct(Player, Gameweek, .keep_all = T)
 
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_played_model, linear_played60_model, linear_cs_model,
+               logit_played_model, logit_played60_model, logit_cs_model, 
+               rf_played_model, rf_played60_model, rf_cs_model)
+
+names <- c('linear_played_model', 'linear_played60_model', 'linear_cs_model',
+           'logit_played_model', 'logit_played60_model', 'logit_cs_model', 
+           'rf_played_model', 'rf_played60_model', 'rf_cs_model')
+
+names(models) = names
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_played_model=2, linear_played60_model=3, linear_cs_model=4,
+             logit_played_model=5, logit_played60_model=6, logit_cs_model=7,
+             rf_played_model=8, rf_played60_model=9, rf_cs_model=10) %>%
+      select(-n)
+  )
+
 objects <- ls()
-keep <- objects[grep('results|comp|data|fixtures|ids', objects)]
+keep <- objects[grep('results|comp|data|fixtures|ids|validation', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 
@@ -898,16 +957,13 @@ comp_bonus <- data.frame(Stat='Bonus points',
                          RMSE=c(sqrt(mean(resid(linear_bonus_model)^2)),
                                 sqrt(mean(resid(logit_bonus_model)^2))),
                          R2=c(summary(linear_bonus_model)$r.squared,
-                              summary(logit_bonus_model)$r.squared),
-                         Validation=c(mean(linear_predictions$linear_bonus_validation),
-                                      mean(logit_predictions$logit_bonus_validation))
+                              summary(logit_bonus_model)$r.squared)
 ) %>%
   rbind(
     data.frame(Stat='Bonus points',
                Model='Random Forest',
                RMSE=sqrt(mean(rf_bonus_model$mse)),
-               R2=mean(rf_bonus_model$rsq),
-               Validation=c(mean(rf_predictions$rf_bonus_validation)))
+               R2=mean(rf_bonus_model$rsq))
   )
 
 bonus_results <- linear_predictions %>%
@@ -923,6 +979,27 @@ bonus_results <- linear_predictions %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away'),
   ) %>%
   distinct(Player, Gameweek, .keep_all = T)
+
+### Validation for each model - predict on the est data and compare to actual figures
+models <- list(linear_bonus_model, logit_bonus_model, rf_bonus_model)
+
+names <- c('linear_bonus_model', 'logit_bonus_model', 'rf_bonus_model')
+
+names(models) = names
+
+temp <- data.frame(n=1:nrow(est_data))
+
+for(i in models){
+  temp2 <- predict(i, est_data) %>% data.frame()
+  temp <- cbind(temp, temp2)
+}
+
+validation <- validation %>%
+  cbind(
+    temp %>%
+      rename(linear_bonus_model=2, logit_bonus_model=3, rf_bonus_model=4) %>%
+      select(-n)
+  )
 
 objects <- ls()
 keep <- objects[grep('results|comp|data|fixtures|ids', objects)]

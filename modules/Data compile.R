@@ -464,7 +464,8 @@ est_data <- est_data %>% left_join(temp) %>%
          ict_index_opponent=ifelse(is.na(ict_index_opponent), median(ict_index_opponent), ict_index_opponent),
          ict_index_opponent=ict_index_opponent*(minutes/90))
 
-val_data <- df2 %>% mutate_all(., replace_na, 0) %>%
+val_data <- df2 %>%
+  mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
   filter(finished=='TRUE') %>%
   mutate(played = ifelse(minutes > 0, 1, 0),
          played60 = ifelse(minutes > 59, 1, 0),
@@ -504,7 +505,7 @@ transfer_data <- est_data %>%
             played60=mean(played60, na.rm = T),
             clean_sheet=mean(clean_sheet, na.rm = T),
             total_points=mean(total_points, na.rm = T)) %>%
-  ungroup()
+  ungroup() %>% filter(!is.na(position))
 
 df3 <- arrivals %>% filter(!grepl('End of loan', transfer_notes)) %>%
   select(player_name, league_2) %>%
@@ -552,7 +553,7 @@ for (i in unique(df3$name)) {
   }
 }
 
-### Get ranking of minutes and avg goal differneces
+### Get ranking of minutes and avg goal differences
 temp <- est_data %>%
   mutate(goal_difference=team_score-opponent_score) %>%
   group_by(name, position, season, team) %>%
@@ -564,7 +565,8 @@ temp <- est_data %>%
   ungroup()
 
 est_data <- est_data %>% left_join(temp) %>%
-  mutate_if(is.numeric, replace_na, 0)
+  mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
+  filter(!is.na(position))
 
 temp <- val_data %>%
   mutate(goal_difference=team_score-opponent_score) %>%

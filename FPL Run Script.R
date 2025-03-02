@@ -18,8 +18,8 @@
 # MODEL AGAIN. 
 
 packages <- c('tidyverse', 'worldfootballR', 'randomForest', 'rstudioapi',
-              'httr', 'jsonlite', 'fuzzyjoin', 'openxlsx', 'data.table',
-              'stringdist', 'stats')
+              'httr', 'jsonlite', 'openxlsx', 'data.table',
+              'stringdist', 'stats', 'fuzzyjoin')
 
 for (package in packages) {
   if (!requireNamespace(package, quietly = T)) {
