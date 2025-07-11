@@ -228,14 +228,6 @@ df <- rbind(
          team_defense_rating = mean(opponent_score, na.rm = T)) %>%
   ungroup()
 
-temp <- df %>% distinct(team, season, .keep_all = T) %>%
-  select(team, season, team_offense_rating, team_defense_rating) %>%
-  rename(opponent = team,
-         opponent_offense_rating = team_offense_rating,
-         opponent_defense_rating = team_defense_rating)
-
-df <- df %>% left_join(temp)
-
 # temp <- df %>% filter(season==2023) %>%
 #   group_by(name, team, position, season) %>%
 #   summarize(total_points=sum(total_points, na.rm = T),
@@ -390,20 +382,6 @@ for(i in url) {
 arrivals <- transfers %>% filter(transfer_type=='Arrivals')
 dict2 <- dict %>% filter(UrlTmarkt %in% arrivals$player_url)
 
-### Add the team ratings
-temp <- df2 %>% select(team, season, team_score, opponent_score) %>%
-  group_by(team, season) %>%
-  summarize(team_offense_rating = mean(team_score, na.rm = T),
-            team_defense_rating = mean(opponent_score, na.rm = T)) %>%
-  ungroup()
-
-df2 <- df2 %>%
-  left_join(temp) %>%
-  left_join(temp %>% 
-              rename(opponent=team,
-                     opponent_offense_rating=team_offense_rating,
-                     opponent_defense_rating=team_defense_rating))
-
 ### Get a market value for each league based on TM player valuations; use as imperfect proxy for level of competition
 ###### This step takes a long time to run; comment and save a csv for easy loading; push changes to github at beginning of each season
 # comps <- read.csv('https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/master/raw-data/transfermarkt_leagues/main_comp_seasons.csv', encoding = 'UTF-8') %>%
@@ -540,8 +518,7 @@ df3 <- arrivals %>% filter(!grepl('End of loan', transfer_notes)) %>%
   rename(name=name.x) %>%
   select(name, web_name, league_2, position, team, kickoff_time, GW, id, 
          team_h_score, h_a, team_a_score, team_score, opponent_score, season, opponent,
-         difficulty, strength, difficulty, team_offense_rating, team_defense_rating,
-         opponent_offense_rating, opponent_defense_rating, value, finished) %>%
+         difficulty, strength, difficulty, value, finished) %>%
   left_join(transfer_data) %>%
   rename(comp_name=league_2) %>%
   left_join(values, by='comp_name') %>%
@@ -617,63 +594,63 @@ cor <- cor(est_data %>% mutate(position=as.numeric(as.factor(position))) %>% sel
 
 ##### Goals
 cor2 <- cor %>% select(goals) %>% arrange(-goals)
-    #### est vars = xG, ict_index, xA, value, played, played60, position, team_offense_rating, opponent_defense_rating, h_a
+    #### est vars = xG, ict_index, xA, value, played, played60, position, strength, difficulty, h_a
 
 ##### Own goals
 cor2 <- cor %>% select(own_goals) %>% arrange(-own_goals)
-    #### est vars = ict_index_opponent, xG_opponent, played, played60, position, team_defense_rating, opponent_offense_rating, h_a
+    #### est vars = ict_index_opponent, xG_opponent, played, played60, position, strength, difficulty, h_a
 
 ##### Penalties missed
 cor2 <- cor %>% select(penalties_missed) %>% arrange(-penalties_missed)
-    #### est vars = xG, ict_index, value, position, team_offense_rating, opponent_offense_rating, h_a
+    #### est vars = xG, ict_index, value, position, strength, difficulty, h_a
 
 ### In the assists model we are estimating assists
 
 ##### Assists
 cor2 <- cor %>% select(assists) %>% arrange(-assists)
-    #### est vars = xA, ict_index, xG, value, played60, played, position, team_offense_rating, opponent_defense_rating, h_a
+    #### est vars = xA, ict_index, xG, value, played60, played, position, strength, difficulty, h_a
 
 ### In the bonus model we are estimating bonus points
 cor2 <- cor %>% select(bonus) %>% arrange(-bonus)
-    #### est vars = ict_index, xG, xA, clean_sheet, played, played60, ict_index_opponent, position, team_offense_rating, team_defense_rating, h_a
+    #### est vars = ict_index, xG, xA, clean_sheet, played, played60, ict_index_opponent, position, strength, difficulty, h_a
 
 ### In the cards model we are estimating yellow and red cards probability
 
 ###### Yellow cards
 cor2 <- cor %>% select(yellow_cards) %>% arrange(-yellow_cards)
-    #### est vars = played60, played, ict_index_opponent, xG_opponent, goals_conceded, position, opponent_offense_rating, h_a
+    #### est vars = played60, played, ict_index_opponent, xG_opponent, goals_conceded, position, strength, difficulty, h_a
 
 ###### Red cards
 cor2 <- cor %>% select(red_cards) %>% arrange(-red_cards)
-    #### est vars = goals_conceded, played, xG_opponent, ict_index_opponent, opponent_offense_rating, difficulty, h_a
+    #### est vars = goals_conceded, played, xG_opponent, ict_index_opponent, position, strengthm difficulty, h_a
 
 ### In the saves model we are estimating saves, penalties saved, and goals conceded
 
 ##### Saves
 cor2 <- cor %>% select(saves) %>% arrange(-saves)
-    #### est vars = ict_index_opponent, xG_opponent, played60, goals_conceded, played, opponent_offense_rating, h_a
+    #### est vars = ict_index_opponent, xG_opponent, played60, goals_conceded, played, strength, difficulty, h_a
 
 ##### Pens saved
 cor2 <- cor %>% select(penalties_saved) %>% arrange(-penalties_saved)
-    #### est vars = saves, xG_opponent, ict_index_opponent, played60, position, team_defense_rating, opponent_offense_rating, h_a
+    #### est vars = saves, xG_opponent, ict_index_opponent, played60, position, strength, difficulty, h_a
 
 ##### Goals conceded
 cor2 <- cor %>% select(goals_conceded) %>% arrange(-goals_conceded)
-    #### est vars = xG_opponent, ict_index_opponent, played60, played, ict_index, position, opponent_offense_rating, opponent_defense_rating, team_defense_rating, h_a
+    #### est vars = xG_opponent, ict_index_opponent, played60, played, ict_index, position, strength, difficulty, h_a
 
 ### In the time model we are estimating the probability of playing, playing 60 minutes, and getting a clean sheet
 
 #### Played
 cor2 <- cor %>% select(played) %>% arrange(-played)
-    #### est_data = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, position, h_a
+    #### est_data = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, position, strength, difficulty h_a
 
 #### Played 60 minutes
 cor2 <- cor %>% select(played60) %>% arrange(-played60)
-    #### est vars = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, position, h_a
+    #### est vars = ict_index_opponent, xG_opponent, ict_index, goals_conceded, xA, xG, value, strength, difficulty, h_a
 
 #### Clean sheet
 cor2 <- cor %>% select(clean_sheet) %>% arrange(-clean_sheet)
-    #### est vars = played60, played, ict_index, ict_index_opponent, xG_opponent, team_defense_rating, opponent_offense_rating, h_a
+    #### est vars = played60, played, ict_index, ict_index_opponent, xG_opponent, strength, difficulty, h_a
 
 # Now set up the data for predictions
 
@@ -793,18 +770,6 @@ predict_data <- ids %>%
   select(name, web_name, team, position, season, value, GW, opponent, h_a, strength, difficulty, xG, xA, ict_index, played, played60, clean_sheet, ict_index_opponent,
          xG_opponent, saves, goals_conceded)
 
-### Add the offense/defense scores
-temp <- est_data %>% filter(season==max(season)) %>%
-  group_by(team, season) %>%
-  summarize(team_offense_rating = mean(team_offense_rating, na.rm = T),
-            opponent_offense_rating = mean(opponent_offense_rating, na.rm = T),
-            team_defense_rating = mean(team_defense_rating, na.rm = T),
-            opponent_defense_rating = mean(opponent_defense_rating, na.rm = T)) %>%
-  ungroup()
-
-predict_data <- predict_data %>%
-  left_join(temp %>% select(contains('team'))) %>%
-  left_join(temp %>% rename(opponent=team) %>% select(contains('opponent')))
 
 objects <- ls()
 keep <- objects[grep('results|comp|data|fixtures|ids|dev', objects)]

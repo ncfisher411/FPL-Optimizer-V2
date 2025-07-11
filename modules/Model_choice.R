@@ -8,23 +8,23 @@ if(dev=='Yes'){
 ##-------------------------------------##
 ##            Goals models             ##
 ##-------------------------------------##
-linear_goals_model <- lm(goals ~ xG + xA + ict_index  + played + played60 + position + h_a + strength + difficulty, data = est_data)
-logit_goals_model <- glm(goals ~ xG + xA + ict_index + played + played60 + position + h_a + strength + difficulty, data = est_data)
-rf_goals_model <- randomForest(goals ~ xG + ict_index + played + played60 + position + h_a + strength + difficulty, data = est_data)
+linear_goals_model <- lm(goals ~ xG + xA + ict_index  + played + played60 + position + h_a + team_offense_rating + opponent_defense_rating, data = est_data)
+logit_goals_model <- glm(goals ~ xG + xA + ict_index + played + played60 + position + h_a + team_offense_rating + opponent_defense_rating, data = est_data)
+rf_goals_model <- randomForest(goals ~ xG + ict_index + played + played60 + position + h_a + team_offense_rating + opponent_defense_rating, data = est_data)
 summary(linear_goals_model)
 summary(logit_goals_model)
 gc()
 
-linear_og_model <- lm(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + strength + difficulty + h_a, data = est_data)
-logit_og_model <- glm(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + strength + difficulty + h_a, data = est_data)
-rf_og_model <- randomForest(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + strength + difficulty + h_a, data = est_data)
+linear_og_model <- lm(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
+logit_og_model <- glm(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
+rf_og_model <- randomForest(own_goals ~ ict_index_opponent + xG_opponent + played + played60 + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
 summary(linear_og_model)
 summary(logit_og_model)
 gc()
 
-linear_pen_model <- lm(penalties_missed ~ xG + ict_index + position + h_a + strength + difficulty, data = est_data)
-logit_pen_model <- glm(penalties_missed ~ xG + ict_index + position + h_a + strength + difficulty, data = est_data)
-rf_pen_model <- randomForest(penalties_missed ~ xG + ict_index + position + h_a + strength + difficulty, data = est_data)
+linear_pen_model <- lm(penalties_missed ~ xG + ict_index + position + h_a + team_offense_rating + opponent_offense_rating, data = est_data)
+logit_pen_model <- glm(penalties_missed ~ xG + ict_index + position + h_a + team_offense_rating + opponent_offense_rating, data = est_data)
+rf_pen_model <- randomForest(penalties_missed ~ xG + ict_index + position + h_a + team_offense_rating + opponent_offense_rating, data = est_data)
 summary(linear_pen_model)
 summary(logit_pen_model)
 gc()
@@ -158,8 +158,7 @@ comp_goals <- data.frame(Stat='Goals',
       Stat='Penalties missed',
       Model='Random Forest',
       RMSE=sqrt(mean(rf_pen_model$mse)),
-      R2=mean(rf_pen_model$rsq),
-      Validation=mean(rf_pen_predictions$rf_pen_validation)
+      R2=mean(rf_pen_model$rsq)
     )
   )
 
@@ -226,11 +225,11 @@ gc()
 ##-------------------------------------##
 ##            Assists models           ##
 ##-------------------------------------##
-linear_assist_model <- lm(assists ~ xA + ict_index + xG  + played60 + played + h_a + position + strength + difficulty, data = est_data)
+linear_assist_model <- lm(assists ~ xA + ict_index + xG  + played60 + played + h_a + position + team_offense_rating + opponent_defense_rating, data = est_data)
 summary(linear_assist_model)
-logit_assist_model <- glm(assists ~ xA + ict_index + xG + played60 + played + h_a + position + strength + difficulty, data = est_data)
+logit_assist_model <- glm(assists ~ xA + ict_index + xG + played60 + played + h_a + position + team_offense_rating + opponent_defense_rating, data = est_data)
 summary(logit_assist_model)
-rf_assist_model <- randomForest(assists ~ xA + ict_index + xG + played60 + played + h_a + position + strength + difficulty, data = est_data)
+rf_assist_model <- randomForest(assists ~ xA + ict_index + xG + played60 + played + h_a + position + team_offense_rating + opponent_defense_rating, data = est_data)
 
 ## Run the predictions of each model
 linear_predictions <- predict(linear_assist_model, predict_data) %>% data.frame() %>%
@@ -344,16 +343,16 @@ gc()
 ##            Cards models             ##
 ##-------------------------------------##
 ## Set up the models
-linear_yc_model <- lm(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + strength + difficulty, data = est_data)
-linear_rc_model <- lm(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + strength + difficulty, data = est_data)
-logit_yc_model <- glm(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + strength + difficulty, data = est_data)
-logit_rc_model <- lm(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + strength + difficulty, data = est_data)
+linear_yc_model <- lm(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + opponent_defense_rating, data = est_data)
+linear_rc_model <- lm(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + opponent_defense_rating, data = est_data)
+logit_yc_model <- glm(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + opponent_defense_rating, data = est_data)
+logit_rc_model <- lm(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + opponent_defense_rating, data = est_data)
 summary(linear_yc_model)
 summary(logit_yc_model)
 summary(linear_rc_model)
 summary(logit_rc_model)
-rf_yc_model <- randomForest(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + strength + difficulty, data = est_data)
-rf_rc_model <- randomForest(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + strength + difficulty, data = est_data)
+rf_yc_model <- randomForest(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + opponent_defense_rating, data = est_data)
+rf_rc_model <- randomForest(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + opponent_offense_rating, data = est_data)
 gc()
 
 ## Run the predictions for yellow cards
@@ -488,23 +487,23 @@ gc()
 ##            Saves models             ##
 ##-------------------------------------##
 ## Now set up the model for saves
-linear_saves_model <- lm(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  strength + difficulty + h_a, data = est_data)
-logit_saves_model <- glm(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  strength + difficulty + h_a, data = est_data)
+linear_saves_model <- lm(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  opponent_offense_rating + h_a, data = est_data)
+logit_saves_model <- glm(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  opponent_offense_rating + h_a, data = est_data)
 summary(linear_saves_model)
 summary(logit_saves_model)
-rf_saves_model <- randomForest(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  strength + difficulty + h_a, data = est_data)
+rf_saves_model <- randomForest(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  opponent_offense_rating + h_a, data = est_data)
 gc()
-linear_pen_model <- lm(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 +  strength + difficulty + h_a, data = est_data)
-logit_pen_model <- glm(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 +  strength + difficulty + h_a, data = est_data)
-rf_pen_model <- randomForest(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 +  strength + difficulty + h_a, data = est_data)
+linear_pen_model <- lm(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 + team_defense_rating +  opponent_offense_rating + h_a, data = est_data)
+logit_pen_model <- glm(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
+rf_pen_model <- randomForest(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
 gc()
 summary(linear_pen_model)
 summary(logit_pen_model)
-linear_goals_conceded_model <- lm(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  strength + difficulty + h_a, data = est_data)
-logit_goals_conceded_model <- glm(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  strength + difficulty + h_a, data = est_data)
+linear_goals_conceded_model <- lm(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  opponent_offense_rating + opponent_defense_rating + h_a, data = est_data)
+logit_goals_conceded_model <- glm(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  opponent_offense_rating + opponent_defense_rating + h_a, data = est_data)
 summary(linear_goals_conceded_model)
 summary(logit_goals_conceded_model)
-rf_goals_conceded_model <- randomForest(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  strength + difficulty + h_a, data = est_data)
+rf_goals_conceded_model <- randomForest(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  opponent_offense_rating + opponent_defense_rating + h_a, data = est_data)
 gc()
 
 ## Run the predictions
@@ -682,23 +681,23 @@ gc()
 ##-------------------------------------##
 
 # Model set up
-linear_played_model <- lm(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + strength + difficulty + h_a, data = est_data)
+linear_played_model <- lm(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + h_a, data = est_data)
 summary(linear_played_model)
-logit_played_model <- glm(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + strength + difficulty + h_a, data = est_data)
+logit_played_model <- glm(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + h_a, data = est_data)
 summary(logit_played_model)
-rf_played_model <- randomForest(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + strength + difficulty + h_a, data = est_data)
+rf_played_model <- randomForest(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + h_a, data = est_data)
 gc()
-linear_played60_model <- lm(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + strength + difficulty + h_a, data = est_data)
+linear_played60_model <- lm(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + h_a, data = est_data)
 summary(linear_played60_model)
-logit_played60_model <- glm(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + strength + difficulty + h_a, data = est_data)
+logit_played60_model <- glm(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + h_a, data = est_data)
 summary(logit_played60_model)
-rf_played60_model <- randomForest(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + strength + difficulty + h_a, data = est_data)
+rf_played60_model <- randomForest(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + h_a, data = est_data)
 gc()
-linear_cs_model <- lm(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + strength + difficulty + h_a, data = est_data)
+linear_cs_model <- lm(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
 summary(linear_cs_model)
-logit_cs_model <- glm(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + strength + difficulty + h_a, data = est_data)
+logit_cs_model <- glm(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
 summary(logit_cs_model)
-rf_cs_model <- randomForest(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + strength + difficulty + h_a, data = est_data)
+rf_cs_model <- randomForest(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + team_defense_rating + opponent_offense_rating + h_a, data = est_data)
 gc()
 
 #### Predictions
@@ -916,9 +915,9 @@ gc()
 ##            Bonus models             ##
 ##-------------------------------------##
 ## Model set up
-linear_bonus_model <- lm(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + difficulty + strength + position + h_a, data = est_data)
-logit_bonus_model <- glm(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + difficulty + strength + position + h_a, data = est_data)
-rf_bonus_model <- randomForest(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + difficulty + strength + position + h_a, data = est_data)
+linear_bonus_model <- lm(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + team_offense_rating + team_defense_rating + position + h_a, data = est_data)
+logit_bonus_model <- glm(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + team_offense_rating + team_defense_rating + position + h_a, data = est_data)
+rf_bonus_model <- randomForest(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + team_offense_rating + team_defense_rating + position + h_a, data = est_data)
 
 ## Run the prediction with each model
 linear_predictions <- predict(linear_bonus_model, predict_data) %>% data.frame() %>%
@@ -1009,20 +1008,21 @@ gc()
 ## Compile the metrics to make model choices
 objects <- ls()
 temp <- mget(objects[grep('comp', objects)])
-metrics <- do.call(rbind, temp) %>%
-  mutate(`User score`=RMSE/3+R2/3+(1-abs(Validation))/3) %>%
-  data.frame()
-rownames(metrics) <- NULL
-metrics <- metrics %>% 
-  arrange(Stat, -User.score) %>%
-  rbind(data.frame(
-    Stat='User Score = average value of RMSE, R2, and 1-Validation. Highest user score should represent the preferred model',
-    Model=NA,
-    RMSE=NA,
-    R2=NA,
-    Validation=NA,
-    User.score=NA
-  )) %>% rename(`User score`=User.score)
+# metrics <- do.call(rbind, temp) %>%
+#   mutate(`User score`=RMSE/3+R2/3+(1-abs(Validation))/3) %>%
+#   data.frame()
+# rownames(metrics) <- NULL
+# metrics <- metrics %>% 
+#   arrange(Stat, -User.score) %>%
+#   rbind(data.frame(
+#     Stat='User Score = average value of RMSE, R2, and 1-Validation. Highest user score should represent the preferred model',
+#     Model=NA,
+#     RMSE=NA,
+#     R2=NA,
+#     Validation=NA,
+#     User.score=NA
+#   )) %>% rename(`User score`=User.score)
+metrics <- do.call(rbind, temp) %>% data.frame()
 
 ### write the metrics
 write.csv(metrics, 'data/model_metrics.csv', row.names = F)
@@ -1033,25 +1033,25 @@ write.csv(metrics, 'data/model_metrics.csv', row.names = F)
 
 ### G_model.R choices
 goals_model = 'random forest'
-own_goals_model = 'logit'
-penalties_missed_model = 'random forest'
+own_goals_model = 'linear'
+penalties_missed_model = 'linear'
 
 ### A_model.R choices
-assists_model = 'logit'
+assists_model = 'linear'
 
 ### Cards_model.R choice
-yellow_cards_model = 'logit'
-red_cards_model = 'logit'
+yellow_cards_model = 'linear'
+red_cards_model = 'linear'
 
 ### Saves_model.R choice
-saves_model = 'logit'
-penalties_saved_model = 'logit'
+saves_model = 'linear'
+penalties_saved_model = 'linear'
 goals_conceded_model = 'random forest'
 
 ### Time model choice
 played_model = 'linear'
 played60_model = 'linear'
-cs_model = 'random forest'
+cs_model = 'linear'
 
 ### Bonus model choice
 bonus_model = 'random forest'

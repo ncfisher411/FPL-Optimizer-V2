@@ -208,7 +208,8 @@ tryCatch({
        select(Player, Position, Value, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
               `Expected points`, Goals, Assists, Played, `Played 60`,`Clean Sheet`,
               `Goals conceded`, `Own goals`, `Penalty saves`, `Penalties missed`, `Saves`,
-              `Yellow cards`, `Red cards`, Bonus)
+              `Yellow cards`, `Red cards`, Bonus) %>%
+       filter(Position!='0')
    ) 
   )
 }, error = function(err){

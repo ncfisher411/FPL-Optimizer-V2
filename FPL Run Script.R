@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Run script for FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: Dec 19 2024
+# Last updated: July 10 2025
 #---------------------------------------#
 # This script is used to run the FPL optimizer models. This script will begin a
 # set of models that will predict statistics by match and then calculate 
