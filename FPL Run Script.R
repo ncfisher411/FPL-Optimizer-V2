@@ -1,21 +1,23 @@
 #---------------------------------------#
 # Run script for FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: July 10 2025
+# Last updated: July 11 2025
 #---------------------------------------#
-# This script is used to run the FPL optimizer models. This script will begin a
-# set of models that will predict statistics by match and then calculate 
-# predicted points
+# This script is used to run the FPL optimizer model and Probability distribution
+# model. 
+
+# The FPL prediction model runs assesses a series of model options and chooses
+# the best model to run from linear or random forest models. This set of models
+# predict statistics by match and then calculate points
 # 
-# Current model run time: ~ 45 minutes
-# If the model appears stuck, restart your R session
-# 
-# To use the model, press control + enter on each command below. This may require
-# installation of several R packages.
+# The Probability model uses Poisson distributions to calculate the probability
+# of FPL scoring events occuring within a match by team and position, intermixed
+# with probability of playing a match.
 #
-# WARNING: THERE IS OCCASIONAL TIMEOUT OF WEB-BASED FUNCTIONS IN THE DATA
-# COMPILATION. IF THE MODEL DOES NOT COMPLETE DUE TO A TIMEOUT, RUN THE
-# MODEL AGAIN. 
+# Current FPL predictive model run time: ~ 45 minutes
+# 
+# To use the models, press control + enter on each command below. This may require
+# installation of several R packages.
 
 packages <- c('tidyverse', 'worldfootballR', 'randomForest', 'rstudioapi',
               'httr', 'jsonlite', 'openxlsx', 'data.table',
@@ -36,4 +38,8 @@ setwd(dirname(getActiveDocumentContext()$path))
 dev = 'No'
 #---------------------------------------------------------------------------------#
 
+#### This line will run the probabilities model
+source('Probability model/prob_model_run.R')
+
+#### This line will run the original predictive FPL model
 source('modules/Compile FPL Results.R')

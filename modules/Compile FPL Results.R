@@ -1,11 +1,11 @@
 #---------------------------------------#
 # Data compiler for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: Dec 12 2024
+# Last updated: July 10 2025
 #---------------------------------------#
 
 ## Paste timestamp for model beginning
-print(paste0('Model run beginning at: ', Sys.time()))
+print(paste0('FPL Prediction Model run beginning at: ', Sys.time()))
 
 ## Source the other scripts
 error_occured <- FALSE
