@@ -10,12 +10,12 @@ print(paste0('FPL Probability Model run beginning at: ', Sys.time()))
 ## Source the other scripts
 error_occured <- FALSE
 
-print(paste0('Data compilation beginning at: ', Sys.time()))
+print('Data compilation beginning')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/Data compile_prob.R', local = T) 
+      source('modules/Data compile_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -24,15 +24,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Data compilation complete: ', Sys.time()))
+  print('Data compilation complete')
 })
 
-print(paste0('Load model parameters: ', Sys.time()))
+print('Load model parameters')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/parameters.R', local = T) 
+      source('modules/parameters.R', local = T) 
     )
   )
 }, error = function(err){
@@ -41,15 +41,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Parameter loading complete: ', Sys.time()))
+  print('Parameter loading complete')
 })
 
-print(paste0('Developing probabilities for play time: ', Sys.time()))
+print('Developing probabilities for play time')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/time_prob.R', local = T) 
+      source('modules/time_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -58,15 +58,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Play time probabilities complete: ', Sys.time()))
+  print('Play time probabilities complete')
 })
 
-print(paste0('Developing probabilities for goal scoring: ', Sys.time()))
+print('Developing probabilities for goal scoring')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/goal_prob.R', local = T) 
+      source('modules/goal_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -75,15 +75,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Goal scoring probabilities complete: ', Sys.time()))
+  print('Goal scoring probabilities complete')
 })
 
-print(paste0('Developing probabilities for assists: ', Sys.time()))
+print('Developing probabilities for assists')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/assist_prob.R', local = T) 
+      source('modules/assist_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -92,15 +92,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Assist probabilities complete: ', Sys.time()))
+  print('Assist probabilities complete')
 })
 
-print(paste0('Developing probabilities for yellow/red cards: ', Sys.time()))
+print('Developing probabilities for yellow/red cards')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/cards_prob.R', local = T) 
+      source('modules/cards_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -109,15 +109,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Yellow/red card probabilities complete: ', Sys.time()))
+  print('Yellow/red card probabilities complete')
 })
 
-print(paste0('Developing probabilities for goals conceded: ', Sys.time()))
+print('Developing probabilities for goals conceded')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/cs_prob.R', local = T) 
+      source('modules/cs_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -126,15 +126,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Goals conceded probabilities complete: ', Sys.time()))
+  print('Goals conceded probabilities complete')
 })
 
-print(paste0('Developing probabilities for goal keeper stats: ', Sys.time()))
+print('Developing probabilities for goal keeper stats')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/gk_prob.R', local = T) 
+      source('modules/gk_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -143,15 +143,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Goal keeper stats probabilities complete: ', Sys.time()))
+  print('Goal keeper stats probabilities complete')
 })
 
-print(paste0('Developing probabilities for negative stats: ', Sys.time()))
+print('Developing probabilities for negative stats')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/negative_prob.R', local = T) 
+      source('modules/negative_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -160,15 +160,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Negative stats probabilities complete: ', Sys.time()))
+  print('Negative stats probabilities complete')
 })
 
-print(paste0('Developing probabilities for bonus points: ', Sys.time()))
+print('Developing probabilities for bonus points')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/bonus_prob.R', local = T) 
+      source('modules/bonus_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -177,15 +177,15 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Bonus points probabilities complete: ', Sys.time()))
+  print('Bonus points probabilities complete')
 })
 
-print(paste0('Compiling final results: ', Sys.time()))
+print('Compiling final results')
 
 tryCatch({
   suppressMessages(
     suppressWarnings(
-      source('Probability model/modules/results_compile_prob.R', local = T) 
+      source('modules/results_compile_prob.R', local = T) 
     )
   )
 }, error = function(err){
@@ -194,5 +194,27 @@ tryCatch({
   cat('Traceback: \n')
   traceback()
 }, finally = {
-  print(paste0('Results compilation complete: ', Sys.time()))
+  print('Results compilation complete')
 })
+
+print('Validating 2024 results')
+
+tryCatch({
+  suppressMessages(
+    suppressWarnings(
+      source('modules/validation_prob.R', local = T)
+    )
+  )
+}, error = function(err){
+  error_occured <<- TRUE
+  cat('Error in compiling results: ', conditionMessage(err), '\n')
+  cat('Traceback: \n')
+  traceback()
+}, finally = {
+  print('Validation compilation complete')
+})
+
+print(paste0('Model run complete: ', Sys.time()))
+
+rm(list=ls())
+gc()

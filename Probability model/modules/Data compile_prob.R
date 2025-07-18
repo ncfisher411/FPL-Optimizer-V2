@@ -64,9 +64,9 @@
 #   }
 # }
 # 
-# write.csv(combined_data, 'Probability model/data/Combined_data.csv', row.names = F)
+# write.csv(combined_data, 'data/Combined_data.csv', row.names = F)
 
-combined_data <- read.csv('Probability model/data/Combined_data.csv') %>%
+combined_data <- read.csv('data/Combined_data.csv') %>%
   select(-fixture) %>%
   filter(position!='AM')
 
@@ -218,16 +218,16 @@ current_players <- ls$elements %>%
 #   understat_data <- rbind(understat_data, data)
 # }
 # 
-# write.csv(understat_data, 'Probability model/data/understat_data.csv', row.names = F)
+# write.csv(understat_data, 'data/understat_data.csv', row.names = F)
 
-understat_data <- read.csv('Probability model/data/understat_data.csv')
+understat_data <- read.csv('data/understat_data.csv')
 
 if(max(combined_data$season) > max(understat_data$season)){
   i = max(combined_data$season)
   data <- understat_league_season_shots(season_start_year = i, league = 'EPL')
   understat_data <- rbind(understat_data, data)
-  write.csv(understat_data, 'Probability model/data/understat_data.csv', row.names = F)
-  understat_data <- read.csv('Probability model/data/understat_data.csv')
+  write.csv(understat_data, 'data/understat_data.csv', row.names = F)
+  understat_data <- read.csv('data/understat_data.csv')
 }
 
 understat_data <- understat_data %>%

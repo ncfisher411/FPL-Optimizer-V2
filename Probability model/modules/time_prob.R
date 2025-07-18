@@ -21,10 +21,9 @@ probs_time <- combined_data %>%
   group_by(name) %>%
   mutate(max_season = max(season),
          difference = max_season - season,
-         weight = ifelse(difference > 0, time_weight_1, 0),
-         weight = ifelse(difference > 1, time_weight_2, weight),
+         weight = ifelse(difference > 1, time_weight_2, 0),
          weight = ifelse(difference > 2, time_weight_3, weight),
-         weight = ifelse(difference==0, 1 - sum(weight, na.rm = T), weight)) %>%
+         weight = ifelse(difference==0, time_weight_1, weight)) %>%
   ungroup() %>%
   mutate(Prob_played = Prob_played * weight,
          Prob_played60 = Prob_played60 * weight) %>%

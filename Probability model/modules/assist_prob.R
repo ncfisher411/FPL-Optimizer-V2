@@ -11,35 +11,35 @@
 player <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
   group_by(name) %>%
-  summarize(xA_player = mean(expected_assists, na.rm = T)) %>%
+  summarize(xA_player = mean(assists, na.rm = T)) %>%
   ungroup()
 
 #### By opponent - avg per match xA played against by player
 opponent <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
   group_by(name, opponent_name) %>%
-  summarize(xA_opp = mean(expected_assists, na.rm = T)) %>%
+  summarize(xA_opp = mean(assists, na.rm = T)) %>%
   ungroup()
 
 #### By team - avg per match xA against by team
 team <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
   group_by(team, opponent_name) %>%
-  summarize(xA_team = mean(expected_assists, na.rm = T)) %>%
+  summarize(xA_team = mean(assists, na.rm = T)) %>%
   ungroup()
 
 #### By home/away - avg per match xA against by player by home or away
 ha <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
   group_by(name, was_home) %>%
-  summarize(xA_ha = mean(expected_assists, na.rm = T)) %>%
+  summarize(xA_ha = mean(assists, na.rm = T)) %>%
   ungroup()
 
 #### By position - avg per match xA against a team by position
 position <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
   group_by(position, opponent_name) %>%
-  summarize(xA_pos = mean(expected_assists, na.rm = T)) %>%
+  summarize(xA_pos = mean(assists, na.rm = T)) %>%
   ungroup()
 
 ### Do a weighted exercise experiment with the following weights:

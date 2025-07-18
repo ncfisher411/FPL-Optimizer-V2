@@ -10,10 +10,6 @@
 # the best model to run from linear or random forest models. This set of models
 # predict statistics by match and then calculate points
 # 
-# The Probability model uses Poisson distributions to calculate the probability
-# of FPL scoring events occuring within a match by team and position, intermixed
-# with probability of playing a match.
-#
 # Current FPL predictive model run time: ~ 45 minutes
 # 
 # To use the models, press control + enter on each command below. This may require
@@ -37,9 +33,6 @@ setwd(dirname(getActiveDocumentContext()$path))
 #### DEV VERSION? Only change to "Yes" if attempting to re-assess/estimate the models
 dev = 'No'
 #---------------------------------------------------------------------------------#
-
-#### This line will run the probabilities model
-source('Probability model/prob_model_run.R')
 
 #### This line will run the original predictive FPL model
 source('modules/Compile FPL Results.R')

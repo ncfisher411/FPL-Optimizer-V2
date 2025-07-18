@@ -45,7 +45,7 @@ assist_results <- fixtures %>%
   left_join(current_players %>% mutate(season=max(fixtures$season)), 
             by=c('team' = 'team_name', 'season')) %>%
   left_join(df) %>%
-  mutate(assist_points = ifelse(position=='GKP', 10 * xA_calculated, 0))
+  mutate(assist_points = 3 * xA_calculated)
 
 # 4) Get the points from clean sheets
 cs_results <- fixtures %>%
@@ -109,29 +109,40 @@ bonus_results <- fixtures %>%
 weekly_results <- time_results %>%
   select(name, position, team, season, GW, opponent, h_a, time_points) %>%
   left_join(goal_results %>%
-              select(name, position, team, season, GW, opponent, h_a, goal_points)) %>%
+              rename(xG = xG_calculated) %>%
+              select(name, position, team, season, GW, opponent, h_a, goal_points, xG)) %>%
   left_join(assist_results %>%
-              select(name, position, team, season, GW, opponent, h_a, assist_points)) %>%
+              rename(assists = xA_calculated) %>%
+              select(name, position, team, season, GW, opponent, h_a, assist_points, assists)) %>%
   left_join(cs_results %>%
-              select(name, position, team, season, GW, opponent, h_a, cs_points, goals_conceded_points)) %>%
+              select(name, position, team, season, GW, opponent, h_a, cs_points, goals_conceded_points, contains('goals_conceded'))) %>%
   left_join(cards_results %>%
-              select(name, position, team, season, GW, opponent, h_a, cards_deductions)) %>%
+              rename(yellow_cards = yellow_cards_calculated,
+                     red_cards = red_cards_calculated) %>%
+              select(name, position, team, season, GW, opponent, h_a, cards_deductions, yellow_cards, red_cards)) %>%
   left_join(gk_results %>%
-              select(name, position, team, season, GW, opponent, h_a, saves_points, pen_saves_points)) %>%
+              select(name, position, team, season, GW, opponent, h_a, saves_points, pen_saves_points, saves, pen_save_prob)) %>%
   left_join(neg_results %>%
-              select(name, position, team, season, GW, opponent, h_a, neg_points)) %>%
+              select(name, position, team, season, GW, opponent, h_a, neg_points, prob_pen_miss, prob_own_goal)) %>%
   left_join(bonus_results %>%
-              select(name, position, team, season, GW, opponent, h_a, bonus_points)) %>%
+              rename(bonus_points_0 = b0, bonus_points_1 = b1, bonus_points_2 = b2,
+                     bonus_points_3 = b3) %>%
+              select(name, position, team, season, GW, opponent, h_a, bonus_points, bonus_points_0, bonus_points_1, bonus_points_2, bonus_points_3)) %>%
   mutate(GW_points = time_points + goal_points + assist_points + cs_points + goals_conceded_points +
            cards_deductions + saves_points + pen_saves_points + neg_points + bonus_points) %>%
   # left_join(current_players %>% select(name, chance_of_playing_this_round)) %>%
   # mutate(GW_points = GW_points * (chance_of_playing_this_round/100)) %>%
   select(name, position, team, season, GW, opponent, h_a, GW_points,
          # chance_of_playing_this_round,
-         everything())
+         everything()) %>%
+  left_join(current_players %>%
+              select(name, web_name, team_name)) %>%
+  rename(full_name = name, 
+         name = web_name) %>%
+  select(name, full_name, team_name, everything())
 
-overall_results <- weekly_results %>%
-  group_by(name, position, season) %>%
+overall_results <- weekly_results %>% 
+  group_by(name, full_name, position, season) %>%
   summarize(total_points = sum(GW_points, na.rm = T),
             time_points = sum(time_points, na.rm = T),
             goal_points = sum(goal_points, na.rm = T),
@@ -145,20 +156,38 @@ overall_results <- weekly_results %>%
             bonus_points = sum(bonus_points, na.rm = T)) %>%
   ungroup() %>%
   mutate(across(where(is.numeric), ~as.integer(.))) %>%
-  arrange(position, -total_points)
+  arrange(-total_points)  %>%
+  left_join(current_players %>%
+              rename(team = team_name) %>%
+              select(name, team), by=c('full_name'='name')) %>%
+  select(name, full_name, team, everything())
 
 gkp <- overall_results %>%
-  filter(position=='GKP')
+  filter(position=='GKP') %>%
+  arrange(-total_points)
 
 def <- overall_results %>%
-  filter(position=='DEF')
+  filter(position=='DEF') %>%
+  arrange(-total_points)
 
 mid <- overall_results %>%
-  filter(position=='MID')
+  filter(position=='MID') %>%
+  arrange(-total_points)
 
 fwd <- overall_results %>%
-  filter(position=='FWD')
+  filter(position=='FWD') %>%
+  arrange(-total_points)
 
-list <- list(overall_results, weekly_results, gkp, def, mid, fwd)
+list <- list('overall' = overall_results,
+             'weekly'= weekly_results,
+             'gkp' = gkp,
+             'def' = def,
+             'mid' = mid,
+             'fwd' = fwd)
 
-write.xlsx(list, 'Probability model/probability model results.xlsx', overwrite = T)
+write.xlsx(list, 'probability model results.xlsx', overwrite = T)
+
+objects <- ls()
+keep <- objects[grep('combined_data|test|fixture|team|current_players|probs|understat|weight', objects)]
+rm(list=setdiff(objects, keep))
+gc()

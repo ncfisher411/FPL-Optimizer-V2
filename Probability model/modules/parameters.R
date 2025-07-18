@@ -42,6 +42,6 @@ ha_card_weight = 0.1
 position_card_weight = 0.25
 
 ## Time weights
-time_weight_1 = 0.1
-time_weight_2 = 0.05
-time_weight_3 = 0.05
+time_weight_1 = 0.8
+time_weight_2 = 0.125
+time_weight_3 = 0.075
