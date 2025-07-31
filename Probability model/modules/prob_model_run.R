@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Source script for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 10 2025
+# Last updated: July 30 2025
 #---------------------------------------#
 
 ## Paste timestamp for model beginning
@@ -178,6 +178,23 @@ tryCatch({
   traceback()
 }, finally = {
   print('Bonus points probabilities complete')
+})
+
+print('Developing probabilities for defensive contributions')
+
+tryCatch({
+  suppressMessages(
+    suppressWarnings(
+      source('modules/def_prob.R', local = T) 
+    )
+  )
+}, error = function(err){
+  error_occured <<- TRUE
+  cat('Error in developing defensive contribution probabilities: ', conditionMessage(err), '\n')
+  cat('Traceback: \n')
+  traceback()
+}, finally = {
+  print('Defensive contribution probabilities complete')
 })
 
 print('Compiling final results')

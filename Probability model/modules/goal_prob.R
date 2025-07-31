@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Goal scoring for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 11 2025
+# Last updated: July 30 2025
 #---------------------------------------#
 
 ## In this module we want to calculate the probability of scoring
@@ -17,14 +17,14 @@ player <- combined_data %>%
 #### By opponent - avg per match xG played against by player
 opponent <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
-  group_by(name, opponent_name) %>%
+  group_by(name, opponent_team) %>%
   summarize(xG_opp = mean(expected_goals, na.rm = T)) %>%
   ungroup()
 
 #### By team - avg per match xG against by team
 team <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
-  group_by(team, opponent_name) %>%
+  group_by(team, opponent_team) %>%
   summarize(xG_team = mean(expected_goals, na.rm = T)) %>%
   ungroup()
 
@@ -38,25 +38,67 @@ ha <- combined_data %>%
 #### By position - avg per match xG against a team by position
 position <- combined_data %>%
   mutate(games_played = ifelse(minutes > 0, 1, 0)) %>%
-  group_by(position, opponent_name) %>%
+  group_by(position, opponent_team) %>%
   summarize(xG_pos = mean(expected_goals, na.rm = T)) %>%
   ungroup()
 
 ### Do a weighted exercise experiment with the parameter weights:
 goal_probs <- combined_data %>%
-  select(name, season, team, opponent_name, position, was_home) %>%
+  select(name, season, team, opponent_team, position, was_home) %>%
   left_join(player) %>%
-  left_join(opponent, by=c('name', 'opponent_name')) %>%
-  left_join(team, by = c('team', 'opponent_name')) %>%
+  left_join(opponent, by=c('name', 'opponent_team')) %>%
+  left_join(team, by = c('team', 'opponent_team')) %>%
   left_join(ha) %>%
-  left_join(position, by=c('position', 'opponent_name')) %>%
+  left_join(position, by=c('position', 'opponent_team')) %>%
+  group_by(name) %>%
+  mutate(across(where(is.numeric), ~ifelse(is.nan(.) | is.na(.), mean(., na.rm = T), .))) %>%
+  ungroup() %>%
   mutate(
     xG_calculated = (xG_player * player_goal_weight) +
       (xG_opp * opponent_goal_weight) + 
       (xG_team * team_goal_weight) +
       (xG_ha * ha_goal_weight) +
-      (xG_pos * position_goal_weight)
+      (xG_pos * position_goal_weight),
+    xG_calculated = ifelse(is.nan(xG_calculated), xG_team * (1-team_goal_weight), xG_calculated),
+    xG_calculated = ifelse(is.nan(xG_calculated), xG_pos * (1 - position_goal_weight), xG_calculated),
+    xG_calculated = ifelse(is.nan(xG_calculated), 0, xG_calculated)
   )
+
+### Adding a step that will work for promoted teams without previous stats - really just Sunderland - if needed
+status <- grepl('TRUE', unique(fixtures$finished))
+
+if(status=='FALSE'){
+  
+  teams <- c('Burnley', 'Leeds', 'Ipswich', 'Leicester', 'Luton', 'Sheffield Utd', 'Southampton')
+  
+  ### Get the team data
+  temp <- goal_probs %>% filter(team %in% teams) %>%
+    group_by(opponent_team, was_home) %>% 
+    summarize(across(starts_with('xG'), ~mean(., na.rm = T))) %>%
+    ungroup() %>%
+    mutate(team = 'Sunderland')
+  
+  temp <- goal_probs %>% filter(team=='Sunderland') %>%
+    select(name, season, team, opponent_team, position, was_home) %>%
+    left_join(temp)
+  
+  goal_probs <- goal_probs %>% filter(team!='Sunderland') %>%
+    rbind(temp)
+  
+  ### Get the opponent data
+  temp <- goal_probs %>% filter(opponent_team %in% teams) %>%
+    group_by(team, was_home) %>% 
+    summarize(across(starts_with('xG'), ~mean(., na.rm = T))) %>%
+    ungroup() %>%
+    mutate(opponent_team = 'Sunderland')
+  
+  temp <- goal_probs %>% filter(opponent_team=='Sunderland') %>%
+    select(name, season, team, opponent_team, position, was_home) %>%
+    left_join(temp)
+  
+  goal_probs <- goal_probs %>% filter(opponent_team!='Sunderland') %>%
+    rbind(temp)
+}
 
 objects <- ls()
 keep <- objects[grep('combined_data|test|fixture|team|current_players|probs|understat|weight', objects)]

@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Data compiler for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: July 10 2025
+# Last updated: July 23 2025
 #---------------------------------------#
 
 ## Paste timestamp for model beginning
@@ -25,6 +25,24 @@ tryCatch({
   traceback()
 }, finally = {
   print(paste0('Data compilation complete: ', Sys.time()))
+})
+
+### New promotion step - 7/24/2025
+print(paste0('Promoted teams estimation beginning at: ', Sys.time()))
+
+tryCatch({
+  suppressMessages(
+    suppressWarnings(
+      source('modules/Promotion_model.R', local = T) 
+    )
+  )
+}, error = function(err){
+  error_occured <<- TRUE
+  cat('Error in promotion data estimation: ', conditionMessage(err), '\n')
+  cat('Traceback: \n')
+  traceback()
+}, finally = {
+  print(paste0('Promotion data complete: ', Sys.time()))
 })
 
 ### New DEV step - 12/12/2024
@@ -160,14 +178,17 @@ print(paste0('Compiling final results: ', Sys.time()))
 tryCatch({
   suppressMessages(
    suppressWarnings(
+     
      results <- goals_results %>%
        left_join(assists_results) %>%
        left_join(cards_results) %>%
        left_join(time_results) %>%
        left_join(save_results) %>%
        left_join(bonus_results) %>%
-       left_join(val_data %>% distinct(name, team, opponent, strength, difficulty),
-                 by=c('Player'='name', 'Team'='team', 'Opponent'='opponent')) %>%
+       left_join(predict_data %>% select(name, team, season, GW, def_actions_per_90) %>%
+                   rename(Player = name, Team = team, Season = season, Gameweek = GW)) %>% # need to introduce some outlier controls
+       left_join(teams %>% select(name, strength) %>% rename(Team=name)) %>%
+       left_join(teams %>% select(name, strength) %>% rename(Opponent=name, difficulty = strength)) %>%
        mutate_all(funs(ifelse(is.na(.), 0, .))) %>%
        rename(Goals=Predicted_goals,
               Assists=Predicted_assists,
@@ -184,7 +205,8 @@ tryCatch({
               Bonus=Predicted_bonus,
               Strength=strength,
               Difficulty=difficulty,
-              Value=value) %>%
+              Value=value,
+              `Defensive contributions` = def_actions_per_90) %>%
        mutate(
          `Penalty saves`=ifelse(Position!='GKP', 0, `Penalty saves`),
          Saves=ifelse(Position!='GKP', 0, Saves),
@@ -203,12 +225,14 @@ tryCatch({
          save_points=ifelse(Position=='GKP' & Saves >= 3, (Saves/3)*1, 0),
          yc_points=-1*`Yellow cards`,
          rc_points=-3*`Red cards`,
-         `Expected points`=played_points+goal_points+assist_points+cs_points+gc_points+og_points+pen_miss_points+pen_save_points+save_points+yc_points+rc_points+Bonus
+         def_points = (`Defensive contributions`/10) * 2,
+         def_points = ifelse(def_points > 2, 2, def_points),
+         `Expected points`=played_points+goal_points+assist_points+cs_points+gc_points+og_points+pen_miss_points+pen_save_points+save_points+yc_points+rc_points+Bonus+def_points
        ) %>%
        select(Player, Position, Value, Team, Gameweek, Opponent, `Home/Away`, Strength, Difficulty,
               `Expected points`, Goals, Assists, Played, `Played 60`,`Clean Sheet`,
               `Goals conceded`, `Own goals`, `Penalty saves`, `Penalties missed`, `Saves`,
-              `Yellow cards`, `Red cards`, Bonus) %>%
+              `Yellow cards`, `Red cards`, Bonus, `Defensive contributions`) %>%
        filter(Position!='0')
    ) 
   )
@@ -221,7 +245,7 @@ tryCatch({
   print(paste0('Results compile complete: ', Sys.time()))
 })
 
-## Use the fplr package/using API to filter if player is injured, suspended, etc
+## Using API to filter if player is injured, suspended, etc
 ## Suspension/international duty = 0 pts
 ## 25% chance = 25% expected points
 ## 50% chance = 50% expected points
@@ -265,7 +289,8 @@ if(nrow(temp) > 0) {
     
     temp <- status %>% 
       mutate(GW=i)
-    df <- rbind(df, temp)
+    df <- rbind(df, temp) %>%
+      mutate(name = stri_trans_general(name, 'Latin-ASCII'))
     
   }
   
@@ -302,7 +327,8 @@ if(nrow(temp) > 0) {
           `Expected points`, Goals, Assists, Played, `Played 60`, `Clean Sheet`,
           `Goals conceded`, `Own goals`, `Penalty saves`, `Penalties missed`, Saves, `Yellow cards`,
           `Red cards`, Bonus, xG, xA, contains('validation') 
-        )
+        ) %>%
+        mutate(across(where(is.numeric), ~ifelse(is.na(.), 0, .)))
     )
   )
 
@@ -327,8 +353,9 @@ suppressMessages(
         mutate(status=ifelse(Gameweek < min(df$GW), 'a', status),
                status=ifelse(Gameweek > max(df$GW), 'a', status),
                `Expected points`=ifelse(status=='s' | status=='i', 0, `Expected points`),
-               `Expected points`=ifelse(status=='d', `Expected points`*0.65, `Expected points`)) %>%
-        left_join(temp, by=c('Player'='name')) %>%
+               `Expected points`=ifelse(status=='d', `Expected points`*0.65, `Expected points`)
+               ) %>%
+        left_join(temp %>% mutate(name = stri_trans_general(name, 'Latin-ASCII')), by=c('Player'='name')) %>%
         rename(`Full name`=Player, Player=web_name) %>%
         select(Player, `Full name`, everything())
         
@@ -362,7 +389,8 @@ suppressMessages(
       group_by(Position) %>%
       mutate(`Points/value rank`= rank(-`Points/value`)) %>%
       select(Player, `Full name`, Position, Value, Team, `Points/value`, `Points/value rank`, everything()) %>%
-      ungroup()
+      ungroup() %>%
+      arrange(Team, Position, -`Expected points`)
   )
 )
 

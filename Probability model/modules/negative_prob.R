@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Negative stats for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 11 2025
+# Last updated: July 30 2025
 #---------------------------------------#
 
 # Probabilities of penalty misses and own goals
@@ -32,6 +32,31 @@ probs_neg <- probs_neg %>%
       left_join(probs_time) %>%
       mutate(prob_own_goal = og_per_90 * Prob_played)
   )
+
+### Adding a step that will work for promoted teams without previous stats - really just Sunderland - if needed
+status <- grepl('TRUE', unique(fixtures$finished))
+
+if(status=='FALSE'){
+  
+  teams <- c('Burnley', 'Leeds', 'Ipswich', 'Leicester', 'Luton', 'Sheffield Utd', 'Southampton')
+  
+  ### Get the team data
+  temp <- probs_neg %>% filter(team %in% teams) %>%
+    group_by(position) %>% 
+    summarize(across(where(is.numeric), ~mean(., na.rm = T))) %>%
+    ungroup() %>%
+    mutate(team = 'Sunderland',
+           season = unique(fixtures$season))
+  
+  temp <- probs_neg %>% filter(team=='Sunderland') %>%
+    select(name, position, team) %>%
+    left_join(temp) %>%
+    select(-season)
+  
+  probs_neg <- probs_neg %>% filter(team!='Sunderland') %>%
+    rbind(temp)
+  
+}
   
 
 objects <- ls()

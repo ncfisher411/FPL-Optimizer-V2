@@ -9,7 +9,7 @@
 ### Independent variables: xA, ict_index, home/away, position (other vars tested and not important)
 ##### In compile FPL script, decided to use logit model
 if(assists_model=='linear'){
-  linear_assist <- lm(assists ~ xA + ict_index + xG  + played60 + played + h_a + position + strength + difficulty, data = est_data)
+  linear_assist <- lm(assists ~ xA + ict_index + xG  + played60 + played + h_a + position + strength + difficulty, data = est_data, na.action = na.omit)
   
   ### predictions
   assist_predictions <- predict(linear_assist, predict_data) %>% data.frame() %>%
@@ -59,7 +59,7 @@ assists_results <- assist_predictions %>% distinct(name, GW, .keep_all = T) %>%
   distinct(Player, Gameweek, .keep_all = T)
   
 objects <- ls()
-keep <- objects[grep('results|data|fixtures|ids|model', objects)]
+keep <- objects[grep('results|data|fixtures|ids|model|teams', objects)]
 rm(list=setdiff(objects, keep))
 gc()
 

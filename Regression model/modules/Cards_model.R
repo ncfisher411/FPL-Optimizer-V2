@@ -107,6 +107,6 @@ cards_results <- yc_predictions %>% distinct(name, GW, .keep_all = T) %>%
 
 
 objects <- ls()
-keep <- objects[grep('results|model|data|fixtures|ids', objects)]
+keep <- objects[grep('results|model|data|fixtures|ids|teams', objects)]
 rm(list=setdiff(objects, keep))
 gc()

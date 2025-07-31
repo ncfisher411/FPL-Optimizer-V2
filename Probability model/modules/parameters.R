@@ -30,9 +30,9 @@ team_ga_gk_weight = 0.2
 
 ## Clean sheets weights
 cs_team_weight = 0.7
-cs_team_weight_2 = 0.5
+cs_team_weight_2 = 0.3
 cs_ha_weight = 0.7
-cs_ha_weight_2 = 0.5
+cs_ha_weight_2 = 0.3
 
 ## Card probability weights
 player_card_weight = 0.275
@@ -42,6 +42,18 @@ ha_card_weight = 0.1
 position_card_weight = 0.25
 
 ## Time weights
-time_weight_1 = 0.8
-time_weight_2 = 0.125
-time_weight_3 = 0.075
+time_weight = 0.65
+
+## Defense weights
+def_weight_def_1 = 0.95
+def_weight_def_2 = 0.75
+def_weight_def_3 = 0.5
+def_weight_def_4 = 0.3
+def_weight_mid_1 = 0.7
+def_weight_mid_2 = 0.5
+def_weight_mid_3 = 0.3
+def_weight_mid_4 = 0.1
+def_weight_fwd_1 = 0.7
+def_weight_fwd_2 = 0.4
+def_weight_fwd_3 = 0.2
+def_weight_fwd_4 = 0.1

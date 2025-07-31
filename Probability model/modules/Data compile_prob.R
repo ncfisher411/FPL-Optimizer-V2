@@ -68,7 +68,10 @@
 
 combined_data <- read.csv('data/Combined_data.csv') %>%
   select(-fixture) %>%
-  filter(position!='AM')
+  filter(position!='AM') %>%
+  mutate(name = stri_trans_general(name, 'LATIN-ASCII'),
+         name = ifelse(grepl('Becker', name), 'Alisson Becker', name),
+         name = ifelse(grepl('Antony', name), 'Antony dos Santos', name))
 
 ## Step 2) Compile the current season data
 
@@ -122,7 +125,7 @@ if(test==FALSE){
     select(id, web_name, position, name, status, value, team)
   
   df2 <- data.frame()
-  max <- fixtures %>% filter(finished==T)
+  max <- fixtures %>% filter(finished==F)
   max <- max(max$GW)
   
   for (i in ids$id) {
@@ -148,12 +151,13 @@ if(test==FALSE){
         left_join(d) %>%
         filter(finished=='TRUE') %>%
         mutate(name=d$name[[1]],
+               name = stri_trans_general(name, 'LATIN-ASCII'),
                web_name=d$web_name[[1]],
                position=d$position[[1]],
                id=d$element[[1]]) %>%
         select(name, position, team, season, bonus, bps, clean_sheets, creativity, element, expected_assists,
                expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded,
-               goals_scored, ict_index, influence, kickoff_time, minutes, opponent_team, opponent_name, own_goals,
+               goals_scored, assists, ict_index, influence, kickoff_time, minutes, opponent_team, own_goals,
                penalties_missed, penalties_saved, red_cards, round, saves, selected, starts, team_a_score,
                team_h_score, threat, total_points, transfers_balance, transfers_in, transfers_out,
                value, was_home, yellow_cards)
@@ -162,17 +166,18 @@ if(test==FALSE){
       
       d2 <- fixtures %>%
         left_join(ids %>% filter(id==i)) %>%
-        mutate(total_points=NA, goals_scored=NA, expected_goals=NA, expected_assists=NA, expected_goal_involvements = NA,
+        mutate(total_points=NA, goals_scored=NA, assists = NA, expected_goals=NA, expected_assists=NA, expected_goal_involvements = NA,
                expected_goals_conceded = NA, ict_index=NA, own_goals=NA, assists=NA, penalties_missed=NA, team_a_score=NA, team_h_score=NA,
                bonus=NA, minutes=NA, yellow_cards=NA, red_cards=NA, goals_conceded=NA, saves=NA, 
                penalties_saved=NA, team_score=NA, opponent_score=NA, bps = NA, clean_sheets = NA, 
                creativity = NA, element = NA, influence = NA, minutes = NA, saves = NA, selected = NA,
                starts = NA, threat = NA, transfers_balance = NA, transfers_in = NA, transfers_out = NA) %>%
         rename(round = GW, opponent_team = opponent) %>%
-        mutate(was_home=ifelse(h_a=='h', 'True', 'False')) %>%
+        mutate(was_home=ifelse(h_a=='h', 'True', 'False'),
+               name = stri_trans_general(name, 'LATIN-ASCII')) %>%
         select(name, position, team, season, bonus, bps, clean_sheets, creativity, element, expected_assists,
                expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded,
-               goals_scored, ict_index, influence, kickoff_time, minutes, opponent_team, own_goals,
+               goals_scored, assists, ict_index, influence, kickoff_time, minutes, opponent_team, own_goals,
                penalties_missed, penalties_saved, red_cards, round, saves, selected, starts, team_a_score,
                team_h_score, threat, total_points, transfers_balance, transfers_in, transfers_out,
                value, was_home, yellow_cards) %>% 
@@ -183,7 +188,10 @@ if(test==FALSE){
     df2 <- rbind(df2, d2)
   }
   
-  combined_data <- combined_data %>% rbind(df2)
+  combined_data <- combined_data %>% 
+    mutate(opponent_team = opponent_name) %>%
+    select(-opponent_name) %>%
+    rbind(df2)
   
 }
 
@@ -207,7 +215,8 @@ current_players <- ls$elements %>%
   left_join(teams %>% select(name, id) %>% rename(team_name = name), by=c('team'='id')) %>%
   select(name, season, team_name, position, status, web_name, chance_of_playing_this_round) %>%
   filter(!is.na(position)) %>%
-  mutate(chance_of_playing_this_round = ifelse(is.na(chance_of_playing_this_round) & status=='a', 100, 0))
+  mutate(chance_of_playing_this_round = ifelse(is.na(chance_of_playing_this_round) & status=='a', 100, 0),
+         name = stri_trans_general(name, 'LATIN-ASCII'))
 
 #### Getting the understat league shots data
 # seasons <- c(min(combined_data$season):max(combined_data$season))
@@ -220,9 +229,10 @@ current_players <- ls$elements %>%
 # 
 # write.csv(understat_data, 'data/understat_data.csv', row.names = F)
 
-understat_data <- read.csv('data/understat_data.csv')
+understat_data <- read.csv('data/understat_data.csv') 
+data <- understat_league_season_shots(season_start_year = max(understat_data$season) + 1, league = 'EPL')
 
-if(max(combined_data$season) > max(understat_data$season)){
+if(max(combined_data$season) == max(understat_data$season)){
   i = max(combined_data$season)
   data <- understat_league_season_shots(season_start_year = i, league = 'EPL')
   understat_data <- rbind(understat_data, data)
@@ -236,7 +246,8 @@ understat_data <- understat_data %>%
          across(contains('_team'), ~ifelse(grepl('Tottenham', .), 'Spurs', .)),
          across(contains('_team'), ~ifelse(grepl('United', .), gsub('United', 'Utd', .), .)),
          across(contains('_team'), ~ifelse(grepl('Newcastle', .), 'Newcastle', .)),
-         across(contains('_team'), ~ifelse(grepl('Forest', .), "Nott'm Forest", .)),)
+         across(contains('_team'), ~ifelse(grepl('Forest', .), "Nott'm Forest", .)),
+         player = stri_trans_general(player, 'LATIN-ASCII'))
 
 objects <- ls()
 keep <- objects[grep('combined_data|test|fixture|team|current_players|understat|weight', objects)]

@@ -1057,6 +1057,6 @@ cs_model = 'linear'
 bonus_model = 'random forest'
 
 objects <- ls()
-keep <- objects[grep('results|data|fixtures|ids|dev|model', objects)]
+keep <- objects[grep('results|data|fixtures|ids|dev|model|teams', objects)]
 rm(list=setdiff(objects, keep))
 gc()

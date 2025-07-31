@@ -17,7 +17,7 @@
 
 packages <- c('tidyverse', 'worldfootballR', 'randomForest', 'rstudioapi',
               'httr', 'jsonlite', 'openxlsx', 'data.table',
-              'stringdist', 'stats', 'fuzzyjoin')
+              'stringdist', 'stats', 'fuzzyjoin', 'stringi')
 
 for (package in packages) {
   if (!requireNamespace(package, quietly = T)) {

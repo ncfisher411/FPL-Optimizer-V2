@@ -165,6 +165,6 @@ goals_results <- goal_predictions %>% distinct(name, GW, .keep_all = T) %>%
 # print(train_rf$results$RMSE)
 
 objects <- ls()
-keep <- objects[grep('results|data|fixtures|ids|model', objects)]
+keep <- objects[grep('results|data|fixtures|ids|model|teams', objects)]
 rm(list=setdiff(objects, keep))
 gc()
