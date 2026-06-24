@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Kevin Schade","Schade","Brentford","MID",1,"2025-08-17",1.2,0,0,0,0,120,1,3,"a",0,45,0,0,0,0,0,1,3,2025,"Forest",3,3,0,0.04,1,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",2,"2025-08-23",4.3,0,0,0,0,120,0,1,"h",0,78,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.1,0.02,3,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",3,"2025-08-30",3.6,0,0,0,1,120,1,2,"a",0,89,0,0,1,0,0,1,2,2025,"Sunderland",3,3,0.95,0,0,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",4,"2025-09-13",8,1,0,0,0,120,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Chelsea",4,3,0.61,0.03,7,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",5,"2025-09-20",3,0,0,0,0,120,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Fulham",3,3,0.06,0.2,2,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",6,"2025-09-27",5,0,0,1,0,120,1,3,"h",0,90,1,0,1,0,0,3,1,2025,"Man Utd",4,3,0.01,0.09,4,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",7,"2025-10-05",3.9,0,0,0,0,120,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Man City",4,3,0,0.03,1,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",8,"2025-10-20",8.6,0,0,1,0,120,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,3,0.32,0.14,6,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",9,"2025-10-25",11.4,1,0,0,0,120,2,3,"h",1,78,1,0,1,0,0,3,2,2025,"Liverpool",4,3,0.67,0.18,7,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",10,"2025-11-01",1,0,0,0,0,120,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Crystal Palace",3,3,0,0.02,1,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",11,"2025-11-09",9.5,1,0,0,0,120,1,3,"h",1,90,0,0,1,0,0,3,1,2025,"Newcastle",3,3,0.35,0.04,8,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",12,"2025-11-22",3.3,0,0,0,0,120,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Brighton",3,3,0.03,0.11,2,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",13,"2025-11-29",5.1,0,0,0,0,120,1,3,"h",0,74,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0.06,3,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",14,"2025-12-03",4,0,0,0,0,120,0,2,"a",0,59,0,0,1,0,0,0,2,2025,"Arsenal",5,3,0.23,0,1,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",15,"2025-12-06",1.4,0,0,0,0,120,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Tottenham",3,3,0,0.01,1,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",16,"2025-12-14",0,0,0,0,0,120,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",17,"2025-12-20",8.4,0,0,0,0,120,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Wolves",2,3,0.54,0.03,3,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",18,"2025-12-27",21.7,3,0,0,0,120,1,4,"h",3,90,0,0,1,0,0,4,1,2025,"Bournemouth",3,3,2.94,0.03,20,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",19,"2026-01-01",1.1,0,0,0,0,120,0,0,"h",0,79,0,0,0,0,0,0,0,2025,"Tottenham",3,3,0,0.01,3,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",20,"2026-01-04",6.9,0,0,1,0,120,4,2,"a",0,63,0,0,0,0,0,4,2,2025,"Everton",3,3,0.23,0,6,71,TRUE
+"Kevin Schade","Schade","Brentford","MID",21,"2026-01-07",10.8,0,0,1,0,120,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Sunderland",3,3,0.66,0.39,6,71,TRUE
+"Kevin Schade","Schade","Brentford","MID",22,"2026-01-17",5.9,0,0,0,0,120,0,2,"a",0,81,1,0,2,0,0,0,2,2025,"Chelsea",4,3,0.59,0.02,1,71,TRUE
+"Kevin Schade","Schade","Brentford","MID",23,"2026-01-25",5.3,0,0,0,0,120,2,0,"h",0,90,0,0,2,0,0,0,2,2025,"Forest",3,3,0.16,0.26,2,71,TRUE
+"Kevin Schade","Schade","Brentford","MID",24,"2026-02-01",1.2,0,0,0,0,120,1,0,"a",0,41,0,1,0,0,0,1,0,2025,"Aston Villa",3,3,0.12,0.01,-2,71,TRUE
+"Kevin Schade","Schade","Brentford","MID",25,"2026-02-07",0,0,0,0,0,120,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Newcastle",3,3,0,0,0,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",26,"2026-02-12",0,0,0,0,0,120,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Arsenal",5,3,0,0,0,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",27,"2026-02-21",0.9,0,0,0,0,120,2,0,"h",0,45,0,0,0,0,0,0,2,2025,"Brighton",3,3,0,0.05,1,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",28,"2026-02-28",7.9,1,0,0,0,120,4,3,"a",0,71,0,0,3,0,0,4,3,2025,"Burnley",2,3,0.99,0.02,7,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",29,"2026-03-03",3,0,0,0,0,120,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0.13,0.07,3,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",30,"2026-03-16",1,0,0,0,0,120,2,2,"h",0,67,0,0,1,0,0,2,2,2025,"Wolves",2,3,0,0,2,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",31,"2026-03-21",0.7,0,0,0,0,120,0,0,"a",0,76,0,0,0,0,0,0,0,2025,"Leeds",3,3,0.17,0,3,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",32,"2026-04-11",4.4,0,0,1,0,120,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Everton",3,3,0.94,0.01,5,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",33,"2026-04-18",7,0,0,0,0,120,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Fulham",3,3,0.16,0.17,3,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",34,"2026-04-27",0.6,0,0,0,0,120,1,2,"a",0,72,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.01,2,70,TRUE
+"Kevin Schade","Schade","Brentford","MID",35,"2026-05-02",1,0,0,0,0,120,0,3,"h",0,79,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,3,69,TRUE
+"Kevin Schade","Schade","Brentford","MID",36,"2026-05-09",0.5,0,0,0,0,120,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Man City",4,3,0,0,2,68,TRUE
+"Kevin Schade","Schade","Brentford","MID",37,"2026-05-17",0.9,0,0,0,0,120,2,2,"h",0,27,0,0,0,0,0,2,2,2025,"Crystal Palace",3,3,0.21,0,1,68,TRUE
+"Kevin Schade","Schade","Brentford","MID",38,"2026-05-24",10.3,1,0,0,0,120,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0.91,0,7,68,TRUE

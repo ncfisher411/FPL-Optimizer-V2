@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Yellow and Red Cards model for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: June 19 2026
 #---------------------------------------#
 
 ## Need to predict number of red cards, yellow cards, based on controls, ICT Index, goals conceded
@@ -21,6 +21,10 @@ if(yellow_cards_model=='linear'){
            Yellow_cards_validation=yellow_cards-Predicted_yellow_cards) %>%
     select(-yellow_cards)
   
+  ## Save summary of model output
+  table_yc = linear_yc %>% tidy()
+  write.table(table_yc, 'Model performance summaries/yellow_cards.txt', sep = '\t', row.names = F)
+  
 } else if(yellow_cards_model=='logit'){
   logit_yc <- glm(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + strength + difficulty, data = est_data)
   
@@ -35,6 +39,10 @@ if(yellow_cards_model=='linear'){
            Yellow_cards_validation=yellow_cards-Predicted_yellow_cards) %>%
     select(-yellow_cards)
   
+  ## Save summary of model output
+  table_yc = logit_yc %>% tidy()
+  write.table(table_yc, 'Model performance summaries/yellow_cards.txt', sep = '\t', row.names = F)
+  
 } else if(yellow_cards_model=='random forest'){
   rf_yc <- randomForest(yellow_cards ~ ict_index_opponent + played + played60 + xG_opponent + goals_conceded + position + h_a + strength + difficulty, data = est_data)
   
@@ -48,7 +56,6 @@ if(yellow_cards_model=='linear'){
     mutate(Predicted_yellow_cards=ifelse(Predicted_yellow_cards < 0, 0, Predicted_yellow_cards),
            Yellow_cards_validation=yellow_cards-Predicted_yellow_cards) %>%
     select(-yellow_cards)
-  
 }
 gc()
 
@@ -66,6 +73,10 @@ if(red_cards_model=='linear'){
            Red_cards_validation=red_cards-Predicted_red_cards) %>%
     select(-red_cards)
   
+  ## Save summary of model output
+  table_rc = linear_rc %>% tidy()
+  write.table(table_rc, 'Model performance summaries/red_cards.txt', sep = '\t', row.names = F)
+  
 } else if(red_cards_model=='logit'){
   logit_rc <- lm(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + strength + difficulty, data = est_data)
   
@@ -80,6 +91,10 @@ if(red_cards_model=='linear'){
            Red_cards_validation=red_cards-Predicted_red_cards) %>%
     select(-red_cards)
   
+  ## Save summary of model output
+  table_rc = logit_rc %>% tidy()
+  write.table(table_rc, 'Model performance summaries/red_cards.txt', sep = '\t', row.names = F)
+  
 } else if(red_cards_model=='random forest'){
   rf_rc <- randomForest(red_cards ~ ict_index_opponent + xG_opponent + played + goals_conceded + position + h_a + strength + difficulty, data = est_data)
   
@@ -93,7 +108,6 @@ if(red_cards_model=='linear'){
     mutate(Predicted_red_cards=ifelse(Predicted_red_cards < 0, 0, Predicted_red_cards),
            Red_cards_validation=red_cards-Predicted_red_cards) %>%
     select(-red_cards)
-  
 }
 gc()
 
@@ -104,7 +118,6 @@ cards_results <- yc_predictions %>% distinct(name, GW, .keep_all = T) %>%
          `Home/Away`=h_a, Team=team, Season=season) %>%
   mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away')) %>%
   distinct(Player, Gameweek, .keep_all = T)
-
 
 objects <- ls()
 keep <- objects[grep('results|model|data|fixtures|ids|teams', objects)]

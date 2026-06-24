@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Omar Alderete","Alderete","Sunderland","DEF",1,"2025-08-16",4.4,0,0,1,0,683,0,3,"h",0,37,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0.12,4,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",2,"2025-08-23",4.1,0,0,0,0,683,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Burnley",2,3,0.06,0.02,1,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",3,"2025-08-30",2.8,0,0,0,0,683,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,3,0.05,0.01,4,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",4,"2025-09-13",3.3,0,0,0,0,683,0,0,"a",1,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0.02,9,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",5,"2025-09-21",5.2,0,0,0,0,683,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.16,0,4,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",6,"2025-09-27",10,1,0,0,0,683,1,0,"a",3,90,0,0,0,0,0,1,0,2025,"Forest",3,3,0.31,0.16,17,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",7,"2025-10-04",1.7,0,0,0,0,683,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.01,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",8,"2025-10-18",2.9,0,0,0,0,683,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0.01,6,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",9,"2025-10-25",0,0,0,0,0,683,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",10,"2025-11-03",0,0,0,0,0,683,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",11,"2025-11-08",0,0,0,0,0,683,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Arsenal",5,3,0,0,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",12,"2025-11-22",0,0,0,0,0,683,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",13,"2025-11-29",1.7,0,0,0,0,683,2,3,"h",0,90,1,0,2,0,0,3,2,2025,"Bournemouth",3,3,0,0,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",14,"2025-12-03",7.5,0,0,0,0,683,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0.08,0.19,4,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",15,"2025-12-06",2.2,0,0,0,0,683,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Man City",4,3,0.02,0,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",16,"2025-12-14",3.9,0,0,0,0,683,0,1,"h",1,90,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0.02,7,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",17,"2025-12-20",6.9,0,0,0,0,683,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Brighton",3,3,0.25,0.02,6,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",18,"2025-12-28",4.5,0,0,0,0,683,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,3,0.05,0,4,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",19,"2026-01-01",3.8,0,0,0,0,683,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0.03,8,40,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",20,"2026-01-04",2.5,0,0,0,0,683,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Tottenham",3,3,0.03,0.01,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",21,"2026-01-07",1.7,0,0,0,0,683,0,3,"a",0,82,0,0,3,0,0,0,3,2025,"Brentford",3,3,0.15,0.1,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",22,"2026-01-17",1.6,0,0,0,0,683,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.07,0.01,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",23,"2026-01-24",4.6,0,0,0,0,683,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"West Ham",3,3,0,0.01,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",24,"2026-02-02",2.5,0,0,0,0,683,0,3,"h",0,85,0,0,0,0,0,3,0,2025,"Burnley",2,3,0,0,6,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",25,"2026-02-07",2.1,0,0,0,0,683,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Arsenal",5,3,0,0,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",26,"2026-02-11",3.3,0,0,0,0,683,1,0,"h",0,79,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0,0.01,2,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",27,"2026-02-22",3.7,0,0,0,0,683,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Fulham",3,3,0,0.07,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",28,"2026-02-28",4.2,0,0,0,0,683,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0,0,4,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",29,"2026-03-03",5.1,0,0,0,0,683,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,7,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",30,"2026-03-14",4.4,0,0,0,0,683,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.14,0.03,2,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",31,"2026-03-22",2.5,0,0,0,0,683,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Newcastle",3,3,0,0.02,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",32,"2026-04-12",2.3,0,0,0,0,683,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0,8,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",33,"2026-04-19",2.2,0,0,0,0,683,3,4,"a",0,62,0,0,3,0,0,3,4,2025,"Aston Villa",3,3,0,0.01,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",34,"2026-04-24",4.6,0,0,0,0,683,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.23,0.01,0,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",35,"2026-05-02",2.2,0,0,0,0,683,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0,0,4,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",36,"2026-05-09",2.4,0,0,0,0,683,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0.02,0.02,8,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",37,"2026-05-17",0.2,0,0,0,0,683,3,1,"a",0,22,0,0,0,0,0,3,1,2025,"Everton",3,3,0,0,1,41,TRUE
+"Omar Alderete","Alderete","Sunderland","DEF",38,"2026-05-24",0,0,0,0,0,683,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0,0,41,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Enso González Medina","Gonzalez","Wolves","MID",1,"2025-08-16",0,0,0,0,0,652,4,0,"h",0,0,0,0,0,0,0,0,4,2025,"Man City",4,2,0,0,0,45,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",2,"2025-08-23",0,0,0,0,0,652,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Bournemouth",3,2,0,0,0,45,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",3,"2025-08-30",0,0,0,0,0,652,3,2,"h",0,0,0,0,0,0,0,2,3,2025,"Everton",3,2,0,0,0,45,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",4,"2025-09-13",0,0,0,0,0,652,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Newcastle",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",5,"2025-09-20",0,0,0,0,0,652,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Leeds",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",6,"2025-09-27",0,0,0,0,0,652,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",7,"2025-10-05",0,0,0,0,0,652,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",8,"2025-10-18",0,0,0,0,0,652,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Sunderland",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",9,"2025-10-26",0,0,0,0,0,652,3,2,"h",0,0,0,0,0,0,0,2,3,2025,"Burnley",2,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",10,"2025-11-01",0,0,0,0,0,652,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Fulham",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",11,"2025-11-08",0,0,0,0,0,652,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Chelsea",4,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",12,"2025-11-22",0,0,0,0,0,652,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Crystal Palace",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",13,"2025-11-30",0,0,0,0,0,652,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",14,"2025-12-03",0,0,0,0,0,652,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Forest",3,2,0,0,0,44,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",15,"2025-12-08",0,0,0,0,0,652,4,1,"h",0,0,0,0,0,0,0,1,4,2025,"Man Utd",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",16,"2025-12-13",0,0,0,0,0,652,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",17,"2025-12-20",0,0,0,0,0,652,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Brentford",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",18,"2025-12-27",0,0,0,0,0,652,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Liverpool",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",19,"2025-12-30",0,0,0,0,0,652,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Man Utd",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",20,"2026-01-03",0,0,0,0,0,652,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"West Ham",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",21,"2026-01-07",0,0,0,0,0,652,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Everton",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",22,"2026-01-18",0,0,0,0,0,652,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Newcastle",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",23,"2026-01-24",0,0,0,0,0,652,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man City",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",24,"2026-01-31",0,0,0,0,0,652,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Bournemouth",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",25,"2026-02-07",0,0,0,0,0,652,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Chelsea",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",26,"2026-02-11",0,0,0,0,0,652,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Forest",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",26,"2026-02-18",0,0,0,0,0,652,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Arsenal",5,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",27,"2026-02-22",0,0,0,0,0,652,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Crystal Palace",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",28,"2026-02-27",0,0,0,0,0,652,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Aston Villa",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",29,"2026-03-03",0,0,0,0,0,652,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",30,"2026-03-16",0,0,0,0,0,652,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Brentford",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",32,"2026-04-10",0,0,0,0,0,652,0,4,"a",0,0,0,0,0,0,0,0,4,2025,"West Ham",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",33,"2026-04-18",0,0,0,0,0,652,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Leeds",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",34,"2026-04-25",0,0,0,0,0,652,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",35,"2026-05-02",0,0,0,0,0,652,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Sunderland",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",36,"2026-05-09",0,0,0,0,0,652,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Brighton",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",37,"2026-05-17",0,0,0,0,0,652,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Fulham",3,2,0,0,0,43,TRUE
+"Enso González Medina","Gonzalez","Wolves","MID",38,"2026-05-24",0,0,0,0,0,652,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Burnley",2,2,0,0,0,43,TRUE

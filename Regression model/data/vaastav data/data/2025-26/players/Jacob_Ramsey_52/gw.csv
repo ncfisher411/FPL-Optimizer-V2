@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",1,"2025-08-16",NA,NA,NA,NA,NA,52,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",2,"2025-08-25",1.5,0,0,0,0,52,3,2,"h",0,14,0,0,1,0,0,2,3,2025,"Liverpool",4,3,0,0.02,1,55,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",3,"2025-08-30",4.7,0,0,0,0,52,0,0,"a",0,45,0,0,0,0,0,0,0,2025,"Leeds",3,3,0.03,0.1,1,55,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",4,"2025-09-13",0,0,0,0,0,52,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,54,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",5,"2025-09-21",0,0,0,0,0,52,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,0,54,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",6,"2025-09-28",0,0,0,0,0,52,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",7,"2025-10-05",0,0,0,0,0,52,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",8,"2025-10-18",1.7,0,0,0,0,52,1,2,"a",0,20,0,0,1,0,0,1,2,2025,"Brighton",3,3,0,0.01,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",9,"2025-10-25",0,0,0,0,0,52,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Fulham",3,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",10,"2025-11-02",1.1,0,0,0,0,52,1,3,"a",0,45,1,0,1,0,0,1,3,2025,"West Ham",3,3,0,0.01,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",11,"2025-11-09",3.9,0,0,0,0,52,1,3,"a",0,66,0,0,3,0,0,1,3,2025,"Brentford",3,3,0,0.09,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",12,"2025-11-22",0,0,0,0,0,52,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Man City",4,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",13,"2025-11-29",3.8,0,0,0,0,52,4,1,"a",0,19,0,0,0,0,0,4,1,2025,"Everton",3,3,0.22,0.03,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",14,"2025-12-02",0,0,0,0,0,52,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",15,"2025-12-06",3.7,0,0,0,0,52,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Burnley",2,3,0.09,0.29,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",16,"2025-12-14",0,0,0,0,0,52,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Sunderland",3,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",17,"2025-12-20",1.1,0,0,0,0,52,2,2,"h",0,88,0,0,2,0,0,2,2,2025,"Chelsea",4,3,0,0.03,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",18,"2025-12-26",2.4,0,0,0,0,52,0,1,"a",0,67,0,0,1,0,0,0,1,2025,"Man Utd",4,3,0,0.02,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",19,"2025-12-30",0.3,0,0,0,0,52,3,1,"a",0,10,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",20,"2026-01-04",0.6,0,0,0,0,52,0,2,"h",0,27,0,0,0,0,0,2,0,2025,"Crystal Palace",3,3,0,0.02,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",21,"2026-01-07",1.6,0,0,0,0,52,3,4,"h",0,14,0,0,1,0,0,4,3,2025,"Leeds",3,3,0,0.01,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",22,"2026-01-18",0,0,0,0,0,52,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Wolves",2,3,0,0,0,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",23,"2026-01-25",1.6,0,0,0,0,52,2,0,"h",0,42,0,0,1,0,0,0,2,2025,"Aston Villa",3,3,0.06,0.02,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",24,"2026-01-31",0.2,0,0,0,0,52,1,4,"a",0,90,1,0,4,0,0,1,4,2025,"Liverpool",4,3,0,0.01,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",25,"2026-02-07",0.3,0,0,0,0,52,3,2,"h",0,3,0,0,0,0,0,2,3,2025,"Brentford",3,3,0,0,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",26,"2026-02-10",8.3,1,0,0,0,52,2,1,"a",0,74,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.4,0.02,7,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",27,"2026-02-21",7.7,0,0,1,0,52,1,2,"a",1,90,0,0,2,0,0,1,2,2025,"Man City",4,3,0.05,0.14,6,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",28,"2026-02-28",4.9,1,0,0,0,52,3,2,"h",0,45,0,0,2,0,0,2,3,2025,"Everton",3,3,0.09,0.02,6,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",29,"2026-03-04",0.4,0,0,0,0,52,1,2,"h",0,45,0,1,1,0,0,2,1,2025,"Man Utd",4,3,0,0.01,-2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",30,"2026-03-14",5.4,0,0,0,0,52,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Chelsea",4,3,0.08,0.03,3,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",31,"2026-03-22",1.5,0,0,0,0,52,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Sunderland",3,3,0.03,0.02,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",32,"2026-04-12",0.5,0,0,0,0,52,1,2,"a",0,6,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0,0.01,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",33,"2026-04-18",4.3,0,0,0,0,52,2,1,"h",0,61,0,0,1,0,0,1,2,2025,"Bournemouth",3,3,0.07,0.06,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",34,"2026-04-25",4.6,0,0,0,0,52,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.03,0.01,2,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",35,"2026-05-02",0.4,0,0,0,0,52,1,3,"h",0,1,0,0,0,0,0,3,1,2025,"Brighton",3,3,0,0,1,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",36,"2026-05-10",3.7,0,0,1,0,52,1,1,"a",0,29,0,0,1,0,0,1,1,2025,"Forest",3,3,0.05,0.25,4,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",37,"2026-05-17",7.1,0,0,1,0,52,1,3,"h",2,90,0,0,1,0,0,3,1,2025,"West Ham",3,3,0,0.19,9,53,TRUE
+"Jacob Ramsey","J.Ramsey","Newcastle","MID",38,"2026-05-24",2.6,0,0,0,0,52,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Fulham",3,3,0,0.03,4,53,TRUE

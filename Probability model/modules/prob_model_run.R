@@ -214,7 +214,7 @@ tryCatch({
   print('Results compilation complete')
 })
 
-print('Validating 2024 results')
+print('Validating 2025/26 results')
 
 tryCatch({
   suppressMessages(

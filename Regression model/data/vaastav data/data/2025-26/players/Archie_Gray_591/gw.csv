@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Archie Gray","Gray","Tottenham","MID",1,"2025-08-16",0.9,0,0,0,0,591,0,3,"h",0,70,0,0,0,0,0,3,0,2025,"Burnley",2,3,0,0.05,3,50,TRUE
+"Archie Gray","Gray","Tottenham","MID",2,"2025-08-23",0,0,0,0,0,591,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Man City",4,3,0,0,0,50,TRUE
+"Archie Gray","Gray","Tottenham","MID",3,"2025-08-30",0,0,0,0,0,591,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Bournemouth",3,3,0,0,0,50,TRUE
+"Archie Gray","Gray","Tottenham","MID",4,"2025-09-13",0,0,0,0,0,591,3,0,"a",0,0,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,0,49,TRUE
+"Archie Gray","Gray","Tottenham","MID",5,"2025-09-20",1.3,0,0,0,0,591,2,2,"a",0,1,0,0,0,0,0,2,2,2025,"Brighton",3,3,0,0,1,49,TRUE
+"Archie Gray","Gray","Tottenham","MID",6,"2025-09-27",0,0,0,0,0,591,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,49,TRUE
+"Archie Gray","Gray","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,591,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,49,TRUE
+"Archie Gray","Gray","Tottenham","MID",8,"2025-10-19",0,0,0,0,0,591,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",9,"2025-10-26",0,0,0,0,0,591,3,0,"a",0,0,0,0,0,0,0,3,0,2025,"Everton",3,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",10,"2025-11-01",0,0,0,0,0,591,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Chelsea",4,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",11,"2025-11-08",0,0,0,0,0,591,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Man Utd",4,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",12,"2025-11-23",0,0,0,0,0,591,1,4,"a",0,0,0,0,0,0,0,1,4,2025,"Arsenal",5,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",13,"2025-11-29",0.8,0,0,0,0,591,2,1,"h",0,59,0,0,2,0,0,1,2,2025,"Fulham",3,3,0.02,0.01,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",14,"2025-12-02",0,0,0,0,0,591,2,2,"a",0,3,0,0,0,0,0,2,2,2025,"Newcastle",3,3,0,0,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",15,"2025-12-06",1.6,0,0,0,0,591,0,2,"h",0,90,1,0,0,0,0,2,0,2025,"Brentford",3,3,0,0.01,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",16,"2025-12-14",1.9,0,0,0,0,591,0,3,"a",0,58,1,0,2,0,0,0,3,2025,"Forest",3,3,0.05,0.01,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",17,"2025-12-20",2.5,0,0,0,0,591,2,1,"h",0,70,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0,0.01,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",18,"2025-12-28",8.7,1,0,0,0,591,1,0,"a",3,84,1,0,0,0,0,1,0,2025,"Crystal Palace",3,3,0.33,0.01,10,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",19,"2026-01-01",2.6,0,0,0,0,591,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Brentford",3,3,0.25,0.01,3,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",20,"2026-01-04",1,0,0,0,0,591,1,1,"h",0,71,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0.03,0.01,3,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",21,"2026-01-07",0,0,0,0,0,591,2,3,"a",0,4,0,0,1,0,0,2,3,2025,"Bournemouth",3,3,0,0,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",22,"2026-01-17",1.9,0,0,0,0,591,2,1,"h",0,45,1,0,1,0,0,1,2,2025,"West Ham",3,3,0,0.01,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",23,"2026-01-24",0.1,0,0,0,0,591,2,2,"a",0,12,0,0,0,0,0,2,2,2025,"Burnley",2,3,0,0,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",24,"2026-02-01",1.7,0,0,0,0,591,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Man City",4,3,0,0.01,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",25,"2026-02-07",1.5,0,0,0,0,591,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.02,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",26,"2026-02-10",10,1,0,0,0,591,2,1,"h",3,90,0,0,2,0,0,1,2,2025,"Newcastle",3,3,0.57,0.29,10,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",27,"2026-02-22",1.2,0,0,0,0,591,4,1,"h",0,90,1,0,4,0,0,1,4,2025,"Arsenal",5,3,0,0,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",28,"2026-03-01",4.4,0,0,1,0,591,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Fulham",3,3,0,0.24,5,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",29,"2026-03-05",5.7,0,0,1,0,591,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Crystal Palace",3,3,0.05,0.56,5,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",30,"2026-03-15",2,0,0,0,0,591,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0,0.01,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",31,"2026-03-22",2.7,0,0,0,0,591,3,0,"h",0,83,0,0,2,0,0,0,3,2025,"Forest",3,3,0.16,0.03,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",32,"2026-04-12",0.4,0,0,0,0,591,0,1,"a",0,60,0,0,1,0,0,0,1,2025,"Sunderland",3,3,0,0,2,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",33,"2026-04-18",2.4,0,0,0,0,591,2,2,"h",0,33,0,0,1,0,0,2,2,2025,"Brighton",3,3,0.04,0,1,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,591,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",35,"2026-05-03",0,0,0,0,0,591,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Aston Villa",3,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",36,"2026-05-11",0,0,0,0,0,591,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",37,"2026-05-19",0,0,0,0,0,591,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,3,0,0,0,48,TRUE
+"Archie Gray","Gray","Tottenham","MID",38,"2026-05-24",0.2,0,0,0,0,591,0,1,"h",0,8,0,0,0,0,0,1,0,2025,"Everton",3,3,0,0,1,48,TRUE

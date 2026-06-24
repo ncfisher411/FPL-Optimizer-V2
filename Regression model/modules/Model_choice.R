@@ -1046,7 +1046,7 @@ red_cards_model = 'linear'
 ### Saves_model.R choice
 saves_model = 'linear'
 penalties_saved_model = 'linear'
-goals_conceded_model = 'random forest'
+goals_conceded_model = 'linear'
 
 ### Time model choice
 played_model = 'linear'
@@ -1054,7 +1054,7 @@ played60_model = 'linear'
 cs_model = 'linear'
 
 ### Bonus model choice
-bonus_model = 'random forest'
+bonus_model = 'linear'
 
 objects <- ls()
 keep <- objects[grep('results|data|fixtures|ids|dev|model|teams', objects)]

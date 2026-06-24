@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Brian Brobbey","Brobbey","Sunderland","FWD",1,"2025-08-16",NA,NA,NA,NA,NA,730,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",2,"2025-08-23",NA,NA,NA,NA,NA,730,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",3,"2025-08-30",NA,NA,NA,NA,NA,730,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,3,NA,NA,NA,NA,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",4,"2025-09-13",0.1,0,0,0,0,730,0,0,"a",0,21,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",5,"2025-09-21",0,0,0,0,0,730,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Aston Villa",3,3,0,0,0,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",6,"2025-09-27",0.3,0,0,0,0,730,1,0,"a",0,5,0,0,0,0,0,1,0,2025,"Forest",3,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",7,"2025-10-04",0,0,0,0,0,730,0,2,"a",0,31,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",8,"2025-10-18",0,0,0,0,0,730,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,0,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",9,"2025-10-25",4,0,0,1,0,730,2,1,"a",0,15,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0.04,4,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",10,"2025-11-03",0,0,0,0,0,730,1,1,"h",0,7,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",11,"2025-11-08",5,1,0,0,0,730,2,2,"h",0,27,0,0,1,0,0,2,2,2025,"Arsenal",5,3,0.11,0,5,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",12,"2025-11-22",0.8,0,0,0,0,730,0,1,"a",0,26,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",13,"2025-11-29",7.1,1,0,0,0,730,2,3,"h",1,27,0,0,0,0,0,3,2,2025,"Bournemouth",3,3,0.13,0,6,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",14,"2025-12-03",0.1,0,0,0,0,730,1,1,"a",0,61,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0.01,2,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",15,"2025-12-06",0.2,0,0,0,0,730,0,3,"a",0,34,0,0,1,0,0,0,3,2025,"Man City",4,3,0,0.02,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",16,"2025-12-14",0.3,0,0,0,0,730,0,1,"h",0,69,1,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",17,"2025-12-20",3.5,0,0,0,0,730,0,0,"a",0,71,0,0,0,0,0,0,0,2025,"Brighton",3,3,0.41,0.02,2,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",18,"2025-12-28",0.8,0,0,0,0,730,1,1,"h",0,67,0,0,1,0,0,1,1,2025,"Leeds",3,3,0.41,0,2,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",19,"2026-01-01",3.8,0,0,0,0,730,0,0,"h",0,57,0,0,0,0,0,0,0,2025,"Man City",4,3,0.25,0.03,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",20,"2026-01-04",7.6,1,0,0,0,730,1,1,"a",3,90,0,0,1,0,0,1,1,2025,"Tottenham",3,3,0.14,0.03,9,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",21,"2026-01-07",1.9,0,0,0,0,730,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Brentford",3,3,0.25,0,2,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",22,"2026-01-17",7.7,1,0,0,0,730,1,2,"h",3,83,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.19,0.04,9,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",23,"2026-01-24",5.2,1,0,0,0,730,1,3,"a",1,90,0,0,3,0,0,1,3,2025,"West Ham",3,3,0.35,0.01,7,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",24,"2026-02-02",3.9,0,0,0,0,730,0,3,"h",0,79,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.18,0,2,56,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",25,"2026-02-07",2.5,0,0,0,0,730,0,3,"a",0,84,1,0,2,0,0,0,3,2025,"Arsenal",5,3,0.08,0.02,1,56,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",26,"2026-02-11",2.4,0,0,0,0,730,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0.1,0.08,2,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",27,"2026-02-22",1,0,0,0,0,730,3,1,"h",0,69,1,0,2,0,0,1,3,2025,"Fulham",3,3,0,0.11,1,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",28,"2026-02-28",0,0,0,0,0,730,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,55,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",29,"2026-03-03",0,0,0,0,0,730,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,0,54,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",30,"2026-03-14",2.9,0,0,0,0,730,1,0,"h",0,77,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.13,0,2,54,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",31,"2026-03-22",14.8,1,0,0,0,730,2,1,"a",3,90,1,0,1,0,0,2,1,2025,"Newcastle",3,3,1.06,0.05,8,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",32,"2026-04-12",4.4,0,0,0,0,730,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Tottenham",3,3,0.67,0,1,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",33,"2026-04-19",2.2,0,0,0,0,730,3,4,"a",0,83,0,0,3,0,0,3,4,2025,"Aston Villa",3,3,0.08,0,2,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",34,"2026-04-24",2.9,0,0,0,0,730,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0,0.01,2,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",35,"2026-05-02",1.7,0,0,0,0,730,1,1,"a",0,71,1,0,1,0,0,1,1,2025,"Wolves",2,3,0.06,0.07,1,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",36,"2026-05-09",9.7,0,0,0,0,730,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0.18,0.11,2,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",37,"2026-05-17",5.9,1,0,0,0,730,3,1,"a",1,76,0,0,1,0,0,3,1,2025,"Everton",3,3,0.33,0.01,7,53,TRUE
+"Brian Brobbey","Brobbey","Sunderland","FWD",38,"2026-05-24",4,0,0,1,0,730,1,2,"h",0,60,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0.91,0.01,5,53,TRUE

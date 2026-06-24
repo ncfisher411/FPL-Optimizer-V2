@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",1,"2025-08-16",3.8,0,0,0,0,646,4,0,"h",0,90,0,0,4,0,0,0,4,2025,"Man City",4,2,0,0.04,2,55,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",2,"2025-08-23",1.4,0,0,0,0,646,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Bournemouth",3,2,0,0.02,1,55,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",3,"2025-08-30",2.2,0,0,0,0,646,3,2,"h",0,90,0,0,3,0,0,2,3,2025,"Everton",3,2,0.01,0.03,2,55,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",4,"2025-09-13",3.7,0,0,0,0,646,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Newcastle",3,2,0,0.09,3,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",5,"2025-09-20",4.5,0,0,0,0,646,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Leeds",3,2,0.23,0.11,4,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",6,"2025-09-27",0.4,0,0,0,0,646,1,1,"a",0,63,1,0,0,0,0,1,1,2025,"Tottenham",3,2,0,0.01,2,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",7,"2025-10-05",3.5,0,0,0,0,646,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,2,0,0,4,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",8,"2025-10-18",4.6,0,0,0,0,646,0,2,"a",0,75,0,0,1,0,0,0,2,2025,"Sunderland",3,2,0.1,0.12,2,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",9,"2025-10-26",0.4,0,0,0,0,646,3,2,"h",0,22,0,0,1,0,0,2,3,2025,"Burnley",2,2,0.02,0.02,1,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",10,"2025-11-01",1.2,0,0,0,0,646,0,3,"a",0,45,0,0,2,0,0,0,3,2025,"Fulham",3,2,0,0.01,1,54,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",11,"2025-11-08",1.3,0,0,0,0,646,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Chelsea",4,2,0,0.02,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",12,"2025-11-22",3.3,0,0,0,0,646,2,0,"h",0,90,1,0,2,0,0,0,2,2025,"Crystal Palace",3,2,0.1,0,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",13,"2025-11-30",4.1,0,0,0,0,646,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Aston Villa",3,2,0.17,0.02,4,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",14,"2025-12-03",0.6,0,0,0,0,646,1,0,"h",0,84,1,0,1,0,0,0,1,2025,"Forest",3,2,0,0.01,1,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",15,"2025-12-08",0,0,0,0,0,646,4,1,"h",0,0,0,0,0,0,0,1,4,2025,"Man Utd",4,2,0,0,0,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",16,"2025-12-13",2.5,0,0,0,0,646,1,2,"a",1,90,0,0,2,0,0,1,2,2025,"Arsenal",5,2,0,0.06,5,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",17,"2025-12-20",1.1,0,0,0,0,646,2,0,"h",0,90,1,0,2,0,0,0,2,2025,"Brentford",3,2,0,0.04,1,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",18,"2025-12-27",3.3,0,0,0,0,646,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Liverpool",4,2,0,0.02,4,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",19,"2025-12-30",2,0,0,0,0,646,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Man Utd",4,2,0,0.01,4,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",20,"2026-01-03",2.5,0,0,0,0,646,0,3,"h",0,45,0,0,0,0,0,3,0,2025,"West Ham",3,2,0,0.24,1,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",21,"2026-01-07",6.8,0,0,0,0,646,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Everton",3,2,0.09,0.04,4,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",22,"2026-01-18",6.9,0,0,0,0,646,0,0,"h",0,70,0,0,0,0,0,0,0,2025,"Newcastle",3,2,0,0.19,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",23,"2026-01-24",4.2,0,0,0,0,646,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man City",4,2,0.05,0.02,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",24,"2026-01-31",4.8,0,0,0,0,646,2,0,"h",0,90,1,0,2,0,0,0,2,2025,"Bournemouth",3,2,0.06,0.09,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",25,"2026-02-07",2.1,0,0,0,0,646,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Chelsea",4,2,0,0.1,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",26,"2026-02-11",2.1,0,0,0,0,646,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Forest",3,2,0,0.01,5,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",26,"2026-02-18",0,0,0,0,0,646,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Arsenal",5,2,0,0,0,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",27,"2026-02-22",0.3,0,0,0,0,646,0,1,"a",0,3,0,0,1,0,0,0,1,2025,"Crystal Palace",3,2,0,0,1,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",28,"2026-02-27",6.7,1,0,1,0,646,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Aston Villa",3,2,0.29,0.01,14,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",29,"2026-03-03",2.4,0,0,0,0,646,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Liverpool",4,2,0.03,0.01,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",30,"2026-03-16",4,0,0,1,0,646,2,2,"a",2,90,0,0,2,0,0,2,2,2025,"Brentford",3,2,0,0.51,7,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",32,"2026-04-10",1.7,0,0,0,0,646,0,4,"a",0,84,0,0,4,0,0,0,4,2025,"West Ham",3,2,0.04,0.02,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",33,"2026-04-18",0.7,0,0,0,0,646,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Leeds",3,2,0,0.02,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",34,"2026-04-25",3.9,0,0,0,0,646,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,2,0.07,0.01,3,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",35,"2026-05-02",5.8,0,0,0,0,646,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Sunderland",3,2,0.03,0.17,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",36,"2026-05-09",1.8,0,0,0,0,646,0,3,"a",0,88,0,0,3,0,0,0,3,2025,"Brighton",3,2,0,0,4,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",37,"2026-05-17",1.4,0,0,0,0,646,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Fulham",3,2,0,0.02,2,53,TRUE
+"João Victor Gomes da Silva","J.Gomes","Wolves","MID",38,"2026-05-24",0,0,0,0,0,646,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Burnley",2,2,0,0,0,53,TRUE

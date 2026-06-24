@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Results compile script for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 10 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 status <- grepl('TRUE', unique(fixtures$finished))
 
@@ -23,13 +23,12 @@ time_results <- fixtures %>%
 # 2) Get the points from the goals module
 df <- goal_probs %>%
   filter(season==max(season)) %>%
-  select(name, position, team, opponent_team, was_home, xG_calculated) %>%
+  select(name, position, team, opponent_name, was_home, xG_calculated) %>%
   filter(name %in% current_players$name) %>%
-  rename(opponent = opponent_team) %>%
   mutate(position=ifelse(position=='GK', 'GKP', position))
 
 goal_results <- fixtures %>%
-  mutate(was_home = ifelse(h_a=='h', 'True', 'False')) %>%
+  mutate(was_home = ifelse(h_a=='h', 'TRUE', 'FALSE')) %>%
   left_join(current_players %>% mutate(season=max(fixtures$season)), 
             by=c('team' = 'team_name', 'season')) %>%
   left_join(df) %>%
@@ -42,10 +41,11 @@ goal_results <- fixtures %>%
 # 3) Get the points from assists module
 df <- assist_probs %>%
   filter(season==max(season)) %>%
-  select(name, position, team, opponent_team, was_home, xA_calculated) %>%
+  select(name, position, team, opponent_name, was_home, xA_calculated) %>%
   filter(name %in% current_players$name) %>%
-  rename(opponent = opponent_team) %>%
-  mutate(position=ifelse(position=='GK', 'GKP', position))
+  rename(opponent = opponent_name) %>%
+  mutate(position=ifelse(position=='GK', 'GKP', position),
+         was_home = ifelse(was_home=='TRUE', 'True', 'False'))
 
 assist_results <- fixtures %>%
   mutate(was_home = ifelse(h_a=='h', 'True', 'False')) %>%
@@ -57,10 +57,10 @@ assist_results <- fixtures %>%
 
 # 4) Get the points from clean sheets
 cs_results <- fixtures %>%
-  mutate(was_home = ifelse(h_a=='h', 'True', 'False')) %>%
+  mutate(was_home = ifelse(h_a=='h', 'TRUE', 'FALSE')) %>%
   left_join(current_players %>% mutate(season=max(fixtures$season)), 
             by=c('team' = 'team_name', 'season')) %>%
-  left_join(cs_probs %>% rename(opponent = opponent_team)) %>%
+  left_join(cs_probs %>% rename(opponent = opponent_name)) %>%
   left_join(time_results %>% select(-time_points)) %>%
   mutate(cs_points =  ifelse(position=='GKP' | position=='DEF', 4 * ((cs_team_weight_2*goals_conceded_0_team) + (cs_ha_weight_2*goals_conceded_0)), 0),
          cs_points =  ifelse(position=='MID', 1 * ((cs_team_weight_2*goals_conceded_0_team) + (cs_ha_weight_2*goals_conceded_0)), cs_points),
@@ -78,11 +78,13 @@ cards_results <- fixtures %>%
   left_join(current_players %>% mutate(season=max(fixtures$season)), 
             by=c('team' = 'team_name', 'season')) %>%
   left_join(yellow_cards_probs %>% 
-              rename(opponent = opponent_team) %>%
-              select(name, season, team, opponent, was_home, contains('cards'))) %>%
+              mutate(was_home = ifelse(was_home=='TRUE', 'True', 'False')) %>%
+              rename(opponent = opponent_name) %>%
+              select(name, season, team, opponent, was_home, yellow_cards_calculated)) %>%
   left_join(red_cards_probs %>% 
-              rename(opponent = opponent_team) %>%
-              select(name, season, team, opponent, was_home, contains('cards'))) %>%
+              mutate(was_home = ifelse(was_home=='TRUE', 'True', 'False')) %>%
+              rename(opponent = opponent_name) %>%
+              select(name, season, team, opponent, was_home, red_cards_calculated)) %>%
   left_join(probs_time) %>%
   mutate(cards_deductions = (yellow_cards_calculated * -1) + (red_cards_calculated * -3)) %>%
   distinct(name, GW, .keep_all = T)
@@ -91,7 +93,7 @@ cards_results <- fixtures %>%
 gk_results <- fixtures %>%
   mutate(was_home = ifelse(h_a=='h', 'True', 'False')) %>%
   left_join(saves_probs %>% 
-              rename(opponent = opponent_team) %>%
+              rename(opponent = opponent_name) %>%
               mutate(position = 'GKP')) %>%
   mutate(across(where(is.numeric), ~ifelse(is.na(.), 0, .)),
          saves_points = (saves/3 * 1),

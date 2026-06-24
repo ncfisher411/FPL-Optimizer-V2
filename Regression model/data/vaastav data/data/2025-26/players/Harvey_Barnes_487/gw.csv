@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Harvey Barnes","Barnes","Newcastle","MID",1,"2025-08-16",9.5,0,0,0,0,487,0,0,"a",0,89,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0.23,0.33,3,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",2,"2025-08-25",2.2,0,0,0,0,487,3,2,"h",0,75,0,0,2,0,0,2,3,2025,"Liverpool",4,3,0,0.36,2,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",3,"2025-08-30",0.8,0,0,0,0,487,0,0,"a",0,22,0,0,0,0,0,0,0,2025,"Leeds",3,3,0.03,0.02,1,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",4,"2025-09-13",1.8,0,0,0,0,487,0,1,"h",0,79,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.11,0.09,3,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",5,"2025-09-21",0.3,0,0,0,0,487,0,0,"a",0,28,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,1,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",6,"2025-09-28",0,0,0,0,0,487,2,1,"h",0,1,0,0,1,0,0,1,2,2025,"Arsenal",5,3,0,0,1,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",7,"2025-10-05",2.3,0,0,0,0,487,0,2,"h",0,20,0,0,0,0,0,2,0,2025,"Forest",3,3,0.31,0,1,65,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",8,"2025-10-18",2.7,0,0,0,0,487,1,2,"a",0,20,0,0,1,0,0,1,2,2025,"Brighton",3,3,0.03,0.07,1,64,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",9,"2025-10-25",3,0,0,0,0,487,1,2,"h",0,29,0,0,0,0,0,2,1,2025,"Fulham",3,3,0,0.05,1,64,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",10,"2025-11-02",0.8,0,0,0,0,487,1,3,"a",0,25,0,0,1,0,0,1,3,2025,"West Ham",3,3,0.03,0.01,1,63,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",11,"2025-11-09",7,1,0,0,0,487,1,3,"a",2,76,0,0,1,0,0,1,3,2025,"Brentford",3,3,0.3,0.01,9,63,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",12,"2025-11-22",15.9,2,0,0,0,487,1,2,"h",3,84,0,0,1,0,0,2,1,2025,"Man City",4,3,1.47,0.26,15,63,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",13,"2025-11-29",4.3,0,0,0,0,487,4,1,"a",0,70,0,0,1,0,0,4,1,2025,"Everton",3,3,0.27,0.05,2,63,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",14,"2025-12-02",5.3,0,0,0,0,487,2,2,"h",0,65,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0.22,0.18,3,64,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",15,"2025-12-06",0,0,0,0,0,487,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,64,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",16,"2025-12-14",1.8,0,0,0,0,487,0,1,"a",0,31,0,0,0,0,0,0,1,2025,"Sunderland",3,3,0,0.01,1,64,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",17,"2025-12-20",0.9,0,0,0,0,487,2,2,"h",0,18,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0.19,0,1,62,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",18,"2025-12-26",1.8,0,0,0,0,487,0,1,"a",0,22,0,0,0,0,0,0,1,2025,"Man Utd",4,3,0,0.08,1,62,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",19,"2025-12-30",6.2,0,0,0,0,487,3,1,"a",0,71,0,0,1,0,0,3,1,2025,"Burnley",2,3,0.33,0.02,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",20,"2026-01-04",8.1,0,0,0,0,487,0,2,"h",0,27,0,0,0,0,0,2,0,2025,"Crystal Palace",3,3,0.47,0.21,1,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",21,"2026-01-07",14.3,2,0,0,0,487,3,4,"h",3,90,0,0,3,0,0,4,3,2025,"Leeds",3,3,0.28,0.02,15,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",22,"2026-01-18",4.8,0,0,0,0,487,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Wolves",2,3,0.04,0.1,3,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",23,"2026-01-25",3.6,0,0,0,0,487,2,0,"h",0,90,0,0,2,0,0,0,2,2025,"Aston Villa",3,3,0.57,0.02,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",24,"2026-01-31",0.9,0,0,0,0,487,1,4,"a",0,72,0,0,3,0,0,1,4,2025,"Liverpool",4,3,0.04,0.01,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",25,"2026-02-07",1.1,0,0,0,0,487,3,2,"h",0,90,0,0,3,0,0,2,3,2025,"Brentford",3,3,0.34,0.04,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",26,"2026-02-10",5.3,0,0,0,0,487,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.25,0.05,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",27,"2026-02-21",1.2,0,0,0,0,487,1,2,"a",0,30,1,0,0,0,0,1,2,2025,"Man City",4,3,0.01,0.01,0,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",28,"2026-02-28",4,0,0,0,0,487,3,2,"h",0,34,0,0,1,0,0,2,3,2025,"Everton",3,3,0.11,0.1,1,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",29,"2026-03-04",4.9,0,0,0,0,487,1,2,"h",0,45,0,0,1,0,0,2,1,2025,"Man Utd",4,3,0.26,0.01,1,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",30,"2026-03-14",2.1,0,0,0,0,487,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Chelsea",4,3,0,0.04,3,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",31,"2026-03-22",2.2,0,0,0,0,487,2,1,"h",0,75,0,0,1,0,0,1,2,2025,"Sunderland",3,3,0.04,0.01,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",32,"2026-04-12",0.4,0,0,0,0,487,1,2,"a",0,19,0,0,2,0,0,1,2,2025,"Crystal Palace",3,3,0,0.01,1,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",33,"2026-04-18",2.6,0,0,0,0,487,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Bournemouth",3,3,0.17,0.08,2,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",34,"2026-04-25",2.5,0,0,0,0,487,0,1,"a",0,24,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0.07,1,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",35,"2026-05-02",5.3,1,0,0,0,487,1,3,"h",0,22,0,0,0,0,0,3,1,2025,"Brighton",3,3,0.26,0.01,6,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",36,"2026-05-10",7,1,0,0,0,487,1,1,"a",1,29,0,0,1,0,0,1,1,2025,"Forest",3,3,0.29,0.11,7,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",37,"2026-05-17",7.1,0,0,1,0,487,1,3,"h",0,74,0,0,1,0,0,3,1,2025,"West Ham",3,3,0.11,0.25,5,61,TRUE
+"Harvey Barnes","Barnes","Newcastle","MID",38,"2026-05-24",3,0,0,0,0,487,0,2,"a",0,45,0,0,1,0,0,0,2,2025,"Fulham",3,3,0.08,0.03,1,61,TRUE

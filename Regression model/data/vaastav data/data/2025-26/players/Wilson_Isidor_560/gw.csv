@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Wilson Isidor","Isidor","Sunderland","FWD",1,"2025-08-16",5.1,1,0,0,0,560,0,3,"h",0,14,0,0,0,0,0,3,0,2025,"West Ham",3,3,0.04,0,5,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",2,"2025-08-23",0.4,0,0,0,0,560,0,2,"a",0,27,0,0,1,0,0,0,2,2025,"Burnley",2,3,0,0,1,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",3,"2025-08-30",7.4,1,0,0,0,560,1,2,"h",3,25,0,0,1,0,0,2,1,2025,"Brentford",3,3,0.24,0,8,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",4,"2025-09-13",1.8,0,0,0,0,560,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.11,0,2,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",5,"2025-09-21",8,1,0,0,0,560,1,1,"h",3,79,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.62,0,9,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",6,"2025-09-27",2.3,0,0,0,0,560,1,0,"a",0,84,0,0,0,0,0,1,0,2025,"Forest",3,3,0.22,0.03,2,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",7,"2025-10-04",0.3,0,0,0,0,560,0,2,"a",0,58,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0,1,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",8,"2025-10-18",0.6,0,0,0,0,560,0,2,"h",0,75,0,0,0,0,0,2,0,2025,"Wolves",2,3,0.04,0,2,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",9,"2025-10-25",7.4,1,0,0,0,560,2,1,"a",1,74,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0.8,0,7,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",10,"2025-11-03",3.3,0,0,0,0,560,1,1,"h",0,82,0,0,1,0,0,1,1,2025,"Everton",3,3,0.28,0,2,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",11,"2025-11-08",1.2,0,0,0,0,560,2,2,"h",0,62,0,0,1,0,0,2,2,2025,"Arsenal",5,3,0.11,0.01,2,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",12,"2025-11-22",1.1,0,0,0,0,560,0,1,"a",0,63,0,0,0,0,0,0,1,2025,"Fulham",3,3,0.11,0.01,2,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",13,"2025-11-29",2.9,0,0,0,0,560,2,3,"h",0,62,0,0,2,0,0,3,2,2025,"Bournemouth",3,3,0.03,0,2,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",14,"2025-12-03",1.1,0,0,0,0,560,1,1,"a",0,28,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0.18,0,1,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",15,"2025-12-06",2.7,0,0,0,0,560,0,3,"a",0,55,0,0,2,0,0,0,3,2025,"Man City",4,3,0.45,0,1,56,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",16,"2025-12-14",2.2,0,0,0,0,560,0,1,"h",0,20,1,0,0,0,0,1,0,2025,"Newcastle",3,3,0.03,0,0,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",17,"2025-12-20",0,0,0,0,0,560,0,0,"a",0,18,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0,1,55,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",18,"2025-12-28",1.9,0,0,0,0,560,1,1,"h",0,22,0,0,0,0,0,1,1,2025,"Leeds",3,3,0.04,0,1,54,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",19,"2026-01-01",2.9,0,0,0,0,560,0,0,"h",0,32,0,0,0,0,0,0,0,2025,"Man City",4,3,0.09,0.01,1,54,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",20,"2026-01-04",0,0,0,0,0,560,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0,0,53,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",21,"2026-01-07",0,0,0,0,0,560,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Brentford",3,3,0,0,0,53,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",22,"2026-01-17",0,0,0,0,0,560,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,52,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",23,"2026-01-24",0.7,0,0,0,0,560,1,3,"a",0,15,0,0,0,0,0,1,3,2025,"West Ham",3,3,0.11,0,1,52,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",24,"2026-02-02",2.5,0,0,0,0,560,0,3,"h",0,10,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.08,0.01,1,52,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",25,"2026-02-07",0,0,0,0,0,560,0,3,"a",0,5,0,0,1,0,0,0,3,2025,"Arsenal",5,3,0,0,1,52,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",26,"2026-02-11",0,0,0,0,0,560,1,0,"h",0,1,0,0,0,0,0,0,1,2025,"Liverpool",4,3,0,0,1,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",27,"2026-02-22",1,0,0,0,0,560,3,1,"h",0,20,0,0,1,0,0,1,3,2025,"Fulham",3,3,0.09,0.1,1,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",28,"2026-02-28",0,0,0,0,0,560,1,1,"a",0,1,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,1,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",29,"2026-03-03",0.8,0,0,1,0,560,1,0,"a",0,34,0,0,0,0,0,1,0,2025,"Leeds",3,3,0.06,0,4,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",30,"2026-03-14",0,0,0,0,0,560,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Brighton",3,3,0,0,0,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",31,"2026-03-22",0,0,0,0,0,560,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,51,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",32,"2026-04-12",0,0,0,0,0,560,0,1,"h",0,1,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0,1,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",33,"2026-04-19",4.9,1,0,0,0,560,3,4,"a",0,6,0,0,1,0,0,3,4,2025,"Aston Villa",3,3,0.65,0,5,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",34,"2026-04-24",1.8,0,0,0,0,560,5,0,"h",0,25,0,0,1,0,0,0,5,2025,"Forest",3,3,0.04,0.01,1,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",35,"2026-05-02",0.6,0,0,0,0,560,1,1,"a",0,18,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0.02,1,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",36,"2026-05-09",0,0,0,0,0,560,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0,0,0,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",37,"2026-05-17",5.6,1,0,0,0,560,3,1,"a",0,13,0,0,0,0,0,3,1,2025,"Everton",3,3,0.19,0.17,5,50,TRUE
+"Wilson Isidor","Isidor","Sunderland","FWD",38,"2026-05-24",1,0,0,0,0,560,1,2,"h",0,29,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0.09,0.01,1,50,TRUE

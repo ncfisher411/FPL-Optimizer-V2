@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Patrick Dorgu","Dorgu","Man Utd","DEF",1,"2025-08-17",2,0,0,0,0,441,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Arsenal",5,4,0.04,0.02,1,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",2,"2025-08-24",1.5,0,0,0,0,441,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Fulham",3,4,0,0.04,2,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",3,"2025-08-30",0,0,0,0,0,441,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Burnley",2,4,0,0,0,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",4,"2025-09-14",9.7,0,0,0,0,441,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Man City",4,4,0.2,0.1,1,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",5,"2025-09-20",7.3,0,0,1,0,441,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Chelsea",4,4,0,0.39,5,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",6,"2025-09-27",1.2,0,0,0,0,441,1,3,"a",0,84,1,0,2,0,0,1,3,2025,"Brentford",3,4,0,0.01,0,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",7,"2025-10-04",1.7,0,0,0,0,441,0,2,"h",0,26,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,45,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",8,"2025-10-19",2.2,0,0,0,0,441,2,1,"a",0,31,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0.02,1,44,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",9,"2025-10-25",0.4,0,0,0,0,441,2,4,"h",0,20,1,0,2,0,0,4,2,2025,"Brighton",3,4,0,0,-1,44,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",10,"2025-11-01",2.6,0,0,0,0,441,2,2,"a",0,22,0,0,0,0,0,2,2,2025,"Forest",3,4,0.33,0,1,43,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",11,"2025-11-08",3.5,0,0,0,0,441,2,2,"a",0,79,1,0,0,0,0,2,2,2025,"Tottenham",3,4,0,0.15,5,43,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",12,"2025-11-24",2.3,0,0,0,0,441,1,0,"h",0,57,0,0,1,0,0,0,1,2025,"Everton",3,4,0.15,0.02,1,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",13,"2025-11-30",0,0,0,0,0,441,2,1,"a",0,1,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0,0,1,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",14,"2025-12-04",3,0,0,0,0,441,1,1,"h",0,22,0,0,1,0,0,1,1,2025,"West Ham",3,4,0,0.03,1,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",15,"2025-12-08",0.3,0,0,0,0,441,4,1,"a",0,6,0,0,0,0,0,4,1,2025,"Wolves",2,4,0,0,1,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",16,"2025-12-15",0.4,0,0,0,0,441,4,4,"h",0,1,0,0,0,0,0,4,4,2025,"Bournemouth",3,4,0,0,1,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",17,"2025-12-21",10.9,0,0,1,0,441,1,2,"a",1,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,4,0.06,0.2,5,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",18,"2025-12-26",12.5,1,0,0,0,441,0,1,"h",3,90,0,0,0,0,0,1,0,2025,"Newcastle",3,4,0.16,0.07,17,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",19,"2025-12-30",5.4,0,0,0,0,441,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,4,0.08,0.09,2,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",20,"2026-01-04",4.1,0,0,0,0,441,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Leeds",3,4,0.06,0.05,1,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",21,"2026-01-07",13.8,0,0,1,0,441,2,2,"a",1,90,0,0,2,0,0,2,2,2025,"Burnley",2,4,0.19,0.21,5,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",22,"2026-01-17",11.8,1,0,0,0,441,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Man City",4,4,0.47,0.02,15,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",23,"2026-01-25",5.3,1,0,0,0,441,3,2,"a",0,80,0,0,1,0,0,3,2,2025,"Arsenal",5,4,0.12,0,8,43,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",24,"2026-02-01",0,0,0,0,0,441,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Fulham",3,4,0,0,0,44,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",25,"2026-02-07",0,0,0,0,0,441,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Tottenham",3,4,0,0,0,44,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",26,"2026-02-10",0,0,0,0,0,441,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,4,0,0,0,43,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",27,"2026-02-23",0,0,0,0,0,441,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Everton",3,4,0,0,0,43,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",28,"2026-03-01",0,0,0,0,0,441,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0,0,0,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",29,"2026-03-04",0,0,0,0,0,441,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Newcastle",3,4,0,0,0,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",30,"2026-03-15",0,0,0,0,0,441,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Aston Villa",3,4,0,0,0,42,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",31,"2026-03-20",0,0,0,0,0,441,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Bournemouth",3,4,0,0,0,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",32,"2026-04-13",0,0,0,0,0,441,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Leeds",3,4,0,0,0,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",33,"2026-04-18",0,0,0,0,0,441,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Chelsea",4,4,0,0,0,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,441,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",35,"2026-05-03",0.3,0,0,0,0,441,2,3,"h",0,15,0,0,0,0,0,3,2,2025,"Liverpool",4,4,0.03,0,1,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",36,"2026-05-09",1.4,0,0,0,0,441,0,0,"a",0,25,0,0,0,0,0,0,0,2025,"Sunderland",3,4,0,0.06,1,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",37,"2026-05-17",3,0,0,0,0,441,2,3,"h",0,10,0,0,0,0,0,3,2,2025,"Forest",3,4,0.15,0.3,1,41,TRUE
+"Patrick Dorgu","Dorgu","Man Utd","DEF",38,"2026-05-24",13.7,1,0,1,0,441,3,0,"a",3,61,0,0,0,0,0,3,0,2025,"Brighton",3,4,0.35,0.06,18,41,TRUE

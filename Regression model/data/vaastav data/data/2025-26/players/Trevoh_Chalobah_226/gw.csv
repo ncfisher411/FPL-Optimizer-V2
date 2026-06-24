@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",1,"2025-08-17",3,0,0,0,0,226,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,4,0.09,0.03,6,50,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",2,"2025-08-22",7.9,1,0,0,0,226,5,1,"a",0,68,0,0,1,0,0,5,1,2025,"West Ham",3,4,0.31,0.01,8,50,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",3,"2025-08-30",5.2,0,0,1,0,226,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Fulham",3,4,0.12,0.21,13,50,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",4,"2025-09-13",5.3,0,0,0,0,226,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Brentford",3,4,0.03,0.29,3,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",5,"2025-09-20",7.7,1,0,0,0,226,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Man Utd",4,4,0.2,0.01,8,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",6,"2025-09-27",0,0,0,0,0,226,3,1,"h",0,52,0,1,3,0,0,1,3,2025,"Brighton",3,4,0,0,-3,52,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,226,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,52,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",8,"2025-10-18",2.6,0,0,0,0,226,3,0,"a",0,90,0,0,0,0,0,3,0,2025,"Forest",3,4,0,0,6,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",9,"2025-10-25",3.6,0,0,0,0,226,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Sunderland",3,4,0.02,0.02,1,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",10,"2025-11-01",1.8,0,0,0,0,226,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Tottenham",3,4,0,0,7,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",11,"2025-11-08",2,0,0,0,0,226,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Wolves",2,4,0,0.01,6,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",12,"2025-11-22",2.9,0,0,0,0,226,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Burnley",2,4,0.03,0.01,6,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",13,"2025-11-30",7.8,1,0,0,0,226,1,1,"h",1,90,0,0,1,0,0,1,1,2025,"Arsenal",5,4,0.07,0,9,51,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",14,"2025-12-03",5.1,0,0,0,0,226,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Leeds",3,4,0,0.04,1,52,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",15,"2025-12-06",2.8,0,0,0,0,226,0,0,"a",3,90,0,0,0,0,0,0,0,2025,"Bournemouth",3,4,0,0.01,11,52,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",16,"2025-12-13",3.7,0,0,0,0,226,0,2,"h",1,90,0,0,0,0,0,2,0,2025,"Everton",3,4,0.05,0,9,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",17,"2025-12-20",1.5,0,0,0,0,226,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Newcastle",3,4,0,0.01,3,55,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",18,"2025-12-27",0.7,0,0,0,0,226,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Aston Villa",3,4,0,0.01,0,55,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",19,"2025-12-30",3,0,0,0,0,226,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Bournemouth",3,4,0.22,0.02,1,56,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",20,"2026-01-04",2.5,0,0,0,0,226,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Man City",4,4,0,0,4,56,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",21,"2026-01-07",3.1,0,0,0,0,226,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Fulham",3,4,0,0,3,55,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",22,"2026-01-17",2.2,0,0,0,0,226,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Brentford",3,4,0,0,8,55,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",23,"2026-01-25",2.8,0,0,0,0,226,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0,0,4,56,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",24,"2026-01-31",3.1,0,0,0,0,226,2,3,"h",0,90,0,0,2,0,0,3,2,2025,"West Ham",3,4,0,0.02,3,57,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",25,"2026-02-07",2.9,0,0,0,0,226,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Wolves",2,4,0,0.01,4,57,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",26,"2026-02-10",2.9,0,0,0,0,226,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Leeds",3,4,0,0.03,3,58,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",27,"2026-02-21",2.4,0,0,0,0,226,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Burnley",2,4,0,0.01,2,58,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",28,"2026-03-01",0.3,0,0,0,0,226,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Arsenal",5,4,0,0.24,1,57,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",29,"2026-03-04",1.2,0,0,0,0,226,4,1,"a",0,90,0,0,1,0,0,4,1,2025,"Aston Villa",3,4,0,0,2,56,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",30,"2026-03-14",2.3,0,0,0,0,226,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Newcastle",3,4,0.16,0.02,2,56,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",31,"2026-03-21",0,0,0,0,0,226,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Everton",3,4,0,0,0,55,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",32,"2026-04-12",0,0,0,0,0,226,3,0,"h",0,0,0,0,0,0,0,0,3,2025,"Man City",4,4,0,0,0,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",33,"2026-04-18",0.2,0,0,0,0,226,1,0,"h",0,9,0,0,0,0,0,0,1,2025,"Man Utd",4,4,0,0,1,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",33,"2026-04-21",2.9,0,0,0,0,226,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Brighton",3,4,0.04,0.01,1,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",35,"2026-05-04",2.1,0,0,0,0,226,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Forest",3,4,0.1,0.01,1,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",36,"2026-05-09",0,0,0,0,0,226,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,4,0,0,0,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",37,"2026-05-19",0.4,0,0,0,0,226,1,2,"h",0,16,0,0,0,0,0,2,1,2025,"Tottenham",3,4,0,0,1,54,TRUE
+"Trevoh Chalobah","Chalobah","Chelsea","DEF",38,"2026-05-24",1.2,0,0,0,0,226,1,2,"a",0,25,0,0,0,0,0,1,2,2025,"Sunderland",3,4,0,0,1,54,TRUE

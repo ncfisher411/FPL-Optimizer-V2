@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Braiden Graham","Graham","Everton","FWD",1,"2025-08-18",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",2,"2025-08-24",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",3,"2025-08-30",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",4,"2025-09-13",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",5,"2025-09-20",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",6,"2025-09-29",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",8,"2025-10-18",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",9,"2025-10-26",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",10,"2025-11-03",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",11,"2025-11-08",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",12,"2025-11-24",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",13,"2025-11-29",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",14,"2025-12-02",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",15,"2025-12-06",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",16,"2025-12-13",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",17,"2025-12-20",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",18,"2025-12-27",NA,NA,NA,NA,NA,779,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Braiden Graham","Graham","Everton","FWD",19,"2025-12-30",0,0,0,0,0,779,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",20,"2026-01-04",0,0,0,0,0,779,4,2,"h",0,0,0,0,0,0,0,2,4,2025,"Brentford",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",21,"2026-01-07",0,0,0,0,0,779,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",22,"2026-01-18",0,0,0,0,0,779,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",23,"2026-01-26",0,0,0,0,0,779,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",24,"2026-01-31",0,0,0,0,0,779,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",25,"2026-02-07",0,0,0,0,0,779,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Fulham",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",26,"2026-02-10",0,0,0,0,0,779,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Bournemouth",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",27,"2026-02-23",0,0,0,0,0,779,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man Utd",4,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",28,"2026-02-28",0,0,0,0,0,779,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Newcastle",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",29,"2026-03-03",0,0,0,0,0,779,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",30,"2026-03-14",0,0,0,0,0,779,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",31,"2026-03-21",0,0,0,0,0,779,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",32,"2026-04-11",0,0,0,0,0,779,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Brentford",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",33,"2026-04-19",0,0,0,0,0,779,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Liverpool",4,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",34,"2026-04-25",0,0,0,0,0,779,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",35,"2026-05-04",0,0,0,0,0,779,3,3,"h",0,0,0,0,0,0,0,3,3,2025,"Man City",4,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",36,"2026-05-10",0,0,0,0,0,779,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",37,"2026-05-17",0,0,0,0,0,779,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"Braiden Graham","Graham","Everton","FWD",38,"2026-05-24",0,0,0,0,0,779,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,3,0,0,0,45,TRUE

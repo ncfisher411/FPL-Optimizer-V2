@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Mikel Merino Zazón","Merino","Arsenal","MID",1,"2025-08-17",0.1,0,0,0,0,22,1,0,"a",0,7,0,0,0,0,0,1,0,2025,"Man Utd",4,5,0,0,1,60,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",2,"2025-08-23",0,0,0,0,0,22,0,5,"h",0,0,0,0,0,0,0,5,0,2025,"Leeds",3,5,0,0,0,60,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",3,"2025-08-31",0.8,0,0,0,0,22,0,1,"a",0,69,0,0,0,0,0,0,1,2025,"Liverpool",4,5,0,0.02,3,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",4,"2025-09-13",6.7,0,0,0,0,22,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Forest",3,5,0.13,0.07,3,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",5,"2025-09-21",2.6,0,0,0,0,22,1,1,"h",0,45,0,0,1,0,0,1,1,2025,"Man City",4,5,0,0.03,1,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",6,"2025-09-28",5.4,1,0,0,0,22,2,1,"a",0,20,0,0,0,0,0,2,1,2025,"Newcastle",3,5,0.05,0,6,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",7,"2025-10-04",1.2,0,0,0,0,22,0,2,"h",0,11,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.16,0,1,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",8,"2025-10-18",1.1,0,0,0,0,22,1,0,"a",0,28,0,0,0,0,0,1,0,2025,"Fulham",3,5,0,0.01,1,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",9,"2025-10-26",0.4,0,0,0,0,22,0,1,"h",0,8,0,0,0,0,0,1,0,2025,"Crystal Palace",3,5,0,0,1,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",10,"2025-11-01",1.5,0,0,0,0,22,2,0,"a",0,45,0,0,0,0,0,2,0,2025,"Burnley",2,5,0,0.05,1,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",11,"2025-11-08",5.5,0,0,1,0,22,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Sunderland",3,5,0.38,0.05,5,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",12,"2025-11-23",4.5,0,0,1,0,22,1,4,"h",0,87,0,0,1,0,0,4,1,2025,"Tottenham",3,5,0.06,0.44,5,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",13,"2025-11-30",7.2,1,0,0,0,22,1,1,"a",2,90,0,0,1,0,0,1,1,2025,"Chelsea",4,5,0.65,0.02,9,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",14,"2025-12-03",12.2,1,0,1,0,22,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Brentford",3,5,0.66,0.18,13,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",15,"2025-12-06",0.8,0,0,0,0,22,1,2,"a",0,45,0,0,1,0,0,1,2,2025,"Aston Villa",3,5,0,0.01,1,60,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",16,"2025-12-13",1.4,0,0,0,0,22,1,2,"h",0,32,0,0,1,0,0,2,1,2025,"Wolves",2,5,0.05,0,1,61,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",17,"2025-12-20",0,0,0,0,0,22,1,0,"a",0,2,0,0,0,0,0,1,0,2025,"Everton",3,5,0,0,1,60,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",18,"2025-12-27",3.2,0,0,0,0,22,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brighton",3,5,0.1,0.02,2,59,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",19,"2025-12-30",5.4,0,0,0,0,22,1,4,"h",0,72,1,0,0,0,0,4,1,2025,"Aston Villa",3,5,0,0.03,2,58,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",20,"2026-01-03",1.9,0,0,0,0,22,3,2,"a",0,10,0,0,0,0,0,3,2,2025,"Bournemouth",3,5,0.05,0,1,58,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",21,"2026-01-08",0,0,0,0,0,22,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Liverpool",4,5,0,0,0,57,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",22,"2026-01-17",2.3,0,0,0,0,22,0,0,"a",0,33,0,0,0,0,0,0,0,2025,"Forest",3,5,0.21,0.5,1,56,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",23,"2026-01-25",8.4,1,0,0,0,22,3,2,"h",1,32,0,0,1,0,0,2,3,2025,"Man Utd",4,5,0.49,0.02,7,55,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",24,"2026-01-31",0,0,0,0,0,22,4,0,"a",0,0,0,0,0,0,0,4,0,2025,"Leeds",3,5,0,0,0,55,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",25,"2026-02-07",0,0,0,0,0,22,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Sunderland",3,5,0,0,0,55,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",26,"2026-02-12",0,0,0,0,0,22,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brentford",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",26,"2026-02-18",0,0,0,0,0,22,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Wolves",2,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",27,"2026-02-22",0,0,0,0,0,22,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Tottenham",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",28,"2026-03-01",0,0,0,0,0,22,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",29,"2026-03-04",0,0,0,0,0,22,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",30,"2026-03-14",0,0,0,0,0,22,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Everton",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",32,"2026-04-11",0,0,0,0,0,22,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Bournemouth",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",33,"2026-04-19",0,0,0,0,0,22,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man City",4,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,22,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",35,"2026-05-02",0,0,0,0,0,22,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Fulham",3,5,0,0,0,54,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",36,"2026-05-10",0,0,0,0,0,22,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"West Ham",3,5,0,0,0,53,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",37,"2026-05-18",0,0,0,0,0,22,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,5,0,0,0,53,TRUE
+"Mikel Merino Zazón","Merino","Arsenal","MID",38,"2026-05-24",1,0,0,0,0,22,2,1,"a",0,28,0,0,1,0,0,2,1,2025,"Crystal Palace",3,5,0.37,0,1,53,TRUE

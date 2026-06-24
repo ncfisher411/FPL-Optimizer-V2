@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Alfie Cresswell","Cresswell","Leeds","MID",1,"2025-08-18",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",2,"2025-08-23",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",3,"2025-08-30",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",4,"2025-09-13",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",5,"2025-09-20",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",6,"2025-09-27",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",7,"2025-10-04",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",8,"2025-10-18",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",9,"2025-10-24",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",10,"2025-11-01",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",11,"2025-11-09",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",12,"2025-11-23",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",13,"2025-11-29",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",14,"2025-12-03",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",15,"2025-12-06",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",16,"2025-12-14",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",17,"2025-12-20",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",18,"2025-12-28",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",19,"2026-01-01",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",20,"2026-01-04",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",21,"2026-01-07",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",22,"2026-01-17",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",23,"2026-01-26",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",24,"2026-01-31",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",25,"2026-02-06",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",26,"2026-02-10",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",27,"2026-02-21",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",28,"2026-02-28",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",29,"2026-03-03",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",30,"2026-03-15",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",31,"2026-03-21",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",32,"2026-04-13",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",33,"2026-04-18",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",33,"2026-04-22",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",35,"2026-05-01",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",36,"2026-05-11",NA,NA,NA,NA,NA,839,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",37,"2026-05-17",0,0,0,0,0,839,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,3,0,0,0,45,TRUE
+"Alfie Cresswell","Cresswell","Leeds","MID",38,"2026-05-24",0,0,0,0,0,839,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"West Ham",3,3,0,0,0,45,TRUE

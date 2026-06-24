@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Christantus Uche","Uche","Crystal Palace","FWD",1,"2025-08-17",NA,NA,NA,NA,NA,732,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",2,"2025-08-24",NA,NA,NA,NA,NA,732,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",3,"2025-08-31",NA,NA,NA,NA,NA,732,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",4,"2025-09-13",2.3,0,0,0,0,732,0,0,"h",0,6,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0.01,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",5,"2025-09-20",0,0,0,0,0,732,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"West Ham",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",6,"2025-09-27",0,0,0,0,0,732,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",7,"2025-10-05",0,0,0,0,0,732,1,2,"a",0,1,0,0,1,0,0,1,2,2025,"Everton",3,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",8,"2025-10-18",0,0,0,0,0,732,3,3,"h",0,0,0,0,0,0,0,3,3,2025,"Bournemouth",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",9,"2025-10-26",0,0,0,0,0,732,0,1,"a",0,1,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",10,"2025-11-01",0,0,0,0,0,732,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Brentford",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",11,"2025-11-09",0,0,0,0,0,732,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",12,"2025-11-22",0,0,0,0,0,732,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",13,"2025-11-30",0.1,0,0,0,0,732,2,1,"h",0,12,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",14,"2025-12-03",0,0,0,0,0,732,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",15,"2025-12-07",2.4,0,0,0,0,732,2,1,"a",0,24,0,0,0,0,0,2,1,2025,"Fulham",3,3,0.29,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",16,"2025-12-14",0.2,0,0,0,0,732,3,0,"h",0,13,0,0,1,0,0,0,3,2025,"Man City",4,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",17,"2025-12-20",0.8,0,0,1,0,732,1,4,"a",0,13,0,0,1,0,0,1,4,2025,"Leeds",3,3,0,0,4,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",18,"2025-12-28",0.6,0,0,0,0,732,1,0,"h",0,13,0,0,0,0,0,0,1,2025,"Tottenham",3,3,0.02,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",19,"2026-01-01",0,0,0,0,0,732,1,1,"h",0,8,0,0,0,0,0,1,1,2025,"Fulham",3,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",20,"2026-01-04",1.3,0,0,0,0,732,0,2,"a",0,18,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0.04,0.01,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",21,"2026-01-07",0,0,0,0,0,732,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",22,"2026-01-17",0,0,0,0,0,732,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Sunderland",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",23,"2026-01-25",0.1,0,0,0,0,732,3,1,"h",0,5,0,0,0,0,0,1,3,2025,"Chelsea",4,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",24,"2026-02-01",0,0,0,0,0,732,1,1,"a",0,29,0,0,0,0,0,1,1,2025,"Forest",3,3,0.03,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",25,"2026-02-08",0,0,0,0,0,732,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",26,"2026-02-11",0.2,0,0,0,0,732,3,2,"h",0,7,0,0,0,0,0,2,3,2025,"Burnley",2,3,0,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",27,"2026-02-22",0,0,0,0,0,732,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",28,"2026-03-01",0,0,0,0,0,732,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",29,"2026-03-05",0.8,0,0,0,0,732,3,1,"a",0,9,0,0,0,0,0,3,1,2025,"Tottenham",3,3,0.1,0,1,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",30,"2026-03-15",0,0,0,0,0,732,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",32,"2026-04-12",0,0,0,0,0,732,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",33,"2026-04-20",0,0,0,0,0,732,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"West Ham",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",34,"2026-04-25",0,0,0,0,0,732,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",35,"2026-05-03",0,0,0,0,0,732,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Bournemouth",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",36,"2026-05-13",0,0,0,0,0,732,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",36,"2026-05-10",0,0,0,0,0,732,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Everton",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",37,"2026-05-17",0,0,0,0,0,732,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Brentford",3,3,0,0,0,55,TRUE
+"Christantus Uche","Uche","Crystal Palace","FWD",38,"2026-05-24",0,0,0,0,0,732,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0,0,0,55,TRUE

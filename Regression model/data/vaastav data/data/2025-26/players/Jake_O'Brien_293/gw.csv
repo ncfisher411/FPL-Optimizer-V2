@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Jake O'Brien","O'Brien","Everton","DEF",1,"2025-08-18",1.2,0,0,0,0,293,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Leeds",3,3,0.17,0.01,2,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",2,"2025-08-24",2,0,0,0,0,293,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Brighton",3,3,0,0.01,6,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",3,"2025-08-30",3,0,0,0,0,293,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Wolves",2,3,0.07,0.01,1,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",4,"2025-09-13",3.7,0,0,0,0,293,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0.05,0.06,6,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",5,"2025-09-20",1.1,0,0,0,0,293,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0,0.02,1,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",6,"2025-09-29",2.3,0,0,0,0,293,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"West Ham",3,3,0.04,0.02,2,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",7,"2025-10-05",7,0,0,0,0,293,1,2,"h",1,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.08,0.07,5,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",8,"2025-10-18",2,0,0,0,0,293,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man City",4,3,0,0,1,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",9,"2025-10-26",1.8,0,0,0,0,293,3,0,"h",0,65,0,0,2,0,0,0,3,2025,"Tottenham",3,3,0,0,1,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",10,"2025-11-03",2.4,0,0,0,0,293,1,1,"a",0,82,0,0,1,0,0,1,1,2025,"Sunderland",3,3,0,0.01,2,50,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",11,"2025-11-08",0,0,0,0,0,293,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Fulham",3,3,0,0,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",12,"2025-11-24",1.2,0,0,0,0,293,1,0,"a",0,80,0,0,0,0,0,1,0,2025,"Man Utd",4,3,0,0,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",13,"2025-11-29",2.5,0,0,0,0,293,4,1,"h",0,90,0,0,4,0,0,1,4,2025,"Newcastle",3,3,0,0.01,0,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",14,"2025-12-02",4.8,0,0,0,0,293,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Bournemouth",3,3,0.17,0.02,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",15,"2025-12-06",3.8,0,0,1,0,293,0,3,"h",0,90,1,0,0,0,0,3,0,2025,"Forest",3,3,0,0.07,8,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",16,"2025-12-13",4.6,0,0,0,0,293,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Chelsea",4,3,0,0.09,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",17,"2025-12-20",0.5,0,0,0,0,293,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.01,2,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",18,"2025-12-27",4.3,0,0,0,0,293,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Burnley",2,3,0.02,0.01,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",19,"2025-12-30",3.2,0,0,0,0,293,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,8,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",20,"2026-01-04",2.2,0,0,0,0,293,4,2,"h",0,90,0,0,4,0,0,2,4,2025,"Brentford",3,3,0,0.02,0,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",21,"2026-01-07",4,0,0,0,0,293,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0,0.1,2,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",22,"2026-01-18",2.7,0,0,0,0,293,1,0,"a",1,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,9,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",23,"2026-01-26",3,0,0,0,0,293,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,3,0,0.01,4,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",24,"2026-01-31",6.6,0,0,1,0,293,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,3,0.08,0.06,5,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",25,"2026-02-07",4.9,0,0,0,0,293,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Fulham",3,3,0.15,0.06,3,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",26,"2026-02-10",0.5,0,0,0,0,293,2,1,"h",0,68,0,1,2,0,0,1,2,2025,"Bournemouth",3,3,0,0.01,-2,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",27,"2026-02-23",0,0,0,0,0,293,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",28,"2026-02-28",3.2,0,0,0,0,293,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Newcastle",3,3,0,0.14,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",29,"2026-03-03",1.4,0,0,0,0,293,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0.01,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",30,"2026-03-14",2.1,0,0,0,0,293,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0,3,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",31,"2026-03-21",1.7,0,0,0,0,293,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0.01,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",32,"2026-04-11",2.3,0,0,1,0,293,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Brentford",3,3,0.11,0.01,4,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",33,"2026-04-19",4.1,0,0,0,0,293,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0,0.06,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",34,"2026-04-25",2.4,0,0,0,0,293,1,2,"a",0,64,1,0,1,0,0,1,2,2025,"West Ham",3,3,0,0.05,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",35,"2026-05-04",7.3,1,0,0,0,293,3,3,"h",0,90,1,0,3,0,0,3,3,2025,"Man City",4,3,0.17,0,6,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",36,"2026-05-10",1.9,0,0,0,0,293,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Crystal Palace",3,3,0,0.01,1,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",37,"2026-05-17",3.9,0,0,0,0,293,3,1,"h",0,87,1,0,2,0,0,1,3,2025,"Sunderland",3,3,0.56,0.01,0,49,TRUE
+"Jake O'Brien","O'Brien","Everton","DEF",38,"2026-05-24",1.9,0,0,0,0,293,0,1,"a",0,61,1,0,1,0,0,0,1,2025,"Tottenham",3,3,0,0.02,1,49,TRUE

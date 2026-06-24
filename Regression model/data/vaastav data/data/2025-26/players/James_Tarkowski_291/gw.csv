@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"James Tarkowski","Tarkowski","Everton","DEF",1,"2025-08-18",4,0,0,0,0,291,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Leeds",3,3,0.2,0.01,4,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",2,"2025-08-24",1.8,0,0,0,0,291,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Brighton",3,3,0,0,8,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",3,"2025-08-30",2.4,0,0,0,0,291,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Wolves",2,3,0,0,3,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",4,"2025-09-13",4.6,0,0,0,0,291,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0,0.04,8,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",5,"2025-09-20",4.2,0,0,0,0,291,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0,0.02,3,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",6,"2025-09-29",3.7,0,0,0,0,291,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"West Ham",3,3,0,0.11,1,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",7,"2025-10-05",6,0,0,0,0,291,1,2,"h",1,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0.26,5,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",8,"2025-10-18",2.9,0,0,0,0,291,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man City",4,3,0,0,3,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",9,"2025-10-26",3.3,0,0,0,0,291,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"Tottenham",3,3,0,0.06,1,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",10,"2025-11-03",2.6,0,0,0,0,291,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Sunderland",3,3,0,0.02,2,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",11,"2025-11-08",5.1,0,0,0,0,291,0,2,"h",0,90,1,0,0,0,0,2,0,2025,"Fulham",3,3,0.16,0,5,54,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",12,"2025-11-24",4.6,0,0,0,0,291,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Man Utd",4,3,0,0.08,8,54,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",13,"2025-11-29",6.9,0,0,1,0,291,4,1,"h",0,90,0,0,4,0,0,1,4,2025,"Newcastle",3,3,0,0.16,3,54,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",14,"2025-12-02",4,0,0,0,0,291,1,0,"a",2,90,0,0,0,0,0,1,0,2025,"Bournemouth",3,3,0,0.16,10,54,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",15,"2025-12-06",3,0,0,0,0,291,0,3,"h",2,90,1,0,0,0,0,3,0,2025,"Forest",3,3,0,0.01,9,54,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",16,"2025-12-13",2,0,0,0,0,291,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Chelsea",4,3,0.04,0.01,1,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",17,"2025-12-20",4.3,0,0,0,0,291,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.05,3,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",18,"2025-12-27",2.5,0,0,0,0,291,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Burnley",2,3,0,0,8,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",19,"2025-12-30",6.9,0,0,0,0,291,2,0,"a",1,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.36,0,9,55,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",20,"2026-01-04",8,0,0,0,0,291,4,2,"h",0,90,0,0,4,0,0,2,4,2025,"Brentford",3,3,0.29,0.06,2,56,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",21,"2026-01-07",5.7,0,0,0,0,291,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0,0.01,4,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",22,"2026-01-18",3.2,0,0,0,0,291,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.1,0,8,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",23,"2026-01-26",3.9,0,0,0,0,291,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,3,0,0.01,4,58,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",24,"2026-01-31",3.8,0,0,0,0,291,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,3,0.09,0.21,2,58,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",25,"2026-02-07",0.9,0,0,0,0,291,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Fulham",3,3,0.24,0,2,58,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",26,"2026-02-10",5.7,0,0,0,0,291,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Bournemouth",3,3,0.24,0.02,1,58,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",27,"2026-02-23",4.6,0,0,0,0,291,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Man Utd",4,3,0.19,0.01,1,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",28,"2026-02-28",2.9,0,0,0,0,291,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Newcastle",3,3,0,0,3,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",29,"2026-03-03",6.5,1,0,0,0,291,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Burnley",2,3,0.13,0.01,15,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",30,"2026-03-14",0,0,0,0,0,291,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",31,"2026-03-21",4.4,0,0,0,0,291,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0.04,0,6,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",32,"2026-04-11",3.3,0,0,0,0,291,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Brentford",3,3,0,0,3,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",33,"2026-04-19",4.2,0,0,0,0,291,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0.13,0,1,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",34,"2026-04-25",6.3,0,0,1,0,291,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"West Ham",3,3,0,0.21,3,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",35,"2026-05-04",2.3,0,0,0,0,291,3,3,"h",0,90,1,0,3,0,0,3,3,2025,"Man City",4,3,0,0,0,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",36,"2026-05-10",14.8,1,0,1,0,291,2,2,"a",3,90,0,0,2,0,0,2,2,2025,"Crystal Palace",3,3,0.19,0.55,15,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",37,"2026-05-17",7.2,0,0,0,0,291,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Sunderland",3,3,0.07,0.02,3,57,TRUE
+"James Tarkowski","Tarkowski","Everton","DEF",38,"2026-05-24",3.2,0,0,0,0,291,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,3,0.06,0,3,58,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",1,"2025-08-16",4.6,0,0,0,0,145,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Fulham",3,3,0,0.09,2,45,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",2,"2025-08-24",1,0,0,0,0,145,0,2,"a",0,66,1,0,2,0,0,0,2,2025,"Everton",3,3,0,0.02,0,45,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",3,"2025-08-31",1.7,0,0,0,0,145,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Man City",4,3,0,0.36,2,45,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",4,"2025-09-13",0.6,0,0,0,0,145,1,2,"a",0,23,0,0,1,0,0,1,2,2025,"Bournemouth",3,3,0,0,1,45,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",5,"2025-09-20",0,0,0,0,0,145,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,45,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",6,"2025-09-27",6.7,1,0,0,0,145,3,1,"a",1,5,0,0,0,0,0,3,1,2025,"Chelsea",4,3,0.64,0,8,44,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",7,"2025-10-05",3,0,0,0,0,145,1,1,"a",0,20,0,0,0,0,0,1,1,2025,"Wolves",2,3,0.04,0.07,1,44,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",8,"2025-10-18",3.2,0,0,0,0,145,1,2,"h",0,54,0,0,1,0,0,2,1,2025,"Newcastle",3,3,0.02,0.01,1,44,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",9,"2025-10-25",3.5,0,0,0,0,145,2,4,"a",0,58,0,0,2,0,0,2,4,2025,"Man Utd",4,3,0.04,0.2,0,44,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",10,"2025-11-01",0,0,0,0,0,145,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Leeds",3,3,0,0,0,44,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",11,"2025-11-09",0,0,0,0,0,145,0,0,"a",0,5,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",12,"2025-11-22",1.7,0,0,0,0,145,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Brentford",3,3,0,0.06,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",13,"2025-11-30",12.6,1,0,0,0,145,2,0,"a",3,83,0,0,0,0,0,2,0,2025,"Forest",3,3,0.4,0.29,15,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",14,"2025-12-03",5.5,0,0,0,0,145,4,3,"h",0,90,0,0,4,0,0,3,4,2025,"Aston Villa",3,3,0.06,0.11,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",15,"2025-12-07",7.9,0,0,0,0,145,1,1,"h",2,71,0,0,0,0,0,1,1,2025,"West Ham",3,3,0,0.44,8,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",16,"2025-12-13",0,0,0,0,0,145,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",17,"2025-12-20",3.5,0,0,0,0,145,0,0,"h",0,63,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0.03,0.27,6,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",18,"2025-12-27",0,0,0,0,0,145,1,2,"a",0,45,0,0,1,0,0,1,2,2025,"Arsenal",5,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",19,"2025-12-30",2.6,0,0,0,0,145,2,2,"a",0,57,0,0,2,0,0,2,2,2025,"West Ham",3,3,0.06,0.04,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",20,"2026-01-03",0.4,0,0,0,0,145,0,2,"h",0,20,0,0,0,0,0,2,0,2025,"Burnley",2,3,0.05,0.01,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",21,"2026-01-07",2.5,0,0,0,0,145,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Man City",4,3,0,0.01,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",22,"2026-01-19",0,0,0,0,0,145,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",23,"2026-01-24",0.7,0,0,0,0,145,1,2,"a",0,2,0,0,1,0,0,1,2,2025,"Fulham",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",24,"2026-01-31",2.1,0,0,0,0,145,1,1,"h",0,69,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0.16,6,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",25,"2026-02-08",2.1,0,0,0,0,145,1,0,"h",0,70,0,0,1,0,0,0,1,2025,"Crystal Palace",3,3,0.21,0.01,2,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",26,"2026-02-11",0,0,0,0,0,145,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Aston Villa",3,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",27,"2026-02-21",0.7,0,0,0,0,145,2,0,"a",0,14,0,0,0,0,0,2,0,2025,"Brentford",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",28,"2026-03-01",0.1,0,0,0,0,145,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Forest",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",29,"2026-03-04",0,0,0,0,0,145,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",30,"2026-03-14",0,0,0,0,0,145,1,0,"a",0,14,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",31,"2026-03-21",0,0,0,0,0,145,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",32,"2026-04-11",0,0,0,0,0,145,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",33,"2026-04-18",0.3,0,0,0,0,145,2,2,"a",0,15,0,0,1,0,0,2,2,2025,"Tottenham",3,3,0,0,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",33,"2026-04-21",3.6,0,0,1,0,145,0,3,"h",0,13,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0.1,4,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",35,"2026-05-02",2.1,0,0,0,0,145,1,3,"a",0,9,0,0,1,0,0,1,3,2025,"Newcastle",3,3,0,0.01,1,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",36,"2026-05-09",13.8,0,0,2,0,145,0,3,"h",3,87,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,1.14,15,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",37,"2026-05-17",7.2,0,0,0,0,145,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Leeds",3,3,0.09,0.5,2,43,TRUE
+"Maxim De Cuyper","De Cuyper","Brighton","DEF",38,"2026-05-24",6.2,0,0,0,0,145,3,0,"h",0,45,0,0,2,0,0,0,3,2025,"Man Utd",4,3,0.02,0.18,0,43,TRUE

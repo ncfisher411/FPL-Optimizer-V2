@@ -1,0 +1,438 @@
+"","name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"1","David Raya Martín","Raya","Arsenal","GKP",34,"2026-04-25",2.3,0,0,0,0,1,0,1,"h",3,90,0,0,0,3,0,1,0,2025,"Newcastle",3,5,0,0,10,60,TRUE
+"2","Kepa Arrizabalaga Revuelta","Arrizabalaga","Arsenal","GKP",34,"2026-04-25",0,0,0,0,0,2,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,40,TRUE
+"3","Tommy Setford","Setford","Arsenal","GKP",34,"2026-04-25",0,0,0,0,0,4,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,39,TRUE
+"4","Gabriel dos Santos Magalhães","Gabriel","Arsenal","DEF",34,"2026-04-25",4.4,0,0,0,0,5,0,1,"h",2,90,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.01,8,71,TRUE
+"5","William Saliba","Saliba","Arsenal","DEF",34,"2026-04-25",1.7,0,0,0,0,6,0,1,"h",1,90,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.01,7,61,TRUE
+"6","Riccardo Calafiori","Calafiori","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,7,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,56,TRUE
+"7","Jurriën Timber","J.Timber","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,8,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,61,TRUE
+"8","Myles Lewis-Skelly","Lewis-Skelly","Arsenal","DEF",34,"2026-04-25",0.6,0,0,0,0,10,0,1,"h",0,9,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.01,1,50,TRUE
+"9","Benjamin White","White","Arsenal","DEF",34,"2026-04-25",1.7,0,0,0,0,11,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.03,6,51,TRUE
+"10","Brayden Clarke","Clarke","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,13,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,37,TRUE
+"11","Josh Nichols","Nichols","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,15,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,37,TRUE
+"12","Bukayo Saka","Saka","Arsenal","MID",34,"2026-04-25",2.2,0,0,0,0,16,0,1,"h",0,9,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.04,0.01,1,98,TRUE
+"13","Martin Ødegaard","Ødegaard","Arsenal","MID",34,"2026-04-25",7.6,0,0,0,0,17,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.03,0.2,3,78,TRUE
+"14","Noni Madueke","Madueke","Arsenal","MID",34,"2026-04-25",4,0,0,0,0,18,0,1,"h",0,80,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.03,0.17,3,68,TRUE
+"15","Gabriel Martinelli Silva","Martinelli","Arsenal","MID",34,"2026-04-25",3.9,0,0,0,0,19,0,1,"h",0,37,1,0,0,0,0,1,0,2025,"Newcastle",3,5,0.12,0.01,0,68,TRUE
+"16","Leandro Trossard","Trossard","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,20,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,65,TRUE
+"17","Declan Rice","Rice","Arsenal","MID",34,"2026-04-25",1.3,0,0,0,0,21,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.02,2,72,TRUE
+"18","Mikel Merino Zazón","Merino","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,22,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,54,TRUE
+"19","Christian Nørgaard","Nørgaard","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,24,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,51,TRUE
+"20","Martín Zubimendi Ibáñez","Zubimendi","Arsenal","MID",34,"2026-04-25",3.9,0,0,0,0,26,0,1,"h",0,80,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.07,0.02,5,50,TRUE
+"21","Kai Havertz","Havertz","Arsenal","FWD",34,"2026-04-25",3.3,0,0,1,0,30,0,1,"h",0,33,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.03,4,73,TRUE
+"22","Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",34,"2026-04-25",0,0,0,0,0,31,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,64,TRUE
+"23","Eberechi Eze","Eze","Arsenal","MID",34,"2026-04-25",5,1,0,0,0,266,0,1,"h",0,52,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.17,0,6,72,TRUE
+"24","Cristhian Mosquera","Mosquera","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,662,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,53,TRUE
+"25","Viktor Gyökeres","Gyökeres","Arsenal","FWD",34,"2026-04-25",2.4,0,0,0,0,666,0,1,"h",0,56,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.03,0.01,1,88,TRUE
+"26","Max Dowman","Dowman","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,700,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,42,TRUE
+"27","Andre Harriman-Annous","Harriman-Annous","Arsenal","MID",34,"2026-04-25",0,0,0,0,0,711,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,44,TRUE
+"28","Piero Hincapié","Hincapie","Arsenal","DEF",34,"2026-04-25",4.4,0,0,0,0,725,0,1,"h",1,90,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0.25,9,51,TRUE
+"29","Marli Salmon","Salmon","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,759,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,40,TRUE
+"30","Emiliano Martínez Romero","Martinez","Aston Villa","GKP",34,"2026-04-25",3.8,0,0,0,0,32,0,1,"a",0,90,0,0,1,5,0,0,1,2025,"Fulham",3,3,0,0,3,51,TRUE
+"31","Marco Bizot","M.Bizot","Aston Villa","GKP",34,"2026-04-25",0,0,0,0,0,33,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,42,TRUE
+"32","Matty Cash","Cash","Aston Villa","DEF",34,"2026-04-25",4.4,0,0,0,0,36,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.03,2,47,TRUE
+"33","Lucas Digne","Digne","Aston Villa","DEF",34,"2026-04-25",0.4,0,0,0,0,37,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.02,0.01,2,45,TRUE
+"34","Ezri Konsa Ngoyo","Konsa","Aston Villa","DEF",34,"2026-04-25",2.1,0,0,0,0,38,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.01,2,44,TRUE
+"35","Ian Maatsen","Maatsen","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,39,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,42,TRUE
+"36","Tyrone Mings","Mings","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,40,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,43,TRUE
+"37","Pau Torres","Pau","Aston Villa","DEF",34,"2026-04-25",2.5,0,0,0,0,41,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.02,1,43,TRUE
+"38","Andrés García","A.García","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,42,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,39,TRUE
+"39","Lamare Bogarde","Bogarde","Aston Villa","DEF",34,"2026-04-25",0.8,0,0,0,0,44,0,1,"a",0,73,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.01,2,40,TRUE
+"40","Morgan Rogers","Rogers","Aston Villa","MID",34,"2026-04-25",2.2,0,0,0,0,47,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.15,0.02,2,74,TRUE
+"41","Youri Tielemans","Tielemans","Aston Villa","MID",34,"2026-04-25",2.1,0,0,0,0,48,0,1,"a",0,73,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.04,0.02,2,59,TRUE
+"42","Leon Bailey","Bailey","Aston Villa","MID",34,"2026-04-25",0.1,0,0,0,0,49,0,1,"a",0,16,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,1,55,TRUE
+"43","Emiliano Buendía Stati","Buendía","Aston Villa","MID",34,"2026-04-25",1.6,0,0,0,0,50,0,1,"a",0,73,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.04,0.02,2,53,TRUE
+"44","John McGinn","McGinn","Aston Villa","MID",34,"2026-04-25",7.6,0,0,0,0,54,0,1,"a",0,73,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.14,2,53,TRUE
+"45","Ross Barkley","Barkley","Aston Villa","MID",34,"2026-04-25",0.1,0,0,0,0,55,0,1,"a",0,16,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,1,48,TRUE
+"46","Boubacar Kamara","Kamara","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,58,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,49,TRUE
+"47","Amadou Onana","Onana","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,59,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,48,TRUE
+"48","Ollie Watkins","Watkins","Aston Villa","FWD",34,"2026-04-25",3.2,0,0,0,0,64,0,1,"a",0,79,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.39,0.02,2,87,TRUE
+"49","Harvey Elliott","Elliott","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,389,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,51,TRUE
+"50","Jadon Sancho","Sancho","Aston Villa","MID",34,"2026-04-25",0.6,0,0,0,0,456,0,1,"a",0,16,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0.02,1,58,TRUE
+"51","James Wright","Wright","Aston Villa","GKP",34,"2026-04-25",0,0,0,0,0,688,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,39,TRUE
+"52","Douglas Luiz Soares de Paulo","Douglas Luiz","Aston Villa","MID",34,"2026-04-25",1.9,0,0,0,0,699,0,1,"a",0,16,1,0,0,0,0,0,1,2025,"Fulham",3,3,0,0.02,0,49,TRUE
+"53","Bradley Burrowes","Burrowes","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,702,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,43,TRUE
+"54","Sam Proctor","Proctor","Aston Villa","GKP",34,"2026-04-25",0,0,0,0,0,703,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,39,TRUE
+"55","Travis Patterson","Patterson","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,710,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,39,TRUE
+"56","Victor Lindelöf","Lindelöf","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,719,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,45,TRUE
+"57","George Hemmings","George Hemmings","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,754,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,45,TRUE
+"58","Ronnie Hollingshead","Hollingshead","Aston Villa","GKP",34,"2026-04-25",0,0,0,0,0,757,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"59","Leon Routh","Leon Routh","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,768,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"60","TJ Carroll","Carroll","Aston Villa","DEF",34,"2026-04-25",0,0,0,0,0,781,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"61","Alysson Edward Franco da Rocha dos Santos","Alysson","Aston Villa","MID",34,"2026-04-25",0,0,0,0,0,792,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,50,TRUE
+"62","Tammy Abraham","Abraham","Aston Villa","FWD",34,"2026-04-25",0.3,0,0,0,0,808,0,1,"a",0,10,0,0,0,0,0,0,1,2025,"Fulham",3,3,0.29,0,1,58,TRUE
+"63","Reiss Nelson","Nelson","Brentford","MID",34,"2026-04-27",3.9,0,0,1,0,27,1,2,"a",0,17,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0.02,4,48,TRUE
+"64","Dango Ouattara","O.Dango","Brentford","MID",34,"2026-04-27",7.8,0,0,0,0,83,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Man Utd",4,3,0.63,0.19,1,59,TRUE
+"65","Caoimhín Kelleher","Kelleher","Brentford","GKP",34,"2026-04-27",2.7,0,0,0,0,101,1,2,"a",0,90,0,0,2,3,0,1,2,2025,"Man Utd",4,3,0,0,2,48,TRUE
+"66","Ellery Balcombe","Balcombe","Brentford","GKP",34,"2026-04-27",0,0,0,0,0,102,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,39,TRUE
+"67","Julian Eyestone","Eyestone","Brentford","GKP",34,"2026-04-27",0,0,0,0,0,104,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,39,TRUE
+"68","Hákon Rafn Valdimarsson","Valdimarsson","Brentford","GKP",34,"2026-04-27",0,0,0,0,0,105,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,38,TRUE
+"69","Nathan Collins","Collins","Brentford","DEF",34,"2026-04-27",2.1,0,0,0,0,106,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.05,2,49,TRUE
+"70","Keane Lewis-Potter","Lewis-Potter","Brentford","DEF",34,"2026-04-27",5.4,0,0,0,0,107,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0.07,0.04,1,48,TRUE
+"71","Kristoffer Ajer","Ajer","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,108,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"72","Rico Henry","Henry","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,109,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,43,TRUE
+"73","Michael Kayode","Kayode","Brentford","DEF",34,"2026-04-27",3.2,0,0,0,0,110,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0.56,0.02,1,46,TRUE
+"74","Ethan Pinnock","Pinnock","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,111,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,42,TRUE
+"75","Sepp van den Berg","Van den Berg","Brentford","DEF",34,"2026-04-27",2.4,0,0,0,0,113,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.03,0,46,TRUE
+"76","Aaron Hickey","Hickey","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,116,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"77","Kevin Schade","Schade","Brentford","MID",34,"2026-04-27",0.6,0,0,0,0,120,1,2,"a",0,72,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.01,2,70,TRUE
+"78","Mikkel Damsgaard","Damsgaard","Brentford","MID",34,"2026-04-27",8.3,0,0,0,0,121,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0.11,0.44,2,56,TRUE
+"79","Antoni Milambo","Milambo","Brentford","MID",34,"2026-04-27",0,0,0,0,0,122,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,52,TRUE
+"80","Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",34,"2026-04-27",0,0,0,0,0,123,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,46,TRUE
+"81","Jordan Henderson","Henderson","Brentford","MID",34,"2026-04-27",0,0,0,0,0,124,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,50,TRUE
+"82","Vitaly Janelt","Janelt","Brentford","MID",34,"2026-04-27",0,0,0,0,0,125,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"83","Mathias Jensen","Jensen","Brentford","MID",34,"2026-04-27",8.3,1,0,0,0,126,1,2,"a",1,90,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0.06,0.4,10,49,TRUE
+"84","Yehor Yarmoliuk","Yarmoliuk","Brentford","MID",34,"2026-04-27",2.7,0,0,0,0,129,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.02,4,50,TRUE
+"85","Romelle Donovan","Donovan","Brentford","MID",34,"2026-04-27",0,0,0,0,0,130,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"86","Igor Thiago Nascimento Rodrigues","Thiago","Brentford","FWD",34,"2026-04-27",4.2,0,0,0,0,136,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Man Utd",4,3,0,0.03,1,74,TRUE
+"87","Josh Dasilva","Dasilva","Brentford","MID",34,"2026-04-27",0,0,0,0,0,748,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"88","Kaye Furo","Furo","Brentford","FWD",34,"2026-04-27",0,0,0,0,0,797,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,45,TRUE
+"89","Luka Bentt","Bentt","Brentford","MID",34,"2026-04-27",0,0,0,0,0,810,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,45,TRUE
+"90","Ollie Shield","Shield","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,819,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"91","Joshua Stephenson","Stephenson","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,823,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"92","Conor McManus","McManus","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,824,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"93","Riley Owen","Owen","Brentford","MID",34,"2026-04-27",0,0,0,0,0,826,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,45,TRUE
+"94","Dean Henderson","Henderson","Crystal Palace","GKP",34,"2026-04-25",0.3,0,0,0,0,253,1,3,"a",0,90,1,0,3,0,0,1,3,2025,"Liverpool",4,3,0,0,0,51,TRUE
+"95","Walter Benítez","Benitez","Crystal Palace","GKP",34,"2026-04-25",0,0,0,0,0,254,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,39,TRUE
+"96","Remi Matthews","Matthews","Crystal Palace","GKP",34,"2026-04-25",0,0,0,0,0,255,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,39,TRUE
+"97","Daniel Muñoz Mejía","Muñoz","Crystal Palace","DEF",34,"2026-04-25",5.5,1,0,0,0,256,1,3,"a",0,90,1,0,3,0,0,1,3,2025,"Liverpool",4,3,0.08,0,6,58,TRUE
+"98","Maxence Lacroix","Lacroix","Crystal Palace","DEF",34,"2026-04-25",5.9,0,0,0,0,257,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0.22,0.01,3,51,TRUE
+"99","Tyrick Mitchell","Mitchell","Crystal Palace","DEF",34,"2026-04-25",3,0,0,0,0,258,1,3,"a",0,45,0,0,2,0,0,1,3,2025,"Liverpool",4,3,0,0,0,50,TRUE
+"100","Borna Sosa","Sosa","Crystal Palace","DEF",34,"2026-04-25",1.7,0,0,0,0,259,1,3,"a",0,45,1,0,1,0,0,1,3,2025,"Liverpool",4,3,0.04,0.01,0,48,TRUE
+"101","Chris Richards","Richards","Crystal Palace","DEF",34,"2026-04-25",1.8,0,0,0,0,261,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0.62,0,1,44,TRUE
+"102","Chadi Riad Dnanou","Chadi Riad","Crystal Palace","DEF",34,"2026-04-25",0,0,0,0,0,262,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,40,TRUE
+"103","Nathaniel Clyne","Clyne","Crystal Palace","DEF",34,"2026-04-25",0,0,0,0,0,263,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,38,TRUE
+"104","Caleb Kporha","Kporha","Crystal Palace","DEF",34,"2026-04-25",0,0,0,0,0,265,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,40,TRUE
+"105","Ismaïla Sarr","Sarr","Crystal Palace","MID",34,"2026-04-25",5.9,0,0,1,0,267,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0.52,0.12,5,63,TRUE
+"106","Cheick Doucouré","Doucouré","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,268,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,49,TRUE
+"107","Will Hughes","Hughes","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,270,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,47,TRUE
+"108","Daichi Kamada","Kamada","Crystal Palace","MID",34,"2026-04-25",3.4,0,0,0,0,271,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0,0.11,4,50,TRUE
+"109","Jefferson Lerma Solís","Lerma","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,272,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,49,TRUE
+"110","Adam Wharton","Wharton","Crystal Palace","MID",34,"2026-04-25",5.6,0,0,0,0,273,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0,0.43,2,50,TRUE
+"111","Asher Agbinone","Agbinone","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,274,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,43,TRUE
+"112","Justin Devenny","Devenny","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,276,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,43,TRUE
+"113","Kaden Rodney","Rodney","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,281,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,44,TRUE
+"114","Jean-Philippe Mateta","Mateta","Crystal Palace","FWD",34,"2026-04-25",4.1,0,0,0,0,283,1,3,"a",0,69,0,0,2,0,0,1,3,2025,"Liverpool",4,3,0.3,0.01,2,76,TRUE
+"115","Eddie Nketiah","Nketiah","Crystal Palace","FWD",34,"2026-04-25",0,0,0,0,0,284,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,54,TRUE
+"116","Zach Marsh","Marsh","Crystal Palace","FWD",34,"2026-04-25",0,0,0,0,0,286,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,44,TRUE
+"117","Brennan Johnson","Johnson","Crystal Palace","MID",34,"2026-04-25",4.5,0,0,0,0,580,1,3,"a",0,58,0,0,2,0,0,1,3,2025,"Liverpool",4,3,0.15,0.07,1,65,TRUE
+"118","Jørgen Strand Larsen","Strand Larsen","Crystal Palace","FWD",34,"2026-04-25",0.2,0,0,0,0,654,1,3,"a",0,20,0,0,1,0,0,1,3,2025,"Liverpool",4,3,0.3,0,1,59,TRUE
+"119","Evann Guessand","Guessand","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,677,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,62,TRUE
+"120","Rio Cardines","Cardines","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,690,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,44,TRUE
+"121","Yéremy Pino Santos","Yeremy","Crystal Palace","MID",34,"2026-04-25",3.5,0,0,0,0,712,1,3,"a",0,31,0,0,1,0,0,1,3,2025,"Liverpool",4,3,0.04,0.23,1,58,TRUE
+"122","Jaydee Canvot","Canvot","Crystal Palace","DEF",34,"2026-04-25",2.6,0,0,0,0,723,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Liverpool",4,3,0,0,3,45,TRUE
+"123","Christantus Uche","Uche","Crystal Palace","FWD",34,"2026-04-25",0,0,0,0,0,732,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,55,TRUE
+"124","Joél Drakes-Thomas","Drakes-Thomas","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,762,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,45,TRUE
+"125","Dean Benamar","Benamar","Crystal Palace","DEF",34,"2026-04-25",0,0,0,0,0,773,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,40,TRUE
+"126","Ben Casey","Casey","Crystal Palace","FWD",34,"2026-04-25",0,0,0,0,0,780,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,45,TRUE
+"127","George King","King","Crystal Palace","DEF",34,"2026-04-25",0,0,0,0,0,793,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,40,TRUE
+"128","Kiernan Dewsbury-Hall","Dewsbury-Hall","Everton","MID",34,"2026-04-25",7.8,1,0,0,0,242,1,2,"a",1,90,0,0,2,0,0,1,2,2025,"West Ham",3,3,0.1,0.06,8,51,TRUE
+"129","Tyrique George","George","Everton","MID",34,"2026-04-25",2.6,0,0,0,0,243,1,2,"a",0,25,0,0,1,0,0,1,2,2025,"West Ham",3,3,0.07,0.54,1,48,TRUE
+"130","Jordan Pickford","Pickford","Everton","GKP",34,"2026-04-25",1.3,0,0,0,0,287,1,2,"a",0,90,0,0,2,1,0,1,2,2025,"West Ham",3,3,0,0.01,1,56,TRUE
+"131","Mark Travers","Travers","Everton","GKP",34,"2026-04-25",0,0,0,0,0,288,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,42,TRUE
+"132","Jarrad Branthwaite","Branthwaite","Everton","DEF",34,"2026-04-25",0,0,0,0,0,290,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,53,TRUE
+"133","James Tarkowski","Tarkowski","Everton","DEF",34,"2026-04-25",6.3,0,0,1,0,291,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"West Ham",3,3,0,0.21,3,57,TRUE
+"134","Vitalii Mykolenko","Mykolenko","Everton","DEF",34,"2026-04-25",2.4,0,0,0,0,292,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"West Ham",3,3,0,0.01,1,49,TRUE
+"135","Jake O'Brien","O'Brien","Everton","DEF",34,"2026-04-25",2.4,0,0,0,0,293,1,2,"a",0,64,1,0,1,0,0,1,2,2025,"West Ham",3,3,0,0.05,1,49,TRUE
+"136","Séamus Coleman","Coleman","Everton","DEF",34,"2026-04-25",0,0,0,0,0,294,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,42,TRUE
+"137","Michael Keane","Keane","Everton","DEF",34,"2026-04-25",2.1,0,0,0,0,295,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"West Ham",3,3,0,0.01,1,45,TRUE
+"138","Nathan Patterson","Patterson","Everton","DEF",34,"2026-04-25",0,0,0,0,0,296,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,44,TRUE
+"139","Reece Welch","Welch","Everton","DEF",34,"2026-04-25",0,0,0,0,0,298,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,38,TRUE
+"140","Iliman Ndiaye","Ndiaye","Everton","MID",34,"2026-04-25",2.2,0,0,0,0,299,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"West Ham",3,3,0.19,0.03,2,62,TRUE
+"141","Dwight McNeil","McNeil","Everton","MID",34,"2026-04-25",4.2,0,0,0,0,300,1,2,"a",0,64,0,0,1,0,0,1,2,2025,"West Ham",3,3,0.03,0.95,2,55,TRUE
+"142","Carlos Alcaraz Durán","Alcaraz","Everton","MID",34,"2026-04-25",0.1,0,0,0,0,301,1,2,"a",0,4,1,0,1,0,0,1,2,2025,"West Ham",3,3,0,0.01,0,52,TRUE
+"143","Idrissa Gana Gueye","Gana","Everton","MID",34,"2026-04-25",1.9,0,0,0,0,302,1,2,"a",0,85,0,0,1,0,0,1,2,2025,"West Ham",3,3,0.39,0.13,2,54,TRUE
+"144","James Garner","Garner","Everton","MID",34,"2026-04-25",4.1,0,0,0,0,303,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"West Ham",3,3,0,0.05,3,53,TRUE
+"145","Tim Iroegbunam","Iroegbunam","Everton","MID",34,"2026-04-25",2.6,0,0,0,0,304,1,2,"a",0,25,0,0,1,0,0,1,2,2025,"West Ham",3,3,0.09,0.02,1,48,TRUE
+"146","Harrison Armstrong","Armstrong","Everton","MID",34,"2026-04-25",0,0,0,0,0,305,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,45,TRUE
+"147","Callum Bates","Bates","Everton","MID",34,"2026-04-25",0,0,0,0,0,306,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,43,TRUE
+"148","Coby Ebere","Ebere","Everton","MID",34,"2026-04-25",0,0,0,0,0,307,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,44,TRUE
+"149","Thierno Barry","Barry","Everton","FWD",34,"2026-04-25",4.5,0,0,0,0,310,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"West Ham",3,3,0.68,0.01,2,57,TRUE
+"150","Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",34,"2026-04-25",0,0,0,0,0,311,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,50,TRUE
+"151","Jack Grealish","Grealish","Everton","MID",34,"2026-04-25",0,0,0,0,0,419,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,63,TRUE
+"152","Tom King","King","Everton","GKP",34,"2026-04-25",0,0,0,0,0,630,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,39,TRUE
+"153","Adam Aznou","Aznou","Everton","DEF",34,"2026-04-25",0,0,0,0,0,667,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,42,TRUE
+"154","Tyler Dibling","Dibling","Everton","MID",34,"2026-04-25",0,0,0,0,0,707,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,53,TRUE
+"155","Merlin Röhl","Röhl","Everton","MID",34,"2026-04-25",0,0,0,0,0,728,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,50,TRUE
+"156","Braiden Graham","Graham","Everton","FWD",34,"2026-04-25",0,0,0,0,0,779,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,45,TRUE
+"157","Bernd Leno","Leno","Fulham","GKP",34,"2026-04-25",1,0,0,0,0,314,0,1,"h",1,90,0,0,0,1,0,1,0,2025,"Aston Villa",3,3,0,0,7,49,TRUE
+"158","Antonee Robinson","Robinson","Fulham","DEF",34,"2026-04-25",0.2,0,0,0,0,316,0,1,"h",0,9,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,1,49,TRUE
+"159","Joachim Andersen","Andersen","Fulham","DEF",34,"2026-04-25",4,0,0,0,0,317,0,1,"h",3,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0.01,11,45,TRUE
+"160","Calvin Bassey","Bassey","Fulham","DEF",34,"2026-04-25",1.7,0,0,0,0,318,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0.01,6,44,TRUE
+"161","Timothy Castagne","Castagne","Fulham","DEF",34,"2026-04-25",2.3,0,0,0,0,319,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0.14,5,43,TRUE
+"162","Issa Diop","Diop","Fulham","DEF",34,"2026-04-25",0,0,0,0,0,320,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,43,TRUE
+"163","Jorge Cuenca Barreno","J.Cuenca","Fulham","DEF",34,"2026-04-25",0,0,0,0,0,321,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,43,TRUE
+"164","Kenny Tete","Tete","Fulham","DEF",34,"2026-04-25",0,0,0,0,0,322,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,45,TRUE
+"165","Samuel Amissah","Amissah","Fulham","DEF",34,"2026-04-25",0,0,0,0,0,323,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,38,TRUE
+"166","Alex Iwobi","Iwobi","Fulham","MID",34,"2026-04-25",0,0,0,0,0,324,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,63,TRUE
+"167","Emile Smith Rowe","Smith Rowe","Fulham","MID",34,"2026-04-25",1.9,0,0,0,0,325,0,1,"h",0,75,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.04,0.02,3,56,TRUE
+"168","Ryan Sessegnon","Sessegnon","Fulham","MID",34,"2026-04-25",6.4,1,0,0,0,328,0,1,"h",3,80,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.26,0.01,11,54,TRUE
+"169","Harry Wilson","Wilson","Fulham","MID",34,"2026-04-25",2.3,0,0,0,0,329,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.23,0.01,2,60,TRUE
+"170","Sander Berge","Berge","Fulham","MID",34,"2026-04-25",2.8,0,0,0,0,330,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.06,0.14,3,49,TRUE
+"171","Tom Cairney","Cairney","Fulham","MID",34,"2026-04-25",0,0,0,0,0,331,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,48,TRUE
+"172","Saša Lukic","Lukic","Fulham","MID",34,"2026-04-25",5.7,0,0,1,0,332,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.29,0.04,6,49,TRUE
+"173","Josh King","King","Fulham","MID",34,"2026-04-25",2.2,0,0,0,0,335,0,1,"h",0,14,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0.04,1,44,TRUE
+"174","Harrison Reed","Reed","Fulham","MID",34,"2026-04-25",0,0,0,0,0,336,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,43,TRUE
+"175","Raúl Jiménez Rodríguez","Raúl","Fulham","FWD",34,"2026-04-25",4.9,0,0,0,0,337,0,1,"h",0,65,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.14,0.02,2,61,TRUE
+"176","Rodrigo Muniz Carvalho","Muniz","Fulham","FWD",34,"2026-04-25",1.6,0,0,0,0,338,0,1,"h",0,24,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.11,0.01,1,53,TRUE
+"177","Oscar Bobb","Bobb","Fulham","MID",34,"2026-04-25",2.6,0,0,0,0,424,0,1,"h",0,14,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.05,0.02,1,51,TRUE
+"178","Benjamin Lecomte","Lecomte","Fulham","GKP",34,"2026-04-25",0,0,0,0,0,664,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,39,TRUE
+"179","Samuel Chukwueze","Chukwueze","Fulham","MID",34,"2026-04-25",5,0,0,0,0,727,0,1,"h",0,75,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.05,0.13,3,53,TRUE
+"180","Kevin Santos Lopes de Macedo","Kevin","Fulham","MID",34,"2026-04-25",0,0,0,0,0,731,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,57,TRUE
+"181","Jonah Kusi-Asare","Kusi-Asare","Fulham","FWD",34,"2026-04-25",0,0,0,0,0,737,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,45,TRUE
+"182","Seth Ridgeon","Ridgeon","Fulham","MID",34,"2026-04-25",0,0,0,0,0,770,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,45,TRUE
+"183","Alfie McNally","McNally","Fulham","GKP",34,"2026-04-25",0,0,0,0,0,786,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,40,TRUE
+"184","Alisson Becker","A.Becker","Liverpool","GKP",34,"2026-04-25",0,0,0,0,0,366,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,54,TRUE
+"185","Giorgi Mamardashvili","Mamardashvili","Liverpool","GKP",34,"2026-04-25",0,0,0,0,0,367,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,41,TRUE
+"186","Ármin Pécsi","Pécsi","Liverpool","GKP",34,"2026-04-25",0,0,0,0,0,368,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,38,TRUE
+"187","Freddie Woodman","Woodman","Liverpool","GKP",34,"2026-04-25",4.4,0,0,0,0,369,1,3,"h",0,90,0,0,1,5,0,3,1,2025,"Crystal Palace",3,4,0,0,3,39,TRUE
+"188","Jeremie Frimpong","Frimpong","Liverpool","DEF",34,"2026-04-25",0.7,0,0,0,0,370,1,3,"h",0,31,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.03,0,1,57,TRUE
+"189","Milos Kerkez","Kerkez","Liverpool","DEF",34,"2026-04-25",0.5,0,0,0,0,371,1,3,"h",0,3,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,1,56,TRUE
+"190","Andrew Robertson","Robertson","Liverpool","DEF",34,"2026-04-25",7.7,1,0,0,0,372,1,3,"h",0,86,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.37,0.09,8,57,TRUE
+"191","Virgil van Dijk","Virgil","Liverpool","DEF",34,"2026-04-25",2,0,0,0,0,373,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0,0.01,4,62,TRUE
+"192","Ibrahima Konaté","Konaté","Liverpool","DEF",34,"2026-04-25",2.9,0,0,0,0,374,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0,0,4,55,TRUE
+"193","Conor Bradley","Bradley","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,375,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,49,TRUE
+"194","Joe Gomez","Gomez","Liverpool","DEF",34,"2026-04-25",0.4,0,0,0,0,376,1,3,"h",0,3,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,1,49,TRUE
+"195","Amara Nallo","Nallo","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,378,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,37,TRUE
+"196","Rhys Williams","R.Williams","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,379,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,37,TRUE
+"197","Calvin Ramsay","Ramsay","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,380,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,37,TRUE
+"198","Mohamed Salah","M.Salah","Liverpool","MID",34,"2026-04-25",2.9,0,0,0,0,381,1,3,"h",0,58,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0.09,0.03,1,140,TRUE
+"199","Florian Wirtz","Wirtz","Liverpool","MID",34,"2026-04-25",8.3,1,0,0,0,382,1,3,"h",1,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.08,0.17,8,83,TRUE
+"200","Cody Gakpo","Gakpo","Liverpool","MID",34,"2026-04-25",1.5,0,0,0,0,384,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0,0.02,2,73,TRUE
+"201","Federico Chiesa","Chiesa","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,385,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,63,TRUE
+"202","Alexis Mac Allister","Mac Allister","Liverpool","MID",34,"2026-04-25",7.7,0,0,2,0,386,1,3,"h",3,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.03,0.04,13,62,TRUE
+"203","Dominik Szoboszlai","Szoboszlai","Liverpool","MID",34,"2026-04-25",3.2,0,0,0,0,387,1,3,"h",0,90,1,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.1,0.15,1,71,TRUE
+"204","Curtis Jones","C.Jones","Liverpool","MID",34,"2026-04-25",3.8,0,0,1,0,388,1,3,"h",0,86,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0,0.01,7,54,TRUE
+"205","Ryan Gravenberch","Gravenberch","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,390,1,3,"h",0,11,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,1,55,TRUE
+"206","Endo Wataru","Endo","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,392,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,49,TRUE
+"207","Stefan Bajcetic Maquieira","Bajcetic","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,393,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,42,TRUE
+"208","Trey Nyoni","Nyoni","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,396,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,43,TRUE
+"209","Jayden Danns","Danns","Liverpool","FWD",34,"2026-04-25",0,0,0,0,0,398,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,43,TRUE
+"210","Alexander Isak","Isak","Liverpool","FWD",34,"2026-04-25",5.8,1,0,0,0,499,1,3,"h",2,78,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.43,0,8,103,TRUE
+"211","Hugo Ekitiké","Ekitiké","Liverpool","FWD",34,"2026-04-25",0,0,0,0,0,661,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,91,TRUE
+"212","Rio Ngumoha","Ngumoha","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,686,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,43,TRUE
+"213","Giovanni Leoni","Leoni","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,692,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,49,TRUE
+"214","Kieran Morrison","Morrison","Liverpool","MID",34,"2026-04-25",0,0,0,0,0,746,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,45,TRUE
+"215","Wellity Lucky","Lucky","Liverpool","DEF",34,"2026-04-25",0,0,0,0,0,760,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,40,TRUE
+"216","Will Wright","Wright","Liverpool","FWD",34,"2026-04-25",0,0,0,0,0,830,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,45,TRUE
+"217","Talla Ndiaye","Ndiaye","Liverpool","DEF",34,"2026-04-25",NA,NA,NA,NA,NA,832,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,4,NA,NA,NA,NA,TRUE
+"218","Bryan Mbeumo","Mbeumo","Man Utd","MID",34,"2026-04-27",4.3,0,0,0,0,119,1,2,"h",0,73,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0.04,3,85,TRUE
+"219","Altay Bayindir","Bayindir","Man Utd","GKP",34,"2026-04-27",0,0,0,0,0,431,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,47,TRUE
+"220","Tom Heaton","Heaton","Man Utd","GKP",34,"2026-04-27",0,0,0,0,0,434,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,38,TRUE
+"221","Dermot Mee","Mee","Man Utd","GKP",34,"2026-04-27",0,0,0,0,0,435,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,39,TRUE
+"222","Matthijs de Ligt","De Ligt","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,436,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,49,TRUE
+"223","Lisandro Martínez","Martinez","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,437,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,48,TRUE
+"224","Noussair Mazraoui","Mazraoui","Man Utd","DEF",34,"2026-04-27",1.8,0,0,0,0,438,1,2,"h",0,45,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.01,1,49,TRUE
+"225","Diego León Blanco","D.Leon","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,439,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,41,TRUE
+"226","Diogo Dalot Teixeira","Dalot","Man Utd","DEF",34,"2026-04-27",2.1,0,0,0,0,440,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.01,4,46,TRUE
+"227","Patrick Dorgu","Dorgu","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,441,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,41,TRUE
+"228","Harry Maguire","Maguire","Man Utd","DEF",34,"2026-04-27",11.1,0,0,1,0,442,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0.11,0.2,7,44,TRUE
+"229","Luke Shaw","Shaw","Man Utd","DEF",34,"2026-04-27",1.6,0,0,0,0,443,1,2,"h",0,72,1,0,0,0,0,2,1,2025,"Brentford",3,4,0.06,0,5,45,TRUE
+"230","Leny Yoro","Yoro","Man Utd","DEF",34,"2026-04-27",0.1,0,0,0,0,444,1,2,"h",0,17,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0,1,41,TRUE
+"231","Tyler Fredricson","Fredricson","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,446,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,37,TRUE
+"232","Ayden Heaven","Heaven","Man Utd","DEF",34,"2026-04-27",1.3,0,0,0,0,447,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.01,2,37,TRUE
+"233","Tyrell Malacia","Malacia","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,448,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,37,TRUE
+"234","Bruno Borges Fernandes","B.Fernandes","Man Utd","MID",34,"2026-04-27",10.4,0,0,1,0,449,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.61,5,103,TRUE
+"235","Matheus Santos Carneiro da Cunha","Cunha","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,450,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,80,TRUE
+"236","Amad Diallo","Amad","Man Utd","MID",34,"2026-04-27",3.4,0,0,0,0,452,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Brentford",3,4,0.5,0.03,1,62,TRUE
+"237","Mason Mount","Mount","Man Utd","MID",34,"2026-04-27",0.5,0,0,0,0,455,1,2,"h",0,16,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.03,1,59,TRUE
+"238","Carlos Henrique Casimiro","Casemiro","Man Utd","MID",34,"2026-04-27",11.8,1,0,0,0,457,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0.18,0.01,12,57,TRUE
+"239","Kobbie Mainoo","Mainoo","Man Utd","MID",34,"2026-04-27",4.4,0,0,0,0,458,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,4,0,0.33,4,47,TRUE
+"240","Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,459,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,47,TRUE
+"241","Jayce Fitzgerald","Fitzgerald","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,461,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,43,TRUE
+"242","Jack Fletcher","J.Fletcher","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,462,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,43,TRUE
+"243","Joshua Zirkzee","Zirkzee","Man Utd","FWD",34,"2026-04-27",0.1,0,0,0,0,466,1,2,"h",0,2,1,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,58,TRUE
+"244","Chido Obi","Obi","Man Utd","FWD",34,"2026-04-27",0,0,0,0,0,467,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,42,TRUE
+"245","Benjamin Sesko","Šeško","Man Utd","FWD",34,"2026-04-27",6.9,1,0,0,0,681,1,2,"h",2,87,0,0,1,0,0,2,1,2025,"Brentford",3,4,0.43,0.03,8,73,TRUE
+"246","Senne Lammens","Lammens","Man Utd","GKP",34,"2026-04-27",3.6,0,0,0,0,733,1,2,"h",0,90,0,0,1,5,0,2,1,2025,"Brentford",3,4,0,0,3,51,TRUE
+"247","Shea Lacey","Lacey","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,755,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,45,TRUE
+"248","Bendito Mantato","Bendito Mantato","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,769,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,45,TRUE
+"249","Tyler Fletcher","Fletcher","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,771,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,44,TRUE
+"250","Godwill Kukonki","Kukonki","Man Utd","DEF",34,"2026-04-27",0,0,0,0,0,788,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,40,TRUE
+"251","Jim Thwaites","Thwaites","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,827,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,45,TRUE
+"252","Jacob Ramsey","J.Ramsey","Newcastle","MID",34,"2026-04-25",4.6,0,0,0,0,52,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.03,0.01,2,53,TRUE
+"253","Yoane Wissa","Wissa","Newcastle","FWD",34,"2026-04-25",0.9,0,0,0,0,135,0,1,"a",0,24,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0.56,0,1,73,TRUE
+"254","Nick Pope","Pope","Newcastle","GKP",34,"2026-04-25",1.8,0,0,0,0,469,0,1,"a",0,90,1,0,1,3,0,0,1,2025,"Arsenal",5,3,0,0,2,50,TRUE
+"255","Mark Gillespie","Gillespie","Newcastle","GKP",34,"2026-04-25",0,0,0,0,0,471,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,39,TRUE
+"256","Lewis Hall","Hall","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,473,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,54,TRUE
+"257","Fabian Schär","Schär","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,474,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,52,TRUE
+"258","Sven Botman","Botman","Newcastle","DEF",34,"2026-04-25",4.1,0,0,0,0,475,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.13,0.05,4,49,TRUE
+"259","Dan Burn","Burn","Newcastle","DEF",34,"2026-04-25",6,0,0,0,0,476,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Arsenal",5,3,0.11,0.01,3,50,TRUE
+"260","Tino Livramento","Livramento","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,477,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,49,TRUE
+"261","Kieran Trippier","Trippier","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,478,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,49,TRUE
+"262","Emil Krafth","Krafth","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,479,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,43,TRUE
+"263","Alex Murphy","A.Murphy","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,481,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,38,TRUE
+"264","Miodrag Pivaš","Pivas","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,483,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,38,TRUE
+"265","Anthony Gordon","Gordon","Newcastle","MID",34,"2026-04-25",0,0,0,0,0,485,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,74,TRUE
+"266","Anthony Elanga","Elanga","Newcastle","MID",34,"2026-04-25",0.1,0,0,0,0,486,0,1,"a",0,4,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,1,65,TRUE
+"267","Harvey Barnes","Barnes","Newcastle","MID",34,"2026-04-25",2.5,0,0,0,0,487,0,1,"a",0,24,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0.07,1,61,TRUE
+"268","Bruno Guimarães Rodriguez Moura","Bruno G.","Newcastle","MID",34,"2026-04-25",4.2,0,0,0,0,488,0,1,"a",0,74,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.06,0.17,2,68,TRUE
+"269","Jacob Murphy","J.Murphy","Newcastle","MID",34,"2026-04-25",0.4,0,0,0,0,489,0,1,"a",0,65,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.01,2,59,TRUE
+"270","Joelinton Cássio Apolinário de Lira","Joelinton","Newcastle","MID",34,"2026-04-25",0,0,0,0,0,490,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,59,TRUE
+"271","Sandro Tonali","Tonali","Newcastle","MID",34,"2026-04-25",4.2,0,0,0,0,491,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.06,0.16,2,53,TRUE
+"272","Joe Willock","Willock","Newcastle","MID",34,"2026-04-25",3.8,0,0,0,0,494,0,1,"a",0,85,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0.05,0.02,2,50,TRUE
+"273","Lewis Miley","L.Miley","Newcastle","MID",34,"2026-04-25",2.2,0,0,0,0,497,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.03,2,44,TRUE
+"274","William Osula","Osula","Newcastle","FWD",34,"2026-04-25",3,0,0,0,0,500,0,1,"a",0,65,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.05,2,54,TRUE
+"275","Sean Neave","Neave","Newcastle","FWD",34,"2026-04-25",0,0,0,0,0,501,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,43,TRUE
+"276","Aaron Ramsdale","Ramsdale","Newcastle","GKP",34,"2026-04-25",0,0,0,0,0,674,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,48,TRUE
+"277","Malick Thiaw","Thiaw","Newcastle","DEF",34,"2026-04-25",2.3,0,0,0,0,684,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.02,2,51,TRUE
+"278","Seung-Soo Park","Seung soo","Newcastle","MID",34,"2026-04-25",0,0,0,0,0,689,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,43,TRUE
+"279","Nick Woltemade","Woltemade","Newcastle","FWD",34,"2026-04-25",1.6,0,0,0,0,714,0,1,"a",0,15,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0.37,1,67,TRUE
+"280","John Ruddy","Ruddy","Newcastle","GKP",34,"2026-04-25",0,0,0,0,0,753,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,40,TRUE
+"281","Leo Shahar","Shahar","Newcastle","DEF",34,"2026-04-25",0,0,0,0,0,765,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,40,TRUE
+"282","Sam Alabi","Alabi","Newcastle","MID",34,"2026-04-25",0,0,0,0,0,772,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,45,TRUE
+"283","Stefan Ortega Moreno","Ortega Moreno","Forest","GKP",34,"2026-04-24",0,0,0,0,0,400,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,47,TRUE
+"284","James McAtee","McAtee","Forest","MID",34,"2026-04-24",0,0,0,0,0,426,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,50,TRUE
+"285","Matz Sels","Sels","Forest","GKP",34,"2026-04-24",2.5,0,0,0,0,502,5,0,"a",0,90,0,0,0,4,0,5,0,2025,"Sunderland",3,3,0,0,7,46,TRUE
+"286","Nikola Milenkovic","Milenkovic","Forest","DEF",34,"2026-04-24",3.1,0,0,0,0,505,5,0,"a",0,90,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,8,51,TRUE
+"287","Murillo Costa dos Santos","Murillo","Forest","DEF",34,"2026-04-24",0,0,0,0,0,506,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,52,TRUE
+"288","Ola Aina","Aina","Forest","DEF",34,"2026-04-24",1.9,0,0,1,0,507,5,0,"a",0,90,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0.05,0.01,9,47,TRUE
+"289","Neco Williams","N.Williams","Forest","DEF",34,"2026-04-24",2.9,0,0,0,0,508,5,0,"a",0,90,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0.03,0.05,5,48,TRUE
+"290","Jair Paula da Cunha Filho","Jair Cunha","Forest","DEF",34,"2026-04-24",0.7,0,0,0,0,510,5,0,"a",0,49,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,1,42,TRUE
+"291","Felipe Rodrigues da Silva","Morato","Forest","DEF",34,"2026-04-24",1.3,0,0,0,0,511,5,0,"a",0,40,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,1,43,TRUE
+"292","Zach Abbott","Abbott","Forest","DEF",34,"2026-04-24",0,0,0,0,0,513,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,38,TRUE
+"293","Willy Boly","Boly","Forest","DEF",34,"2026-04-24",0,0,0,0,0,514,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,38,TRUE
+"294","Morgan Gibbs-White","Gibbs-White","Forest","MID",34,"2026-04-24",9.9,1,0,1,0,515,5,0,"a",2,90,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0.08,0.1,13,75,TRUE
+"295","Callum Hudson-Odoi","Hudson-Odoi","Forest","MID",34,"2026-04-24",0,0,0,0,0,516,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,57,TRUE
+"296","Elliot Anderson","Anderson","Forest","MID",34,"2026-04-24",8.4,1,0,0,0,517,5,0,"a",0,90,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0.23,0.01,9,56,TRUE
+"297","Nicolás Domínguez","Dominguez","Forest","MID",34,"2026-04-24",0.4,0,0,0,0,519,5,0,"a",0,45,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0.1,0,50,TRUE
+"298","Ibrahim Sangaré","Sangaré","Forest","MID",34,"2026-04-24",1.2,0,0,0,0,521,5,0,"a",0,45,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0.02,1,49,TRUE
+"299","Ryan Yates","Yates","Forest","MID",34,"2026-04-24",0.7,0,0,0,0,522,5,0,"a",0,23,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,47,TRUE
+"300","Eric da Silva Moreira","Da Silva Moreira","Forest","MID",34,"2026-04-24",0,0,0,0,0,523,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"301","Chris Wood","Wood","Forest","FWD",34,"2026-04-24",7.8,1,0,0,0,525,5,0,"a",1,87,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0.52,0.01,7,71,TRUE
+"302","Igor Jesus Maciel da Cruz","Igor Jesus","Forest","FWD",34,"2026-04-24",10.1,1,0,2,0,526,5,0,"a",3,66,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0.14,0.06,14,58,TRUE
+"303","Taiwo Awoniyi","Awoniyi","Forest","FWD",34,"2026-04-24",3,0,0,1,0,527,5,0,"a",0,2,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0.01,4,52,TRUE
+"304","Dan Ndoye","Ndoye","Forest","MID",34,"2026-04-24",0,0,0,0,0,669,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,55,TRUE
+"305","Angus Gunn","Gunn","Forest","GKP",34,"2026-04-24",0,0,0,0,0,675,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,40,TRUE
+"306","Omari Hutchinson","Hutchinson","Forest","MID",34,"2026-04-24",4.2,0,0,0,0,693,5,0,"a",0,66,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0.06,0.1,3,54,TRUE
+"307","John Victor Maciel Furtado","John","Forest","GKP",34,"2026-04-24",0,0,0,0,0,715,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,40,TRUE
+"308","Nicolò Savona","Savona","Forest","DEF",34,"2026-04-24",0,0,0,0,0,716,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"309","Dilane Bakwa","Bakwa","Forest","MID",34,"2026-04-24",0,0,0,0,0,734,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,59,TRUE
+"310","Lorenzo Lucca","Lucca","Forest","FWD",34,"2026-04-24",0,0,0,0,0,805,5,0,"a",0,0,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0,0,54,TRUE
+"311","Luca Netz","Netz","Forest","DEF",34,"2026-04-24",1.2,0,0,0,0,814,5,0,"a",0,23,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0,0.02,1,45,TRUE
+"312","Archie Whitehall","Whitehall","Forest","MID",34,"2026-04-24",NA,NA,NA,NA,NA,835,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"313","Jimmy Sinclair","Sinclair","Forest","MID",34,"2026-04-24",NA,NA,NA,NA,NA,836,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"314","Lamin Sillah","Sillah","Forest","FWD",34,"2026-04-24",NA,NA,NA,NA,NA,841,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"315","Simon Moore","Moore","Sunderland","GKP",34,"2026-04-24",0,0,0,0,0,529,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,39,TRUE
+"316","Daniel Ballard","Ballard","Sunderland","DEF",34,"2026-04-24",3.9,0,0,0,0,531,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.04,0.05,0,47,TRUE
+"317","Trai Hume","Hume","Sunderland","DEF",34,"2026-04-24",4.2,0,1,0,0,532,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.02,0.09,-2,45,TRUE
+"318","Dennis Cirkin","Cirkin","Sunderland","DEF",34,"2026-04-24",0,0,0,0,0,535,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,40,TRUE
+"319","Luke O'Nien","O'Nien","Sunderland","DEF",34,"2026-04-24",0,0,0,0,0,539,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,40,TRUE
+"320","Reinildo Mandava","Reinildo","Sunderland","DEF",34,"2026-04-24",0.7,0,0,0,0,541,5,0,"h",0,45,0,0,1,0,0,0,5,2025,"Forest",3,3,0,0.09,1,38,TRUE
+"321","Habib Diarra","Diarra","Sunderland","MID",34,"2026-04-24",0.6,0,0,0,0,544,5,0,"h",0,64,1,0,4,0,0,0,5,2025,"Forest",3,3,0,0.03,1,53,TRUE
+"322","Milan Aleksic","Aleksic","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,546,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,49,TRUE
+"323","Enzo Le Fée","E.Le Fée","Sunderland","MID",34,"2026-04-24",6.5,0,0,0,0,547,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.12,0.4,2,48,TRUE
+"324","Romaine Mundle","Mundle","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,548,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,49,TRUE
+"325","Ian Poveda-Ocampo","Poveda","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,550,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,47,TRUE
+"326","Chris Rigg","Rigg","Sunderland","MID",34,"2026-04-24",2.7,0,0,0,0,551,5,0,"h",0,45,0,0,4,0,0,0,5,2025,"Forest",3,3,0.11,0.06,1,47,TRUE
+"327","Noah Sadiki","Sadiki","Sunderland","MID",34,"2026-04-24",2,0,0,0,0,552,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.1,0.26,2,49,TRUE
+"328","Chemsdine Talbi","Talbi","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,553,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,49,TRUE
+"329","Abdoullah Ba","Ba","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,554,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,43,TRUE
+"330","Harrison Jones","H.Jones","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,557,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,43,TRUE
+"331","Wilson Isidor","Isidor","Sunderland","FWD",34,"2026-04-24",1.8,0,0,0,0,560,5,0,"h",0,25,0,0,1,0,0,0,5,2025,"Forest",3,3,0.04,0.01,1,50,TRUE
+"332","Eliezer Mayenda Dossou","Mayenda","Sunderland","FWD",34,"2026-04-24",0,0,0,0,0,561,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,52,TRUE
+"333","Ahmed Abdullahi","Abdullahi","Sunderland","FWD",34,"2026-04-24",0,0,0,0,0,562,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,42,TRUE
+"334","Granit Xhaka","Xhaka","Sunderland","MID",34,"2026-04-24",5.2,0,0,0,0,668,5,0,"h",0,90,1,0,5,0,0,0,5,2025,"Forest",3,3,0.06,0.4,1,51,TRUE
+"335","Robin Roefs","Roefs","Sunderland","GKP",34,"2026-04-24",1.2,0,0,0,0,670,5,0,"h",0,90,0,0,5,2,0,0,5,2025,"Forest",3,3,0,0,0,48,TRUE
+"336","Omar Alderete","Alderete","Sunderland","DEF",34,"2026-04-24",4.6,0,0,0,0,683,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.23,0.01,0,41,TRUE
+"337","Nordi Mukiele","Mukiele","Sunderland","DEF",34,"2026-04-24",3.8,0,0,0,0,694,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0,0.1,0,46,TRUE
+"338","Lutsharel Geertruida","Geertruida","Sunderland","DEF",34,"2026-04-24",0,0,0,0,0,724,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,45,TRUE
+"339","Brian Brobbey","Brobbey","Sunderland","FWD",34,"2026-04-24",2.9,0,0,0,0,730,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0,0.01,2,53,TRUE
+"340","Bertrand Traoré","Traoré","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,735,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,55,TRUE
+"341","Jenson Jones","Jenson Jones","Sunderland","DEF",34,"2026-04-24",0,0,0,0,0,774,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,40,TRUE
+"342","Djiamgone Jocelin Ta Bi","Jocelin.T","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,800,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,49,TRUE
+"343","Melker Ellborg","Ellborg","Sunderland","GKP",34,"2026-04-24",0,0,0,0,0,812,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,40,TRUE
+"344","Nilson Angulo","Angulo","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,813,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,50,TRUE
+"345","Jack Whittaker","Whittaker","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,821,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,45,TRUE
+"346","Jaydon Jones","Jones","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,822,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,45,TRUE
+"347","Guglielmo Vicario","Vicario","Tottenham","GKP",34,"2026-04-25",0,0,0,0,0,565,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,47,TRUE
+"348","Brandon Austin","Austin","Tottenham","GKP",34,"2026-04-25",0,0,0,0,0,566,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,39,TRUE
+"349","Antonín Kinský","Kinsky","Tottenham","GKP",34,"2026-04-25",1.7,0,0,0,0,567,1,0,"a",0,90,0,0,0,2,0,1,0,2025,"Wolves",2,3,0,0,6,39,TRUE
+"350","Pedro Porro Sauceda","Pedro Porro","Tottenham","DEF",34,"2026-04-25",6.3,0,0,0,0,568,1,0,"a",1,90,1,0,0,0,0,1,0,2025,"Wolves",2,3,0.02,0.06,8,51,TRUE
+"351","Cristian Romero","Romero","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,569,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,50,TRUE
+"352","Kevin Danso","Danso","Tottenham","DEF",34,"2026-04-25",5.1,0,0,0,0,570,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.03,5,42,TRUE
+"353","Ben Davies","Davies","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,571,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,43,TRUE
+"354","Radu Dragu<U+0219>in","Dragusin","Tottenham","DEF",34,"2026-04-25",0.3,0,0,0,0,572,1,0,"a",0,1,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,1,45,TRUE
+"355","Djed Spence","Spence","Tottenham","DEF",34,"2026-04-25",2.8,0,0,0,0,573,1,0,"a",2,90,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.02,0.01,8,41,TRUE
+"356","Destiny Udogie","Udogie","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,574,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,43,TRUE
+"357","Micky van de Ven","Van de Ven","Tottenham","DEF",34,"2026-04-25",1.5,0,0,0,0,575,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.01,6,44,TRUE
+"358","James Maddison","Maddison","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,581,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,68,TRUE
+"359","Mohammed Kudus","Kudus","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,582,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,64,TRUE
+"360","Dejan Kulusevski","Kulusevski","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,583,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,64,TRUE
+"361","Mathys Tel","Tel","Tottenham","MID",34,"2026-04-25",1.2,0,0,0,0,584,1,0,"a",0,45,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.03,0,1,62,TRUE
+"362","Rodrigo Bentancur","Bentancur","Tottenham","MID",34,"2026-04-25",4.6,0,0,0,0,585,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Wolves",2,3,0.05,0.1,4,52,TRUE
+"363","Lucas Bergvall","Bergvall","Tottenham","MID",34,"2026-04-25",0.2,0,0,0,0,586,1,0,"a",0,27,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,1,52,TRUE
+"364","Yves Bissouma","Bissouma","Tottenham","MID",34,"2026-04-25",0.7,0,0,0,0,587,1,0,"a",0,61,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.02,3,52,TRUE
+"365","Wilson Odobert","Odobert","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,588,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,53,TRUE
+"366","Archie Gray","Gray","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,591,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,48,TRUE
+"367","Pape Matar Sarr","P.M.Sarr","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,593,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,45,TRUE
+"368","Callum Olusesi","Olusesi","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,595,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,43,TRUE
+"369","Dominic Solanke-Mitchell","Solanke","Tottenham","FWD",34,"2026-04-25",2.3,0,0,0,0,596,1,0,"a",0,39,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.09,1,72,TRUE
+"370","Richarlison de Andrade","Richarlison","Tottenham","FWD",34,"2026-04-25",3.8,0,0,1,0,597,1,0,"a",0,50,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.08,0,4,63,TRUE
+"371","João Maria Lobo Alves Palhares Costa Palhinha Gonçalves","J.Palhinha","Tottenham","MID",34,"2026-04-25",7.1,1,0,0,0,673,1,0,"a",3,28,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.57,0,9,55,TRUE
+"372","Xavi Simons","Xavi","Tottenham","MID",34,"2026-04-25",4.5,0,0,0,0,717,1,0,"a",0,62,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.12,0.03,3,65,TRUE
+"373","Randal Kolo Muani","Kolo Muani","Tottenham","FWD",34,"2026-04-25",0.9,0,0,0,0,726,1,0,"a",0,45,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.04,0.01,1,69,TRUE
+"374","Jun'ai Byfield","Byfield","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,745,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,40,TRUE
+"375","James Rowswell","Rowswell","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,750,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,40,TRUE
+"376","Lucá Williams-Barnett","Williams-Barnett","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,790,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,45,TRUE
+"377","Conor Gallagher","Gallagher","Tottenham","MID",34,"2026-04-25",4,0,0,0,0,796,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.01,4,50,TRUE
+"378","João Victor de Souza Menezes","Souza","Tottenham","DEF",34,"2026-04-25",0,0,0,0,0,804,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,40,TRUE
+"379","Rio Kyerematen","Kyerematen","Tottenham","MID",34,"2026-04-25",0,0,0,0,0,811,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,45,TRUE
+"380","James Wilson","Wilson","Tottenham","FWD",34,"2026-04-25",0,0,0,0,0,818,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,45,TRUE
+"381","Adama Traoré Diarra","Adama","West Ham","MID",34,"2026-04-25",0,0,0,0,0,326,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,51,TRUE
+"382","Alphonse Areola","Areola","West Ham","GKP",34,"2026-04-25",0,0,0,0,0,600,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,42,TRUE
+"383","El Hadji Malick Diouf","Diouf","West Ham","DEF",34,"2026-04-25",9.3,0,0,0,0,603,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0,0.26,2,41,TRUE
+"384","Maximilian Kilman","Kilman","West Ham","DEF",34,"2026-04-25",0,0,0,0,0,605,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,41,TRUE
+"385","Konstantinos Mavropanos","Mavropanos","West Ham","DEF",34,"2026-04-25",3.2,0,0,0,0,606,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.04,0,4,45,TRUE
+"386","Ollie Scarles","Scarles","West Ham","DEF",34,"2026-04-25",0,0,0,0,0,608,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,43,TRUE
+"387","Jean-Clair Todibo","Todibo","West Ham","DEF",34,"2026-04-25",0.2,0,0,0,0,609,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,1,43,TRUE
+"388","Aaron Wan-Bissaka","Wan-Bissaka","West Ham","DEF",34,"2026-04-25",0,0,0,0,0,610,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,41,TRUE
+"389","Tomáš Soucek","Soucek","West Ham","MID",34,"2026-04-25",8.6,1,0,0,0,613,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.28,0.01,10,57,TRUE
+"390","Crysencio Summerville","Summerville","West Ham","MID",34,"2026-04-25",4.4,0,0,0,0,615,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.07,0.78,2,55,TRUE
+"391","Freddie Potts","Potts","West Ham","MID",34,"2026-04-25",0.6,0,0,0,0,623,1,2,"h",0,11,0,0,1,0,0,2,1,2025,"Everton",3,3,0,0,1,43,TRUE
+"392","Jarrod Bowen","Bowen","West Ham","FWD",34,"2026-04-25",8.9,0,0,2,0,624,1,2,"h",2,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.11,0.5,10,77,TRUE
+"393","Kyle Walker-Peters","Walker-Peters","West Ham","DEF",34,"2026-04-25",1.7,0,0,0,0,659,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0,0.01,2,42,TRUE
+"394","Callum Wilson","Wilson","West Ham","FWD",34,"2026-04-25",6.7,1,0,0,0,671,1,2,"h",0,9,1,0,1,0,0,2,1,2025,"Everton",3,3,0.38,0,4,58,TRUE
+"395","Mads Hermansen","Hermansen","West Ham","GKP",34,"2026-04-25",0.8,0,0,0,0,679,1,2,"h",0,90,0,0,1,1,0,2,1,2025,"Everton",3,3,0,0,2,42,TRUE
+"396","Mateus Gonçalo Espanha Fernandes","M.Fernandes","West Ham","MID",34,"2026-04-25",2.7,0,0,0,0,708,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.04,0.04,2,55,TRUE
+"397","Soungoutou Magassa","S.Magassa","West Ham","MID",34,"2026-04-25",0,0,0,0,0,718,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,50,TRUE
+"398","Lukasz Fabianski","Fabianski","West Ham","GKP",34,"2026-04-25",0,0,0,0,0,738,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,45,TRUE
+"399","Ezra Mayers","Mayers","West Ham","DEF",34,"2026-04-25",0,0,0,0,0,747,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,40,TRUE
+"400","Airidas Golambeckis","Golambeckis","West Ham","DEF",34,"2026-04-25",0,0,0,0,0,752,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,40,TRUE
+"401","Mohamadou Kanté","Mohamadou Kanté","West Ham","MID",34,"2026-04-25",0,0,0,0,0,758,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,45,TRUE
+"402","Pablo Felipe Pereira de Jesus","Pablo","West Ham","FWD",34,"2026-04-25",0.5,0,0,0,0,785,1,2,"h",0,80,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0.01,2,54,TRUE
+"403","Valentín Castellanos","Taty","West Ham","FWD",34,"2026-04-25",4.1,0,0,0,0,791,1,2,"h",0,78,1,0,0,0,0,2,1,2025,"Everton",3,3,0.26,0.01,1,55,TRUE
+"404","Keiber Lamadrid","Lamadrid","West Ham","MID",34,"2026-04-25",0,0,0,0,0,802,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,50,TRUE
+"405","Axel Disasi","Disasi","West Ham","DEF",34,"2026-04-25",3.2,0,0,0,0,815,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Everton",3,3,0,0,3,45,TRUE
+"406","Finlay Herrick","Herrick","West Ham","GKP",34,"2026-04-25",0,0,0,0,0,825,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,3,0,0,0,40,TRUE
+"407","Sam Johnstone","Johnstone","Wolves","GKP",34,"2026-04-25",0,0,0,0,0,627,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,44,TRUE
+"408","José Malheiro de Sá","José Sá","Wolves","GKP",34,"2026-04-25",1.3,0,0,0,0,628,1,0,"h",0,90,0,0,1,1,0,0,1,2025,"Tottenham",3,2,0,0,2,42,TRUE
+"409","Daniel Bentley","Bentley","Wolves","GKP",34,"2026-04-25",0,0,0,0,0,629,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,39,TRUE
+"410","Matt Doherty","Doherty","Wolves","DEF",34,"2026-04-25",1.9,0,0,0,0,632,1,0,"h",0,84,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0,0,2,44,TRUE
+"411","Hugo Bueno López","H.Bueno","Wolves","DEF",34,"2026-04-25",4.4,0,0,0,0,633,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,2,0.14,0.11,3,43,TRUE
+"412","Yerson Mosquera Valdelamar","Mosquera","Wolves","DEF",34,"2026-04-25",0,0,0,0,0,634,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,43,TRUE
+"413","Rodrigo Martins Gomes","R.Gomes","Wolves","DEF",34,"2026-04-25",0.5,0,0,0,0,635,1,0,"h",0,70,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0.03,0,6,44,TRUE
+"414","Santiago Ignacio Bueno","S.Bueno","Wolves","DEF",34,"2026-04-25",2.4,0,0,0,0,636,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0.1,0,2,44,TRUE
+"415","Toti Gomes","Toti","Wolves","DEF",34,"2026-04-25",1.9,0,0,0,0,637,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0,0,2,42,TRUE
+"416","Pedro Cardoso de Lima","Pedro Lima","Wolves","DEF",34,"2026-04-25",3.6,0,0,0,0,640,1,0,"h",0,85,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0.01,0.12,2,40,TRUE
+"417","Hwang Hee-chan","Hee Chan","Wolves","MID",34,"2026-04-25",0,0,0,0,0,642,1,0,"h",0,5,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,1,56,TRUE
+"418","André Trindade da Costa Neto","André","Wolves","MID",34,"2026-04-25",0.6,0,0,0,0,643,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,2,0,0.01,1,52,TRUE
+"419","Jean-Ricner Bellegarde","Bellegarde","Wolves","MID",34,"2026-04-25",0,0,0,0,0,644,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,51,TRUE
+"420","João Victor Gomes da Silva","J.Gomes","Wolves","MID",34,"2026-04-25",3.9,0,0,0,0,646,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,2,0.07,0.01,3,53,TRUE
+"421","Tom Edozie","Edozie","Wolves","MID",34,"2026-04-25",0,0,0,0,0,651,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,43,TRUE
+"422","Enso González Medina","Gonzalez","Wolves","MID",34,"2026-04-25",0,0,0,0,0,652,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,43,TRUE
+"423","Leon Chiwome","Chiwome","Wolves","FWD",34,"2026-04-25",0,0,0,0,0,657,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,44,TRUE
+"424","Nathan Fraser","Fraser","Wolves","FWD",34,"2026-04-25",0,0,0,0,0,658,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,42,TRUE
+"425","David Møller Wolfe","Møller Wolfe","Wolves","DEF",34,"2026-04-25",0,0,0,0,0,682,1,0,"h",0,1,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,1,42,TRUE
+"426","Jackson Tchatchoua","Tchatchoua","Wolves","DEF",34,"2026-04-25",0.7,0,0,0,0,695,1,0,"h",0,4,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0.01,1,44,TRUE
+"427","Ladislav Krejcí","Krejcí","Wolves","DEF",34,"2026-04-25",0,0,0,0,0,709,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,45,TRUE
+"428","Tolu Arokodare","Tolu","Wolves","FWD",34,"2026-04-25",0.7,0,0,0,0,720,1,0,"h",0,19,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0,0,1,52,TRUE
+"429","Mateus Mané","Mané","Wolves","FWD",34,"2026-04-25",7.2,0,0,0,0,749,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0.09,0.34,2,43,TRUE
+"430","Saheed Olagunju","Olagunju","Wolves","DEF",34,"2026-04-25",0,0,0,0,0,766,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,40,TRUE
+"431","Luke Rawlings","Rawlings","Wolves","MID",34,"2026-04-25",0,0,0,0,0,767,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,45,TRUE
+"432","Ethan Sutherland","Sutherland","Wolves","MID",34,"2026-04-25",0,0,0,0,0,778,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,45,TRUE
+"433","Jerome Abbey","Abbey","Wolves","MID",34,"2026-04-25",0,0,0,0,0,809,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,45,TRUE
+"434","Angel Gomes","Angel","Wolves","MID",34,"2026-04-25",0,0,0,0,0,816,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,47,TRUE
+"435","Adam Armstrong","Armstrong","Wolves","FWD",34,"2026-04-25",3.8,0,0,0,0,817,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Tottenham",3,2,0.27,0,2,52,TRUE
+"436","Alfie Brooks","Brooks","Wolves","GKP",34,"2026-04-25",0,0,0,0,0,828,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Tottenham",3,2,0,0,0,40,TRUE
+"437","Josh Gracey","Gracey","Wolves","GKP",34,"2026-04-25",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,2,NA,NA,NA,NA,TRUE

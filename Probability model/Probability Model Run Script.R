@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Run script for FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: July 11 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 # This script is used to run the FPL optimizer model and Probability distribution
 # model. 
@@ -15,7 +15,7 @@
 # installation of several R packages.
 
 packages <- c('tidyverse', 'worldfootballR', 'randomForest', 'rstudioapi',
-              'httr', 'jsonlite', 'openxlsx', 'data.table',
+              'httr', 'jsonlite', 'openxlsx', 'data.table', 'rvest',
               'stringdist', 'stats', 'fuzzyjoin', 'stringi')
 
 for (package in packages) {

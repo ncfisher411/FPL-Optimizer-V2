@@ -1,12 +1,10 @@
 #---------------------------------------#
 # Defense contributions for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 30 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 
-##### THIS METHODOLOGY IS LIKELY TEMPORARY AND SHOULD BE UPDATED USING UPCOMING FPL API STATS IF AVAILABLE
-
-### Pull the data from the regression model
+### Pull old data from the regression model to use for past estimates
 pos_player <- read.xlsx('../Regression model/data/fbref_possession.xlsx', sheet = 'player')
 pos_team <- read.xlsx('../Regression model/data/fbref_possession.xlsx', sheet = 'team')
 def_player <- read.xlsx('../Regression model/data/fbref_defense.xlsx', sheet = 'player')
@@ -25,13 +23,13 @@ df <- def_player %>%
          def_actions = ifelse(Pos=='DEF', Sh + Clr + `Tkl+Int`, 0),
          def_actions = ifelse(Pos=='GKP', 0, def_actions),
          def_actions = ifelse(Pos=='MID' | Pos=='FWD', Sh + Clr + `Tkl+Int` + Recov , def_actions),
-         def_actions_per_90 = ifelse(`90s` > 0, def_actions/`90s`, 0),
+         def_actions_per_90_team = ifelse(`90s` > 0, def_actions/`90s`, 0),
          minutes = `90s` * 90,
          `60s` = minutes/60,
-         def_actions_per_60 = ifelse(`60s` > 0, def_actions/`60s`, 0)) %>%
+         def_actions_per_60_team = ifelse(`60s` > 0, def_actions/`60s`, 0)) %>%
   group_by(Squad, Pos) %>%
-  summarize(def_actions_per_90 = mean(def_actions_per_90, na.rm = T),
-            def_actions_per_60 = mean(def_actions_per_60, na.rm = T)) %>%
+  summarize(def_actions_per_90_team = mean(def_actions_per_90_team, na.rm = T),
+            def_actions_per_60_team = mean(def_actions_per_60_team, na.rm = T)) %>%
   ungroup()
 
 df2 <- df %>%
@@ -46,20 +44,32 @@ df2 <- df %>%
 ### Get the stats for promoted teams that have not been in the league - just Sunderland now
 status <- grepl('TRUE', unique(fixtures$finished))
 
-teams <- c('Burnley', 'Ipswich Town', 'Leeds United', 'Luton Town', 'Norwich City', 'Sheffield Utd', 'Southampton', 'Watford')
+teams <- c('Burnley', 'Ipswich Town', 'Leeds United', 'Luton Town', 'Norwich City', 'Sheffield Utd', 'Southampton', 'Watford',
+           'Hull City', 'Coventry City')
   
 temp <- df %>%
   filter(Squad %in% teams) %>%
   group_by(Pos) %>%
-  summarize(def_actions_per_90 = mean(def_actions_per_90, na.rm = T),
-            def_actions_per_60 = mean(def_actions_per_60, na.rm = T)) %>%
+  summarize(def_actions_per_90_team = mean(def_actions_per_90_team, na.rm = T),
+            def_actions_per_60_team = mean(def_actions_per_60_team, na.rm = T)) %>%
   ungroup() %>%
-  mutate(Squad = 'Sunderland') %>%
-  rename(team = Squad, position = Pos)
-  
-def_probs <- df2 %>% 
-  rename(position = Pos, team = Squad) %>%
-  rbind(temp)
+  mutate(Squad = 'Sunderland')
+
+df3 = df2 %>% rbind(temp) %>% rename(team = Squad)
+
+### Now also use the API data for current games - replace with team data if NA or missing
+def_probs = combined_data %>%
+  filter(season > max(def_player$season)) %>%
+  group_by(name, position, season, team) %>%
+  summarize(defensive_contribution = mean(defensive_contribution, na.rm = T),
+            minutes = sum(minutes, na.rm = T)) %>%
+  ungroup() %>%
+  mutate(def_actions_per_90 = defensive_contribution/(minutes/90),
+         def_actions_per_60 = defensive_contribution/(minutes/60)) %>%
+  left_join(df3) %>%
+  mutate(def_actions_per_90 = ifelse(is.na(def_actions_per_90) | is.nan(def_actions_per_90), def_actions_per_90_team, def_actions_per_90),
+         def_actions_per_60 = ifelse(is.na(def_actions_per_60) | is.nan(def_actions_per_60), def_actions_per_60_team, def_actions_per_60)) %>%
+  select(-contains('_team'), -minutes)
 
 objects <- ls()
 keep <- objects[grep('combined_data|test|fixture|team|current_players|probs|understat|weight', objects)]

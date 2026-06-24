@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",1,"2025-08-17",0,0,0,0,0,466,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,4,0,0,0,60,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",2,"2025-08-24",0,0,0,0,0,466,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Fulham",3,4,0,0,0,60,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",3,"2025-08-30",7.6,0,0,0,0,466,2,3,"h",0,59,0,0,2,0,0,3,2,2025,"Burnley",2,4,0.67,0.03,1,59,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",4,"2025-09-14",0.3,0,0,0,0,466,0,3,"a",0,10,0,0,0,0,0,0,3,2025,"Man City",4,4,0,0,1,59,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",5,"2025-09-20",0,0,0,0,0,466,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,4,0,0,0,59,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",6,"2025-09-27",0.2,0,0,0,0,466,1,3,"a",0,5,0,0,1,0,0,1,3,2025,"Brentford",3,4,0.12,0,1,59,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",7,"2025-10-04",0,0,0,0,0,466,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,59,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",8,"2025-10-19",0,0,0,0,0,466,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",9,"2025-10-25",0.8,0,0,0,0,466,2,4,"h",0,8,0,0,1,0,0,4,2,2025,"Brighton",3,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",10,"2025-11-01",0,0,0,0,0,466,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Forest",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",11,"2025-11-08",0,0,0,0,0,466,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",12,"2025-11-24",8.5,0,0,0,0,466,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Everton",3,4,0.35,0.08,2,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",13,"2025-11-30",8.1,1,0,0,0,466,2,1,"a",3,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,4,0.03,0.01,9,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",14,"2025-12-04",2.5,0,0,0,0,466,1,1,"h",0,77,0,0,0,0,0,1,1,2025,"West Ham",3,4,0.43,0,2,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",15,"2025-12-08",0.1,0,0,0,0,466,4,1,"a",0,6,1,0,0,0,0,4,1,2025,"Wolves",2,4,0,0.01,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",16,"2025-12-15",0.3,0,0,0,0,466,4,4,"h",0,1,0,0,0,0,0,4,4,2025,"Bournemouth",3,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",17,"2025-12-21",0.9,0,0,0,0,466,1,2,"a",0,17,0,0,0,0,0,1,2,2025,"Aston Villa",3,4,0,0.01,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",18,"2025-12-26",0.3,0,0,0,0,466,0,1,"h",0,30,0,0,0,0,0,1,0,2025,"Newcastle",3,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",19,"2025-12-30",6.6,1,0,0,0,466,1,1,"h",3,45,0,0,1,0,0,1,1,2025,"Wolves",2,4,0.09,0,8,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",20,"2026-01-04",4.4,0,0,1,0,466,1,1,"a",0,27,0,0,0,0,0,1,1,2025,"Leeds",3,4,0,0.15,4,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",21,"2026-01-07",2.7,0,0,0,0,466,2,2,"a",0,16,0,0,0,0,0,2,2,2025,"Burnley",2,4,0.08,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",22,"2026-01-17",0,0,0,0,0,466,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Man City",4,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",23,"2026-01-25",0,0,0,0,0,466,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Arsenal",5,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",24,"2026-02-01",0,0,0,0,0,466,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Fulham",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",25,"2026-02-07",0.3,0,0,0,0,466,0,2,"h",0,3,0,0,0,0,0,2,0,2025,"Tottenham",3,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",26,"2026-02-10",0.5,0,0,0,0,466,1,1,"a",0,8,0,0,0,0,0,1,1,2025,"West Ham",3,4,0.09,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",27,"2026-02-23",0,0,0,0,0,466,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Everton",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",28,"2026-03-01",2.5,0,0,0,0,466,1,2,"h",0,4,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0.3,0.01,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",29,"2026-03-04",4,0,0,0,0,466,1,2,"a",0,13,0,0,1,0,0,1,2,2025,"Newcastle",3,4,0.02,0.02,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",30,"2026-03-15",0,0,0,0,0,466,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Aston Villa",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",31,"2026-03-20",0,0,0,0,0,466,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Bournemouth",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",32,"2026-04-13",0,0,0,0,0,466,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Leeds",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",33,"2026-04-18",0.1,0,0,0,0,466,1,0,"a",0,3,0,0,0,0,0,1,0,2025,"Chelsea",4,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",34,"2026-04-27",0.1,0,0,0,0,466,1,2,"h",0,2,1,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",35,"2026-05-03",0.1,0,0,0,0,466,2,3,"h",0,3,0,0,0,0,0,3,2,2025,"Liverpool",4,4,0,0,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",36,"2026-05-09",1.1,0,0,0,0,466,0,0,"a",0,64,1,0,0,0,0,0,0,2025,"Sunderland",3,4,0.08,0.01,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",37,"2026-05-17",6.1,0,0,0,0,466,2,3,"h",0,10,0,0,0,0,0,3,2,2025,"Forest",3,4,0.48,0.01,1,58,TRUE
+"Joshua Zirkzee","Zirkzee","Man Utd","FWD",38,"2026-05-24",0.2,0,0,0,0,466,3,0,"a",0,16,0,0,0,0,0,3,0,2025,"Brighton",3,4,0,0,1,58,TRUE

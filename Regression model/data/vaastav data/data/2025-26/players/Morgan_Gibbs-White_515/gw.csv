@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",1,"2025-08-17",9.6,0,0,1,0,515,1,3,"h",0,83,0,0,1,0,0,3,1,2025,"Brentford",3,3,0.38,0.28,5,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",2,"2025-08-24",2.2,0,0,0,0,515,1,1,"a",0,81,0,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0.11,0.1,2,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",3,"2025-08-31",5,0,0,0,0,515,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"West Ham",3,3,0.15,0.08,2,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",4,"2025-09-13",1.2,0,0,0,0,515,0,3,"a",0,72,0,0,2,0,0,0,3,2025,"Arsenal",5,3,0.04,0.01,2,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",5,"2025-09-20",6.9,0,0,0,0,515,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Burnley",2,3,0.08,0.05,2,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",6,"2025-09-27",3.7,0,0,0,0,515,1,0,"h",0,45,0,0,0,0,0,0,1,2025,"Sunderland",3,3,0.11,0.05,1,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",7,"2025-10-05",4.3,0,0,0,0,515,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0.12,0.08,4,74,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",8,"2025-10-18",3,0,0,0,0,515,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"Chelsea",4,3,0.5,0.2,2,74,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",9,"2025-10-26",3.4,0,0,0,0,515,0,2,"a",0,88,0,0,2,0,0,0,2,2025,"Bournemouth",3,3,0.1,0.05,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",10,"2025-11-01",8.7,1,0,0,0,515,2,2,"h",1,90,0,0,2,0,0,2,2,2025,"Man Utd",4,3,0.27,0.04,8,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",11,"2025-11-09",9.8,1,0,0,0,515,1,3,"h",3,87,0,0,1,0,0,3,1,2025,"Leeds",3,3,0.63,0.04,10,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",12,"2025-11-22",7,1,0,0,0,515,3,0,"a",0,90,0,0,0,0,0,3,0,2025,"Liverpool",4,3,0.25,0.03,8,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",13,"2025-11-30",4.7,0,0,0,0,515,2,0,"h",0,84,0,0,1,0,0,0,2,2025,"Brighton",3,3,0.28,0.05,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",14,"2025-12-03",7,0,0,0,0,515,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.13,3,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",15,"2025-12-06",1.1,0,0,0,0,515,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Everton",3,3,0,0.01,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",16,"2025-12-14",3,0,0,0,0,515,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Tottenham",3,3,0.73,0.03,3,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",17,"2025-12-22",4.1,0,0,0,0,515,0,1,"a",0,72,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.13,0.06,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",18,"2025-12-27",2.7,0,0,0,0,515,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Man City",4,3,0,0.04,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",19,"2025-12-30",7.8,0,0,0,0,515,2,0,"h",0,90,0,0,2,0,0,0,2,2025,"Everton",3,3,0.54,0.29,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",20,"2026-01-03",9.8,1,0,0,0,515,1,3,"a",1,90,0,0,3,0,0,1,3,2025,"Aston Villa",3,3,0.49,0.01,8,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",21,"2026-01-06",6.9,1,0,0,0,515,2,1,"a",2,90,0,0,1,0,0,2,1,2025,"West Ham",3,3,0.79,0.04,9,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",22,"2026-01-17",1.4,0,0,0,0,515,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Arsenal",5,3,0.11,0.02,3,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",23,"2026-01-25",5.6,0,0,1,0,515,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Brentford",3,3,0,0.08,6,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",24,"2026-02-01",10.7,1,0,0,0,515,1,1,"h",1,90,0,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0.2,0.09,8,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",25,"2026-02-06",5.7,0,0,0,0,515,1,3,"a",0,66,0,0,3,0,0,1,3,2025,"Leeds",3,3,0.08,0.03,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",26,"2026-02-11",10.5,0,0,0,0,515,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Wolves",2,3,0.4,0.11,3,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",27,"2026-02-22",7.3,0,0,0,0,515,1,0,"h",0,90,1,0,0,0,0,0,1,2025,"Liverpool",4,3,0.24,0.04,2,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",28,"2026-03-01",11.6,1,0,0,0,515,1,2,"a",2,90,0,0,2,0,0,1,2,2025,"Brighton",3,3,0.18,0.05,9,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",29,"2026-03-04",11.2,1,0,0,0,515,2,2,"a",1,89,0,0,2,0,0,2,2,2025,"Man City",4,3,0.71,0.02,8,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",30,"2026-03-15",2.4,0,0,0,0,515,0,0,"h",0,73,0,0,0,0,0,0,0,2025,"Fulham",3,3,0.07,0.01,3,73,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",31,"2026-03-22",5.7,1,0,0,0,515,3,0,"a",0,90,0,0,0,0,0,3,0,2025,"Tottenham",3,3,0.63,0.01,8,74,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",32,"2026-04-12",3.5,0,0,0,0,515,1,1,"h",0,83,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.31,0.03,2,74,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",33,"2026-04-19",19.1,3,0,0,0,515,1,4,"h",3,88,0,0,1,0,0,4,1,2025,"Burnley",2,3,0.73,0.02,20,74,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",34,"2026-04-24",9.9,1,0,1,0,515,5,0,"a",2,90,0,0,0,0,0,5,0,2025,"Sunderland",3,3,0.08,0.1,13,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",35,"2026-05-04",3.3,0,0,1,0,515,3,1,"a",0,20,0,0,0,0,0,3,1,2025,"Chelsea",4,3,0,0.55,4,76,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",36,"2026-05-10",0,0,0,0,0,515,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Newcastle",3,3,0,0,0,76,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",37,"2026-05-17",14,1,0,0,0,515,2,3,"a",0,90,0,0,3,0,0,2,3,2025,"Man Utd",4,3,0.9,0.04,7,75,TRUE
+"Morgan Gibbs-White","Gibbs-White","Forest","MID",38,"2026-05-24",8.7,1,0,0,0,515,1,1,"h",2,90,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.47,0.04,9,76,TRUE

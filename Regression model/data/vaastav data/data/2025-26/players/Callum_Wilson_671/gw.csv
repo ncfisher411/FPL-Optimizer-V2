@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Callum Wilson","Wilson","West Ham","FWD",1,"2025-08-16",0.5,0,0,0,0,671,0,3,"a",0,19,0,0,2,0,0,0,3,2025,"Sunderland",3,3,0.02,0,1,60,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",2,"2025-08-22",2.2,0,0,0,0,671,5,1,"h",0,45,0,0,2,0,0,1,5,2025,"Chelsea",4,3,0.03,0.04,1,60,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",3,"2025-08-31",10.6,1,0,0,0,671,3,0,"a",2,26,0,0,0,0,0,3,0,2025,"Forest",3,3,1.04,0,7,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",4,"2025-09-13",0,0,0,0,0,671,3,0,"h",0,22,0,0,0,0,0,0,3,2025,"Tottenham",3,3,0,0,1,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",5,"2025-09-20",1,0,0,0,0,671,2,1,"h",0,58,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0,0,1,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",6,"2025-09-29",0,0,0,0,0,671,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,0,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",7,"2025-10-04",0,0,0,0,0,671,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",8,"2025-10-20",0,0,0,0,0,671,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Brentford",3,3,0,0,0,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",9,"2025-10-24",2.4,0,0,0,0,671,1,2,"a",0,65,0,0,0,0,0,1,2,2025,"Leeds",3,3,0.09,0.01,2,59,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",10,"2025-11-02",2.1,0,0,0,0,671,1,3,"h",0,60,0,0,1,0,0,3,1,2025,"Newcastle",3,3,0.03,0,2,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",11,"2025-11-08",9.2,1,0,0,0,671,2,3,"h",1,70,0,0,1,0,0,3,2,2025,"Burnley",2,3,0.92,0.02,7,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",12,"2025-11-22",9.5,2,0,0,0,671,2,2,"a",3,51,0,0,0,0,0,2,2,2025,"Bournemouth",3,3,0.49,0,12,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",13,"2025-11-30",0.8,0,0,0,0,671,2,0,"h",0,77,0,0,1,0,0,0,2,2025,"Liverpool",4,3,0.08,0.01,2,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",14,"2025-12-04",2.9,0,0,0,0,671,1,1,"a",0,86,0,0,1,0,0,1,1,2025,"Man Utd",4,3,0,0.02,2,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",15,"2025-12-07",3.7,0,0,1,0,671,1,1,"a",0,18,0,0,1,0,0,1,1,2025,"Brighton",3,3,0.11,0.02,4,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",16,"2025-12-14",0,0,0,0,0,671,3,2,"h",0,9,0,0,0,0,0,2,3,2025,"Aston Villa",3,3,0,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",17,"2025-12-20",0.5,0,0,0,0,671,0,3,"a",0,11,0,0,0,0,0,0,3,2025,"Man City",4,3,0.07,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",18,"2025-12-27",1.2,0,0,0,0,671,1,0,"h",0,34,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.3,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",19,"2025-12-30",1.3,0,0,1,0,671,2,2,"h",0,62,0,0,2,0,0,2,2,2025,"Brighton",3,3,0.21,0,5,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",20,"2026-01-03",1.8,0,0,0,0,671,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Wolves",2,3,0.06,0.03,2,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",21,"2026-01-06",0,0,0,0,0,671,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Forest",3,3,0,0,0,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",22,"2026-01-17",7.1,1,0,0,0,671,2,1,"a",1,1,0,0,0,0,0,2,1,2025,"Tottenham",3,3,0.9,0,6,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",23,"2026-01-24",1.7,0,0,0,0,671,1,3,"h",0,20,0,0,0,0,0,3,1,2025,"Sunderland",3,3,0.1,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",24,"2026-01-31",0.3,0,0,0,0,671,2,3,"a",0,14,0,0,1,0,0,2,3,2025,"Chelsea",4,3,0,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",25,"2026-02-07",1.4,0,0,0,0,671,2,0,"a",0,56,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",26,"2026-02-10",1.6,0,0,0,0,671,1,1,"h",0,21,0,0,1,0,0,1,1,2025,"Man Utd",4,3,0.4,0.01,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",27,"2026-02-21",7.9,0,0,0,0,671,0,0,"h",0,18,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,1.03,0.13,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",28,"2026-02-28",0,0,0,0,0,671,2,5,"a",0,0,0,0,0,0,0,2,5,2025,"Liverpool",4,3,0,0,0,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",29,"2026-03-04",0.8,0,0,0,0,671,1,0,"a",0,59,0,0,0,0,0,1,0,2025,"Fulham",3,3,0.6,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",30,"2026-03-14",0,0,0,0,0,671,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0,0,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",31,"2026-03-22",1,0,0,0,0,671,0,2,"a",0,45,0,0,1,0,0,0,2,2025,"Aston Villa",3,3,0,0.08,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",32,"2026-04-10",0.1,0,0,0,0,671,0,4,"h",0,8,0,0,0,0,0,4,0,2025,"Wolves",2,3,0,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",33,"2026-04-20",0.2,0,0,0,0,671,0,0,"a",0,15,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",34,"2026-04-25",6.7,1,0,0,0,671,1,2,"h",0,9,1,0,1,0,0,2,1,2025,"Everton",3,3,0.38,0,4,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",35,"2026-05-02",0.3,0,0,0,0,671,0,3,"a",0,25,0,0,1,0,0,0,3,2025,"Brentford",3,3,0,0.01,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",36,"2026-05-10",0.5,0,0,0,0,671,1,0,"h",0,5,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0.21,0,1,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",37,"2026-05-17",3.9,0,0,0,0,671,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Newcastle",3,3,0.08,0.11,2,58,TRUE
+"Callum Wilson","Wilson","West Ham","FWD",38,"2026-05-24",7.9,1,0,0,0,671,0,3,"h",0,45,0,0,0,0,0,3,0,2025,"Leeds",3,3,0.45,0.05,5,58,TRUE

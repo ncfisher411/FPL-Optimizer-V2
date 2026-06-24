@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Nick Woltemade","Woltemade","Newcastle","FWD",1,"2025-08-16",NA,NA,NA,NA,NA,714,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",2,"2025-08-25",NA,NA,NA,NA,NA,714,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",3,"2025-08-30",NA,NA,NA,NA,NA,714,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",4,"2025-09-13",9.6,1,0,0,0,714,0,1,"h",3,64,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.27,0.01,9,70,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",5,"2025-09-21",1.4,0,0,0,0,714,0,0,"a",0,83,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0.02,2,70,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",6,"2025-09-28",5.5,1,0,0,0,714,2,1,"h",1,66,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0.29,0.02,7,71,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",7,"2025-10-05",8.4,1,0,0,0,714,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,1.37,0.08,6,71,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",8,"2025-10-18",7.5,1,0,0,0,714,1,2,"a",2,90,0,0,2,0,0,1,2,2025,"Brighton",3,3,0.71,0.07,8,73,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",9,"2025-10-25",2.9,0,0,0,0,714,1,2,"h",0,85,0,0,1,0,0,2,1,2025,"Fulham",3,3,0.39,0.01,2,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",10,"2025-11-02",1.5,0,0,0,0,714,1,3,"a",0,45,0,0,2,0,0,1,3,2025,"West Ham",3,3,0,0.04,1,75,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",11,"2025-11-09",1.7,0,0,1,0,714,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Brentford",3,3,0,0.01,5,75,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",12,"2025-11-22",5.3,0,0,0,0,714,1,2,"h",0,84,0,0,1,0,0,2,1,2025,"Man City",4,3,0.61,0,2,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",13,"2025-11-29",8.4,1,0,0,0,714,4,1,"a",1,89,0,0,1,0,0,4,1,2025,"Everton",3,3,0.59,0.11,7,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",14,"2025-12-02",9.8,0,0,1,0,714,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Tottenham",3,3,0.26,0.05,5,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",15,"2025-12-06",1.4,0,0,0,0,714,1,2,"h",0,73,0,0,0,0,0,2,1,2025,"Burnley",2,3,0.21,0,2,75,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",16,"2025-12-14",0,0,1,0,0,714,0,1,"a",0,74,0,0,1,0,0,0,1,2025,"Sunderland",3,3,0.02,0,0,75,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",17,"2025-12-20",12.4,2,0,0,0,714,2,2,"h",3,72,0,0,2,0,0,2,2,2025,"Chelsea",4,3,1.15,0,13,73,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",18,"2025-12-26",1.3,0,0,0,0,714,0,1,"a",0,67,0,0,1,0,0,0,1,2025,"Man Utd",4,3,0,0.01,2,73,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",19,"2025-12-30",0.3,0,0,0,0,714,3,1,"a",0,10,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0,1,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",20,"2026-01-04",0.8,0,0,0,0,714,0,2,"h",0,12,0,0,0,0,0,2,0,2025,"Crystal Palace",3,3,0,0.04,1,74,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",21,"2026-01-07",7.9,0,0,1,0,714,3,4,"h",0,74,0,0,2,0,0,4,3,2025,"Leeds",3,3,0.17,0.28,5,73,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",22,"2026-01-18",0.4,0,0,0,0,714,0,0,"a",0,66,0,0,0,0,0,0,0,2025,"Wolves",2,3,0.15,0,2,73,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",23,"2026-01-25",0.3,0,0,0,0,714,2,0,"h",0,28,0,0,1,0,0,0,2,2025,"Aston Villa",3,3,0,0,1,72,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",24,"2026-01-31",1,0,0,0,0,714,1,4,"a",0,17,0,0,1,0,0,1,4,2025,"Liverpool",4,3,0,0,1,71,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",25,"2026-02-07",1,0,0,0,0,714,3,2,"h",0,45,0,0,1,0,0,2,3,2025,"Brentford",3,3,0.06,0.02,1,70,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",26,"2026-02-10",0.2,0,0,0,0,714,2,1,"a",0,2,0,0,0,0,0,2,1,2025,"Tottenham",3,3,0,0,1,69,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",27,"2026-02-21",1.9,0,0,0,0,714,1,2,"a",0,59,0,0,2,0,0,1,2,2025,"Man City",4,3,0,0.01,1,69,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",28,"2026-02-28",0.2,0,0,0,0,714,3,2,"h",0,55,0,0,2,0,0,2,3,2025,"Everton",3,3,0,0.01,1,68,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",29,"2026-03-04",0,0,0,0,0,714,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Man Utd",4,3,0,0,0,68,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",30,"2026-03-14",1.5,0,0,0,0,714,1,0,"a",0,66,0,0,0,0,0,1,0,2025,"Chelsea",4,3,0,0,2,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",31,"2026-03-22",5,0,0,1,0,714,2,1,"h",0,64,0,0,1,0,0,1,2,2025,"Sunderland",3,3,0.14,0.05,5,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",32,"2026-04-12",0,0,0,0,0,714,1,2,"a",0,6,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0,0,1,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",33,"2026-04-18",0.2,0,0,0,0,714,2,1,"h",0,4,0,0,0,0,0,1,2,2025,"Bournemouth",3,3,0,0.01,1,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",34,"2026-04-25",1.6,0,0,0,0,714,0,1,"a",0,15,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0.37,1,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",35,"2026-05-02",0,0,0,0,0,714,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Brighton",3,3,0,0,0,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",36,"2026-05-10",3.1,0,0,0,0,714,1,1,"a",0,60,0,0,0,0,0,1,1,2025,"Forest",3,3,0,0.08,2,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",37,"2026-05-17",11,1,0,0,0,714,1,3,"h",2,74,0,0,1,0,0,3,1,2025,"West Ham",3,3,0.2,0.16,8,67,TRUE
+"Nick Woltemade","Woltemade","Newcastle","FWD",38,"2026-05-24",4,0,0,0,0,714,0,2,"a",0,77,0,0,1,0,0,0,2,2025,"Fulham",3,3,0,0.07,2,67,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",1,"2025-08-15",0,0,0,0,0,98,2,4,"a",0,0,0,0,0,0,0,2,4,2025,"Liverpool",4,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",2,"2025-08-23",0,0,0,0,0,98,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",3,"2025-08-30",0,0,0,0,0,98,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",4,"2025-09-13",0,0,0,0,0,98,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brighton",3,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",5,"2025-09-21",0,0,0,0,0,98,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",6,"2025-09-27",0,0,0,0,0,98,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Leeds",3,3,0,0,0,55,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",7,"2025-10-03",0,0,0,0,0,98,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",8,"2025-10-18",0,0,0,0,0,98,3,3,"a",0,0,0,0,0,0,0,3,3,2025,"Crystal Palace",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",9,"2025-10-26",0,0,0,0,0,98,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",10,"2025-11-02",0,0,0,0,0,98,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Man City",4,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",11,"2025-11-09",0,0,0,0,0,98,0,4,"a",0,0,0,0,0,0,0,0,4,2025,"Aston Villa",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",12,"2025-11-22",7.2,1,0,0,0,98,2,2,"h",1,10,0,0,0,0,0,2,2,2025,"West Ham",3,3,0.49,0.01,6,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",13,"2025-11-29",0.3,0,0,0,0,98,2,3,"a",0,10,0,0,0,0,0,2,3,2025,"Sunderland",3,3,0.05,0.04,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",14,"2025-12-02",0,0,0,0,0,98,1,0,"h",0,10,1,0,0,0,0,0,1,2025,"Everton",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",15,"2025-12-06",0,0,0,0,0,98,0,0,"h",0,3,0,0,0,0,0,0,0,2025,"Chelsea",4,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",16,"2025-12-15",0,0,0,0,0,98,4,4,"a",0,0,0,0,0,0,0,4,4,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",17,"2025-12-20",0.4,0,0,0,0,98,1,1,"h",0,27,0,0,1,0,0,1,1,2025,"Burnley",2,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",18,"2025-12-27",0,0,0,0,0,98,1,4,"a",0,0,0,0,0,0,0,1,4,2025,"Brentford",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",19,"2025-12-30",0.3,0,0,0,0,98,2,2,"a",0,8,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0.24,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",20,"2026-01-03",0.1,0,0,0,0,98,3,2,"h",0,16,0,0,0,0,0,2,3,2025,"Arsenal",5,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",21,"2026-01-07",0.7,0,0,0,0,98,2,3,"h",0,26,0,0,1,0,0,3,2,2025,"Tottenham",3,3,0.18,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",22,"2026-01-19",0,0,0,0,0,98,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",23,"2026-01-24",0.2,0,0,0,0,98,2,3,"h",0,1,0,0,0,0,0,3,2,2025,"Liverpool",4,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",24,"2026-01-31",0.3,0,0,0,0,98,2,0,"a",0,5,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",25,"2026-02-07",0.1,0,0,0,0,98,1,1,"h",0,1,0,0,0,0,0,1,1,2025,"Aston Villa",3,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",26,"2026-02-10",0.7,0,0,0,0,98,2,1,"a",0,32,0,0,0,0,0,2,1,2025,"Everton",3,3,0.09,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",27,"2026-02-21",0.2,0,0,0,0,98,0,0,"a",0,1,0,0,0,0,0,0,0,2025,"West Ham",3,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",28,"2026-02-28",2,0,0,0,0,98,1,1,"h",0,9,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0.3,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",29,"2026-03-03",0.8,0,0,0,0,98,0,0,"h",0,10,0,0,0,0,0,0,0,2025,"Brentford",3,3,0,0.01,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",30,"2026-03-14",0.3,0,0,0,0,98,0,0,"a",0,3,0,0,0,0,0,0,0,2025,"Burnley",2,3,0.5,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",31,"2026-03-20",0,0,0,0,0,98,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",32,"2026-04-11",0.1,0,0,0,0,98,2,1,"a",0,1,0,0,0,0,0,2,1,2025,"Arsenal",5,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",33,"2026-04-18",0.4,0,0,0,0,98,2,1,"a",0,1,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",33,"2026-04-22",0,0,0,0,0,98,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Leeds",3,3,0,0,0,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",35,"2026-05-03",0.4,0,0,0,0,98,0,3,"h",0,10,0,0,0,0,0,3,0,2025,"Crystal Palace",3,3,0.04,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",36,"2026-05-09",0.9,0,0,0,0,98,1,0,"a",0,11,0,0,0,0,0,1,0,2025,"Fulham",3,3,0.04,0.01,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",37,"2026-05-19",2,0,0,0,0,98,1,1,"h",0,1,0,0,1,0,0,1,1,2025,"Man City",4,3,0,0,1,54,TRUE
+"Enes Ünal","Enes Ünal","Bournemouth","FWD",38,"2026-05-24",1.7,0,0,0,0,98,1,1,"a",0,17,0,0,0,0,0,1,1,2025,"Forest",3,3,0.07,0,1,54,TRUE

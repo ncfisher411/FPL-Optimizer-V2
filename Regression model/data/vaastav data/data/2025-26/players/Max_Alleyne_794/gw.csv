@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Max Alleyne","Alleyne","Man City","DEF",1,"2025-08-16",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",2,"2025-08-23",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",3,"2025-08-31",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",4,"2025-09-14",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",5,"2025-09-21",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",6,"2025-09-27",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",8,"2025-10-18",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",9,"2025-10-26",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",10,"2025-11-02",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",11,"2025-11-09",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",12,"2025-11-22",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",13,"2025-11-29",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",14,"2025-12-02",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",15,"2025-12-06",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",16,"2025-12-14",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",17,"2025-12-20",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",18,"2025-12-27",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",19,"2026-01-01",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",20,"2026-01-04",NA,NA,NA,NA,NA,794,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,4,NA,NA,NA,NA,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",21,"2026-01-07",4.8,0,0,0,0,794,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,4,0.16,0.05,4,45,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",22,"2026-01-17",2.7,0,0,0,0,794,0,2,"a",0,45,0,0,0,0,0,0,2,2025,"Man Utd",4,4,0.1,0.01,1,45,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",23,"2026-01-24",0,0,0,0,0,794,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,4,0,0,0,45,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",24,"2026-02-01",0,0,0,0,0,794,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,4,0,0,0,43,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",25,"2026-02-08",0,0,0,0,0,794,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,42,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",26,"2026-02-11",0,0,0,0,0,794,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Fulham",3,4,0,0,0,42,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",27,"2026-02-21",0,0,0,0,0,794,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,4,0,0,0,41,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",28,"2026-02-28",0,0,0,0,0,794,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Leeds",3,4,0,0,0,41,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",29,"2026-03-04",0,0,0,0,0,794,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Forest",3,4,0,0,0,40,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",30,"2026-03-14",0,0,0,0,0,794,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,4,0,0,0,40,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",32,"2026-04-12",0,0,0,0,0,794,3,0,"a",0,0,0,0,0,0,0,3,0,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",33,"2026-04-19",0,0,0,0,0,794,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Arsenal",5,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",33,"2026-04-22",0,0,0,0,0,794,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",35,"2026-05-04",0,0,0,0,0,794,3,3,"a",0,0,0,0,0,0,0,3,3,2025,"Everton",3,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",36,"2026-05-13",0,0,0,0,0,794,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Crystal Palace",3,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",36,"2026-05-09",0,0,0,0,0,794,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Brentford",3,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",37,"2026-05-19",0,0,0,0,0,794,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,4,0,0,0,39,TRUE
+"Max Alleyne","Alleyne","Man City","DEF",38,"2026-05-24",0,0,0,0,0,794,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,4,0,0,0,39,TRUE

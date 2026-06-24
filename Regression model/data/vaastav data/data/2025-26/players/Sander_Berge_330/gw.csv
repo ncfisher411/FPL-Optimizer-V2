@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Sander Berge","Berge","Fulham","MID",1,"2025-08-16",0.2,0,0,0,0,330,1,1,"a",0,65,0,0,1,0,0,1,1,2025,"Brighton",3,3,0,0.01,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",2,"2025-08-24",1.4,0,0,0,0,330,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Man Utd",4,3,0,0.04,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",3,"2025-08-30",2.5,0,0,0,0,330,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Chelsea",4,3,0.41,0.01,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",4,"2025-09-13",3.8,0,0,0,0,330,0,1,"h",0,83,1,0,0,0,0,1,0,2025,"Leeds",3,3,0,0.15,4,50,TRUE
+"Sander Berge","Berge","Fulham","MID",5,"2025-09-20",2.7,0,0,0,0,330,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Brentford",3,3,0,0.01,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",6,"2025-09-28",1,0,0,0,0,330,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Aston Villa",3,3,0,0.01,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",7,"2025-10-03",1.3,0,0,0,0,330,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0,0.04,2,50,TRUE
+"Sander Berge","Berge","Fulham","MID",8,"2025-10-18",2,0,0,0,0,330,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.02,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",9,"2025-10-25",3.6,0,0,0,0,330,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Newcastle",3,3,0.04,0.02,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",10,"2025-11-01",4.8,0,0,1,0,330,0,3,"h",0,90,1,0,0,0,0,3,0,2025,"Wolves",2,3,0.11,0.04,5,49,TRUE
+"Sander Berge","Berge","Fulham","MID",11,"2025-11-08",2.8,0,0,0,0,330,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Everton",3,3,0,0.03,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",12,"2025-11-22",7.2,0,0,0,0,330,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0.04,0.11,3,49,TRUE
+"Sander Berge","Berge","Fulham","MID",13,"2025-11-29",1,0,0,0,0,330,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0,0,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",14,"2025-12-02",2.4,0,1,0,0,330,5,4,"h",0,90,0,0,5,0,0,4,5,2025,"Man City",4,3,0,0.02,0,49,TRUE
+"Sander Berge","Berge","Fulham","MID",15,"2025-12-07",2.8,0,0,0,0,330,2,1,"h",0,75,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0,0.03,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",16,"2025-12-13",3.8,0,0,0,0,330,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Burnley",2,3,0,0.19,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",17,"2025-12-22",0.6,0,0,0,0,330,0,1,"h",0,65,1,0,0,0,0,1,0,2025,"Forest",3,3,0,0.01,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",18,"2025-12-27",4.7,0,0,0,0,330,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"West Ham",3,3,0.04,0.02,3,49,TRUE
+"Sander Berge","Berge","Fulham","MID",19,"2026-01-01",1.8,0,0,0,0,330,1,1,"a",0,67,0,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0,0.01,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",20,"2026-01-04",0.6,0,0,0,0,330,2,2,"h",0,16,0,0,1,0,0,2,2,2025,"Liverpool",4,3,0,0,1,49,TRUE
+"Sander Berge","Berge","Fulham","MID",21,"2026-01-07",7.3,0,0,1,0,330,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0,0.1,10,49,TRUE
+"Sander Berge","Berge","Fulham","MID",22,"2026-01-17",1.4,0,0,0,0,330,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Leeds",3,3,0,0.01,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",23,"2026-01-24",1.8,0,0,0,0,330,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Brighton",3,3,0,0.01,1,49,TRUE
+"Sander Berge","Berge","Fulham","MID",24,"2026-02-01",4.2,0,0,0,0,330,2,3,"a",0,90,0,0,3,0,0,2,3,2025,"Man Utd",4,3,0.19,0.12,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",25,"2026-02-07",3,0,0,0,0,330,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Everton",3,3,0.32,0.04,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",26,"2026-02-11",0.6,0,0,0,0,330,0,3,"a",0,80,0,0,3,0,0,0,3,2025,"Man City",4,3,0,0.01,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",27,"2026-02-22",1.7,0,0,0,0,330,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Sunderland",3,3,0.14,0.02,4,49,TRUE
+"Sander Berge","Berge","Fulham","MID",28,"2026-03-01",0.9,0,0,0,0,330,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0,0.01,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",29,"2026-03-04",2.2,0,0,0,0,330,1,0,"h",0,81,0,0,1,0,0,0,1,2025,"West Ham",3,3,0,0.01,4,49,TRUE
+"Sander Berge","Berge","Fulham","MID",30,"2026-03-15",0.6,0,0,0,0,330,0,0,"a",0,77,1,0,0,0,0,0,0,2025,"Forest",3,3,0,0.02,2,49,TRUE
+"Sander Berge","Berge","Fulham","MID",31,"2026-03-21",3,0,0,1,0,330,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Burnley",2,3,0,0.05,5,49,TRUE
+"Sander Berge","Berge","Fulham","MID",32,"2026-04-11",4.3,0,0,0,0,330,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Liverpool",4,3,0.03,0.15,4,49,TRUE
+"Sander Berge","Berge","Fulham","MID",33,"2026-04-18",0,0,0,0,0,330,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Brentford",3,3,0,0,0,49,TRUE
+"Sander Berge","Berge","Fulham","MID",34,"2026-04-25",2.8,0,0,0,0,330,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.06,0.14,3,49,TRUE
+"Sander Berge","Berge","Fulham","MID",35,"2026-05-02",0,0,0,0,0,330,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Arsenal",5,3,0,0,0,49,TRUE
+"Sander Berge","Berge","Fulham","MID",36,"2026-05-09",0,0,0,0,0,330,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Bournemouth",3,3,0,0,0,49,TRUE
+"Sander Berge","Berge","Fulham","MID",37,"2026-05-17",0.8,0,0,0,0,330,1,1,"a",0,45,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.16,0.01,1,49,TRUE
+"Sander Berge","Berge","Fulham","MID",38,"2026-05-24",5.4,0,0,0,0,330,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Newcastle",3,3,0,0.03,3,49,TRUE

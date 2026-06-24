@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Elliot Anderson","Anderson","Forest","MID",1,"2025-08-17",7,0,0,1,0,517,1,3,"h",1,90,0,0,1,0,0,3,1,2025,"Brentford",3,3,0.39,0.28,6,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",2,"2025-08-24",3.9,0,0,0,0,517,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0,0.03,2,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",3,"2025-08-31",9.2,0,0,0,0,517,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"West Ham",3,3,0.02,0.13,2,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",4,"2025-09-13",2.3,0,0,0,0,517,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Arsenal",5,3,0,0.03,4,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",5,"2025-09-20",7.4,0,0,0,0,517,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Burnley",2,3,0.04,0.25,4,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",6,"2025-09-27",6.1,0,0,0,0,517,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Sunderland",3,3,0.18,0.03,3,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",7,"2025-10-05",1.6,0,0,0,0,517,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0.03,1,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",8,"2025-10-18",5.6,0,0,0,0,517,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"Chelsea",4,3,0,0.23,4,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",9,"2025-10-26",4.3,0,0,0,0,517,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Bournemouth",3,3,0,0.14,2,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",10,"2025-11-01",6.4,0,0,0,0,517,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Man Utd",4,3,0.16,0.13,4,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",11,"2025-11-09",7.6,1,0,0,0,517,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Leeds",3,3,0.79,0.05,9,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",12,"2025-11-22",8.8,0,0,1,0,517,3,0,"a",1,90,0,0,0,0,0,3,0,2025,"Liverpool",4,3,0.11,0.08,9,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",13,"2025-11-30",14.1,0,0,0,0,517,2,0,"h",2,90,0,0,2,0,0,0,2,2025,"Brighton",3,3,0.02,0.15,6,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",14,"2025-12-03",2.2,0,0,0,0,517,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Wolves",2,3,0.04,0.1,2,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",15,"2025-12-06",6,0,0,0,0,517,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Everton",3,3,0.04,0.03,4,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",16,"2025-12-14",2.1,0,0,0,0,517,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Tottenham",3,3,0,0.02,3,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",17,"2025-12-22",4.5,0,0,0,0,517,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.01,0.02,4,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",18,"2025-12-27",4.4,0,0,0,0,517,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Man City",4,3,0,0.04,3,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",19,"2025-12-30",5.2,0,0,0,0,517,2,0,"h",0,90,0,0,2,0,0,0,2,2025,"Everton",3,3,0,0.1,4,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",20,"2026-01-03",1.5,0,0,0,0,517,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Aston Villa",3,3,0,0,4,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",21,"2026-01-06",5.7,0,0,1,0,517,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"West Ham",3,3,0,0.07,7,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",22,"2026-01-17",3.7,0,0,0,0,517,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Arsenal",5,3,0,0.08,5,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",23,"2026-01-25",2.5,0,0,0,0,517,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Brentford",3,3,0.02,0.04,5,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",24,"2026-02-01",6.4,0,0,0,0,517,1,1,"h",3,90,0,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0.08,0.1,7,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",25,"2026-02-06",8.1,0,0,0,0,517,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Leeds",3,3,0,0.21,4,53,TRUE
+"Elliot Anderson","Anderson","Forest","MID",26,"2026-02-11",10.4,0,0,0,0,517,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Wolves",2,3,0.27,0.52,5,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",27,"2026-02-22",6.4,0,0,0,0,517,1,0,"h",0,76,0,0,0,0,0,0,1,2025,"Liverpool",4,3,0.1,0.04,5,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",28,"2026-03-01",3.1,0,0,0,0,517,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Brighton",3,3,0.08,0.16,1,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",29,"2026-03-04",9.2,1,0,0,0,517,2,2,"a",3,90,0,0,2,0,0,2,2,2025,"Man City",4,3,0.1,0.08,12,54,TRUE
+"Elliot Anderson","Anderson","Forest","MID",30,"2026-03-15",6,0,0,0,0,517,0,0,"h",0,87,1,0,0,0,0,0,0,2025,"Fulham",3,3,0.07,0.23,2,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",31,"2026-03-22",6.4,0,0,0,0,517,3,0,"a",0,90,0,0,0,0,0,3,0,2025,"Tottenham",3,3,0,0.12,5,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",32,"2026-04-12",4,0,0,0,0,517,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.05,0.11,4,55,TRUE
+"Elliot Anderson","Anderson","Forest","MID",33,"2026-04-19",2.7,0,0,0,0,517,1,4,"h",0,90,0,0,1,0,0,4,1,2025,"Burnley",2,3,0,0.05,2,56,TRUE
+"Elliot Anderson","Anderson","Forest","MID",34,"2026-04-24",8.4,1,0,0,0,517,5,0,"a",0,90,1,0,0,0,0,5,0,2025,"Sunderland",3,3,0.23,0.01,9,56,TRUE
+"Elliot Anderson","Anderson","Forest","MID",35,"2026-05-04",1.6,0,0,0,0,517,3,1,"a",0,45,0,0,1,0,0,3,1,2025,"Chelsea",4,3,0,0,1,56,TRUE
+"Elliot Anderson","Anderson","Forest","MID",36,"2026-05-10",7.6,1,0,0,0,517,1,1,"h",3,90,0,0,1,0,0,1,1,2025,"Newcastle",3,3,0.13,0.03,12,56,TRUE
+"Elliot Anderson","Anderson","Forest","MID",37,"2026-05-17",12.3,0,0,2,0,517,2,3,"a",3,90,1,0,3,0,0,2,3,2025,"Man Utd",4,3,0,0.68,12,56,TRUE
+"Elliot Anderson","Anderson","Forest","MID",38,"2026-05-24",4.3,0,0,0,0,517,1,1,"h",0,64,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.01,0.39,2,57,TRUE

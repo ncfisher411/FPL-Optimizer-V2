@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Nordi Mukiele","Mukiele","Sunderland","DEF",1,"2025-08-16",NA,NA,NA,NA,NA,694,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",2,"2025-08-23",0,0,0,0,0,694,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Burnley",2,3,0,0,0,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",3,"2025-08-30",3.3,0,0,0,0,694,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,3,0.07,0,4,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",4,"2025-09-13",3.5,0,0,0,0,694,0,0,"a",2,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0.05,10,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",5,"2025-09-21",7.9,0,0,0,0,694,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.07,0.18,4,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",6,"2025-09-27",2.1,0,0,0,0,694,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Forest",3,3,0,0,6,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",7,"2025-10-04",2.7,0,0,0,0,694,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.01,3,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",8,"2025-10-18",8,1,0,0,0,694,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Wolves",2,3,0.24,0.06,17,40,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",9,"2025-10-25",1.5,0,0,0,0,694,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0,0.01,2,41,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",10,"2025-11-03",3.6,0,0,0,0,694,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Everton",3,3,0.14,0.33,1,41,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",11,"2025-11-08",4.4,0,0,1,0,694,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Arsenal",5,3,0.04,0.03,4,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",12,"2025-11-22",3.4,0,0,0,0,694,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.15,4,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",13,"2025-11-29",2.4,0,0,0,0,694,2,3,"h",0,90,1,0,2,0,0,3,2,2025,"Bournemouth",3,3,0,0,0,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",14,"2025-12-03",1.6,0,1,0,0,694,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0,0.01,0,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",15,"2025-12-06",2.7,0,0,0,0,694,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Man City",4,3,0,0.19,1,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",16,"2025-12-14",2.9,0,0,1,0,694,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Newcastle",3,3,0.03,0.03,8,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",17,"2025-12-20",3.3,0,0,0,0,694,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0.11,6,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",18,"2025-12-28",5.5,0,0,0,0,694,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,3,0.01,0.03,4,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",19,"2026-01-01",3.6,0,0,0,0,694,0,0,"h",3,90,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0.04,11,42,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",20,"2026-01-04",5.7,0,0,0,0,694,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Tottenham",3,3,0,0.15,4,43,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",21,"2026-01-07",3.2,0,0,0,0,694,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Brentford",3,3,0,0.01,3,43,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",22,"2026-01-17",8.9,0,0,1,0,694,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0.14,6,44,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",23,"2026-01-24",4.7,0,0,1,0,694,1,3,"a",0,82,0,0,3,0,0,1,3,2025,"West Ham",3,3,0,0.15,4,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",24,"2026-02-02",4.2,0,0,1,0,694,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.29,0.19,9,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",25,"2026-02-07",2.1,0,0,0,0,694,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Arsenal",5,3,0.02,0.01,1,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",26,"2026-02-11",6.7,0,0,0,0,694,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0.11,0.13,2,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",27,"2026-02-22",0,0,0,0,0,694,3,1,"h",0,11,0,0,0,0,0,1,3,2025,"Fulham",3,3,0,0,1,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",28,"2026-02-28",0,0,0,0,0,694,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",29,"2026-03-03",0,0,0,0,0,694,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,0,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",30,"2026-03-14",0,0,0,0,0,694,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Brighton",3,3,0,0,0,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",31,"2026-03-22",0,0,0,0,0,694,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",32,"2026-04-12",8,1,0,0,0,694,0,1,"h",2,81,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0.26,0.06,14,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",33,"2026-04-19",3,0,0,0,0,694,3,4,"a",0,90,1,0,4,0,0,3,4,2025,"Aston Villa",3,3,0,0.03,-1,45,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",34,"2026-04-24",3.8,0,0,0,0,694,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0,0.1,0,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",35,"2026-05-02",9.4,1,0,0,0,694,1,1,"a",1,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.19,0.04,11,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",36,"2026-05-09",2,0,0,0,0,694,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0.02,0.02,6,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",37,"2026-05-17",3.5,0,0,0,0,694,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Everton",3,3,0.03,0.03,2,46,TRUE
+"Nordi Mukiele","Mukiele","Sunderland","DEF",38,"2026-05-24",5.3,0,0,0,0,694,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0.1,0.36,4,46,TRUE

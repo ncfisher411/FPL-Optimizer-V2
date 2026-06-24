@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Nilson Angulo","Angulo","Sunderland","MID",1,"2025-08-16",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",2,"2025-08-23",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",3,"2025-08-30",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",4,"2025-09-13",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",5,"2025-09-21",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",6,"2025-09-27",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",7,"2025-10-04",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",8,"2025-10-18",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",9,"2025-10-25",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",10,"2025-11-03",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",11,"2025-11-08",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",12,"2025-11-22",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",13,"2025-11-29",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",14,"2025-12-03",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",15,"2025-12-06",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",16,"2025-12-14",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",17,"2025-12-20",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",18,"2025-12-28",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",19,"2026-01-01",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",20,"2026-01-04",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",21,"2026-01-07",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",22,"2026-01-17",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",23,"2026-01-24",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",24,"2026-02-02",NA,NA,NA,NA,NA,813,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",25,"2026-02-07",1.7,0,0,0,0,813,0,3,"a",0,5,0,0,1,0,0,0,3,2025,"Arsenal",5,3,0,0.02,1,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",26,"2026-02-11",7,0,0,0,0,813,1,0,"h",0,79,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0.21,0.02,2,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",27,"2026-02-22",1.4,0,0,0,0,813,3,1,"h",0,69,0,0,2,0,0,1,3,2025,"Fulham",3,3,0.28,0.01,2,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",28,"2026-02-28",1.3,0,0,0,0,813,1,1,"a",0,14,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0.02,1,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",29,"2026-03-03",1.2,0,0,0,0,813,1,0,"a",0,87,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0.01,3,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",30,"2026-03-14",0,0,0,0,0,813,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Brighton",3,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",31,"2026-03-22",0,0,0,0,0,813,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",32,"2026-04-12",0,0,0,0,0,813,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",33,"2026-04-19",0,0,0,0,0,813,3,4,"a",0,0,0,0,0,0,0,3,4,2025,"Aston Villa",3,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",34,"2026-04-24",0,0,0,0,0,813,5,0,"h",0,0,0,0,0,0,0,0,5,2025,"Forest",3,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",35,"2026-05-02",0,0,0,0,0,813,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",36,"2026-05-09",1.5,0,0,0,0,813,0,0,"h",0,11,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0,0.01,1,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",37,"2026-05-17",0.8,0,0,0,0,813,3,1,"a",0,76,0,0,1,0,0,3,1,2025,"Everton",3,3,0,0.01,2,50,TRUE
+"Nilson Angulo","Angulo","Sunderland","MID",38,"2026-05-24",2.9,0,0,0,0,813,1,2,"h",0,60,1,0,1,0,0,2,1,2025,"Chelsea",4,3,0.28,0.02,1,50,TRUE

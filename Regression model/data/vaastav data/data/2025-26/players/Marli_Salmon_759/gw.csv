@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Marli Salmon","Salmon","Arsenal","DEF",1,"2025-08-17",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",2,"2025-08-23",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",3,"2025-08-31",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",4,"2025-09-13",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",5,"2025-09-21",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",6,"2025-09-28",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",8,"2025-10-18",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",9,"2025-10-26",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",10,"2025-11-01",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",11,"2025-11-08",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",12,"2025-11-23",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",13,"2025-11-30",NA,NA,NA,NA,NA,759,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",14,"2025-12-03",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,5,NA,NA,NA,NA,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",15,"2025-12-06",0,0,0,0,0,759,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",16,"2025-12-13",0,0,0,0,0,759,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Wolves",2,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",17,"2025-12-20",0,0,0,0,0,759,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Everton",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",18,"2025-12-27",0,0,0,0,0,759,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brighton",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",19,"2025-12-30",0,0,0,0,0,759,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Aston Villa",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",20,"2026-01-03",0,0,0,0,0,759,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Bournemouth",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",21,"2026-01-08",0,0,0,0,0,759,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Liverpool",4,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",22,"2026-01-17",0,0,0,0,0,759,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Forest",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",23,"2026-01-25",0,0,0,0,0,759,3,2,"h",0,0,0,0,0,0,0,2,3,2025,"Man Utd",4,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",24,"2026-01-31",0,0,0,0,0,759,4,0,"a",0,0,0,0,0,0,0,4,0,2025,"Leeds",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",25,"2026-02-07",0,0,0,0,0,759,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Sunderland",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",26,"2026-02-12",0,0,0,0,0,759,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brentford",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",26,"2026-02-18",0,0,0,0,0,759,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Wolves",2,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",27,"2026-02-22",0,0,0,0,0,759,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Tottenham",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",28,"2026-03-01",0,0,0,0,0,759,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",29,"2026-03-04",0,0,0,0,0,759,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",30,"2026-03-14",0,0,0,0,0,759,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Everton",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",32,"2026-04-11",0,0,0,0,0,759,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Bournemouth",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",33,"2026-04-19",0,0,0,0,0,759,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man City",4,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",34,"2026-04-25",0,0,0,0,0,759,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",35,"2026-05-02",0,0,0,0,0,759,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Fulham",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",36,"2026-05-10",0,0,0,0,0,759,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"West Ham",3,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",37,"2026-05-18",0,0,0,0,0,759,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,5,0,0,0,40,TRUE
+"Marli Salmon","Salmon","Arsenal","DEF",38,"2026-05-24",0,0,0,0,0,759,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,5,0,0,0,40,TRUE

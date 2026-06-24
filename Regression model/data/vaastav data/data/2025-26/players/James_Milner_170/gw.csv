@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"James Milner","Milner","Brighton","MID",1,"2025-08-16",0,0,0,0,0,170,1,1,"h",0,2,0,0,1,0,0,1,1,2025,"Fulham",3,3,0,0,1,50,TRUE
+"James Milner","Milner","Brighton","MID",2,"2025-08-24",0,0,0,0,0,170,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Everton",3,3,0,0,0,50,TRUE
+"James Milner","Milner","Brighton","MID",3,"2025-08-31",5.3,1,0,0,0,170,1,2,"h",0,30,0,0,0,0,0,2,1,2025,"Man City",4,3,0.79,0.01,6,50,TRUE
+"James Milner","Milner","Brighton","MID",4,"2025-09-13",1.3,0,0,0,0,170,1,2,"a",0,65,1,0,2,0,0,1,2,2025,"Bournemouth",3,3,0,0.02,1,50,TRUE
+"James Milner","Milner","Brighton","MID",5,"2025-09-20",1.7,0,0,0,0,170,2,2,"h",0,27,0,0,1,0,0,2,2,2025,"Tottenham",3,3,0,0.03,1,50,TRUE
+"James Milner","Milner","Brighton","MID",6,"2025-09-27",0,0,0,0,0,170,3,1,"a",0,0,0,0,0,0,0,3,1,2025,"Chelsea",4,3,0,0,0,50,TRUE
+"James Milner","Milner","Brighton","MID",7,"2025-10-05",2.5,0,0,0,0,170,1,1,"a",0,13,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0.06,1,50,TRUE
+"James Milner","Milner","Brighton","MID",8,"2025-10-18",0.1,0,0,0,0,170,1,2,"h",0,19,0,0,1,0,0,2,1,2025,"Newcastle",3,3,0,0,1,50,TRUE
+"James Milner","Milner","Brighton","MID",9,"2025-10-25",5.9,0,0,1,0,170,2,4,"a",0,31,0,0,2,0,0,2,4,2025,"Man Utd",4,3,0,0.28,4,50,TRUE
+"James Milner","Milner","Brighton","MID",10,"2025-11-01",0,0,0,0,0,170,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Leeds",3,3,0,0,0,50,TRUE
+"James Milner","Milner","Brighton","MID",11,"2025-11-09",0,0,0,0,0,170,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,0,50,TRUE
+"James Milner","Milner","Brighton","MID",12,"2025-11-22",0,0,0,0,0,170,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",13,"2025-11-30",0,0,0,0,0,170,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",14,"2025-12-03",0,0,0,0,0,170,4,3,"h",0,0,0,0,0,0,0,3,4,2025,"Aston Villa",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",15,"2025-12-07",0,0,0,0,0,170,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",16,"2025-12-13",0.2,0,0,0,0,170,0,2,"a",0,3,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0,0,1,49,TRUE
+"James Milner","Milner","Brighton","MID",17,"2025-12-20",2,0,0,0,0,170,0,0,"h",0,19,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0.04,0.1,1,49,TRUE
+"James Milner","Milner","Brighton","MID",18,"2025-12-27",0,0,0,0,0,170,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",19,"2025-12-30",0.6,0,0,0,0,170,2,2,"a",0,71,1,0,2,0,0,2,2,2025,"West Ham",3,3,0.02,0.01,1,49,TRUE
+"James Milner","Milner","Brighton","MID",20,"2026-01-03",0.1,0,0,0,0,170,0,2,"h",0,10,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0.01,1,49,TRUE
+"James Milner","Milner","Brighton","MID",21,"2026-01-07",0.3,0,0,0,0,170,1,1,"a",0,7,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0,1,49,TRUE
+"James Milner","Milner","Brighton","MID",22,"2026-01-19",0,0,0,0,0,170,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",23,"2026-01-24",0.2,0,0,0,0,170,1,2,"a",0,9,0,0,1,0,0,1,2,2025,"Fulham",3,3,0,0,1,49,TRUE
+"James Milner","Milner","Brighton","MID",24,"2026-01-31",0,0,0,0,0,170,1,1,"h",0,1,0,0,1,0,0,1,1,2025,"Everton",3,3,0,0,1,49,TRUE
+"James Milner","Milner","Brighton","MID",25,"2026-02-08",0,0,0,0,0,170,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Crystal Palace",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",26,"2026-02-11",4.9,0,0,0,0,170,0,1,"a",0,68,0,0,1,0,0,0,1,2025,"Aston Villa",3,3,0.08,0.05,2,49,TRUE
+"James Milner","Milner","Brighton","MID",27,"2026-02-21",2.4,0,0,0,0,170,2,0,"a",0,89,0,0,0,0,0,2,0,2025,"Brentford",3,3,0.03,0.02,3,49,TRUE
+"James Milner","Milner","Brighton","MID",28,"2026-03-01",2.2,0,0,0,0,170,1,2,"h",0,85,0,0,1,0,0,2,1,2025,"Forest",3,3,0,0.03,2,49,TRUE
+"James Milner","Milner","Brighton","MID",29,"2026-03-04",0,0,0,0,0,170,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",30,"2026-03-14",1.8,0,0,0,0,170,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0,0.02,3,49,TRUE
+"James Milner","Milner","Brighton","MID",31,"2026-03-21",2.9,0,0,0,0,170,1,2,"h",0,75,0,0,1,0,0,2,1,2025,"Liverpool",4,3,0.07,0.01,2,49,TRUE
+"James Milner","Milner","Brighton","MID",32,"2026-04-11",0,0,0,0,0,170,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",33,"2026-04-18",0,0,0,0,0,170,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",33,"2026-04-21",0,0,0,0,0,170,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",35,"2026-05-02",0,0,0,0,0,170,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Newcastle",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",36,"2026-05-09",0,0,0,0,0,170,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",37,"2026-05-17",0,0,0,0,0,170,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Leeds",3,3,0,0,0,49,TRUE
+"James Milner","Milner","Brighton","MID",38,"2026-05-24",0.3,0,0,0,0,170,3,0,"h",0,58,0,0,3,0,0,0,3,2025,"Man Utd",4,3,0,0.01,1,49,TRUE

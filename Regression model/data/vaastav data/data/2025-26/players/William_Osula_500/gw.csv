@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"William Osula","Osula","Newcastle","FWD",1,"2025-08-16",0.7,0,0,0,0,500,0,0,"a",0,1,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0.03,0.02,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",2,"2025-08-25",4.8,1,0,0,0,500,3,2,"h",0,14,0,0,1,0,0,2,3,2025,"Liverpool",4,3,0.13,0,5,55,TRUE
+"William Osula","Osula","Newcastle","FWD",3,"2025-08-30",0.8,0,0,0,0,500,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Leeds",3,3,0.24,0,2,55,TRUE
+"William Osula","Osula","Newcastle","FWD",4,"2025-09-13",1.6,0,0,0,0,500,0,1,"h",0,25,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",5,"2025-09-21",0,0,0,0,0,500,0,0,"a",0,6,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",6,"2025-09-28",0,0,0,0,0,500,2,1,"h",0,23,0,0,2,0,0,1,2,2025,"Arsenal",5,3,0,0,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",7,"2025-10-05",0,0,0,0,0,500,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",8,"2025-10-18",0,0,0,0,0,500,1,2,"a",0,4,0,0,0,0,0,1,2,2025,"Brighton",3,3,0,0,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",9,"2025-10-25",1.5,0,0,1,0,500,1,2,"h",0,4,0,0,0,0,0,2,1,2025,"Fulham",3,3,0.13,0,4,55,TRUE
+"William Osula","Osula","Newcastle","FWD",10,"2025-11-02",2.7,0,0,0,0,500,1,3,"a",0,45,0,0,1,0,0,1,3,2025,"West Ham",3,3,0.11,0.01,1,55,TRUE
+"William Osula","Osula","Newcastle","FWD",11,"2025-11-09",0,0,0,0,0,500,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Brentford",3,3,0,0,0,55,TRUE
+"William Osula","Osula","Newcastle","FWD",12,"2025-11-22",0,0,0,0,0,500,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Man City",4,3,0,0,0,55,TRUE
+"William Osula","Osula","Newcastle","FWD",13,"2025-11-29",0,0,0,0,0,500,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Everton",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",14,"2025-12-02",0,0,0,0,0,500,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",15,"2025-12-06",0,0,0,0,0,500,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",16,"2025-12-14",0,0,0,0,0,500,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Sunderland",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",17,"2025-12-20",0,0,0,0,0,500,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",18,"2025-12-26",0,0,0,0,0,500,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",19,"2025-12-30",0,0,0,0,0,500,3,1,"a",0,0,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",20,"2026-01-04",0,0,0,0,0,500,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Crystal Palace",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",21,"2026-01-07",0,0,0,0,0,500,3,4,"h",0,0,0,0,0,0,0,4,3,2025,"Leeds",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",22,"2026-01-18",0,0,0,0,0,500,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Wolves",2,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",23,"2026-01-25",0,0,0,0,0,500,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Aston Villa",3,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",24,"2026-01-31",0,0,0,0,0,500,1,4,"a",0,6,0,0,1,0,0,1,4,2025,"Liverpool",4,3,0,0,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",25,"2026-02-07",0.5,0,0,0,0,500,3,2,"h",0,25,0,0,1,0,0,2,3,2025,"Brentford",3,3,0,0.01,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",26,"2026-02-10",0,0,0,0,0,500,2,1,"a",0,2,0,0,0,0,0,2,1,2025,"Tottenham",3,3,0,0,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",27,"2026-02-21",0,0,0,0,0,500,1,2,"a",0,12,0,0,0,0,0,1,2,2025,"Man City",4,3,0,0,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",28,"2026-02-28",0,0,0,0,0,500,3,2,"h",0,4,0,0,0,0,0,2,3,2025,"Everton",3,3,0,0,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",29,"2026-03-04",5.2,1,0,0,0,500,1,2,"h",2,5,0,0,0,0,0,2,1,2025,"Man Utd",4,3,0.05,0,7,54,TRUE
+"William Osula","Osula","Newcastle","FWD",30,"2026-03-14",0,0,0,0,0,500,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Chelsea",4,3,0,0,0,54,TRUE
+"William Osula","Osula","Newcastle","FWD",31,"2026-03-22",0.2,0,0,0,0,500,2,1,"h",0,14,0,0,1,0,0,1,2,2025,"Sunderland",3,3,0,0.01,1,54,TRUE
+"William Osula","Osula","Newcastle","FWD",32,"2026-04-12",8.6,1,0,0,0,500,1,2,"a",2,83,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0.94,0.01,8,54,TRUE
+"William Osula","Osula","Newcastle","FWD",33,"2026-04-18",7.8,1,0,0,0,500,2,1,"h",3,90,0,0,2,0,0,1,2,2025,"Bournemouth",3,3,0.39,0.04,9,54,TRUE
+"William Osula","Osula","Newcastle","FWD",34,"2026-04-25",3,0,0,0,0,500,0,1,"a",0,65,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.05,2,54,TRUE
+"William Osula","Osula","Newcastle","FWD",35,"2026-05-02",9.3,1,0,0,0,500,1,3,"h",3,67,0,0,1,0,0,3,1,2025,"Brighton",3,3,0.78,0.31,9,54,TRUE
+"William Osula","Osula","Newcastle","FWD",36,"2026-05-10",4.7,0,0,0,0,500,1,1,"a",0,70,0,0,0,0,0,1,1,2025,"Forest",3,3,0.57,0.01,2,54,TRUE
+"William Osula","Osula","Newcastle","FWD",37,"2026-05-17",10.5,2,0,0,0,500,1,3,"h",3,84,0,0,1,0,0,3,1,2025,"West Ham",3,3,0.91,0.15,13,54,TRUE
+"William Osula","Osula","Newcastle","FWD",38,"2026-05-24",0.3,0,0,0,0,500,0,2,"a",0,65,0,0,1,0,0,0,2,2025,"Fulham",3,3,0,0,2,55,TRUE

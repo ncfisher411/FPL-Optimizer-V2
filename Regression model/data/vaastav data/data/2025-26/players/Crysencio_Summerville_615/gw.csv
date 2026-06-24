@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Crysencio Summerville","Summerville","West Ham","MID",1,"2025-08-16",0,0,0,0,0,615,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Sunderland",3,3,0,0,0,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",2,"2025-08-22",0,0,0,0,0,615,5,1,"h",0,0,0,0,0,0,0,1,5,2025,"Chelsea",4,3,0,0,0,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",3,"2025-08-31",3.7,0,0,2,0,615,3,0,"a",0,8,0,0,0,0,0,3,0,2025,"Forest",3,3,0,0.02,7,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",4,"2025-09-13",1.2,0,0,0,0,615,3,0,"h",0,60,0,0,2,0,0,0,3,2025,"Tottenham",3,3,0,0.01,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",5,"2025-09-20",1.9,0,0,0,0,615,2,1,"h",0,77,0,0,2,0,0,1,2,2025,"Crystal Palace",3,3,0,0.2,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",6,"2025-09-29",7.3,0,0,0,0,615,1,1,"a",0,76,0,0,1,0,0,1,1,2025,"Everton",3,3,0.42,0.12,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",7,"2025-10-04",1.8,0,0,0,0,615,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Arsenal",5,3,0.02,0.01,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",8,"2025-10-20",2.7,0,0,0,0,615,2,0,"h",0,90,1,0,2,0,0,0,2,2025,"Brentford",3,3,0.06,0.04,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",9,"2025-10-24",0.6,0,0,0,0,615,1,2,"a",0,78,1,0,2,0,0,1,2,2025,"Leeds",3,3,0,0.01,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",10,"2025-11-02",4.5,0,0,0,0,615,1,3,"h",0,78,0,0,1,0,0,3,1,2025,"Newcastle",3,3,0.21,0.02,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",11,"2025-11-08",2.6,0,0,1,0,615,2,3,"h",0,82,0,0,1,0,0,3,2,2025,"Burnley",2,3,0.13,0.03,5,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",12,"2025-11-22",0,0,0,0,0,615,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Bournemouth",3,3,0,0,0,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",13,"2025-11-30",0,0,0,0,0,615,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0,0,0,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",14,"2025-12-04",0,0,0,0,0,615,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Man Utd",4,3,0,0,0,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",15,"2025-12-07",2.9,0,0,0,0,615,1,1,"a",0,71,0,0,0,0,0,1,1,2025,"Brighton",3,3,0.43,0.01,3,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",16,"2025-12-14",2.9,0,0,0,0,615,3,2,"h",0,87,0,0,3,0,0,2,3,2025,"Aston Villa",3,3,0.11,0,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",17,"2025-12-20",2.7,0,0,0,0,615,0,3,"a",0,78,0,0,3,0,0,0,3,2025,"Man City",4,3,0.08,0,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",18,"2025-12-27",3.3,0,0,0,0,615,1,0,"h",0,55,0,0,0,0,0,0,1,2025,"Fulham",3,3,0.21,0.07,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",19,"2025-12-30",2.5,0,0,0,0,615,2,2,"h",0,27,0,0,0,0,0,2,2,2025,"Brighton",3,3,0.15,0.02,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",20,"2026-01-03",4.3,0,0,0,0,615,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Wolves",2,3,0,0.07,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",21,"2026-01-06",5.4,0,0,0,0,615,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Forest",3,3,0.03,0.05,4,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",22,"2026-01-17",11.6,1,0,0,0,615,2,1,"a",3,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.35,0.26,10,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",23,"2026-01-24",10.2,1,0,0,0,615,1,3,"h",1,90,0,0,1,0,0,3,1,2025,"Sunderland",3,3,0.13,0.04,8,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",24,"2026-01-31",7,1,0,0,0,615,2,3,"a",0,90,0,0,3,0,0,2,3,2025,"Chelsea",4,3,0.32,0.02,7,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",25,"2026-02-07",9.5,1,0,0,0,615,2,0,"a",3,90,0,0,0,0,0,2,0,2025,"Burnley",2,3,0.74,0.02,11,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",26,"2026-02-10",4.7,0,0,0,0,615,1,1,"h",0,89,0,0,0,0,0,1,1,2025,"Man Utd",4,3,0.02,0.16,3,56,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",27,"2026-02-21",9.7,0,0,0,0,615,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0.72,0.33,3,56,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",28,"2026-02-28",6.4,0,0,0,0,615,2,5,"a",0,90,1,0,5,0,0,2,5,2025,"Liverpool",4,3,0.27,0.05,1,57,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",29,"2026-03-04",8,1,0,0,0,615,1,0,"a",3,90,0,0,0,0,0,1,0,2025,"Fulham",3,3,0.13,0.38,11,57,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",30,"2026-03-14",0,0,0,0,0,615,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0,0,57,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",31,"2026-03-22",0,0,0,0,0,615,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Aston Villa",3,3,0,0,0,56,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",32,"2026-04-10",2.4,0,0,0,0,615,0,4,"h",0,77,0,0,0,0,0,4,0,2025,"Wolves",2,3,0.41,0.01,3,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",33,"2026-04-20",2.3,0,0,0,0,615,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.12,0.02,3,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",34,"2026-04-25",4.4,0,0,0,0,615,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Everton",3,3,0.07,0.78,2,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",35,"2026-05-02",3.9,0,0,0,0,615,0,3,"a",0,87,1,0,3,0,0,0,3,2025,"Brentford",3,3,0.14,0.02,1,55,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",36,"2026-05-10",1.6,0,0,0,0,615,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Arsenal",5,3,0.07,0,1,54,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",37,"2026-05-17",5.3,0,0,0,0,615,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Newcastle",3,3,0.05,0.24,2,54,TRUE
+"Crysencio Summerville","Summerville","West Ham","MID",38,"2026-05-24",7.7,0,0,1,0,615,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Leeds",3,3,0.04,0.34,6,54,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Benjamin Sesko","Šeško","Man Utd","FWD",1,"2025-08-17",3.2,0,0,0,0,681,1,0,"h",0,25,0,0,0,0,0,0,1,2025,"Arsenal",5,4,0.11,0.06,1,75,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",2,"2025-08-24",0.5,0,0,0,0,681,1,1,"a",0,37,0,0,1,0,0,1,1,2025,"Fulham",3,4,0,0.04,1,75,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",3,"2025-08-30",0.3,0,0,0,0,681,2,3,"h",0,18,0,0,0,0,0,3,2,2025,"Burnley",2,4,0.27,0,1,75,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",4,"2025-09-14",1.5,0,0,0,0,681,0,3,"a",0,79,0,0,3,0,0,0,3,2025,"Man City",4,4,0.03,0,2,74,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",5,"2025-09-20",0.4,0,0,0,0,681,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Chelsea",4,4,0,0.01,1,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",6,"2025-09-27",18.1,1,0,0,0,681,1,3,"a",2,90,0,0,3,0,0,1,3,2025,"Brentford",3,4,0.89,0.01,8,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",7,"2025-10-04",10.7,1,0,0,0,681,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.29,0.01,9,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",8,"2025-10-19",2.6,0,0,0,0,681,2,1,"a",0,29,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.01,0.02,1,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",9,"2025-10-25",4.2,0,0,1,0,681,2,4,"h",0,81,1,0,1,0,0,4,2,2025,"Brighton",3,4,0.21,0.01,4,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",10,"2025-11-01",1.3,0,0,0,0,681,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Forest",3,4,0.16,0,2,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",11,"2025-11-08",0.7,0,0,0,0,681,2,2,"a",0,32,0,0,2,0,0,2,2,2025,"Tottenham",3,4,0,0,1,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",12,"2025-11-24",0,0,0,0,0,681,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Everton",3,4,0,0,0,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",13,"2025-11-30",0,0,0,0,0,681,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0,0,0,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",14,"2025-12-04",0,0,0,0,0,681,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,4,0,0,0,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",15,"2025-12-08",0,0,0,0,0,681,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Wolves",2,4,0,0,0,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",16,"2025-12-15",0,0,0,1,0,681,4,4,"h",0,21,0,0,1,0,0,4,4,2025,"Bournemouth",3,4,0,0,4,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",17,"2025-12-21",2.3,0,0,0,0,681,1,2,"a",0,72,0,0,2,0,0,1,2,2025,"Aston Villa",3,4,0.32,0.01,2,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",18,"2025-12-26",3.1,0,0,0,0,681,0,1,"h",0,59,0,0,0,0,0,1,0,2025,"Newcastle",3,4,0.28,0,1,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",19,"2025-12-30",9.8,0,0,0,0,681,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,4,0.44,0,2,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",20,"2026-01-04",2.3,0,0,0,0,681,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,4,0.8,0.02,2,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",21,"2026-01-07",22.1,2,0,0,0,681,2,2,"a",3,90,0,0,2,0,0,2,2,2025,"Burnley",2,4,1.14,0.01,13,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",22,"2026-01-17",0,0,0,0,0,681,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Man City",4,4,0,0,0,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",23,"2026-01-25",0,0,0,0,0,681,3,2,"a",0,9,0,0,1,0,0,3,2,2025,"Arsenal",5,4,0,0,1,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",24,"2026-02-01",6.1,1,0,0,0,681,2,3,"h",1,16,0,0,2,0,0,3,2,2025,"Fulham",3,4,0.59,0,6,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",25,"2026-02-07",2.4,0,0,0,0,681,0,2,"h",0,15,0,0,0,0,0,2,0,2025,"Tottenham",3,4,0.2,0,1,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",26,"2026-02-10",6.3,1,0,0,0,681,1,1,"a",3,21,0,0,0,0,0,1,1,2025,"West Ham",3,4,0.12,0,8,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",27,"2026-02-23",5.9,1,0,0,0,681,1,0,"a",3,32,0,0,0,0,0,1,0,2025,"Everton",3,4,0.41,0,8,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",28,"2026-03-01",10.2,1,0,0,0,681,1,2,"h",2,74,0,0,1,0,0,2,1,2025,"Crystal Palace",3,4,0.29,0.01,8,72,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",29,"2026-03-04",1.5,0,0,0,0,681,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Newcastle",3,4,0.32,0.01,2,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",30,"2026-03-15",5.2,1,0,0,0,681,1,3,"h",0,15,0,0,0,0,0,3,1,2025,"Aston Villa",3,4,0.31,0,5,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",31,"2026-03-20",0.1,0,0,0,0,681,2,2,"a",0,19,1,0,1,0,0,2,2,2025,"Bournemouth",3,4,0,0,0,74,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",32,"2026-04-13",5.7,0,0,0,0,681,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Leeds",3,4,0.31,0.01,2,74,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",33,"2026-04-18",0.7,0,0,0,0,681,1,0,"a",0,79,0,0,0,0,0,1,0,2025,"Chelsea",4,4,0.03,0.01,2,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",34,"2026-04-27",6.9,1,0,0,0,681,1,2,"h",2,87,0,0,1,0,0,2,1,2025,"Brentford",3,4,0.43,0.03,8,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",35,"2026-05-03",9.3,1,0,0,0,681,2,3,"h",0,45,0,0,0,0,0,3,2,2025,"Liverpool",4,4,1.25,0.01,5,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",36,"2026-05-09",0,0,0,0,0,681,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Sunderland",3,4,0,0,0,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",37,"2026-05-17",0,0,0,0,0,681,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Forest",3,4,0,0,0,73,TRUE
+"Benjamin Sesko","Šeško","Man Utd","FWD",38,"2026-05-24",0,0,0,0,0,681,3,0,"a",0,0,0,0,0,0,0,3,0,2025,"Brighton",3,4,0,0,0,72,TRUE

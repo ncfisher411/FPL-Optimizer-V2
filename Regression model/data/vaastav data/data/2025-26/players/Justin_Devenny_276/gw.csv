@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Justin Devenny","Devenny","Crystal Palace","MID",1,"2025-08-17",0.5,0,0,0,0,276,0,0,"a",0,6,0,0,0,0,0,0,0,2025,"Chelsea",4,3,0,0,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",2,"2025-08-24",3.2,0,0,0,0,276,1,1,"h",0,65,0,0,1,0,0,1,1,2025,"Forest",3,3,0.05,0.02,2,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",3,"2025-08-31",0.3,0,0,0,0,276,3,0,"a",0,5,0,0,0,0,0,3,0,2025,"Aston Villa",3,3,0,0,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",4,"2025-09-13",3.3,0,0,0,0,276,0,0,"h",0,21,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0,0.12,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",5,"2025-09-20",1,0,0,0,0,276,2,1,"a",0,45,0,0,1,0,0,2,1,2025,"West Ham",3,3,0.08,0.04,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",6,"2025-09-27",0.1,0,0,0,0,276,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Liverpool",4,3,0,0,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",7,"2025-10-05",3.7,0,0,0,0,276,1,2,"a",0,2,0,0,1,0,0,1,2,2025,"Everton",3,3,0.3,0,1,45,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",8,"2025-10-18",0,0,0,0,0,276,3,3,"h",0,0,0,0,0,0,0,3,3,2025,"Bournemouth",3,3,0,0,0,44,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",9,"2025-10-26",0,0,0,0,0,276,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,44,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",10,"2025-11-01",0,0,0,0,0,276,0,2,"h",0,12,0,0,0,0,0,2,0,2025,"Brentford",3,3,0,0,1,44,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",11,"2025-11-09",0,0,0,0,0,276,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",12,"2025-11-22",0.1,0,0,0,0,276,2,0,"a",0,9,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0.02,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",13,"2025-11-30",0.2,0,0,0,0,276,2,1,"h",0,5,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0.06,0,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",14,"2025-12-03",0.2,0,0,0,0,276,1,0,"a",0,26,0,0,0,0,0,1,0,2025,"Burnley",2,3,0,0,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",15,"2025-12-07",0,0,0,0,0,276,2,1,"a",0,1,0,0,0,0,0,2,1,2025,"Fulham",3,3,0,0,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",16,"2025-12-14",0,0,0,0,0,276,3,0,"h",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",17,"2025-12-20",5.7,1,0,0,0,276,1,4,"a",0,13,0,0,1,0,0,1,4,2025,"Leeds",3,3,1.16,0,6,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",18,"2025-12-28",7.6,0,0,0,0,276,1,0,"h",0,84,0,0,1,0,0,0,1,2025,"Tottenham",3,3,0.3,0.05,2,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",19,"2026-01-01",3.2,0,0,0,0,276,1,1,"h",0,81,0,0,1,0,0,1,1,2025,"Fulham",3,3,0.2,0.04,2,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",20,"2026-01-04",0.7,0,0,0,0,276,0,2,"a",0,38,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0.03,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",21,"2026-01-07",4,0,0,0,0,276,0,0,"h",0,89,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0.23,0.03,3,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",22,"2026-01-17",0.7,0,0,0,0,276,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Sunderland",3,3,0,0.01,2,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",23,"2026-01-25",0,0,0,0,0,276,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Chelsea",4,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",24,"2026-02-01",0,0,0,0,0,276,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Forest",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",25,"2026-02-08",0,0,0,0,0,276,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",26,"2026-02-11",0,0,0,0,0,276,3,2,"h",0,0,0,0,0,0,0,2,3,2025,"Burnley",2,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",27,"2026-02-22",0,0,0,0,0,276,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",28,"2026-03-01",0,0,0,0,0,276,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",29,"2026-03-05",0,0,0,0,0,276,3,1,"a",0,0,0,0,0,0,0,3,1,2025,"Tottenham",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",30,"2026-03-15",0,0,0,0,0,276,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",32,"2026-04-12",0,0,0,0,0,276,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",33,"2026-04-20",0.1,0,0,0,0,276,0,0,"h",0,12,0,0,0,0,0,0,0,2025,"West Ham",3,3,0,0,1,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",34,"2026-04-25",0,0,0,0,0,276,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Liverpool",4,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",35,"2026-05-03",2.9,0,0,0,0,276,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Bournemouth",3,3,0,0,4,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",36,"2026-05-13",0,0,0,0,0,276,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",36,"2026-05-10",0,0,0,0,0,276,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Everton",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",37,"2026-05-17",0,0,0,0,0,276,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Brentford",3,3,0,0,0,43,TRUE
+"Justin Devenny","Devenny","Crystal Palace","MID",38,"2026-05-24",0.9,0,0,0,0,276,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Arsenal",5,3,0,0.03,2,43,TRUE

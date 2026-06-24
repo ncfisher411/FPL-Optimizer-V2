@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Jayden Bogle","Bogle","Leeds","DEF",1,"2025-08-18",1.7,0,0,0,0,342,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Everton",3,3,0.01,0.01,6,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",2,"2025-08-23",0.8,0,0,0,0,342,0,5,"a",0,82,1,0,4,0,0,0,5,2025,"Arsenal",5,3,0,0,-1,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",3,"2025-08-30",3.2,0,0,0,0,342,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0.08,0.02,6,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",4,"2025-09-13",3.1,0,0,0,0,342,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.05,0.01,2,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",5,"2025-09-20",1.1,0,0,1,0,342,3,1,"a",0,82,1,0,1,0,0,3,1,2025,"Wolves",2,3,0,0,4,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",6,"2025-09-27",4.6,0,0,0,0,342,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Bournemouth",3,3,0,0.03,3,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",7,"2025-10-04",2.6,0,0,0,0,342,2,1,"h",0,88,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.02,0.06,3,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",8,"2025-10-18",3,0,0,0,0,342,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Burnley",2,3,0.47,0.12,1,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",9,"2025-10-24",5.5,0,0,0,0,342,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"West Ham",3,3,0.03,0.17,2,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",10,"2025-11-01",0.9,0,0,0,0,342,0,3,"a",0,76,0,0,3,0,0,0,3,2025,"Brighton",3,3,0,0.01,1,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",11,"2025-11-09",1.8,0,0,0,0,342,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Forest",3,3,0,0.01,1,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",12,"2025-11-23",2.7,0,0,0,0,342,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Aston Villa",3,3,0,0.07,0,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",13,"2025-11-29",1.5,0,0,0,0,342,2,3,"a",0,90,0,0,3,0,0,2,3,2025,"Man City",4,3,0,0.01,1,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",14,"2025-12-03",4.4,0,0,1,0,342,1,3,"h",0,86,0,0,1,0,0,3,1,2025,"Chelsea",4,3,0,0.03,5,45,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",15,"2025-12-06",0.3,0,0,0,0,342,3,3,"h",0,90,1,0,3,0,0,3,3,2025,"Liverpool",4,3,0,0,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",16,"2025-12-14",5.6,0,0,0,0,342,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Brentford",3,3,0.06,0.36,2,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",17,"2025-12-20",1.1,0,0,0,0,342,1,4,"h",0,79,0,0,0,0,0,4,1,2025,"Crystal Palace",3,3,0,0,6,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",18,"2025-12-28",1.9,0,0,0,0,342,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Sunderland",3,3,0.43,0.02,2,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",19,"2026-01-01",0.1,0,0,0,0,342,0,0,"a",0,7,0,0,0,0,0,0,0,2025,"Liverpool",4,3,0,0,1,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",20,"2026-01-04",0,0,0,0,0,342,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",21,"2026-01-07",0,0,0,0,0,342,3,4,"a",0,0,0,0,0,0,0,3,4,2025,"Newcastle",3,3,0,0,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",22,"2026-01-17",2.7,0,0,0,0,342,0,1,"h",0,80,0,0,0,0,0,1,0,2025,"Fulham",3,3,0,0.05,6,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",23,"2026-01-26",2.8,0,0,0,0,342,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Everton",3,3,0,0.08,2,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",24,"2026-01-31",4.1,0,0,0,0,342,4,0,"h",0,90,0,0,4,0,0,0,4,2025,"Arsenal",5,3,0,0.02,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",25,"2026-02-06",8,1,0,0,0,342,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Forest",3,3,0.64,0.03,8,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",26,"2026-02-10",2.4,0,0,1,0,342,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Chelsea",4,3,0,0.01,4,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",27,"2026-02-21",4.7,0,0,0,0,342,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.01,0.08,1,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",28,"2026-02-28",2.6,0,0,0,0,342,1,0,"h",0,75,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0.37,2,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",29,"2026-03-03",1.8,0,0,0,0,342,1,0,"h",0,83,0,0,1,0,0,0,1,2025,"Sunderland",3,3,0.22,0,2,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",30,"2026-03-15",0.9,0,0,0,0,342,0,0,"a",0,45,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,1,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",31,"2026-03-21",4.8,0,0,0,0,342,0,0,"h",0,90,1,0,0,0,0,0,0,2025,"Brentford",3,3,0.03,0.08,5,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",32,"2026-04-13",6.1,0,0,1,0,342,2,1,"a",1,90,0,0,1,0,0,2,1,2025,"Man Utd",4,3,0,0.89,6,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",33,"2026-04-18",2.3,0,0,0,0,342,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,0.04,6,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",33,"2026-04-22",0.9,0,0,0,0,342,2,2,"a",0,45,0,0,0,0,0,2,2,2025,"Bournemouth",3,3,0,0,1,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",35,"2026-05-01",6.5,0,0,1,0,342,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Burnley",2,3,0,0.31,5,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",36,"2026-05-11",0,0,0,0,0,342,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",37,"2026-05-17",0,0,0,0,0,342,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,3,0,0,0,44,TRUE
+"Jayden Bogle","Bogle","Leeds","DEF",38,"2026-05-24",3.8,0,0,0,0,342,0,3,"a",0,77,0,0,1,0,0,0,3,2025,"West Ham",3,3,0.03,0.22,2,44,TRUE

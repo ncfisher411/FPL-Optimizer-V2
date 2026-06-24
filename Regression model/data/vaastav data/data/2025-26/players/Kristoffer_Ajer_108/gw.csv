@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Kristoffer Ajer","Ajer","Brentford","DEF",1,"2025-08-17",0,0,0,0,0,108,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Forest",3,3,0,0,0,45,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",2,"2025-08-23",0.2,0,0,0,0,108,0,1,"h",0,5,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,1,45,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",3,"2025-08-30",0,0,0,0,0,108,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",4,"2025-09-13",5,0,0,1,0,108,2,2,"h",0,7,0,0,1,0,0,2,2,2025,"Chelsea",4,3,0.04,0.41,4,45,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",5,"2025-09-20",0.8,0,0,0,0,108,1,3,"a",0,16,0,0,0,0,0,1,3,2025,"Fulham",3,3,0.05,0,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",6,"2025-09-27",0,0,0,0,0,108,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",7,"2025-10-05",1.5,0,0,0,0,108,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0,2,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",8,"2025-10-20",3.4,0,0,0,0,108,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,3,0.16,0.02,6,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",9,"2025-10-25",2.3,0,0,1,0,108,2,3,"h",0,90,0,0,2,0,0,3,2,2025,"Liverpool",4,3,0.06,0.05,4,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",10,"2025-11-01",5.8,0,0,0,0,108,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Crystal Palace",3,3,0.12,0.02,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",11,"2025-11-09",0,0,0,0,0,108,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Newcastle",3,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",12,"2025-11-22",1.8,0,0,0,0,108,1,2,"a",0,79,0,0,1,0,0,1,2,2025,"Brighton",3,3,0,0.01,4,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",13,"2025-11-29",0,0,0,0,0,108,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",14,"2025-12-03",1.2,0,0,0,0,108,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.01,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",15,"2025-12-06",0.5,0,0,0,0,108,0,2,"a",0,45,1,0,2,0,0,0,2,2025,"Tottenham",3,3,0,0,-1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",16,"2025-12-14",1.8,0,0,0,0,108,1,1,"h",0,9,0,0,1,0,0,1,1,2025,"Leeds",3,3,0,0,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",17,"2025-12-20",0,0,0,0,0,108,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",18,"2025-12-27",5.1,0,0,0,0,108,1,4,"h",0,90,0,0,1,0,0,4,1,2025,"Bournemouth",3,3,0.21,0.01,4,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",19,"2026-01-01",3.9,0,0,0,0,108,0,0,"h",1,90,0,0,0,0,0,0,0,2025,"Tottenham",3,3,0,0.01,9,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",20,"2026-01-04",2.1,0,0,0,0,108,4,2,"a",0,90,0,0,2,0,0,4,2,2025,"Everton",3,3,0,0,3,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",21,"2026-01-07",1.2,0,0,0,0,108,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Sunderland",3,3,0,0,6,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",22,"2026-01-17",2.3,0,0,0,0,108,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Chelsea",4,3,0,0.03,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",23,"2026-01-25",0.9,0,0,0,0,108,2,0,"h",0,36,0,0,1,0,0,0,2,2025,"Forest",3,3,0,0,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",24,"2026-02-01",4.1,0,0,0,0,108,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.03,0.02,7,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",25,"2026-02-07",2.8,0,0,0,0,108,3,2,"a",0,90,0,0,2,0,0,3,2,2025,"Newcastle",3,3,0,0.01,3,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",26,"2026-02-12",3,0,0,0,0,108,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Arsenal",5,3,0,0.04,4,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",27,"2026-02-21",1.4,0,0,0,0,108,2,0,"h",0,80,0,0,2,0,0,0,2,2025,"Brighton",3,3,0.02,0,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",28,"2026-02-28",4.8,0,0,0,0,108,4,3,"a",0,90,0,0,3,0,0,4,3,2025,"Burnley",2,3,0,0.08,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",29,"2026-03-03",1.6,0,0,0,0,108,0,0,"a",0,69,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,6,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",30,"2026-03-16",0.4,0,0,0,0,108,2,2,"h",0,18,1,0,1,0,0,2,2,2025,"Wolves",2,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",31,"2026-03-21",0,0,0,0,0,108,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",32,"2026-04-11",0,0,0,0,0,108,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Everton",3,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",33,"2026-04-18",0,0,0,0,0,108,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Fulham",3,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,108,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",35,"2026-05-02",0,0,0,0,0,108,0,3,"h",0,10,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,1,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",36,"2026-05-09",2.8,0,0,0,0,108,0,3,"a",0,90,1,0,3,0,0,0,3,2025,"Man City",4,3,0,0.01,2,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",37,"2026-05-17",2,0,0,0,0,108,2,2,"h",0,81,0,0,2,0,0,2,2,2025,"Crystal Palace",3,3,0,0,3,44,TRUE
+"Kristoffer Ajer","Ajer","Brentford","DEF",38,"2026-05-24",0,0,0,0,0,108,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0,0,44,TRUE

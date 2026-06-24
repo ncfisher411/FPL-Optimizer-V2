@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Saves model for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: June 19 2026
 #---------------------------------------#
 
 ## Build a model that predicts the number of saves a keeper will get in a match
@@ -23,6 +23,10 @@ if(saves_model=='linear'){
            Saves_validation=saves-Predicted_saves) %>%
     select(-saves)
   
+  ## Save summary of model output
+  table_saves = linear_saves %>% tidy()
+  write.table(table_saves, 'Model performance summaries/saves.txt', sep = '\t', row.names = F)
+  
 } else if(saves_model=='logit'){
   logit_saves <- glm(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  strength + difficulty + h_a, data = est_data)
   
@@ -36,6 +40,10 @@ if(saves_model=='linear'){
     mutate(Predicted_saves=ifelse(Predicted_saves < 0, 0, Predicted_saves),
            Saves_validation=saves-Predicted_saves) %>%
     select(-saves)
+  
+  ## Save summary of model output
+  table_saves = logit_saves %>% tidy()
+  write.table(table_saves, 'Model performance summaries/saves.txt', sep = '\t', row.names = F)
   
 } else if(saves_model=='random forest'){
   rf_saves <- randomForest(saves ~ xG_opponent  + ict_index_opponent + played60 + played + goals_conceded +  strength + difficulty + h_a, data = est_data)
@@ -67,6 +75,10 @@ if(penalties_saved_model=='linear'){
            Pen_saves_validation=penalties_saved-Predicted_pen_saves) %>%
     select(-penalties_saved)
   
+  ## Save summary of model output
+  table_pen = linear_pen %>% tidy()
+  write.table(table_pen, 'Model performance summaries/penalty_saves.txt', sep = '\t', row.names = F)
+  
 } else if(penalties_saved_model=='logit'){
   logit_pen <- glm(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 +  strength + difficulty + h_a, data = est_data)
   
@@ -80,6 +92,10 @@ if(penalties_saved_model=='linear'){
     mutate(Predicted_pen_saves=ifelse(Predicted_pen_saves < 0, 0, Predicted_pen_saves),
            Pen_saves_validation=penalties_saved-Predicted_pen_saves) %>%
     select(-penalties_saved)
+  
+  ## Save summary of model output
+  table_pen = logit_pen %>% tidy()
+  write.table(table_pen, 'Model performance summaries/penalty_saves.txt', sep = '\t', row.names = F)
   
 } else if(penalties_saved_model=='random forest'){
   rf_pen <- randomForest(penalties_saved ~ saves + xG_opponent  + ict_index_opponent + played60 +  strength + difficulty + h_a, data = est_data)
@@ -111,6 +127,10 @@ if(goals_conceded_model=='linear'){
            Goals_conceded_validation=goals_conceded-Predicted_goals_conceded) %>%
     select(-goals_conceded)
   
+  ## Save summary of model output
+  table_gc = linear_goals_conceded %>% tidy()
+  write.table(table_gc, 'Model performance summaries/goals_conceded.txt', sep = '\t', row.names = F)
+  
 } else if(goals_conceded_model=='logit'){
   logit_goals_conceded <- glm(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  strength + difficulty + h_a, data = est_data)
   
@@ -125,6 +145,10 @@ if(goals_conceded_model=='linear'){
            Goals_conceded_validation=goals_conceded-Predicted_goals_conceded) %>%
     select(-goals_conceded)
   
+  ## Save summary of model output
+  table_gc = logit_goals_conceded %>% tidy()
+  write.table(table_gc, 'Model performance summaries/goals_conceded.txt', sep = '\t', row.names = F)
+  
 } else if(goals_conceded_model=='random forest'){
   rf_goals_conceded <- randomForest(goals_conceded ~ xG_opponent  + ict_index_opponent + played60 + played + ict_index +  strength + difficulty + h_a, data = est_data)
   
@@ -138,7 +162,6 @@ if(goals_conceded_model=='linear'){
     mutate(Predicted_goals_conceded=ifelse(Predicted_goals_conceded < 0, 0, Predicted_goals_conceded),
            Goals_conceded_validation=goals_conceded-Predicted_goals_conceded) %>%
     select(-goals_conceded)
-  
 }
 gc()
 

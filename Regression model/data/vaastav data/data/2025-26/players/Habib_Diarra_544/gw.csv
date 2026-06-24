@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Habib Diarra","Diarra","Sunderland","MID",1,"2025-08-16",3,0,0,0,0,544,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"West Ham",3,3,0.23,0.01,3,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",2,"2025-08-23",2.4,0,0,0,0,544,0,2,"a",0,79,0,0,1,0,0,0,2,2025,"Burnley",2,3,0,0.04,2,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",3,"2025-08-30",1.5,0,0,1,0,544,1,2,"h",0,86,1,0,1,0,0,2,1,2025,"Brentford",3,3,0.25,0.02,4,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",4,"2025-09-13",1.1,0,0,0,0,544,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.02,0.01,3,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",5,"2025-09-21",0,0,0,0,0,544,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Aston Villa",3,3,0,0,0,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",6,"2025-09-27",0,0,0,0,0,544,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Forest",3,3,0,0,0,55,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,544,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",8,"2025-10-18",0,0,0,0,0,544,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,0,54,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",9,"2025-10-25",0,0,0,0,0,544,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0,0,54,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",10,"2025-11-03",0,0,0,0,0,544,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",11,"2025-11-08",0,0,0,0,0,544,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Arsenal",5,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",12,"2025-11-22",0,0,0,0,0,544,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",13,"2025-11-29",0,0,0,0,0,544,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Bournemouth",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",14,"2025-12-03",0,0,0,0,0,544,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",15,"2025-12-06",0,0,0,0,0,544,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",16,"2025-12-14",0,0,0,0,0,544,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",17,"2025-12-20",0.6,0,0,0,0,544,0,0,"a",0,26,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0,1,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",18,"2025-12-28",0,0,0,0,0,544,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",19,"2026-01-01",0,0,0,0,0,544,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",20,"2026-01-04",0,0,0,0,0,544,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",21,"2026-01-07",0,0,0,0,0,544,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Brentford",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",22,"2026-01-17",0,0,0,0,0,544,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",23,"2026-01-24",0.9,0,0,0,0,544,1,3,"a",0,45,1,0,0,0,0,1,3,2025,"West Ham",3,3,0.04,0.01,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",24,"2026-02-02",7.6,1,0,1,0,544,0,3,"h",3,79,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.35,0.14,14,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",25,"2026-02-07",3.3,0,0,0,0,544,0,3,"a",0,90,1,0,3,0,0,0,3,2025,"Arsenal",5,3,0.04,0.02,1,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",26,"2026-02-11",2,0,0,0,0,544,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0,0.15,2,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",27,"2026-02-22",0.2,0,0,0,0,544,3,1,"h",0,70,0,0,2,0,0,1,3,2025,"Fulham",3,3,0.03,0,2,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",28,"2026-02-28",4.6,0,0,1,0,544,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.28,0.01,5,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",29,"2026-03-03",5.4,1,0,0,0,544,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Leeds",3,3,0.79,0,7,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",30,"2026-03-14",1.3,0,0,0,0,544,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.02,0.09,2,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",31,"2026-03-22",2.1,0,0,1,0,544,2,1,"a",0,84,0,0,1,0,0,2,1,2025,"Newcastle",3,3,0.25,0.02,5,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",32,"2026-04-12",5.4,0,0,1,0,544,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0.04,0.03,6,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",33,"2026-04-19",4.5,0,0,0,0,544,3,4,"a",0,90,0,0,4,0,0,3,4,2025,"Aston Villa",3,3,0.65,0.07,2,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",34,"2026-04-24",0.6,0,0,0,0,544,5,0,"h",0,64,1,0,4,0,0,0,5,2025,"Forest",3,3,0,0.03,1,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",35,"2026-05-02",1.3,0,0,0,0,544,1,1,"a",0,18,0,0,0,0,0,1,1,2025,"Wolves",2,3,0.15,0.02,1,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",36,"2026-05-09",0,0,0,0,0,544,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0,0,0,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",37,"2026-05-17",4,0,0,1,0,544,3,1,"a",0,13,0,0,0,0,0,3,1,2025,"Everton",3,3,0,0.14,4,53,TRUE
+"Habib Diarra","Diarra","Sunderland","MID",38,"2026-05-24",2.1,0,0,0,0,544,1,2,"h",0,29,1,0,0,0,0,2,1,2025,"Chelsea",4,3,0.13,0.04,0,53,TRUE

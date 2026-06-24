@@ -1,18 +1,18 @@
 #---------------------------------------#
 # Validation script for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 17 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 
 # ncfisher put through iterative testing on 2024 to see which parameters/weights
-# best match the actual 2024 values. Look at this just at the overall scale
+# best match the actual 2025 values. Look at this just at the overall scale
 
-# 1) Load the 2024 results for validation
-results_modeled <- read.xlsx('data/probability model results_2024.xlsx', sheet = 'overall')
+# 1) Load the desired results for validation
+results_modeled <- read.xlsx('probability model results.xlsx', sheet = 'overall')
 
-# 2) Load the 2024 actual FPL results
+# 2) Load the 2025 actual FPL results
 results_actual <- read.csv('data/Combined_data.csv') %>%
-  filter(season==2024) %>%
+  filter(season==2025) %>%
   mutate(position = ifelse(position=='GK', 'GKP', position),
          goal_points_actual = ifelse(position=='GKP', 10 * goals_scored, 0),
          goal_points_actual = ifelse(position=='DEF', 6 * goals_scored, goal_points_actual),
@@ -42,7 +42,7 @@ results_actual <- read.csv('data/Combined_data.csv') %>%
 
 results_join <- results_modeled %>%
   left_join(results_actual %>% select(-minutes), by=c('full_name'='name', 'season')) %>%
-  pivot_longer(cols = -c('name', 'full_name', 'position', 'season'), names_to = 'stat', values_to = 'values') %>%
+  pivot_longer(cols = -c('name', 'full_name', 'position', 'team', 'season'), names_to = 'stat', values_to = 'values') %>%
   arrange(name, stat) %>%
   mutate(expected_value = ifelse(!grepl('actual', stat), values, 0),
          actual_value = ifelse(grepl('actual', stat), values, 0),
@@ -62,8 +62,7 @@ for(i in unique(results_join$stat)){
     filter(stat==i) %>%
     mutate(expected_rank = rank(-expected_value, ties.method = 'first'),
            actual_rank = rank(-actual_value, ties.method = 'first')) %>%
-    left_join(results_actual %>% select(name, minutes), by=c('full_name'='name')) %>%
-    filter(minutes >= 1000)
+    left_join(results_actual %>% select(name, minutes), by=c('full_name'='name'))
   
   temp2 <- temp %>%
     mutate(`Actual_value - expected_value` = actual_value - expected_value,

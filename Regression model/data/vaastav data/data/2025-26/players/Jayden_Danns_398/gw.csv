@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Jayden Danns","Danns","Liverpool","FWD",1,"2025-08-15",0,0,0,0,0,398,2,4,"h",0,0,0,0,0,0,0,4,2,2025,"Bournemouth",3,4,0,0,0,45,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",2,"2025-08-25",0,0,0,0,0,398,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Newcastle",3,4,0,0,0,45,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",3,"2025-08-31",0,0,0,0,0,398,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Arsenal",5,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",4,"2025-09-14",0,0,0,0,0,398,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",5,"2025-09-20",0,0,0,0,0,398,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Everton",3,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",6,"2025-09-27",0,0,0,0,0,398,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Crystal Palace",3,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",7,"2025-10-04",0,0,0,0,0,398,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",8,"2025-10-19",0,0,0,0,0,398,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",9,"2025-10-25",0,0,0,0,0,398,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Brentford",3,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",10,"2025-11-01",0,0,0,0,0,398,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Aston Villa",3,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",11,"2025-11-09",0,0,0,0,0,398,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",12,"2025-11-22",0,0,0,0,0,398,3,0,"h",0,0,0,0,0,0,0,0,3,2025,"Forest",3,4,0,0,0,44,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",13,"2025-11-30",0,0,0,0,0,398,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",14,"2025-12-03",0,0,0,0,0,398,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Sunderland",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",15,"2025-12-06",0,0,0,0,0,398,3,3,"a",0,0,0,0,0,0,0,3,3,2025,"Leeds",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",16,"2025-12-13",0,0,0,0,0,398,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Brighton",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",17,"2025-12-20",0,0,0,0,0,398,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Tottenham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",18,"2025-12-27",0,0,0,0,0,398,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Wolves",2,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",19,"2026-01-01",0,0,0,0,0,398,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",20,"2026-01-04",0,0,0,0,0,398,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Fulham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",21,"2026-01-08",0,0,0,0,0,398,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Arsenal",5,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",22,"2026-01-17",0,0,0,0,0,398,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Burnley",2,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",23,"2026-01-24",0,0,0,0,0,398,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Bournemouth",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",24,"2026-01-31",0,0,0,0,0,398,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Newcastle",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",25,"2026-02-08",0,0,0,0,0,398,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Man City",4,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",26,"2026-02-11",0,0,0,0,0,398,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Sunderland",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",27,"2026-02-22",0,0,0,0,0,398,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Forest",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",28,"2026-02-28",0,0,0,0,0,398,2,5,"h",0,0,0,0,0,0,0,5,2,2025,"West Ham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",29,"2026-03-03",0,0,0,0,0,398,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Wolves",2,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",30,"2026-03-15",0,0,0,0,0,398,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",31,"2026-03-21",0,0,0,0,0,398,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Brighton",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",32,"2026-04-11",0,0,0,0,0,398,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Fulham",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",33,"2026-04-19",0,0,0,0,0,398,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Everton",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",34,"2026-04-25",0,0,0,0,0,398,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",35,"2026-05-03",0,0,0,0,0,398,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man Utd",4,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",36,"2026-05-09",0,0,0,0,0,398,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Chelsea",4,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",37,"2026-05-15",0,0,0,0,0,398,2,4,"a",0,0,0,0,0,0,0,2,4,2025,"Aston Villa",3,4,0,0,0,43,TRUE
+"Jayden Danns","Danns","Liverpool","FWD",38,"2026-05-24",0,0,0,0,0,398,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brentford",3,4,0,0,0,43,TRUE

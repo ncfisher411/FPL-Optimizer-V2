@@ -1,0 +1,626 @@
+"","name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"1","David Raya Martín","Raya","Arsenal","GKP",7,"2025-10-04",0.3,0,0,0,0,1,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,6,56,TRUE
+"2","Kepa Arrizabalaga Revuelta","Arrizabalaga","Arsenal","GKP",7,"2025-10-04",0,0,0,0,0,2,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,43,TRUE
+"3","Tommy Setford","Setford","Arsenal","GKP",7,"2025-10-04",0,0,0,0,0,4,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,40,TRUE
+"4","Gabriel dos Santos Magalhães","Gabriel","Arsenal","DEF",7,"2025-10-04",2.9,0,0,0,0,5,0,2,"h",1,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0.03,9,62,TRUE
+"5","William Saliba","Saliba","Arsenal","DEF",7,"2025-10-04",3,0,0,0,0,6,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0.02,6,60,TRUE
+"6","Riccardo Calafiori","Calafiori","Arsenal","DEF",7,"2025-10-04",3.3,0,0,0,0,7,0,2,"h",0,74,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.17,0.02,6,57,TRUE
+"7","Jurriën Timber","J.Timber","Arsenal","DEF",7,"2025-10-04",6.6,0,0,1,0,8,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.16,0.03,11,58,TRUE
+"8","Myles Lewis-Skelly","Lewis-Skelly","Arsenal","DEF",7,"2025-10-04",0.6,0,0,0,0,10,0,2,"h",0,15,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,1,53,TRUE
+"9","Benjamin White","White","Arsenal","DEF",7,"2025-10-04",0,0,0,0,0,11,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,54,TRUE
+"10","Brayden Clarke","Clarke","Arsenal","DEF",7,"2025-10-04",0,0,0,0,0,13,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,39,TRUE
+"11","Josh Nichols","Nichols","Arsenal","DEF",7,"2025-10-04",0,0,0,0,0,15,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,39,TRUE
+"12","Bukayo Saka","Saka","Arsenal","MID",7,"2025-10-04",9.3,1,0,0,0,16,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.84,1.11,8,98,TRUE
+"13","Martin Ødegaard","Ødegaard","Arsenal","MID",7,"2025-10-04",2,0,0,0,0,17,0,2,"h",0,29,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0.21,1,79,TRUE
+"14","Noni Madueke","Madueke","Arsenal","MID",7,"2025-10-04",0,0,0,0,0,18,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,69,TRUE
+"15","Gabriel Martinelli Silva","Martinelli","Arsenal","MID",7,"2025-10-04",1.8,0,0,0,0,19,0,2,"h",0,11,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0.06,1,69,TRUE
+"16","Leandro Trossard","Trossard","Arsenal","MID",7,"2025-10-04",5.9,0,0,0,0,20,0,2,"h",0,74,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.12,0.09,3,69,TRUE
+"17","Declan Rice","Rice","Arsenal","MID",7,"2025-10-04",10.9,1,0,0,0,21,0,2,"h",3,78,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.32,0.12,11,65,TRUE
+"18","Mikel Merino Zazón","Merino","Arsenal","MID",7,"2025-10-04",1.2,0,0,0,0,22,0,2,"h",0,11,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.16,0,1,59,TRUE
+"19","Christian Nørgaard","Nørgaard","Arsenal","MID",7,"2025-10-04",0,0,0,0,0,24,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,53,TRUE
+"20","Martín Zubimendi Ibáñez","Zubimendi","Arsenal","MID",7,"2025-10-04",4.1,0,0,0,0,26,0,2,"h",0,60,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0.16,3,55,TRUE
+"21","Kai Havertz","Havertz","Arsenal","FWD",7,"2025-10-04",0,0,0,0,0,30,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,73,TRUE
+"22","Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",7,"2025-10-04",0,0,0,0,0,31,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,64,TRUE
+"23","Eberechi Eze","Eze","Arsenal","MID",7,"2025-10-04",4.7,0,0,1,0,266,0,2,"h",0,78,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.49,0.05,6,76,TRUE
+"24","Cristhian Mosquera","Mosquera","Arsenal","DEF",7,"2025-10-04",0,0,0,0,0,662,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,54,TRUE
+"25","Viktor Gyökeres","Gyökeres","Arsenal","FWD",7,"2025-10-04",5.5,0,0,0,0,666,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.63,0.05,2,90,TRUE
+"26","Max Dowman","Dowman","Arsenal","MID",7,"2025-10-04",0,0,0,0,0,700,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,45,TRUE
+"27","Andre Harriman-Annous","Harriman-Annous","Arsenal","MID",7,"2025-10-04",0,0,0,0,0,711,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,45,TRUE
+"28","Piero Hincapié","Hincapie","Arsenal","DEF",7,"2025-10-04",0,0,0,0,0,725,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,54,TRUE
+"29","Marli Salmon","Salmon","Arsenal","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,759,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,5,NA,NA,NA,NA,TRUE
+"30","Emiliano Martínez Romero","Martinez","Aston Villa","GKP",7,"2025-10-05",1.1,0,0,0,0,32,1,2,"h",0,90,1,0,1,1,0,2,1,2025,"Burnley",2,3,0,0,1,50,TRUE
+"31","Marco Bizot","M.Bizot","Aston Villa","GKP",7,"2025-10-05",0,0,0,0,0,33,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,44,TRUE
+"32","Matty Cash","Cash","Aston Villa","DEF",7,"2025-10-05",3.6,0,0,0,0,36,1,2,"h",0,83,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.01,0.03,2,46,TRUE
+"33","Lucas Digne","Digne","Aston Villa","DEF",7,"2025-10-05",12.6,0,0,0,0,37,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Burnley",2,3,0.08,0.58,1,45,TRUE
+"34","Ezri Konsa Ngoyo","Konsa","Aston Villa","DEF",7,"2025-10-05",3.6,0,0,0,0,38,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.04,0.01,2,45,TRUE
+"35","Ian Maatsen","Maatsen","Aston Villa","DEF",7,"2025-10-05",0.2,0,0,0,0,39,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,1,43,TRUE
+"36","Tyrone Mings","Mings","Aston Villa","DEF",7,"2025-10-05",0,0,0,0,0,40,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,45,TRUE
+"37","Pau Torres","Pau","Aston Villa","DEF",7,"2025-10-05",3.5,0,0,0,0,41,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.03,0.01,4,44,TRUE
+"38","Andrés García","A.García","Aston Villa","DEF",7,"2025-10-05",0,0,0,0,0,42,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,39,TRUE
+"39","Lamare Bogarde","Bogarde","Aston Villa","DEF",7,"2025-10-05",1.6,0,0,0,0,44,1,2,"h",0,89,0,0,1,0,0,2,1,2025,"Burnley",2,3,0,0.01,2,40,TRUE
+"40","Morgan Rogers","Rogers","Aston Villa","MID",7,"2025-10-05",7.7,0,0,1,0,47,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.24,0.08,5,69,TRUE
+"41","Youri Tielemans","Tielemans","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,48,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,59,TRUE
+"42","Leon Bailey","Bailey","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,49,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,55,TRUE
+"43","Emiliano Buendía Stati","Buendía","Aston Villa","MID",7,"2025-10-05",0.4,0,0,0,0,50,1,2,"h",0,33,1,0,1,0,0,2,1,2025,"Burnley",2,3,0,0.07,0,53,TRUE
+"44","John McGinn","McGinn","Aston Villa","MID",7,"2025-10-05",1.9,0,0,0,0,54,1,2,"h",0,66,0,0,0,0,0,2,1,2025,"Burnley",2,3,0.05,0.18,3,54,TRUE
+"45","Ross Barkley","Barkley","Aston Villa","MID",7,"2025-10-05",0.7,0,0,0,0,55,1,2,"h",0,6,0,0,0,0,0,2,1,2025,"Burnley",2,3,0.16,0,1,48,TRUE
+"46","Boubacar Kamara","Kamara","Aston Villa","MID",7,"2025-10-05",6.7,0,0,1,0,58,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.02,0.19,5,49,TRUE
+"47","Amadou Onana","Onana","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,59,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,1,49,TRUE
+"48","Ollie Watkins","Watkins","Aston Villa","FWD",7,"2025-10-05",1.5,0,0,0,0,64,1,2,"h",0,66,0,0,0,0,0,2,1,2025,"Burnley",2,3,0.26,0.03,2,87,TRUE
+"49","Harvey Elliott","Elliott","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,389,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,54,TRUE
+"50","Jadon Sancho","Sancho","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,456,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,59,TRUE
+"51","James Wright","Wright","Aston Villa","GKP",7,"2025-10-05",0,0,0,0,0,688,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,40,TRUE
+"52","Douglas Luiz Soares de Paulo","Douglas Luiz","Aston Villa","MID",7,"2025-10-05",NA,NA,NA,NA,NA,699,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"53","Bradley Burrowes","Burrowes","Aston Villa","MID",7,"2025-10-05",0,0,0,0,0,702,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,45,TRUE
+"54","Sam Proctor","Proctor","Aston Villa","GKP",7,"2025-10-05",0,0,0,0,0,703,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,40,TRUE
+"55","Travis Patterson","Patterson","Aston Villa","DEF",7,"2025-10-05",0,0,0,0,0,710,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,0,40,TRUE
+"56","Victor Lindelöf","Lindelöf","Aston Villa","DEF",7,"2025-10-05",0.3,0,0,0,0,719,1,2,"h",0,6,0,0,0,0,0,2,1,2025,"Burnley",2,3,0,0,1,45,TRUE
+"57","George Hemmings","George Hemmings","Aston Villa","MID",7,"2025-10-05",NA,NA,NA,NA,NA,754,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"58","Ronnie Hollingshead","Hollingshead","Aston Villa","GKP",7,"2025-10-05",NA,NA,NA,NA,NA,757,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"59","Leon Routh","Leon Routh","Aston Villa","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,768,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"60","TJ Carroll","Carroll","Aston Villa","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,781,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"61","Alysson Edward Franco da Rocha dos Santos","Alysson","Aston Villa","MID",7,"2025-10-05",NA,NA,NA,NA,NA,792,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"62","Tammy Abraham","Abraham","Aston Villa","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,808,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"63","Max Weiß","Weiss","Burnley","GKP",7,"2025-10-05",0,0,0,0,0,183,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"64","Václav Hladký","Hladký","Burnley","GKP",7,"2025-10-05",0,0,0,0,0,185,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,40,TRUE
+"65","Connor Roberts","Roberts","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,186,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"66","Kyle Walker","Walker","Burnley","DEF",7,"2025-10-05",2,0,0,0,0,187,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0.08,0.01,1,45,TRUE
+"67","Hjalmar Ekdal","Ekdal","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,190,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,40,TRUE
+"68","Maxime Estève","Estève","Burnley","DEF",7,"2025-10-05",1.7,0,0,0,0,191,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0.01,1,40,TRUE
+"69","Quilindschy Hartman","Hartman","Burnley","DEF",7,"2025-10-05",5.6,0,0,1,0,192,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0.17,4,40,TRUE
+"70","Bashir Humphreys","Humphreys","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,193,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,40,TRUE
+"71","Jordan Beyer","Jordan","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,194,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,40,TRUE
+"72","Lucas Pires Silva","Lucas Pires","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,195,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,39,TRUE
+"73","Axel Tuanzebe","Tuanzebe","Burnley","DEF",7,"2025-10-05",1.9,0,0,0,0,198,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0.01,1,39,TRUE
+"74","Joe Worrall","Worrall","Burnley","DEF",7,"2025-10-05",0.1,0,0,0,0,199,1,2,"a",0,1,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,1,39,TRUE
+"75","Jaidon Anthony","Anthony","Burnley","MID",7,"2025-10-05",1.2,0,0,0,0,200,1,2,"a",0,58,0,0,1,0,0,1,2,2025,"Aston Villa",3,2,0,0.01,1,57,TRUE
+"76","Jacob Bruun Larsen","Bruun Larsen","Burnley","MID",7,"2025-10-05",0.1,0,0,0,0,202,1,2,"a",0,31,0,0,1,0,0,1,2,2025,"Aston Villa",3,2,0,0,1,53,TRUE
+"77","Enock Agyei","Boateng","Burnley","MID",7,"2025-10-05",0,0,0,0,0,203,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,48,TRUE
+"78","Josh Cullen","Cullen","Burnley","MID",7,"2025-10-05",3.5,0,0,0,0,205,1,2,"a",2,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0.1,0.02,6,50,TRUE
+"79","Marcus Edwards","Edwards","Burnley","MID",7,"2025-10-05",0,0,0,0,0,206,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,48,TRUE
+"80","Hannibal Mejbri","Hannibal","Burnley","MID",7,"2025-10-05",0,0,0,0,0,207,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,49,TRUE
+"81","Josh Laurent","Laurent","Burnley","MID",7,"2025-10-05",1,0,0,0,0,209,1,2,"a",0,81,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0,2,49,TRUE
+"82","Loum Tchaouna","Tchaouna","Burnley","MID",7,"2025-10-05",0.2,0,0,0,0,210,1,2,"a",0,58,0,0,1,0,0,1,2,2025,"Aston Villa",3,2,0,0.01,1,49,TRUE
+"83","Mike Trésor Ndayishimiye","Trésor","Burnley","MID",7,"2025-10-05",0,0,0,0,0,214,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"84","Zian Flemming","Flemming","Burnley","FWD",7,"2025-10-05",0.1,0,0,0,0,215,1,2,"a",0,8,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0.01,0,1,53,TRUE
+"85","Zeki Amdouni","Amdouni","Burnley","FWD",7,"2025-10-05",0,0,0,0,0,216,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,49,TRUE
+"86","Lyle Foster","Foster","Burnley","FWD",7,"2025-10-05",0.1,0,0,0,0,217,1,2,"a",0,68,1,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0.02,1,50,TRUE
+"87","Ashley Barnes","Barnes","Burnley","FWD",7,"2025-10-05",0,0,0,0,0,218,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"88","Martin Dúbravka","Dúbravka","Burnley","GKP",7,"2025-10-05",3.5,0,0,0,0,470,1,2,"a",0,90,0,0,2,5,0,1,2,2025,"Aston Villa",3,2,0,0,2,40,TRUE
+"89","James Ward-Prowse","Ward-Prowse","Burnley","MID",7,"2025-10-05",NA,NA,NA,NA,NA,614,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"90","Lesley Ugochukwu","Ugochukwu","Burnley","MID",7,"2025-10-05",6.1,1,0,0,0,676,1,2,"a",1,21,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0.23,0,7,50,TRUE
+"91","Armando Broja","Broja","Burnley","FWD",7,"2025-10-05",0.5,0,0,0,0,680,1,2,"a",0,31,0,0,1,0,0,1,2,2025,"Aston Villa",3,2,0,0,1,53,TRUE
+"92","Florentino Ibrain Morris Luís","Florentino","Burnley","MID",7,"2025-10-05",3.3,0,0,0,0,722,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,2,0,0.02,4,50,TRUE
+"93","Oliver Pimlott","Pimlott","Burnley","MID",7,"2025-10-05",NA,NA,NA,NA,NA,776,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"94","George Brierley","Brierley","Burnley","MID",7,"2025-10-05",NA,NA,NA,NA,NA,784,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"95","Kian McMahon-Brown","McMahon-Brown","Burnley","MID",7,"2025-10-05",NA,NA,NA,NA,NA,820,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"96","Ðorde Petrovic","Petrovic","Bournemouth","GKP",7,"2025-10-03",1.9,0,0,0,0,67,1,3,"h",0,90,0,0,1,3,0,3,1,2025,"Fulham",3,3,0,0,3,45,TRUE
+"97","Callan McKenna","McKenna","Bournemouth","GKP",7,"2025-10-03",0,0,0,0,0,69,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"98","Marcos Senesi Barón","Senesi","Bournemouth","DEF",7,"2025-10-03",3.3,0,0,0,0,72,1,3,"h",0,77,0,0,1,0,0,3,1,2025,"Fulham",3,3,0,0.72,2,49,TRUE
+"99","Adam Smith","Smith","Bournemouth","DEF",7,"2025-10-03",0,0,0,0,0,73,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,44,TRUE
+"100","Adrien Truffert","Truffert","Bournemouth","DEF",7,"2025-10-03",5.7,0,0,1,0,74,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Fulham",3,3,0.03,0.04,5,45,TRUE
+"101","Matai Akinmboni","Akinmboni","Bournemouth","DEF",7,"2025-10-03",0,0,0,0,0,75,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"102","Owen Bevan","Bevan","Bournemouth","DEF",7,"2025-10-03",0,0,0,0,0,76,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,39,TRUE
+"103","James Hill","Hill","Bournemouth","DEF",7,"2025-10-03",1.2,0,0,0,0,77,1,3,"h",0,60,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0.16,6,40,TRUE
+"104","Julio Soler Barreto","Soler","Bournemouth","DEF",7,"2025-10-03",0,0,0,0,0,80,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"105","Justin Kluivert","Kluivert","Bournemouth","MID",7,"2025-10-03",6.4,1,0,0,0,81,1,3,"h",1,29,0,0,1,0,0,3,1,2025,"Fulham",3,3,0.02,0.01,7,70,TRUE
+"106","Marcus Tavernier","Tavernier","Bournemouth","MID",7,"2025-10-03",4.4,0,0,0,0,84,1,3,"h",0,60,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0.05,3,55,TRUE
+"107","Tyler Adams","Adams","Bournemouth","MID",7,"2025-10-03",2.4,0,0,0,0,85,1,3,"h",0,77,0,0,1,0,0,3,1,2025,"Fulham",3,3,0.02,0.02,2,50,TRUE
+"108","David Brooks","Brooks","Bournemouth","MID",7,"2025-10-03",1.5,0,0,0,0,86,1,3,"h",0,84,0,0,1,0,0,3,1,2025,"Fulham",3,3,0,0.02,2,50,TRUE
+"109","Ryan Christie","Christie","Bournemouth","MID",7,"2025-10-03",0.9,0,0,0,0,87,1,3,"h",0,12,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,1,50,TRUE
+"110","Lewis Cook","Cook","Bournemouth","MID",7,"2025-10-03",0,0,0,0,0,88,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,49,TRUE
+"111","Alex Scott","Scott","Bournemouth","MID",7,"2025-10-03",2.8,0,0,0,0,90,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Fulham",3,3,0.12,0.02,4,50,TRUE
+"112","Francisco Evanilson de Lima Barbosa","Evanilson","Bournemouth","FWD",7,"2025-10-03",4.8,0,0,0,0,97,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Fulham",3,3,0.27,0.04,2,70,TRUE
+"113","Enes Ünal","Enes Ünal","Bournemouth","FWD",7,"2025-10-03",0,0,0,0,0,98,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,54,TRUE
+"114","Junior Kroupi","Kroupi.Jr","Bournemouth","FWD",7,"2025-10-03",0,0,0,0,0,100,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,45,TRUE
+"115","Ben Gannon-Doak","Gannon-Doak","Bournemouth","MID",7,"2025-10-03",3.4,0,0,1,0,391,1,3,"h",0,12,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0.06,4,49,TRUE
+"116","Bafodé Diakité","Diakité","Bournemouth","DEF",7,"2025-10-03",2.9,0,0,0,0,685,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Fulham",3,3,0,0.02,2,45,TRUE
+"117","Remy Rees-Dottin","Rees-Dottin","Bournemouth","MID",7,"2025-10-03",0,0,0,0,0,687,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,44,TRUE
+"118","Amine Adli","Adli","Bournemouth","MID",7,"2025-10-03",0,0,0,0,0,697,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,55,TRUE
+"119","Álex Jiménez Sánchez","A.Jimenez","Bournemouth","DEF",7,"2025-10-03",0.7,0,0,0,0,713,1,3,"h",0,29,0,0,1,0,0,3,1,2025,"Fulham",3,3,0,0,1,45,TRUE
+"120","Veljko Milosavljevic","Milosavljevic","Bournemouth","DEF",7,"2025-10-03",0,0,0,0,0,721,1,3,"h",0,5,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,1,45,TRUE
+"121","Malcom DaCosta","DaCosta","Bournemouth","MID",7,"2025-10-03",NA,NA,NA,NA,NA,756,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"122","Fraser Forster","Forster","Bournemouth","GKP",7,"2025-10-03",NA,NA,NA,NA,NA,782,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"123","Charlie Stevens","Stevens","Bournemouth","MID",7,"2025-10-03",NA,NA,NA,NA,NA,799,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"124","Alex Tóth","Tóth.A","Bournemouth","MID",7,"2025-10-03",NA,NA,NA,NA,NA,801,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"125","Christos Mandas","Mandas","Bournemouth","GKP",7,"2025-10-03",NA,NA,NA,NA,NA,806,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"126","Rayan Vitor Simplício Rocha","Rayan","Bournemouth","MID",7,"2025-10-03",NA,NA,NA,NA,NA,807,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"127","Reiss Nelson","Nelson","Brentford","MID",7,"2025-10-05",0,0,0,0,0,27,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,49,TRUE
+"128","Dango Ouattara","O.Dango","Brentford","MID",7,"2025-10-05",0,0,0,0,0,83,1,0,"h",0,22,1,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,60,TRUE
+"129","Caoimhín Kelleher","Kelleher","Brentford","GKP",7,"2025-10-05",2.3,0,0,0,0,101,1,0,"h",0,90,0,0,1,3,0,0,1,2025,"Man City",4,3,0,0,3,45,TRUE
+"130","Ellery Balcombe","Balcombe","Brentford","GKP",7,"2025-10-05",0,0,0,0,0,102,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,40,TRUE
+"131","Julian Eyestone","Eyestone","Brentford","GKP",7,"2025-10-05",0,0,0,0,0,104,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,40,TRUE
+"132","Hákon Rafn Valdimarsson","Valdimarsson","Brentford","GKP",7,"2025-10-05",0,0,0,0,0,105,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,40,TRUE
+"133","Nathan Collins","Collins","Brentford","DEF",7,"2025-10-05",1.5,0,0,0,0,106,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0.01,2,50,TRUE
+"134","Keane Lewis-Potter","Lewis-Potter","Brentford","DEF",7,"2025-10-05",0,0,0,0,0,107,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,50,TRUE
+"135","Kristoffer Ajer","Ajer","Brentford","DEF",7,"2025-10-05",1.5,0,0,0,0,108,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0,2,44,TRUE
+"136","Rico Henry","Henry","Brentford","DEF",7,"2025-10-05",0,0,0,0,0,109,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,44,TRUE
+"137","Michael Kayode","Kayode","Brentford","DEF",7,"2025-10-05",2.2,0,0,0,0,110,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0.02,0.01,2,45,TRUE
+"138","Ethan Pinnock","Pinnock","Brentford","DEF",7,"2025-10-05",0,0,0,0,0,111,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,44,TRUE
+"139","Sepp van den Berg","Van den Berg","Brentford","DEF",7,"2025-10-05",2,0,0,0,0,113,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0.06,2,45,TRUE
+"140","Aaron Hickey","Hickey","Brentford","DEF",7,"2025-10-05",0.5,0,0,0,0,116,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0.02,0.04,2,40,TRUE
+"141","Kevin Schade","Schade","Brentford","MID",7,"2025-10-05",3.9,0,0,0,0,120,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Man City",4,3,0,0.03,1,70,TRUE
+"142","Mikkel Damsgaard","Damsgaard","Brentford","MID",7,"2025-10-05",1.7,0,0,0,0,121,1,0,"h",0,67,0,0,1,0,0,0,1,2025,"Man City",4,3,0,0.01,2,58,TRUE
+"143","Antoni Milambo","Milambo","Brentford","MID",7,"2025-10-05",0,0,0,0,0,122,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,53,TRUE
+"144","Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",7,"2025-10-05",0,0,0,0,0,123,1,0,"h",0,1,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,1,49,TRUE
+"145","Jordan Henderson","Henderson","Brentford","MID",7,"2025-10-05",1.6,0,0,0,0,124,1,0,"h",0,73,1,0,1,0,0,0,1,2025,"Man City",4,3,0,0.02,1,50,TRUE
+"146","Vitaly Janelt","Janelt","Brentford","MID",7,"2025-10-05",0.3,0,0,0,0,125,1,0,"h",0,16,0,0,0,0,0,0,1,2025,"Man City",4,3,0.1,0,1,49,TRUE
+"147","Mathias Jensen","Jensen","Brentford","MID",7,"2025-10-05",0.1,0,0,0,0,126,1,0,"h",0,22,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,1,49,TRUE
+"148","Yehor Yarmoliuk","Yarmoliuk","Brentford","MID",7,"2025-10-05",0.9,0,0,0,0,129,1,0,"h",0,72,0,0,1,0,0,0,1,2025,"Man City",4,3,0.02,0.01,2,50,TRUE
+"149","Romelle Donovan","Donovan","Brentford","MID",7,"2025-10-05",0,0,0,0,0,130,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,45,TRUE
+"150","Igor Thiago Nascimento Rodrigues","Thiago","Brentford","FWD",7,"2025-10-05",2.8,0,0,0,0,136,1,0,"h",0,67,0,0,1,0,0,0,1,2025,"Man City",4,3,0.67,0,2,60,TRUE
+"151","Josh Dasilva","Dasilva","Brentford","MID",7,"2025-10-05",NA,NA,NA,NA,NA,748,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"152","Kaye Furo","Furo","Brentford","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,797,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"153","Luka Bentt","Bentt","Brentford","MID",7,"2025-10-05",NA,NA,NA,NA,NA,810,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"154","Ollie Shield","Shield","Brentford","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"155","Joshua Stephenson","Stephenson","Brentford","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,823,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"156","Conor McManus","McManus","Brentford","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,824,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"157","Riley Owen","Owen","Brentford","MID",7,"2025-10-05",NA,NA,NA,NA,NA,826,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"158","Jason Steele","Steele","Brighton","GKP",7,"2025-10-05",0,0,0,0,0,138,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,44,TRUE
+"159","Bart Verbruggen","Verbruggen","Brighton","GKP",7,"2025-10-05",2,0,1,0,0,139,1,1,"a",0,90,0,0,1,3,0,1,1,2025,"Wolves",2,3,0,0,1,44,TRUE
+"160","Tom McGill","McGill","Brighton","GKP",7,"2025-10-05",0,0,0,0,0,140,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,40,TRUE
+"161","Olivier Boscagli","Boscagli","Brighton","DEF",7,"2025-10-05",0,0,0,0,0,143,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,43,TRUE
+"162","Maxim De Cuyper","De Cuyper","Brighton","DEF",7,"2025-10-05",3,0,0,0,0,145,1,1,"a",0,20,0,0,0,0,0,1,1,2025,"Wolves",2,3,0.04,0.07,1,44,TRUE
+"163","Lewis Dunk","Dunk","Brighton","DEF",7,"2025-10-05",1.4,0,0,0,0,146,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Wolves",2,3,0.06,0.01,1,45,TRUE
+"164","Ferdi Kadioglu","F.Kadioglu","Brighton","DEF",7,"2025-10-05",4,0,0,0,0,148,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.11,0.06,2,44,TRUE
+"165","Igor Julio dos Santos de Paulo","Igor","Brighton","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,149,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"166","Jan Paul van Hecke","Van Hecke","Brighton","DEF",7,"2025-10-05",7.2,1,0,0,0,151,1,1,"a",3,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.13,0.02,11,44,TRUE
+"167","Joël Veltman","Veltman","Brighton","DEF",7,"2025-10-05",0,0,0,0,0,152,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,44,TRUE
+"168","Adam Webster","Webster","Brighton","DEF",7,"2025-10-05",0,0,0,0,0,153,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,44,TRUE
+"169","Charlie Tasker","Tasker","Brighton","DEF",7,"2025-10-05",0,0,0,0,0,156,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,39,TRUE
+"170","Mitoma Kaoru","Mitoma","Brighton","MID",7,"2025-10-05",0,0,0,0,0,157,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,64,TRUE
+"171","Georginio Rutter","Georginio","Brighton","MID",7,"2025-10-05",2.9,0,0,0,0,158,1,1,"a",0,45,0,0,0,0,0,1,1,2025,"Wolves",2,3,0.2,0.01,1,58,TRUE
+"172","Solly March","March","Brighton","MID",7,"2025-10-05",0,0,0,0,0,159,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,58,TRUE
+"173","Yankuba Minteh","Minteh","Brighton","MID",7,"2025-10-05",9.4,0,0,0,0,160,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.01,0.24,2,59,TRUE
+"174","Jack Hinshelwood","Hinshelwood","Brighton","MID",7,"2025-10-05",0,0,0,0,0,163,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,52,TRUE
+"175","Matt O'Riley","O'Riley","Brighton","MID",7,"2025-10-05",0,0,0,0,0,164,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,55,TRUE
+"176","Yasin Ayari","Ayari","Brighton","MID",7,"2025-10-05",3.9,0,0,0,0,166,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.02,0.04,2,49,TRUE
+"177","Carlos Baleba","Baleba","Brighton","MID",7,"2025-10-05",0.7,0,0,0,0,167,1,1,"a",0,45,1,0,1,0,0,1,1,2025,"Wolves",2,3,0,0,0,48,TRUE
+"178","Diego Gómez Amarilla","Gomez","Brighton","MID",7,"2025-10-05",3.1,0,0,0,0,169,1,1,"a",0,76,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.13,0.01,2,49,TRUE
+"179","James Milner","Milner","Brighton","MID",7,"2025-10-05",2.5,0,0,0,0,170,1,1,"a",0,13,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0.06,1,50,TRUE
+"180","Mats Wieffer","Wieffer","Brighton","MID",7,"2025-10-05",4.4,0,0,0,0,173,1,1,"a",0,69,1,0,1,0,0,1,1,2025,"Wolves",2,3,0.1,0.11,1,49,TRUE
+"181","Danny Welbeck","Welbeck","Brighton","FWD",7,"2025-10-05",1.7,0,0,0,0,178,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Wolves",2,3,0,0.02,1,63,TRUE
+"182","Stefanos Tzimas","Tzimas","Brighton","FWD",7,"2025-10-05",5.1,0,0,1,0,180,1,1,"a",0,20,0,0,0,0,0,1,1,2025,"Wolves",2,3,0.05,0,4,54,TRUE
+"183","Charalampos Kostoulas","Kostoulas","Brighton","FWD",7,"2025-10-05",0,0,0,0,0,181,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,49,TRUE
+"184","Nehemiah Oriola","Oriola","Brighton","MID",7,"2025-10-05",NA,NA,NA,NA,NA,744,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"185","Freddie Simmonds","Simmonds","Brighton","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,761,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"186","Pascal Groß","Groß","Brighton","MID",7,"2025-10-05",NA,NA,NA,NA,NA,783,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"187","Harry Howell","Howell","Brighton","MID",7,"2025-10-05",NA,NA,NA,NA,NA,795,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"188","Robert Lynch Sánchez","Sánchez","Chelsea","GKP",7,"2025-10-04",0.9,0,0,0,0,220,1,2,"h",0,90,0,0,1,1,0,2,1,2025,"Liverpool",4,4,0,0,2,49,TRUE
+"189","Filip Jörgensen","Jörgensen","Chelsea","GKP",7,"2025-10-04",0,0,0,0,0,221,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,44,TRUE
+"190","Gabriel Slonina","Slonina","Chelsea","GKP",7,"2025-10-04",0,0,0,0,0,223,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,40,TRUE
+"191","Marc Cucurella Saseta","Cucurella","Chelsea","DEF",7,"2025-10-04",8.2,0,0,1,0,224,1,2,"h",2,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0.62,7,61,TRUE
+"192","Reece James","James","Chelsea","DEF",7,"2025-10-04",4.9,0,0,0,0,225,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0.06,4,54,TRUE
+"193","Trevoh Chalobah","Chalobah","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,226,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,52,TRUE
+"194","Levi Samuels Colwill","Colwill","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,227,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,48,TRUE
+"195","Malo Gusto","Gusto","Chelsea","DEF",7,"2025-10-04",4.3,0,0,1,0,228,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.02,0.04,5,49,TRUE
+"196","Benoît Badiashile Mukinayi","B.Badiashile","Chelsea","DEF",7,"2025-10-04",1.6,0,0,0,0,229,1,2,"h",0,54,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0.02,1,44,TRUE
+"197","Wesley Fofana","Fofana","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,230,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,44,TRUE
+"198","Mamadou Sarr","M.Sarr","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,231,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,45,TRUE
+"199","Tosin Adarabioyo","Tosin","Chelsea","DEF",7,"2025-10-04",0,0,0,0,0,232,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,44,TRUE
+"200","Josh Acheampong","Acheampong","Chelsea","DEF",7,"2025-10-04",0.2,0,0,0,0,233,1,2,"h",0,67,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0,2,40,TRUE
+"201","Cole Palmer","Palmer","Chelsea","MID",7,"2025-10-04",0,0,0,0,0,235,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,103,TRUE
+"202","Pedro Lomba Neto","Neto","Chelsea","MID",7,"2025-10-04",0.9,0,0,0,0,236,1,2,"h",0,74,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.03,0.02,2,70,TRUE
+"203","Enzo Fernández","Enzo","Chelsea","MID",7,"2025-10-04",5.1,0,0,0,0,237,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.35,0.03,2,67,TRUE
+"204","Estêvão Almeida de Oliveira Gonçalves","Estêvão","Chelsea","MID",7,"2025-10-04",13.2,1,0,0,0,238,1,2,"h",2,15,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0.41,0.18,8,65,TRUE
+"205","Jamie Bynoe-Gittens","Gittens","Chelsea","MID",7,"2025-10-04",2.4,0,0,0,0,239,1,2,"h",0,15,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0.02,0.04,1,62,TRUE
+"206","Moisés Caicedo Corozo","Caicedo","Chelsea","MID",7,"2025-10-04",7.1,1,0,0,0,241,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.06,0.02,10,57,TRUE
+"207","Roméo Lavia","Lavia","Chelsea","MID",7,"2025-10-04",1,0,0,0,0,244,1,2,"h",0,35,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0.02,1,49,TRUE
+"208","Mykhailo Mudryk","Mudryk","Chelsea","MID",7,"2025-10-04",0,0,0,0,0,245,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,50,TRUE
+"209","Andrey Nascimento dos Santos","Andrey Santos","Chelsea","MID",7,"2025-10-04",0,0,0,0,0,246,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,45,TRUE
+"210","Dário Luís Essugo","D.Essugo","Chelsea","MID",7,"2025-10-04",0,0,0,0,0,247,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,44,TRUE
+"211","João Pedro Junqueira de Jesus","João Pedro","Chelsea","FWD",7,"2025-10-04",0.4,0,0,0,0,249,1,2,"h",0,73,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.03,0,2,77,TRUE
+"212","Liam Delap","Delap","Chelsea","FWD",7,"2025-10-04",0,0,0,0,0,250,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,62,TRUE
+"213","Marc Guiu Paz","Marc Guiu","Chelsea","FWD",7,"2025-10-04",0.1,0,0,0,0,252,1,2,"h",0,16,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0.03,0,1,43,TRUE
+"214","Alejandro Garnacho Ferreyra","Garnacho","Chelsea","MID",7,"2025-10-04",1.6,0,0,0,0,453,1,2,"h",0,74,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0.05,0.04,2,64,TRUE
+"215","Jorrel Hato","Hato","Chelsea","DEF",7,"2025-10-04",1.3,0,0,0,0,672,1,2,"h",0,22,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,1,48,TRUE
+"216","Landon Emenalo","Emenalo","Chelsea","MID",7,"2025-10-04",0,0,0,0,0,743,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,4,0,0,0,45,TRUE
+"217","Max Merrick","Merrick","Chelsea","GKP",7,"2025-10-04",NA,NA,NA,NA,NA,789,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"218","Teddy Sharman-Lowe","Sharman-Lowe","Chelsea","GKP",7,"2025-10-04",NA,NA,NA,NA,NA,803,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"219","Jesse Derry","Derry","Chelsea","MID",7,"2025-10-04",NA,NA,NA,NA,NA,829,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"220","Mathis Eboué","Eboué","Chelsea","MID",7,"2025-10-04",NA,NA,NA,NA,NA,833,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"221","Ryan Kavuma-McQueen","Kavuma-McQueen","Chelsea","MID",7,"2025-10-04",NA,NA,NA,NA,NA,834,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"222","Shumaira Mheuka","Mheuka","Chelsea","FWD",7,"2025-10-04",NA,NA,NA,NA,NA,840,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,4,NA,NA,NA,NA,TRUE
+"223","Dean Henderson","Henderson","Crystal Palace","GKP",7,"2025-10-05",4.2,0,0,0,0,253,1,2,"a",0,90,0,0,2,5,0,1,2,2025,"Everton",3,3,0,0,2,50,TRUE
+"224","Walter Benítez","Benitez","Crystal Palace","GKP",7,"2025-10-05",0,0,0,0,0,254,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"225","Remi Matthews","Matthews","Crystal Palace","GKP",7,"2025-10-05",0,0,0,0,0,255,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"226","Daniel Muñoz Mejía","Muñoz","Crystal Palace","DEF",7,"2025-10-05",7.8,1,0,0,0,256,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Everton",3,3,0.11,0.02,8,56,TRUE
+"227","Maxence Lacroix","Lacroix","Crystal Palace","DEF",7,"2025-10-05",3.4,0,0,0,0,257,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Everton",3,3,0,0.01,3,51,TRUE
+"228","Tyrick Mitchell","Mitchell","Crystal Palace","DEF",7,"2025-10-05",3.8,0,0,0,0,258,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Everton",3,3,0.05,0.01,1,50,TRUE
+"229","Borna Sosa","Sosa","Crystal Palace","DEF",7,"2025-10-05",0,0,0,0,0,259,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,49,TRUE
+"230","Chris Richards","Richards","Crystal Palace","DEF",7,"2025-10-05",4.4,0,0,0,0,261,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Everton",3,3,0.09,0.56,3,45,TRUE
+"231","Chadi Riad Dnanou","Chadi Riad","Crystal Palace","DEF",7,"2025-10-05",0,0,0,0,0,262,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"232","Nathaniel Clyne","Clyne","Crystal Palace","DEF",7,"2025-10-05",0,0,0,0,0,263,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,39,TRUE
+"233","Caleb Kporha","Kporha","Crystal Palace","DEF",7,"2025-10-05",0,0,0,0,0,265,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"234","Ismaïla Sarr","Sarr","Crystal Palace","MID",7,"2025-10-05",7.6,0,0,1,0,267,1,2,"a",2,88,0,0,1,0,0,1,2,2025,"Everton",3,3,0.18,0.08,7,64,TRUE
+"235","Cheick Doucouré","Doucouré","Crystal Palace","MID",7,"2025-10-05",0,0,0,0,0,268,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,49,TRUE
+"236","Will Hughes","Hughes","Crystal Palace","MID",7,"2025-10-05",0,0,0,0,0,270,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,49,TRUE
+"237","Daichi Kamada","Kamada","Crystal Palace","MID",7,"2025-10-05",2,0,0,0,0,271,1,2,"a",0,81,0,0,1,0,0,1,2,2025,"Everton",3,3,0.1,0.02,4,50,TRUE
+"238","Jefferson Lerma Solís","Lerma","Crystal Palace","MID",7,"2025-10-05",0.3,0,0,0,0,272,1,2,"a",0,8,0,0,1,0,0,1,2,2025,"Everton",3,3,0,0.01,1,49,TRUE
+"239","Adam Wharton","Wharton","Crystal Palace","MID",7,"2025-10-05",4.2,0,0,0,0,273,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Everton",3,3,0.03,0.24,3,50,TRUE
+"240","Asher Agbinone","Agbinone","Crystal Palace","MID",7,"2025-10-05",0,0,0,0,0,274,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,45,TRUE
+"241","Justin Devenny","Devenny","Crystal Palace","MID",7,"2025-10-05",3.7,0,0,0,0,276,1,2,"a",0,2,0,0,1,0,0,1,2,2025,"Everton",3,3,0.3,0,1,45,TRUE
+"242","Kaden Rodney","Rodney","Crystal Palace","MID",7,"2025-10-05",0,0,0,0,0,281,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,45,TRUE
+"243","Jean-Philippe Mateta","Mateta","Crystal Palace","FWD",7,"2025-10-05",3.7,0,0,0,0,283,1,2,"a",0,69,0,0,0,0,0,1,2,2025,"Everton",3,3,0.59,0,2,75,TRUE
+"244","Eddie Nketiah","Nketiah","Crystal Palace","FWD",7,"2025-10-05",0,0,0,0,0,284,1,2,"a",0,20,0,0,2,0,0,1,2,2025,"Everton",3,3,0,0,1,54,TRUE
+"245","Zach Marsh","Marsh","Crystal Palace","FWD",7,"2025-10-05",0,0,0,0,0,286,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,45,TRUE
+"246","Brennan Johnson","Johnson","Crystal Palace","MID",7,"2025-10-05",NA,NA,NA,NA,NA,580,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"247","Jørgen Strand Larsen","Strand Larsen","Crystal Palace","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,654,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"248","Evann Guessand","Guessand","Crystal Palace","MID",7,"2025-10-05",NA,NA,NA,NA,NA,677,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"249","Rio Cardines","Cardines","Crystal Palace","MID",7,"2025-10-05",0,0,0,0,0,690,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,44,TRUE
+"250","Yéremy Pino Santos","Yeremy","Crystal Palace","MID",7,"2025-10-05",5.5,0,0,0,0,712,1,2,"a",0,87,1,0,1,0,0,1,2,2025,"Everton",3,3,0.06,0.2,1,59,TRUE
+"251","Jaydee Canvot","Canvot","Crystal Palace","DEF",7,"2025-10-05",0,0,0,0,0,723,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Everton",3,3,0,0,0,45,TRUE
+"252","Christantus Uche","Uche","Crystal Palace","FWD",7,"2025-10-05",0,0,0,0,0,732,1,2,"a",0,1,0,0,1,0,0,1,2,2025,"Everton",3,3,0,0,1,55,TRUE
+"253","Joél Drakes-Thomas","Drakes-Thomas","Crystal Palace","MID",7,"2025-10-05",NA,NA,NA,NA,NA,762,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"254","Dean Benamar","Benamar","Crystal Palace","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,773,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"255","Ben Casey","Casey","Crystal Palace","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,780,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"256","George King","King","Crystal Palace","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,793,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"257","Kiernan Dewsbury-Hall","Dewsbury-Hall","Everton","MID",7,"2025-10-05",0,0,0,0,0,242,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,50,TRUE
+"258","Tyrique George","George","Everton","MID",7,"2025-10-05",NA,NA,NA,NA,NA,243,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"259","Jordan Pickford","Pickford","Everton","GKP",7,"2025-10-05",4.3,0,0,0,0,287,1,2,"h",0,90,0,0,1,5,0,2,1,2025,"Crystal Palace",3,3,0,0,3,55,TRUE
+"260","Mark Travers","Travers","Everton","GKP",7,"2025-10-05",0,0,0,0,0,288,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,44,TRUE
+"261","Jarrad Branthwaite","Branthwaite","Everton","DEF",7,"2025-10-05",0,0,0,0,0,290,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,53,TRUE
+"262","James Tarkowski","Tarkowski","Everton","DEF",7,"2025-10-05",6,0,0,0,0,291,1,2,"h",1,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0.26,5,55,TRUE
+"263","Vitalii Mykolenko","Mykolenko","Everton","DEF",7,"2025-10-05",4.2,0,0,0,0,292,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.02,0.03,4,49,TRUE
+"264","Jake O'Brien","O'Brien","Everton","DEF",7,"2025-10-05",7,0,0,0,0,293,1,2,"h",1,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.08,0.07,5,50,TRUE
+"265","Séamus Coleman","Coleman","Everton","DEF",7,"2025-10-05",0,0,0,0,0,294,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,1,44,TRUE
+"266","Michael Keane","Keane","Everton","DEF",7,"2025-10-05",3.2,0,0,0,0,295,1,2,"h",0,64,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.23,0,4,45,TRUE
+"267","Nathan Patterson","Patterson","Everton","DEF",7,"2025-10-05",0,0,0,0,0,296,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,44,TRUE
+"268","Reece Welch","Welch","Everton","DEF",7,"2025-10-05",0,0,0,0,0,298,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,39,TRUE
+"269","Iliman Ndiaye","Ndiaye","Everton","MID",7,"2025-10-05",8.8,1,0,0,0,299,1,2,"h",1,90,1,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.79,0.49,7,65,TRUE
+"270","Dwight McNeil","McNeil","Everton","MID",7,"2025-10-05",0,0,0,0,0,300,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,56,TRUE
+"271","Carlos Alcaraz Durán","Alcaraz","Everton","MID",7,"2025-10-05",4.5,0,0,0,0,301,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0.12,0.02,1,53,TRUE
+"272","Idrissa Gana Gueye","Gana","Everton","MID",7,"2025-10-05",1.1,0,0,0,0,302,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0.13,2,54,TRUE
+"273","James Garner","Garner","Everton","MID",7,"2025-10-05",6.1,0,0,0,0,303,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.12,0.52,1,50,TRUE
+"274","Tim Iroegbunam","Iroegbunam","Everton","MID",7,"2025-10-05",0.5,0,0,1,0,304,1,2,"h",0,25,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,4,49,TRUE
+"275","Harrison Armstrong","Armstrong","Everton","MID",7,"2025-10-05",0,0,0,0,0,305,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"276","Callum Bates","Bates","Everton","MID",7,"2025-10-05",0,0,0,0,0,306,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"277","Coby Ebere","Ebere","Everton","MID",7,"2025-10-05",0,0,0,0,0,307,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"278","Thierno Barry","Barry","Everton","FWD",7,"2025-10-05",1.5,0,0,0,0,310,1,2,"h",0,45,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0,1,58,TRUE
+"279","Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",7,"2025-10-05",6.2,0,0,0,0,311,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0.34,0.01,1,54,TRUE
+"280","Jack Grealish","Grealish","Everton","MID",7,"2025-10-05",11.7,1,0,0,0,419,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.44,0.05,10,69,TRUE
+"281","Tom King","King","Everton","GKP",7,"2025-10-05",0,0,0,0,0,630,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,40,TRUE
+"282","Adam Aznou","Aznou","Everton","DEF",7,"2025-10-05",0,0,0,0,0,667,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,44,TRUE
+"283","Tyler Dibling","Dibling","Everton","MID",7,"2025-10-05",0.2,0,0,0,0,707,1,2,"h",0,45,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0,1,55,TRUE
+"284","Merlin Röhl","Röhl","Everton","MID",7,"2025-10-05",0,0,0,0,0,728,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,50,TRUE
+"285","Braiden Graham","Graham","Everton","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,779,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"286","Bernd Leno","Leno","Fulham","GKP",7,"2025-10-03",2.3,0,0,0,0,314,1,3,"a",0,90,0,0,3,3,0,1,3,2025,"Bournemouth",3,3,0,0,2,50,TRUE
+"287","Antonee Robinson","Robinson","Fulham","DEF",7,"2025-10-03",0,0,0,0,0,316,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,50,TRUE
+"288","Joachim Andersen","Andersen","Fulham","DEF",7,"2025-10-03",3.5,0,0,0,0,317,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0,0,3,45,TRUE
+"289","Calvin Bassey","Bassey","Fulham","DEF",7,"2025-10-03",1.8,0,0,0,0,318,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0,0,1,45,TRUE
+"290","Timothy Castagne","Castagne","Fulham","DEF",7,"2025-10-03",3,0,0,0,0,319,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0.04,0.02,1,44,TRUE
+"291","Issa Diop","Diop","Fulham","DEF",7,"2025-10-03",1.9,0,0,0,0,320,1,3,"a",0,85,1,0,2,0,0,1,3,2025,"Bournemouth",3,3,0,0.01,2,44,TRUE
+"292","Jorge Cuenca Barreno","J.Cuenca","Fulham","DEF",7,"2025-10-03",0,0,0,0,0,321,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,44,TRUE
+"293","Kenny Tete","Tete","Fulham","DEF",7,"2025-10-03",0,0,0,0,0,322,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,45,TRUE
+"294","Samuel Amissah","Amissah","Fulham","DEF",7,"2025-10-03",0,0,0,0,0,323,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,39,TRUE
+"295","Alex Iwobi","Iwobi","Fulham","MID",7,"2025-10-03",6.3,0,0,0,0,324,1,3,"a",0,85,0,0,2,0,0,1,3,2025,"Bournemouth",3,3,0.11,0.12,2,65,TRUE
+"296","Emile Smith Rowe","Smith Rowe","Fulham","MID",7,"2025-10-03",0.3,0,0,0,0,325,1,3,"a",0,4,0,0,1,0,0,1,3,2025,"Bournemouth",3,3,0,0.01,1,58,TRUE
+"297","Ryan Sessegnon","Sessegnon","Fulham","MID",7,"2025-10-03",9,1,0,0,0,328,1,3,"a",2,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0.4,0.25,9,54,TRUE
+"298","Harry Wilson","Wilson","Fulham","MID",7,"2025-10-03",4.6,0,0,0,0,329,1,3,"a",0,66,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0.02,0.06,3,53,TRUE
+"299","Sander Berge","Berge","Fulham","MID",7,"2025-10-03",1.3,0,0,0,0,330,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0,0.04,2,50,TRUE
+"300","Tom Cairney","Cairney","Fulham","MID",7,"2025-10-03",3.5,0,0,0,0,331,1,3,"a",0,76,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0.25,0.07,2,49,TRUE
+"301","Saša Lukic","Lukic","Fulham","MID",7,"2025-10-03",0.6,0,0,0,0,332,1,3,"a",0,13,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,1,50,TRUE
+"302","Josh King","King","Fulham","MID",7,"2025-10-03",1,0,0,0,0,335,1,3,"a",0,66,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0.01,0.02,3,45,TRUE
+"303","Harrison Reed","Reed","Fulham","MID",7,"2025-10-03",0,0,0,0,0,336,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,44,TRUE
+"304","Raúl Jiménez Rodríguez","Raúl","Fulham","FWD",7,"2025-10-03",0,0,0,0,0,337,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,63,TRUE
+"305","Rodrigo Muniz Carvalho","Muniz","Fulham","FWD",7,"2025-10-03",0,0,0,0,0,338,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,55,TRUE
+"306","Oscar Bobb","Bobb","Fulham","MID",7,"2025-10-03",NA,NA,NA,NA,NA,424,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"307","Benjamin Lecomte","Lecomte","Fulham","GKP",7,"2025-10-03",0,0,0,0,0,664,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,40,TRUE
+"308","Samuel Chukwueze","Chukwueze","Fulham","MID",7,"2025-10-03",4.8,0,0,1,0,727,1,3,"a",0,23,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0,0.39,4,54,TRUE
+"309","Kevin Santos Lopes de Macedo","Kevin","Fulham","MID",7,"2025-10-03",2,0,0,0,0,731,1,3,"a",0,23,0,0,3,0,0,1,3,2025,"Bournemouth",3,3,0.04,0.01,1,60,TRUE
+"310","Jonah Kusi-Asare","Kusi-Asare","Fulham","FWD",7,"2025-10-03",0,0,0,0,0,737,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Bournemouth",3,3,0,0,0,45,TRUE
+"311","Seth Ridgeon","Ridgeon","Fulham","MID",7,"2025-10-03",NA,NA,NA,NA,NA,770,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"312","Alfie McNally","McNally","Fulham","GKP",7,"2025-10-03",NA,NA,NA,NA,NA,786,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"313","Facundo Buonanotte","Buonanotte","Leeds","MID",7,"2025-10-04",0,0,0,0,0,168,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Tottenham",3,3,0,0,0,48,TRUE
+"314","Illan Meslier","Meslier","Leeds","GKP",7,"2025-10-04",0,0,0,0,0,339,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,44,TRUE
+"315","Alex Cairns","Cairns","Leeds","GKP",7,"2025-10-04",0,0,0,0,0,340,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,40,TRUE
+"316","Karl Darlow","Darlow","Leeds","GKP",7,"2025-10-04",1.1,0,0,0,0,341,2,1,"h",0,90,0,0,2,1,0,1,2,2025,"Tottenham",3,3,0,0.01,1,40,TRUE
+"317","Jayden Bogle","Bogle","Leeds","DEF",7,"2025-10-04",2.6,0,0,0,0,342,2,1,"h",0,88,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.02,0.06,3,45,TRUE
+"318","Pascal Struijk","Struijk","Leeds","DEF",7,"2025-10-04",2.3,0,0,0,0,343,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.3,0.01,1,45,TRUE
+"319","Jaka Bijol","Bijol","Leeds","DEF",7,"2025-10-04",0,0,0,0,0,344,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,39,TRUE
+"320","Sebastiaan Bornauw","Bornauw","Leeds","DEF",7,"2025-10-04",0,0,0,0,0,345,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,39,TRUE
+"321","Sam Byram","Byram","Leeds","DEF",7,"2025-10-04",0,0,0,0,0,346,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,39,TRUE
+"322","Gabriel Gudmundsson","Gudmundsson","Leeds","DEF",7,"2025-10-04",1.7,0,0,0,0,347,2,1,"h",0,78,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0,0.01,1,40,TRUE
+"323","Joe Rodon","Rodon","Leeds","DEF",7,"2025-10-04",3.1,0,0,0,0,348,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.09,0.02,1,40,TRUE
+"324","Brenden Aaronson","Aaronson","Leeds","MID",7,"2025-10-04",3.7,0,0,1,0,350,2,1,"h",0,66,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.09,0.02,5,54,TRUE
+"325","Wilfried Gnonto","Gnonto","Leeds","MID",7,"2025-10-04",0,0,0,0,0,351,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,52,TRUE
+"326","Daniel James","James","Leeds","MID",7,"2025-10-04",0,0,0,0,0,353,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,53,TRUE
+"327","Ethan Ampadu","Ampadu","Leeds","MID",7,"2025-10-04",4.5,0,0,0,0,354,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Tottenham",3,3,0,0.06,3,49,TRUE
+"328","Ilia Gruev","Gruev","Leeds","MID",7,"2025-10-04",0,0,0,0,0,356,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,49,TRUE
+"329","Tanaka Ao","Tanaka","Leeds","MID",7,"2025-10-04",1.8,0,0,0,0,358,2,1,"h",0,23,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0.02,1,49,TRUE
+"330","Joël Piroe","Piroe","Leeds","FWD",7,"2025-10-04",2.6,0,0,0,0,362,2,1,"h",0,11,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0.05,0.01,1,52,TRUE
+"331","Lukas Nmecha","Nmecha","Leeds","FWD",7,"2025-10-04",0.3,0,0,0,0,365,2,1,"h",0,11,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,1,50,TRUE
+"332","Sean Longstaff","Longstaff","Leeds","MID",7,"2025-10-04",9,0,0,0,0,493,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.22,0.2,2,49,TRUE
+"333","Anton Stach","Stach","Leeds","MID",7,"2025-10-04",3.3,0,0,0,0,660,2,1,"h",0,66,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.04,0.03,2,50,TRUE
+"334","Lucas Estella Perri","Perri","Leeds","GKP",7,"2025-10-04",0,0,0,0,0,665,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,0,45,TRUE
+"335","Dominic Calvert-Lewin","Calvert-Lewin","Leeds","FWD",7,"2025-10-04",7.2,0,0,0,0,691,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.15,0.32,2,55,TRUE
+"336","Noah Okafor","Okafor","Leeds","MID",7,"2025-10-04",9.5,1,0,0,0,698,2,1,"h",2,78,1,0,2,0,0,1,2,2025,"Tottenham",3,3,0.77,0.04,8,55,TRUE
+"337","James Justin","Justin","Leeds","DEF",7,"2025-10-04",0.2,0,0,0,0,706,2,1,"h",0,1,0,0,0,0,0,1,2,2025,"Tottenham",3,3,0,0,1,40,TRUE
+"338","Sam Chambers","Chambers","Leeds","MID",7,"2025-10-04",NA,NA,NA,NA,NA,787,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"339","Jayden Lienou","Lienou","Leeds","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,837,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"340","Rhys Chadwick","Chadwick","Leeds","MID",7,"2025-10-04",NA,NA,NA,NA,NA,838,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"341","Alfie Cresswell","Cresswell","Leeds","MID",7,"2025-10-04",NA,NA,NA,NA,NA,839,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"342","Alisson Becker","A.Becker","Liverpool","GKP",7,"2025-10-04",0,0,0,0,0,366,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,55,TRUE
+"343","Giorgi Mamardashvili","Mamardashvili","Liverpool","GKP",7,"2025-10-04",3.1,0,0,0,0,367,1,2,"a",0,90,0,0,2,4,0,1,2,2025,"Chelsea",4,4,0,0,2,43,TRUE
+"344","Ármin Pécsi","Pécsi","Liverpool","GKP",7,"2025-10-04",0,0,0,0,0,368,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"345","Freddie Woodman","Woodman","Liverpool","GKP",7,"2025-10-04",0,0,0,0,0,369,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"346","Jeremie Frimpong","Frimpong","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,370,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,59,TRUE
+"347","Milos Kerkez","Kerkez","Liverpool","DEF",7,"2025-10-04",1.5,0,0,0,0,371,1,2,"a",0,54,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0,0.01,1,59,TRUE
+"348","Andrew Robertson","Robertson","Liverpool","DEF",7,"2025-10-04",3.7,0,0,0,0,372,1,2,"a",0,35,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0.03,0.01,1,58,TRUE
+"349","Virgil van Dijk","Virgil","Liverpool","DEF",7,"2025-10-04",2,0,0,0,0,373,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Chelsea",4,4,0,0,1,61,TRUE
+"350","Ibrahima Konaté","Konaté","Liverpool","DEF",7,"2025-10-04",0.9,0,0,0,0,374,1,2,"a",0,55,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0,0,1,55,TRUE
+"351","Conor Bradley","Bradley","Liverpool","DEF",7,"2025-10-04",0.4,0,0,0,0,375,1,2,"a",0,45,1,0,1,0,0,1,2,2025,"Chelsea",4,4,0,0,0,50,TRUE
+"352","Joe Gomez","Gomez","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,376,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,50,TRUE
+"353","Amara Nallo","Nallo","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,378,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"354","Rhys Williams","R.Williams","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,379,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"355","Calvin Ramsay","Ramsay","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,380,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,39,TRUE
+"356","Mohamed Salah","M.Salah","Liverpool","MID",7,"2025-10-04",6.7,0,0,0,0,381,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Chelsea",4,4,0.26,0.27,2,145,TRUE
+"357","Florian Wirtz","Wirtz","Liverpool","MID",7,"2025-10-04",2.5,0,0,0,0,382,1,2,"a",0,45,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0,0.1,1,82,TRUE
+"358","Cody Gakpo","Gakpo","Liverpool","MID",7,"2025-10-04",12.9,1,0,0,0,384,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Chelsea",4,4,0.55,0.38,7,75,TRUE
+"359","Federico Chiesa","Chiesa","Liverpool","MID",7,"2025-10-04",0,0,0,0,0,385,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,64,TRUE
+"360","Alexis Mac Allister","Mac Allister","Liverpool","MID",7,"2025-10-04",2.6,0,0,0,0,386,1,2,"a",0,85,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0.03,0.02,2,63,TRUE
+"361","Dominik Szoboszlai","Szoboszlai","Liverpool","MID",7,"2025-10-04",2.9,0,0,0,0,387,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Chelsea",4,4,0.56,0.03,1,65,TRUE
+"362","Curtis Jones","C.Jones","Liverpool","MID",7,"2025-10-04",0.7,0,0,0,0,388,1,2,"a",0,34,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0.17,0.01,1,54,TRUE
+"363","Ryan Gravenberch","Gravenberch","Liverpool","MID",7,"2025-10-04",2.1,0,0,0,0,390,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Chelsea",4,4,0.03,0.01,2,56,TRUE
+"364","Endo Wataru","Endo","Liverpool","MID",7,"2025-10-04",0.4,0,0,0,0,392,1,2,"a",0,4,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0,0,1,49,TRUE
+"365","Stefan Bajcetic Maquieira","Bajcetic","Liverpool","MID",7,"2025-10-04",0,0,0,0,0,393,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,44,TRUE
+"366","Trey Nyoni","Nyoni","Liverpool","MID",7,"2025-10-04",0,0,0,0,0,396,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,44,TRUE
+"367","Jayden Danns","Danns","Liverpool","FWD",7,"2025-10-04",0,0,0,0,0,398,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,44,TRUE
+"368","Alexander Isak","Isak","Liverpool","FWD",7,"2025-10-04",4.1,0,0,1,0,499,1,2,"a",0,73,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0.18,0.01,5,106,TRUE
+"369","Hugo Ekitiké","Ekitiké","Liverpool","FWD",7,"2025-10-04",0.9,0,0,0,0,661,1,2,"a",0,16,0,0,1,0,0,1,2,2025,"Chelsea",4,4,0.14,0.02,1,87,TRUE
+"370","Rio Ngumoha","Ngumoha","Liverpool","MID",7,"2025-10-04",0,0,0,0,0,686,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,45,TRUE
+"371","Giovanni Leoni","Leoni","Liverpool","DEF",7,"2025-10-04",0,0,0,0,0,692,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,50,TRUE
+"372","Kieran Morrison","Morrison","Liverpool","MID",7,"2025-10-04",NA,NA,NA,NA,NA,746,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,4,NA,NA,NA,NA,TRUE
+"373","Wellity Lucky","Lucky","Liverpool","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,760,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,4,NA,NA,NA,NA,TRUE
+"374","Will Wright","Wright","Liverpool","FWD",7,"2025-10-04",NA,NA,NA,NA,NA,830,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,4,NA,NA,NA,NA,TRUE
+"375","Talla Ndiaye","Ndiaye","Liverpool","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,832,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,4,NA,NA,NA,NA,TRUE
+"376","Antoine Semenyo","Semenyo","Man City","MID",7,"2025-10-05",NA,NA,NA,NA,NA,82,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,4,NA,NA,NA,NA,TRUE
+"377","James Trafford","Trafford","Man City","GKP",7,"2025-10-05",0,0,0,0,0,182,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,48,TRUE
+"378","Marc Guéhi","Guéhi","Man City","DEF",7,"2025-10-05",6.7,0,0,0,0,260,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Brentford",3,4,0.2,0.48,3,48,TRUE
+"379","Marcus Bettinelli","Bettinelli","Man City","GKP",7,"2025-10-05",0,0,0,0,0,401,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,40,TRUE
+"380","Rayan Aït-Nouri","Aït-Nouri","Man City","DEF",7,"2025-10-05",0,0,0,0,0,402,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,58,TRUE
+"381","Joško Gvardiol","Gvardiol","Man City","DEF",7,"2025-10-05",7.3,0,0,1,0,403,1,0,"a",3,90,0,0,0,0,0,1,0,2025,"Brentford",3,4,0.06,0.04,12,58,TRUE
+"382","Nathan Aké","Aké","Man City","DEF",7,"2025-10-05",0,0,0,0,0,405,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,54,TRUE
+"383","Abdukodir Khusanov","Khusanov","Man City","DEF",7,"2025-10-05",0,0,0,0,0,406,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,54,TRUE
+"384","Matheus Nunes","Matheus N.","Man City","DEF",7,"2025-10-05",2.4,0,0,0,0,407,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.03,5,53,TRUE
+"385","Rúben dos Santos Gato Alves Dias","Rúben","Man City","DEF",7,"2025-10-05",3.4,0,0,0,0,408,1,0,"a",1,90,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.03,9,55,TRUE
+"386","John Stones","Stones","Man City","DEF",7,"2025-10-05",0,0,0,0,0,409,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,55,TRUE
+"387","Rico Lewis","Lewis","Man City","DEF",7,"2025-10-05",0,0,0,0,0,410,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,50,TRUE
+"388","Nico O'Reilly","O'Reilly","Man City","DEF",7,"2025-10-05",5.8,0,0,0,0,411,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.05,5,49,TRUE
+"389","Omar Marmoush","Marmoush","Man City","MID",7,"2025-10-05",0,0,0,0,0,413,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,83,TRUE
+"390","Phil Foden","Foden","Man City","MID",7,"2025-10-05",7,0,0,0,0,414,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Brentford",3,4,0.28,0.21,3,81,TRUE
+"391","Sávio Moreira de Oliveira","Savinho","Man City","MID",7,"2025-10-05",1.2,0,0,0,0,415,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.04,3,69,TRUE
+"392","Bernardo Mota Veiga de Carvalho e Silva","Bernardo","Man City","MID",7,"2025-10-05",0.4,0,0,0,0,416,1,0,"a",0,14,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.01,1,64,TRUE
+"393","Rayan Cherki","Cherki","Man City","MID",7,"2025-10-05",0,0,0,0,0,417,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,63,TRUE
+"394","Jérémy Doku","Doku","Man City","MID",7,"2025-10-05",0,0,0,0,0,418,1,0,"a",0,14,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,1,66,TRUE
+"395","Rodrigo 'Rodri' Hernandez Cascante","Rodrigo","Man City","MID",7,"2025-10-05",1.5,0,0,0,0,421,1,0,"a",0,21,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.01,1,64,TRUE
+"396","Mateo Kovacic","Kovacic","Man City","MID",7,"2025-10-05",0,0,0,0,0,422,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,59,TRUE
+"397","Nico González Iglesias","N.Gonzalez","Man City","MID",7,"2025-10-05",1.8,0,0,0,0,423,1,0,"a",0,68,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0.02,3,59,TRUE
+"398","Tijjani Reijnders","Reijnders","Man City","MID",7,"2025-10-05",5.5,0,0,0,0,427,1,0,"a",0,75,0,0,0,0,0,1,0,2025,"Brentford",3,4,0.18,0.06,3,58,TRUE
+"399","Sverre Nypan","Nypan","Man City","MID",7,"2025-10-05",0,0,0,0,0,428,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,50,TRUE
+"400","Erling Haaland","Haaland","Man City","FWD",7,"2025-10-05",6.2,1,0,0,0,430,1,0,"a",2,90,0,0,0,0,0,1,0,2025,"Brentford",3,4,0.29,0.01,8,144,TRUE
+"401","Gianluigi Donnarumma","Donnarumma","Man City","GKP",7,"2025-10-05",1.2,0,0,0,0,736,1,0,"a",0,90,0,0,0,1,0,1,0,2025,"Brentford",3,4,0,0,6,56,TRUE
+"402","Ryan McAidoo","McAidoo","Man City","MID",7,"2025-10-05",0,0,0,0,0,742,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brentford",3,4,0,0,0,45,TRUE
+"403","Charlie Gray","Gray","Man City","MID",7,"2025-10-05",NA,NA,NA,NA,NA,763,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,4,NA,NA,NA,NA,TRUE
+"404","Reigan Heskey","Heskey","Man City","MID",7,"2025-10-05",NA,NA,NA,NA,NA,764,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,4,NA,NA,NA,NA,TRUE
+"405","Max Alleyne","Alleyne","Man City","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,794,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,4,NA,NA,NA,NA,TRUE
+"406","Bryan Mbeumo","Mbeumo","Man Utd","MID",7,"2025-10-04",6.7,0,0,1,0,119,0,2,"h",0,76,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.1,0.14,6,81,TRUE
+"407","Altay Bayindir","Bayindir","Man Utd","GKP",7,"2025-10-04",0,0,0,0,0,431,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,50,TRUE
+"408","Tom Heaton","Heaton","Man Utd","GKP",7,"2025-10-04",0,0,0,0,0,434,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,40,TRUE
+"409","Dermot Mee","Mee","Man Utd","GKP",7,"2025-10-04",0,0,0,0,0,435,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,40,TRUE
+"410","Matthijs de Ligt","De Ligt","Man Utd","DEF",7,"2025-10-04",1.7,0,0,0,0,436,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,8,50,TRUE
+"411","Lisandro Martínez","Martinez","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,437,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,49,TRUE
+"412","Noussair Mazraoui","Mazraoui","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,438,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,49,TRUE
+"413","Diego León Blanco","D.Leon","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,439,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,43,TRUE
+"414","Diogo Dalot Teixeira","Dalot","Man Utd","DEF",7,"2025-10-04",1.9,0,0,1,0,440,0,2,"h",0,63,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.05,0.03,9,44,TRUE
+"415","Patrick Dorgu","Dorgu","Man Utd","DEF",7,"2025-10-04",1.7,0,0,0,0,441,0,2,"h",0,26,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,45,TRUE
+"416","Harry Maguire","Maguire","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,442,0,2,"h",0,5,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,44,TRUE
+"417","Luke Shaw","Shaw","Man Utd","DEF",7,"2025-10-04",1,0,0,0,0,443,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0.01,6,45,TRUE
+"418","Leny Yoro","Yoro","Man Utd","DEF",7,"2025-10-04",2.2,0,0,0,0,444,0,2,"h",0,84,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.02,0,6,45,TRUE
+"419","Tyler Fredricson","Fredricson","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,446,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,39,TRUE
+"420","Ayden Heaven","Heaven","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,447,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,39,TRUE
+"421","Tyrell Malacia","Malacia","Man Utd","DEF",7,"2025-10-04",0,0,0,0,0,448,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,39,TRUE
+"422","Bruno Borges Fernandes","B.Fernandes","Man Utd","MID",7,"2025-10-04",6.9,0,0,0,0,449,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.17,0.3,3,90,TRUE
+"423","Matheus Santos Carneiro da Cunha","Cunha","Man Utd","MID",7,"2025-10-04",3.2,0,0,0,0,450,0,2,"h",0,25,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.39,0,1,80,TRUE
+"424","Amad Diallo","Amad","Man Utd","MID",7,"2025-10-04",8.3,0,0,0,0,452,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.64,0.1,3,63,TRUE
+"425","Mason Mount","Mount","Man Utd","MID",7,"2025-10-04",7.4,1,0,0,0,455,0,2,"h",2,64,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.16,0.06,10,59,TRUE
+"426","Carlos Henrique Casimiro","Casemiro","Man Utd","MID",7,"2025-10-04",2.2,0,0,0,0,457,0,2,"h",0,84,1,0,0,0,0,2,0,2025,"Sunderland",3,4,0.07,0.02,4,55,TRUE
+"427","Kobbie Mainoo","Mainoo","Man Utd","MID",7,"2025-10-04",0.3,0,0,0,0,458,0,2,"h",0,13,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,48,TRUE
+"428","Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",7,"2025-10-04",0,0,0,0,0,459,0,2,"h",0,5,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,49,TRUE
+"429","Jayce Fitzgerald","Fitzgerald","Man Utd","MID",7,"2025-10-04",0,0,0,0,0,461,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,44,TRUE
+"430","Jack Fletcher","J.Fletcher","Man Utd","MID",7,"2025-10-04",0,0,0,0,0,462,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,44,TRUE
+"431","Joshua Zirkzee","Zirkzee","Man Utd","FWD",7,"2025-10-04",0,0,0,0,0,466,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,59,TRUE
+"432","Chido Obi","Obi","Man Utd","FWD",7,"2025-10-04",0,0,0,0,0,467,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,0,43,TRUE
+"433","Benjamin Sesko","Šeško","Man Utd","FWD",7,"2025-10-04",10.7,1,0,0,0,681,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0.29,0.01,9,73,TRUE
+"434","Senne Lammens","Lammens","Man Utd","GKP",7,"2025-10-04",2.4,0,0,0,0,733,0,2,"h",2,90,0,0,0,3,0,2,0,2025,"Sunderland",3,4,0,0,9,50,TRUE
+"435","Shea Lacey","Lacey","Man Utd","MID",7,"2025-10-04",NA,NA,NA,NA,NA,755,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"436","Bendito Mantato","Bendito Mantato","Man Utd","MID",7,"2025-10-04",NA,NA,NA,NA,NA,769,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"437","Tyler Fletcher","Fletcher","Man Utd","MID",7,"2025-10-04",NA,NA,NA,NA,NA,771,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"438","Godwill Kukonki","Kukonki","Man Utd","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,788,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"439","Jim Thwaites","Thwaites","Man Utd","MID",7,"2025-10-04",NA,NA,NA,NA,NA,827,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,4,NA,NA,NA,NA,TRUE
+"440","Jacob Ramsey","J.Ramsey","Newcastle","MID",7,"2025-10-05",0,0,0,0,0,52,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,53,TRUE
+"441","Yoane Wissa","Wissa","Newcastle","FWD",7,"2025-10-05",0,0,0,0,0,135,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,74,TRUE
+"442","Nick Pope","Pope","Newcastle","GKP",7,"2025-10-05",2.9,0,0,0,0,469,0,2,"h",0,90,0,0,0,4,0,2,0,2025,"Forest",3,3,0,0,7,51,TRUE
+"443","Mark Gillespie","Gillespie","Newcastle","GKP",7,"2025-10-05",0,0,0,0,0,471,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,40,TRUE
+"444","Lewis Hall","Hall","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,473,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,53,TRUE
+"445","Fabian Schär","Schär","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,474,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,54,TRUE
+"446","Sven Botman","Botman","Newcastle","DEF",7,"2025-10-05",5,0,0,0,0,475,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.08,0.23,6,49,TRUE
+"447","Dan Burn","Burn","Newcastle","DEF",7,"2025-10-05",3.7,0,0,1,0,476,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0.01,11,50,TRUE
+"448","Tino Livramento","Livramento","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,477,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,51,TRUE
+"449","Kieran Trippier","Trippier","Newcastle","DEF",7,"2025-10-05",6.3,0,0,0,0,478,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0.13,6,50,TRUE
+"450","Emil Krafth","Krafth","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,479,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,44,TRUE
+"451","Alex Murphy","A.Murphy","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,481,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,39,TRUE
+"452","Miodrag Pivaš","Pivas","Newcastle","DEF",7,"2025-10-05",0,0,0,0,0,483,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,39,TRUE
+"453","Anthony Gordon","Gordon","Newcastle","MID",7,"2025-10-05",1.3,0,0,0,0,485,0,2,"h",0,69,0,0,0,0,0,2,0,2025,"Forest",3,3,0.13,0.02,3,74,TRUE
+"454","Anthony Elanga","Elanga","Newcastle","MID",7,"2025-10-05",5,0,0,0,0,486,0,2,"h",0,69,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0.03,3,69,TRUE
+"455","Harvey Barnes","Barnes","Newcastle","MID",7,"2025-10-05",2.3,0,0,0,0,487,0,2,"h",0,20,0,0,0,0,0,2,0,2025,"Forest",3,3,0.31,0,1,65,TRUE
+"456","Bruno Guimarães Rodriguez Moura","Bruno G.","Newcastle","MID",7,"2025-10-05",7.8,1,0,1,0,488,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.07,0.12,14,65,TRUE
+"457","Jacob Murphy","J.Murphy","Newcastle","MID",7,"2025-10-05",5,0,0,0,0,489,0,2,"h",0,20,0,0,0,0,0,2,0,2025,"Forest",3,3,0.19,0.3,1,62,TRUE
+"458","Joelinton Cássio Apolinário de Lira","Joelinton","Newcastle","MID",7,"2025-10-05",8.8,0,0,0,0,490,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.49,0.02,3,59,TRUE
+"459","Sandro Tonali","Tonali","Newcastle","MID",7,"2025-10-05",6.9,0,0,0,0,491,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.05,0.06,3,54,TRUE
+"460","Joe Willock","Willock","Newcastle","MID",7,"2025-10-05",0,0,0,0,0,494,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,50,TRUE
+"461","Lewis Miley","L.Miley","Newcastle","MID",7,"2025-10-05",0.1,0,0,0,0,497,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,44,TRUE
+"462","William Osula","Osula","Newcastle","FWD",7,"2025-10-05",0,0,0,0,0,500,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,55,TRUE
+"463","Sean Neave","Neave","Newcastle","FWD",7,"2025-10-05",0,0,0,0,0,501,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,44,TRUE
+"464","Aaron Ramsdale","Ramsdale","Newcastle","GKP",7,"2025-10-05",0,0,0,0,0,674,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,49,TRUE
+"465","Malick Thiaw","Thiaw","Newcastle","DEF",7,"2025-10-05",5.1,0,0,0,0,684,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.58,0.01,8,49,TRUE
+"466","Seung-Soo Park","Seung soo","Newcastle","MID",7,"2025-10-05",0,0,0,0,0,689,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,44,TRUE
+"467","Nick Woltemade","Woltemade","Newcastle","FWD",7,"2025-10-05",8.4,1,0,0,0,714,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Forest",3,3,1.37,0.08,6,71,TRUE
+"468","John Ruddy","Ruddy","Newcastle","GKP",7,"2025-10-05",NA,NA,NA,NA,NA,753,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"469","Leo Shahar","Shahar","Newcastle","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,765,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"470","Sam Alabi","Alabi","Newcastle","MID",7,"2025-10-05",NA,NA,NA,NA,NA,772,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"471","Stefan Ortega Moreno","Ortega Moreno","Forest","GKP",7,"2025-10-05",0,0,0,0,0,400,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0,0,48,TRUE
+"472","James McAtee","McAtee","Forest","MID",7,"2025-10-05",0,0,0,0,0,426,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,53,TRUE
+"473","Matz Sels","Sels","Forest","GKP",7,"2025-10-05",5.4,0,0,0,0,502,0,2,"a",0,90,0,0,2,7,0,0,2,2025,"Newcastle",3,3,0,0,3,49,TRUE
+"474","Nikola Milenkovic","Milenkovic","Forest","DEF",7,"2025-10-05",1.6,0,0,0,0,505,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0,3,54,TRUE
+"475","Murillo Costa dos Santos","Murillo","Forest","DEF",7,"2025-10-05",0,0,0,0,0,506,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,54,TRUE
+"476","Ola Aina","Aina","Forest","DEF",7,"2025-10-05",0,0,0,0,0,507,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,48,TRUE
+"477","Neco Williams","N.Williams","Forest","DEF",7,"2025-10-05",5.4,0,0,0,0,508,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Newcastle",3,3,0.03,0.01,0,49,TRUE
+"478","Jair Paula da Cunha Filho","Jair Cunha","Forest","DEF",7,"2025-10-05",2.6,0,0,0,0,510,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0,3,44,TRUE
+"479","Felipe Rodrigues da Silva","Morato","Forest","DEF",7,"2025-10-05",2.5,0,0,0,0,511,0,2,"a",0,76,1,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0.01,3,44,TRUE
+"480","Zach Abbott","Abbott","Forest","DEF",7,"2025-10-05",0,0,0,0,0,513,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,39,TRUE
+"481","Willy Boly","Boly","Forest","DEF",7,"2025-10-05",0,0,0,0,0,514,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,39,TRUE
+"482","Morgan Gibbs-White","Gibbs-White","Forest","MID",7,"2025-10-05",4.3,0,0,0,0,515,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0.12,0.08,4,74,TRUE
+"483","Callum Hudson-Odoi","Hudson-Odoi","Forest","MID",7,"2025-10-05",2.6,0,0,0,0,516,0,2,"a",0,26,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0.07,0.01,1,60,TRUE
+"484","Elliot Anderson","Anderson","Forest","MID",7,"2025-10-05",1.6,0,0,0,0,517,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0.03,1,54,TRUE
+"485","Nicolás Domínguez","Dominguez","Forest","MID",7,"2025-10-05",0,0,0,0,0,519,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,50,TRUE
+"486","Ibrahim Sangaré","Sangaré","Forest","MID",7,"2025-10-05",0,0,0,0,0,521,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,50,TRUE
+"487","Ryan Yates","Yates","Forest","MID",7,"2025-10-05",3.1,0,0,0,0,522,0,2,"a",0,63,1,0,1,0,0,0,2,2025,"Newcastle",3,3,0.07,0,1,48,TRUE
+"488","Eric da Silva Moreira","Da Silva Moreira","Forest","MID",7,"2025-10-05",0,0,0,0,0,523,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,45,TRUE
+"489","Chris Wood","Wood","Forest","FWD",7,"2025-10-05",0.3,0,0,0,0,525,0,2,"a",0,63,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0,2,74,TRUE
+"490","Igor Jesus Maciel da Cruz","Igor Jesus","Forest","FWD",7,"2025-10-05",0.8,0,0,0,0,526,0,2,"a",0,26,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0,1,58,TRUE
+"491","Taiwo Awoniyi","Awoniyi","Forest","FWD",7,"2025-10-05",0,0,0,0,0,527,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,53,TRUE
+"492","Dan Ndoye","Ndoye","Forest","MID",7,"2025-10-05",3.6,0,0,0,0,669,0,2,"a",0,64,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0.06,2,60,TRUE
+"493","Angus Gunn","Gunn","Forest","GKP",7,"2025-10-05",0,0,0,0,0,675,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,40,TRUE
+"494","Omari Hutchinson","Hutchinson","Forest","MID",7,"2025-10-05",0.8,0,0,0,0,693,0,2,"a",0,25,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0.01,1,55,TRUE
+"495","John Victor Maciel Furtado","John","Forest","GKP",7,"2025-10-05",0,0,0,0,0,715,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Newcastle",3,3,0,0,0,40,TRUE
+"496","Nicolò Savona","Savona","Forest","DEF",7,"2025-10-05",1.2,0,0,0,0,716,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Newcastle",3,3,0,0.04,1,45,TRUE
+"497","Dilane Bakwa","Bakwa","Forest","MID",7,"2025-10-05",2,0,0,0,0,734,0,2,"a",0,13,0,0,1,0,0,0,2,2025,"Newcastle",3,3,0,0.03,1,60,TRUE
+"498","Lorenzo Lucca","Lucca","Forest","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,805,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"499","Luca Netz","Netz","Forest","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,814,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"500","Archie Whitehall","Whitehall","Forest","MID",7,"2025-10-05",NA,NA,NA,NA,NA,835,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"501","Jimmy Sinclair","Sinclair","Forest","MID",7,"2025-10-05",NA,NA,NA,NA,NA,836,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"502","Lamin Sillah","Sillah","Forest","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,841,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"503","Simon Moore","Moore","Sunderland","GKP",7,"2025-10-04",0,0,0,0,0,529,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"504","Daniel Ballard","Ballard","Sunderland","DEF",7,"2025-10-04",4.4,0,0,0,0,531,0,2,"a",0,53,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0.17,0,3,46,TRUE
+"505","Trai Hume","Hume","Sunderland","DEF",7,"2025-10-04",1.3,0,0,0,0,532,0,2,"a",0,78,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0.03,0.01,1,45,TRUE
+"506","Dennis Cirkin","Cirkin","Sunderland","DEF",7,"2025-10-04",0,0,0,0,0,535,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"507","Luke O'Nien","O'Nien","Sunderland","DEF",7,"2025-10-04",0,0,0,0,0,539,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"508","Reinildo Mandava","Reinildo","Sunderland","DEF",7,"2025-10-04",0,0,0,0,0,541,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"509","Habib Diarra","Diarra","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,544,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"510","Milan Aleksic","Aleksic","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,546,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"511","Enzo Le Fée","E.Le Fée","Sunderland","MID",7,"2025-10-04",1.5,0,0,0,0,547,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.01,2,49,TRUE
+"512","Romaine Mundle","Mundle","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,548,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"513","Ian Poveda-Ocampo","Poveda","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,550,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"514","Chris Rigg","Rigg","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,551,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,48,TRUE
+"515","Noah Sadiki","Sadiki","Sunderland","MID",7,"2025-10-04",1.6,0,0,0,0,552,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.02,1,50,TRUE
+"516","Chemsdine Talbi","Talbi","Sunderland","MID",7,"2025-10-04",4.1,0,0,0,0,553,0,2,"a",0,32,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0.26,0.01,1,50,TRUE
+"517","Abdoullah Ba","Ba","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,554,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"518","Harrison Jones","H.Jones","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,557,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"519","Wilson Isidor","Isidor","Sunderland","FWD",7,"2025-10-04",0.3,0,0,0,0,560,0,2,"a",0,58,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0,1,56,TRUE
+"520","Eliezer Mayenda Dossou","Mayenda","Sunderland","FWD",7,"2025-10-04",1.8,0,0,0,0,561,0,2,"a",0,32,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0.08,0.06,1,55,TRUE
+"521","Ahmed Abdullahi","Abdullahi","Sunderland","FWD",7,"2025-10-04",0,0,0,0,0,562,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,44,TRUE
+"522","Granit Xhaka","Xhaka","Sunderland","MID",7,"2025-10-04",4.6,0,0,0,0,668,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0.02,0.09,3,50,TRUE
+"523","Robin Roefs","Roefs","Sunderland","GKP",7,"2025-10-04",2.8,0,0,0,0,670,0,2,"a",0,90,0,0,2,4,0,0,2,2025,"Man Utd",4,3,0,0,2,46,TRUE
+"524","Omar Alderete","Alderete","Sunderland","DEF",7,"2025-10-04",1.7,0,0,0,0,683,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.01,0,41,TRUE
+"525","Nordi Mukiele","Mukiele","Sunderland","DEF",7,"2025-10-04",2.7,0,0,0,0,694,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.01,3,40,TRUE
+"526","Lutsharel Geertruida","Geertruida","Sunderland","DEF",7,"2025-10-04",0.4,0,0,0,0,724,0,2,"a",0,11,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,1,45,TRUE
+"527","Brian Brobbey","Brobbey","Sunderland","FWD",7,"2025-10-04",0,0,0,0,0,730,0,2,"a",0,31,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,1,55,TRUE
+"528","Bertrand Traoré","Traoré","Sunderland","MID",7,"2025-10-04",4.5,0,0,0,0,735,0,2,"a",0,57,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0.16,0.02,0,55,TRUE
+"529","Jenson Jones","Jenson Jones","Sunderland","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,774,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"530","Djiamgone Jocelin Ta Bi","Jocelin.T","Sunderland","MID",7,"2025-10-04",NA,NA,NA,NA,NA,800,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"531","Melker Ellborg","Ellborg","Sunderland","GKP",7,"2025-10-04",NA,NA,NA,NA,NA,812,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"532","Nilson Angulo","Angulo","Sunderland","MID",7,"2025-10-04",NA,NA,NA,NA,NA,813,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"533","Jack Whittaker","Whittaker","Sunderland","MID",7,"2025-10-04",NA,NA,NA,NA,NA,821,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"534","Jaydon Jones","Jones","Sunderland","MID",7,"2025-10-04",NA,NA,NA,NA,NA,822,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"535","Guglielmo Vicario","Vicario","Tottenham","GKP",7,"2025-10-04",2.7,0,0,0,0,565,2,1,"a",0,90,0,0,1,3,0,2,1,2025,"Leeds",3,3,0,0,3,51,TRUE
+"536","Brandon Austin","Austin","Tottenham","GKP",7,"2025-10-04",0,0,0,0,0,566,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,40,TRUE
+"537","Antonín Kinský","Kinsky","Tottenham","GKP",7,"2025-10-04",0,0,0,0,0,567,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,39,TRUE
+"538","Pedro Porro Sauceda","Pedro Porro","Tottenham","DEF",7,"2025-10-04",2.2,0,0,1,0,568,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Leeds",3,3,0,0.02,7,56,TRUE
+"539","Cristian Romero","Romero","Tottenham","DEF",7,"2025-10-04",1.8,0,0,0,0,569,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Leeds",3,3,0,0.01,1,51,TRUE
+"540","Kevin Danso","Danso","Tottenham","DEF",7,"2025-10-04",0.2,0,0,0,0,570,2,1,"a",0,5,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,1,43,TRUE
+"541","Ben Davies","Davies","Tottenham","DEF",7,"2025-10-04",0,0,0,0,0,571,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,43,TRUE
+"542","Radu Dragu<U+0219>in","Dragusin","Tottenham","DEF",7,"2025-10-04",0,0,0,0,0,572,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,45,TRUE
+"543","Djed Spence","Spence","Tottenham","DEF",7,"2025-10-04",0,0,0,0,0,573,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,45,TRUE
+"544","Destiny Udogie","Udogie","Tottenham","DEF",7,"2025-10-04",3.7,0,0,0,0,574,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Leeds",3,3,0,0.07,2,44,TRUE
+"545","Micky van de Ven","Van de Ven","Tottenham","DEF",7,"2025-10-04",1.5,0,0,0,0,575,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Leeds",3,3,0,0,2,48,TRUE
+"546","James Maddison","Maddison","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,581,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,69,TRUE
+"547","Mohammed Kudus","Kudus","Tottenham","MID",7,"2025-10-04",9.5,1,0,1,0,582,2,1,"a",3,89,1,0,1,0,0,2,1,2025,"Leeds",3,3,0.27,0.04,12,67,TRUE
+"548","Dejan Kulusevski","Kulusevski","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,583,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,64,TRUE
+"549","Mathys Tel","Tel","Tottenham","MID",7,"2025-10-04",5.6,1,0,0,0,584,2,1,"a",2,72,0,0,1,0,0,2,1,2025,"Leeds",3,3,0.12,0.01,9,63,TRUE
+"550","Rodrigo Bentancur","Bentancur","Tottenham","MID",7,"2025-10-04",1.5,0,0,0,0,585,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Leeds",3,3,0.02,0.01,4,54,TRUE
+"551","Lucas Bergvall","Bergvall","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,586,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,54,TRUE
+"552","Yves Bissouma","Bissouma","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,587,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,52,TRUE
+"553","Wilson Odobert","Odobert","Tottenham","MID",7,"2025-10-04",2.9,0,0,0,0,588,2,1,"a",0,84,0,0,1,0,0,2,1,2025,"Leeds",3,3,0,0.12,2,53,TRUE
+"554","Archie Gray","Gray","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,591,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,49,TRUE
+"555","Pape Matar Sarr","P.M.Sarr","Tottenham","MID",7,"2025-10-04",0.7,0,0,0,0,593,2,1,"a",0,17,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,1,50,TRUE
+"556","Callum Olusesi","Olusesi","Tottenham","MID",7,"2025-10-04",0,0,0,0,0,595,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,44,TRUE
+"557","Dominic Solanke-Mitchell","Solanke","Tottenham","FWD",7,"2025-10-04",0,0,0,0,0,596,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,72,TRUE
+"558","Richarlison de Andrade","Richarlison","Tottenham","FWD",7,"2025-10-04",0.5,0,0,0,0,597,2,1,"a",0,16,0,0,0,0,0,2,1,2025,"Leeds",3,3,0.03,0,1,68,TRUE
+"559","João Maria Lobo Alves Palhares Costa Palhinha Gonçalves","J.Palhinha","Tottenham","MID",7,"2025-10-04",1.5,0,0,0,0,673,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Leeds",3,3,0.1,0.01,1,55,TRUE
+"560","Xavi Simons","Xavi","Tottenham","MID",7,"2025-10-04",3.2,0,0,0,0,717,2,1,"a",0,73,0,0,1,0,0,2,1,2025,"Leeds",3,3,0,0.17,2,71,TRUE
+"561","Randal Kolo Muani","Kolo Muani","Tottenham","FWD",7,"2025-10-04",0,0,0,0,0,726,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Leeds",3,3,0,0,0,69,TRUE
+"562","Jun'ai Byfield","Byfield","Tottenham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,745,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"563","James Rowswell","Rowswell","Tottenham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,750,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"564","Lucá Williams-Barnett","Williams-Barnett","Tottenham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,790,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"565","Conor Gallagher","Gallagher","Tottenham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,796,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"566","João Victor de Souza Menezes","Souza","Tottenham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,804,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"567","Rio Kyerematen","Kyerematen","Tottenham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,811,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"568","James Wilson","Wilson","Tottenham","FWD",7,"2025-10-04",NA,NA,NA,NA,NA,818,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"569","Adama Traoré Diarra","Adama","West Ham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,326,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"570","Alphonse Areola","Areola","West Ham","GKP",7,"2025-10-04",2.6,0,0,0,0,600,0,2,"a",0,90,0,0,2,3,0,0,2,2025,"Arsenal",5,3,0,0,2,43,TRUE
+"571","El Hadji Malick Diouf","Diouf","West Ham","DEF",7,"2025-10-04",3.3,0,0,0,0,603,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.03,3,44,TRUE
+"572","Maximilian Kilman","Kilman","West Ham","DEF",7,"2025-10-04",2.2,0,0,0,0,605,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0,1,44,TRUE
+"573","Konstantinos Mavropanos","Mavropanos","West Ham","DEF",7,"2025-10-04",3.8,0,0,0,0,606,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.01,3,44,TRUE
+"574","Ollie Scarles","Scarles","West Ham","DEF",7,"2025-10-04",0,0,0,0,0,608,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,44,TRUE
+"575","Jean-Clair Todibo","Todibo","West Ham","DEF",7,"2025-10-04",0,0,0,0,0,609,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,43,TRUE
+"576","Aaron Wan-Bissaka","Wan-Bissaka","West Ham","DEF",7,"2025-10-04",1.1,0,0,0,0,610,0,2,"a",0,78,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.01,1,43,TRUE
+"577","Tomáš Soucek","Soucek","West Ham","MID",7,"2025-10-04",0,0,0,0,0,613,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,57,TRUE
+"578","Crysencio Summerville","Summerville","West Ham","MID",7,"2025-10-04",1.8,0,0,0,0,615,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Arsenal",5,3,0.02,0.01,1,55,TRUE
+"579","Freddie Potts","Potts","West Ham","MID",7,"2025-10-04",0.2,0,0,0,0,623,0,2,"a",0,29,0,0,1,0,0,0,2,2025,"Arsenal",5,3,0,0,1,44,TRUE
+"580","Jarrod Bowen","Bowen","West Ham","FWD",7,"2025-10-04",2.1,0,0,0,0,624,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.01,2,77,TRUE
+"581","Kyle Walker-Peters","Walker-Peters","West Ham","DEF",7,"2025-10-04",0.6,0,0,0,0,659,0,2,"a",0,11,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,1,44,TRUE
+"582","Callum Wilson","Wilson","West Ham","FWD",7,"2025-10-04",0,0,0,0,0,671,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,59,TRUE
+"583","Mads Hermansen","Hermansen","West Ham","GKP",7,"2025-10-04",0,0,0,0,0,679,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,45,TRUE
+"584","Mateus Gonçalo Espanha Fernandes","M.Fernandes","West Ham","MID",7,"2025-10-04",2,0,0,0,0,708,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0.01,4,55,TRUE
+"585","Soungoutou Magassa","S.Magassa","West Ham","MID",7,"2025-10-04",1.2,0,0,0,0,718,0,2,"a",0,60,0,0,1,0,0,0,2,2025,"Arsenal",5,3,0,0,2,50,TRUE
+"586","Lukasz Fabianski","Fabianski","West Ham","GKP",7,"2025-10-04",0,0,0,0,0,738,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,45,TRUE
+"587","Ezra Mayers","Mayers","West Ham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,747,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"588","Airidas Golambeckis","Golambeckis","West Ham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,752,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"589","Mohamadou Kanté","Mohamadou Kanté","West Ham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,758,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"590","Pablo Felipe Pereira de Jesus","Pablo","West Ham","FWD",7,"2025-10-04",NA,NA,NA,NA,NA,785,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"591","Valentín Castellanos","Taty","West Ham","FWD",7,"2025-10-04",NA,NA,NA,NA,NA,791,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"592","Keiber Lamadrid","Lamadrid","West Ham","MID",7,"2025-10-04",NA,NA,NA,NA,NA,802,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"593","Axel Disasi","Disasi","West Ham","DEF",7,"2025-10-04",NA,NA,NA,NA,NA,815,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"594","Finlay Herrick","Herrick","West Ham","GKP",7,"2025-10-04",NA,NA,NA,NA,NA,825,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"595","Sam Johnstone","Johnstone","Wolves","GKP",7,"2025-10-05",3.6,0,0,0,0,627,1,1,"h",0,90,0,0,1,5,0,1,1,2025,"Brighton",3,2,0,0,3,45,TRUE
+"596","José Malheiro de Sá","José Sá","Wolves","GKP",7,"2025-10-05",0,0,0,0,0,628,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"597","Daniel Bentley","Bentley","Wolves","GKP",7,"2025-10-05",0,0,0,0,0,629,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,40,TRUE
+"598","Matt Doherty","Doherty","Wolves","DEF",7,"2025-10-05",0,0,0,0,0,632,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"599","Hugo Bueno López","H.Bueno","Wolves","DEF",7,"2025-10-05",4.2,0,0,0,0,633,1,1,"h",2,76,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0.2,8,44,TRUE
+"600","Yerson Mosquera Valdelamar","Mosquera","Wolves","DEF",7,"2025-10-05",0.1,0,0,0,0,634,1,1,"h",0,1,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,1,44,TRUE
+"601","Rodrigo Martins Gomes","R.Gomes","Wolves","DEF",7,"2025-10-05",0,0,0,0,0,635,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,45,TRUE
+"602","Santiago Ignacio Bueno","S.Bueno","Wolves","DEF",7,"2025-10-05",1,0,0,0,0,636,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Brighton",3,2,0,0.01,1,44,TRUE
+"603","Toti Gomes","Toti","Wolves","DEF",7,"2025-10-05",0,0,0,0,0,637,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"604","Pedro Cardoso de Lima","Pedro Lima","Wolves","DEF",7,"2025-10-05",0,0,0,0,0,640,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,40,TRUE
+"605","Hwang Hee-chan","Hee Chan","Wolves","MID",7,"2025-10-05",1.4,0,0,0,0,642,1,1,"h",0,59,0,0,0,0,0,1,1,2025,"Brighton",3,2,0.07,0.07,1,59,TRUE
+"606","André Trindade da Costa Neto","André","Wolves","MID",7,"2025-10-05",1.3,0,0,0,0,643,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Brighton",3,2,0,0.02,3,54,TRUE
+"607","Jean-Ricner Bellegarde","Bellegarde","Wolves","MID",7,"2025-10-05",0.1,0,0,0,0,644,1,1,"h",0,14,0,0,1,0,0,1,1,2025,"Brighton",3,2,0,0.01,1,53,TRUE
+"608","João Victor Gomes da Silva","J.Gomes","Wolves","MID",7,"2025-10-05",3.5,0,0,0,0,646,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,2,0,0,4,54,TRUE
+"609","Tom Edozie","Edozie","Wolves","MID",7,"2025-10-05",0,0,0,0,0,651,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"610","Enso González Medina","Gonzalez","Wolves","MID",7,"2025-10-05",0,0,0,0,0,652,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"611","Leon Chiwome","Chiwome","Wolves","FWD",7,"2025-10-05",0,0,0,0,0,657,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,45,TRUE
+"612","Nathan Fraser","Fraser","Wolves","FWD",7,"2025-10-05",0,0,0,0,0,658,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,0,44,TRUE
+"613","David Møller Wolfe","Møller Wolfe","Wolves","DEF",7,"2025-10-05",0.3,0,0,0,0,682,1,1,"h",0,13,0,0,1,0,0,1,1,2025,"Brighton",3,2,0,0,1,44,TRUE
+"614","Jackson Tchatchoua","Tchatchoua","Wolves","DEF",7,"2025-10-05",2,0,0,0,0,695,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,2,0,0,4,45,TRUE
+"615","Ladislav Krejcí","Krejcí","Wolves","DEF",7,"2025-10-05",4.1,0,0,0,0,709,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Brighton",3,2,0.01,0.01,2,45,TRUE
+"616","Tolu Arokodare","Tolu","Wolves","FWD",7,"2025-10-05",0,0,0,0,0,720,1,1,"h",0,1,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0,1,55,TRUE
+"617","Mateus Mané","Mané","Wolves","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,749,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"618","Saheed Olagunju","Olagunju","Wolves","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,766,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"619","Luke Rawlings","Rawlings","Wolves","MID",7,"2025-10-05",NA,NA,NA,NA,NA,767,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"620","Ethan Sutherland","Sutherland","Wolves","MID",7,"2025-10-05",NA,NA,NA,NA,NA,778,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"621","Jerome Abbey","Abbey","Wolves","MID",7,"2025-10-05",NA,NA,NA,NA,NA,809,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"622","Angel Gomes","Angel","Wolves","MID",7,"2025-10-05",NA,NA,NA,NA,NA,816,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"623","Adam Armstrong","Armstrong","Wolves","FWD",7,"2025-10-05",NA,NA,NA,NA,NA,817,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"624","Alfie Brooks","Brooks","Wolves","GKP",7,"2025-10-05",NA,NA,NA,NA,NA,828,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"625","Josh Gracey","Gracey","Wolves","GKP",7,"2025-10-05",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE

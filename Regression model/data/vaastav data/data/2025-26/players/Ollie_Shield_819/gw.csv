@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Ollie Shield","Shield","Brentford","DEF",1,"2025-08-17",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",2,"2025-08-23",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",3,"2025-08-30",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",4,"2025-09-13",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",5,"2025-09-20",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",6,"2025-09-27",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",7,"2025-10-05",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",8,"2025-10-20",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",9,"2025-10-25",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",10,"2025-11-01",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",11,"2025-11-09",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",12,"2025-11-22",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",13,"2025-11-29",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",14,"2025-12-03",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",15,"2025-12-06",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",16,"2025-12-14",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",17,"2025-12-20",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Wolves",2,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",18,"2025-12-27",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",19,"2026-01-01",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",20,"2026-01-04",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",21,"2026-01-07",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",22,"2026-01-17",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",23,"2026-01-25",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",24,"2026-02-01",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",25,"2026-02-07",NA,NA,NA,NA,NA,819,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",26,"2026-02-12",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",27,"2026-02-21",NA,NA,NA,NA,NA,819,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,3,NA,NA,NA,NA,TRUE
+"Ollie Shield","Shield","Brentford","DEF",28,"2026-02-28",0,0,0,0,0,819,4,3,"a",0,0,0,0,0,0,0,4,3,2025,"Burnley",2,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",29,"2026-03-03",0,0,0,0,0,819,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",30,"2026-03-16",0,0,0,0,0,819,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Wolves",2,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",31,"2026-03-21",0,0,0,0,0,819,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",32,"2026-04-11",0,0,0,0,0,819,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",33,"2026-04-18",0,0,0,0,0,819,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Fulham",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",34,"2026-04-27",0,0,0,0,0,819,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",35,"2026-05-02",0,0,0,0,0,819,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",36,"2026-05-09",0,0,0,0,0,819,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",37,"2026-05-17",0,0,0,0,0,819,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Crystal Palace",3,3,0,0,0,40,TRUE
+"Ollie Shield","Shield","Brentford","DEF",38,"2026-05-24",0,0,0,0,0,819,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0,0,40,TRUE

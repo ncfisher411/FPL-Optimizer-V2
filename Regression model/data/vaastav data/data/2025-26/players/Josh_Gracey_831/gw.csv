@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Josh Gracey","Gracey","Wolves","GKP",1,"2025-08-16",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",2,"2025-08-23",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",3,"2025-08-30",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",4,"2025-09-13",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",5,"2025-09-20",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",6,"2025-09-27",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",7,"2025-10-05",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brighton",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",8,"2025-10-18",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Sunderland",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",9,"2025-10-26",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Burnley",2,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",10,"2025-11-01",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Fulham",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",11,"2025-11-08",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",12,"2025-11-22",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",13,"2025-11-30",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",14,"2025-12-03",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",15,"2025-12-08",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",16,"2025-12-13",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",17,"2025-12-20",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",18,"2025-12-27",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",19,"2025-12-30",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man Utd",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",20,"2026-01-03",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",21,"2026-01-07",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Everton",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",22,"2026-01-18",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Newcastle",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",23,"2026-01-24",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Man City",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",24,"2026-01-31",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Bournemouth",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",25,"2026-02-07",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Chelsea",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",26,"2026-02-11",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Forest",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",26,"2026-02-18",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Arsenal",5,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",27,"2026-02-22",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Crystal Palace",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",28,"2026-02-27",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Aston Villa",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",29,"2026-03-03",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",30,"2026-03-16",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Brentford",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",32,"2026-04-10",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"West Ham",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",33,"2026-04-18",NA,NA,NA,NA,NA,831,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Leeds",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",34,"2026-04-25",NA,NA,NA,NA,NA,831,NA,NA,"h",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Tottenham",3,2,NA,NA,NA,NA,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",35,"2026-05-02",0,0,0,0,0,831,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Sunderland",3,2,0,0,0,40,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",36,"2026-05-09",0,0,0,0,0,831,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Brighton",3,2,0,0,0,40,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",37,"2026-05-17",0,0,0,0,0,831,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Fulham",3,2,0,0,0,40,TRUE
+"Josh Gracey","Gracey","Wolves","GKP",38,"2026-05-24",0,0,0,0,0,831,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Burnley",2,2,0,0,0,40,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Danny Welbeck","Welbeck","Brighton","FWD",1,"2025-08-16",0.5,0,0,0,0,178,1,1,"h",0,21,0,0,1,0,0,1,1,2025,"Fulham",3,3,0,0,1,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",2,"2025-08-24",2.8,0,0,0,1,178,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Everton",3,3,1.56,0.1,0,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",3,"2025-08-31",1.9,0,0,0,0,178,1,2,"h",0,60,0,0,1,0,0,2,1,2025,"Man City",4,3,0,0.17,2,64,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",4,"2025-09-13",1.3,0,0,0,0,178,1,2,"a",0,66,0,0,2,0,0,1,2,2025,"Bournemouth",3,3,0.09,0.02,2,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",5,"2025-09-20",1.1,0,0,0,0,178,2,2,"h",0,15,0,0,1,0,0,2,2,2025,"Tottenham",3,3,0.04,0.06,1,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",6,"2025-09-27",11.9,2,0,0,0,178,3,1,"a",3,23,1,0,0,0,0,3,1,2025,"Chelsea",4,3,0.75,0,11,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",7,"2025-10-05",1.7,0,0,0,0,178,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Wolves",2,3,0,0.02,1,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",8,"2025-10-18",13.8,2,0,0,0,178,1,2,"h",3,89,0,0,1,0,0,2,1,2025,"Newcastle",3,3,0.58,0.07,13,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",9,"2025-10-25",9.5,1,0,0,0,178,2,4,"a",0,90,0,0,4,0,0,2,4,2025,"Man Utd",4,3,0.21,0.03,6,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",10,"2025-11-01",7,1,0,0,0,178,0,3,"h",0,81,0,0,0,0,0,3,0,2025,"Leeds",3,3,0.92,0.02,6,64,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",11,"2025-11-09",1.2,0,0,0,0,178,0,0,"a",0,84,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0.04,2,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",12,"2025-11-22",7.1,1,0,0,0,178,1,2,"h",2,90,0,0,1,0,0,2,1,2025,"Brentford",3,3,0.74,0.02,8,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",13,"2025-11-30",2.4,0,0,0,0,178,2,0,"a",0,64,0,0,0,0,0,2,0,2025,"Forest",3,3,0.07,0.01,2,66,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",14,"2025-12-03",2.5,0,0,0,0,178,4,3,"h",0,23,0,0,1,0,0,3,4,2025,"Aston Villa",3,3,0.52,0,1,66,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",15,"2025-12-07",3.7,0,0,0,0,178,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"West Ham",3,3,0.07,0.02,2,66,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",16,"2025-12-13",0.2,0,0,0,0,178,0,2,"a",0,8,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0,0.01,1,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",17,"2025-12-20",0,0,0,0,0,178,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0,0,0,65,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",18,"2025-12-27",0.3,0,0,0,0,178,1,2,"a",0,15,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0,0,1,64,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",19,"2025-12-30",7.2,1,0,0,1,178,2,2,"a",0,82,1,0,2,0,0,2,2,2025,"West Ham",3,3,1.6,0.04,3,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",20,"2026-01-03",0.3,0,0,0,0,178,0,2,"h",0,19,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,1,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",21,"2026-01-07",0.1,0,0,0,0,178,1,1,"a",0,13,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0.01,1,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",22,"2026-01-19",3.2,0,0,0,0,178,1,1,"h",0,76,1,0,1,0,0,1,1,2025,"Bournemouth",3,3,0,0.05,1,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",23,"2026-01-24",3.4,0,0,0,0,178,1,2,"a",0,87,0,0,1,0,0,1,2,2025,"Fulham",3,3,0.61,0.01,2,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",24,"2026-01-31",6.3,0,0,0,0,178,1,1,"h",0,69,0,0,0,0,0,1,1,2025,"Everton",3,3,0.55,0.04,2,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",25,"2026-02-08",0.5,0,0,0,0,178,1,0,"h",0,19,0,0,0,0,0,0,1,2025,"Crystal Palace",3,3,0,0,1,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",26,"2026-02-11",3.7,0,0,0,0,178,0,1,"a",0,80,0,0,0,0,0,0,1,2025,"Aston Villa",3,3,0.05,0.01,2,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",27,"2026-02-21",8.9,1,0,0,0,178,2,0,"a",3,90,0,0,0,0,0,2,0,2025,"Brentford",3,3,0.36,0.02,9,61,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",28,"2026-03-01",9,1,0,0,0,178,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Forest",3,3,0.38,0.28,9,61,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",29,"2026-03-04",0.1,0,0,0,0,178,1,0,"h",0,21,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,1,61,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",30,"2026-03-14",4.5,0,0,0,0,178,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0.11,0.1,2,61,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",31,"2026-03-21",17.2,2,0,0,0,178,1,2,"h",3,82,1,0,1,0,0,2,1,2025,"Liverpool",4,3,1.07,0.13,12,61,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",32,"2026-04-11",12,0,0,0,0,178,2,0,"a",0,74,0,0,0,0,0,2,0,2025,"Burnley",2,3,1.06,0.03,2,62,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",33,"2026-04-18",2.5,0,0,0,0,178,2,2,"a",0,74,0,0,1,0,0,2,2,2025,"Tottenham",3,3,0.21,0.01,2,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",33,"2026-04-21",5.1,1,0,0,0,178,0,3,"h",1,7,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0.24,0,6,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",35,"2026-05-02",4.1,0,0,1,0,178,1,3,"a",0,80,0,0,2,0,0,1,3,2025,"Newcastle",3,3,0.1,0.05,5,63,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",36,"2026-05-09",8.2,0,0,0,0,178,0,3,"h",0,75,0,0,0,0,0,3,0,2025,"Wolves",2,3,0.26,0.01,2,64,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",37,"2026-05-17",2.7,0,0,0,0,178,0,1,"a",0,64,0,0,0,0,0,0,1,2025,"Leeds",3,3,0.21,0.01,2,64,TRUE
+"Danny Welbeck","Welbeck","Brighton","FWD",38,"2026-05-24",0.3,0,0,0,0,178,3,0,"h",0,58,0,0,3,0,0,0,3,2025,"Man Utd",4,3,0,0.01,1,63,TRUE

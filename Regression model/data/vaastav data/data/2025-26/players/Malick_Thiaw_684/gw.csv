@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Malick Thiaw","Thiaw","Newcastle","DEF",1,"2025-08-16",0,0,0,0,0,684,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0,0,0,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",2,"2025-08-25",0.2,0,0,0,0,684,3,2,"h",0,9,0,0,1,0,0,2,3,2025,"Liverpool",4,3,0,0,1,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",3,"2025-08-30",0,0,0,0,0,684,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",4,"2025-09-13",0,0,0,0,0,684,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0,0,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",5,"2025-09-21",2.6,0,0,0,0,684,0,0,"a",0,83,1,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0.02,7,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",6,"2025-09-28",4,0,0,0,0,684,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Arsenal",5,3,0.07,0,3,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",7,"2025-10-05",5.1,0,0,0,0,684,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Forest",3,3,0.58,0.01,8,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",8,"2025-10-18",2,0,0,0,0,684,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Brighton",3,3,0.05,0.01,1,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",9,"2025-10-25",2.1,0,0,0,0,684,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Fulham",3,3,0.04,0.24,2,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",10,"2025-11-02",3.3,0,0,0,0,684,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"West Ham",3,3,0,0.04,1,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",11,"2025-11-09",3.8,0,0,0,0,684,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Brentford",3,3,0.04,0.01,3,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",12,"2025-11-22",1.9,0,0,0,0,684,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Man City",4,3,0,0,4,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",13,"2025-11-29",15.2,2,0,0,0,684,4,1,"a",2,90,0,0,1,0,0,4,1,2025,"Everton",3,3,0.39,0.01,16,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",14,"2025-12-02",2.4,0,0,0,0,684,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Tottenham",3,3,0.05,0.01,1,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",15,"2025-12-06",2.8,0,0,0,0,684,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0,0.01,2,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",16,"2025-12-14",4.9,0,0,0,0,684,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Sunderland",3,3,0,0.03,3,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",17,"2025-12-20",1.8,0,0,0,0,684,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Chelsea",4,3,0,0,1,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",18,"2025-12-26",3.8,0,0,0,0,684,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Man Utd",4,3,0.03,0.02,2,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",19,"2025-12-30",4.3,0,0,0,0,684,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Burnley",2,3,0.2,0.01,4,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",20,"2026-01-04",11,1,0,0,0,684,0,2,"h",3,90,0,0,0,0,0,2,0,2025,"Crystal Palace",3,3,0.46,0.01,17,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",21,"2026-01-07",0,0,0,0,0,684,3,4,"h",0,45,1,0,2,0,0,4,3,2025,"Leeds",3,3,0,0,-1,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",22,"2026-01-18",4.5,0,0,0,0,684,0,0,"a",3,90,0,0,0,0,0,0,0,2025,"Wolves",2,3,0,0.01,9,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",23,"2026-01-25",2.3,0,0,0,0,684,2,0,"h",0,90,0,0,2,0,0,0,2,2025,"Aston Villa",3,3,0,0.02,1,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",24,"2026-01-31",2.8,0,0,0,0,684,1,4,"a",0,90,0,0,4,0,0,1,4,2025,"Liverpool",4,3,0.06,0.01,0,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",25,"2026-02-07",3.6,0,0,0,0,684,3,2,"h",0,90,0,0,3,0,0,2,3,2025,"Brentford",3,3,0.19,0.07,1,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",26,"2026-02-10",14,1,0,0,0,684,2,1,"a",1,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.49,0.19,11,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",27,"2026-02-21",4.4,0,0,0,0,684,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Man City",4,3,0.01,0,3,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",28,"2026-02-28",4.1,0,0,0,0,684,3,2,"h",0,90,0,0,3,0,0,2,3,2025,"Everton",3,3,0.33,0.13,1,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",29,"2026-03-04",6.1,0,0,0,0,684,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Man Utd",4,3,0.59,0.01,4,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",30,"2026-03-14",3.9,0,0,0,0,684,1,0,"a",1,90,0,0,0,0,0,1,0,2025,"Chelsea",4,3,0.16,0.01,9,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",31,"2026-03-22",1.9,0,0,0,0,684,2,1,"h",0,36,0,0,2,0,0,1,2,2025,"Sunderland",3,3,0,0,0,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",32,"2026-04-12",2,0,0,0,0,684,1,2,"a",0,90,1,0,2,0,0,1,2,2025,"Crystal Palace",3,3,0,0.02,2,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",33,"2026-04-18",3,0,0,0,0,684,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Bournemouth",3,3,0.24,0.01,1,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",34,"2026-04-25",2.3,0,0,0,0,684,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Arsenal",5,3,0,0.02,2,51,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",35,"2026-05-02",6.2,0,0,0,0,684,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Brighton",3,3,0.82,0,2,50,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",36,"2026-05-10",2.6,0,0,0,0,684,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Forest",3,3,0,0.01,2,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",37,"2026-05-17",2,0,0,0,0,684,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"West Ham",3,3,0,0.01,2,49,TRUE
+"Malick Thiaw","Thiaw","Newcastle","DEF",38,"2026-05-24",2,0,0,0,0,684,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Fulham",3,3,0,0.01,1,49,TRUE

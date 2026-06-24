@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Morgan Rogers","Rogers","Aston Villa","MID",1,"2025-08-16",3.1,0,0,0,0,47,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0,0.05,3,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",2,"2025-08-23",4.3,0,0,0,0,47,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Brentford",3,3,0.1,0.12,2,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",3,"2025-08-31",3.5,0,0,0,0,47,3,0,"h",0,90,0,0,3,0,0,0,3,2025,"Crystal Palace",3,3,0.04,0.04,2,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",4,"2025-09-13",1.7,0,0,0,0,47,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Everton",3,3,0.08,0.02,3,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",5,"2025-09-21",3.9,0,0,0,0,47,1,1,"a",0,81,0,0,1,0,0,1,1,2025,"Sunderland",3,3,0,0.27,2,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",6,"2025-09-28",6.4,0,0,1,0,47,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Fulham",3,3,0,0.06,5,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",7,"2025-10-05",7.7,0,0,1,0,47,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Burnley",2,3,0.24,0.08,5,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",8,"2025-10-19",4.9,1,0,0,0,47,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.03,0.01,7,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",9,"2025-10-26",3,0,0,0,0,47,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Man City",4,3,0,0.07,3,68,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",10,"2025-11-01",5.2,0,0,0,0,47,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Liverpool",4,3,0.14,0.22,1,68,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",11,"2025-11-09",1.3,0,0,0,0,47,0,4,"h",0,85,1,0,0,0,0,4,0,2025,"Bournemouth",3,3,0.03,0.02,2,68,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",12,"2025-11-23",14.6,2,0,0,0,47,2,1,"a",3,90,0,0,1,0,0,2,1,2025,"Leeds",3,3,0.25,0.04,15,68,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",13,"2025-11-30",2.5,0,0,0,0,47,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Wolves",2,3,0.08,0.04,3,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",14,"2025-12-03",7.7,0,0,1,0,47,4,3,"a",1,90,0,0,3,0,0,4,3,2025,"Brighton",3,3,0,0.26,6,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",15,"2025-12-06",8.7,0,0,0,0,47,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Arsenal",5,3,0.04,0.17,2,69,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",16,"2025-12-14",11.9,2,0,0,0,47,3,2,"a",3,90,0,0,2,0,0,3,2,2025,"West Ham",3,3,0.63,0.1,15,70,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",17,"2025-12-21",13.2,2,0,0,0,47,1,2,"h",3,90,0,0,1,0,0,2,1,2025,"Man Utd",4,3,1.18,0.01,15,71,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",18,"2025-12-27",5.5,0,0,0,0,47,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Chelsea",4,3,0.06,0.44,1,73,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",19,"2025-12-30",1.2,0,0,0,0,47,1,4,"a",0,81,1,0,4,0,0,1,4,2025,"Arsenal",5,3,0.13,0.05,1,74,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",20,"2026-01-03",8.4,0,0,1,0,47,1,3,"h",0,90,0,0,1,0,0,3,1,2025,"Forest",3,3,0.19,0.2,5,75,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",21,"2026-01-07",8.1,0,0,0,0,47,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.2,0.09,3,76,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",22,"2026-01-18",6.5,0,0,0,0,47,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Everton",3,3,0.82,0.02,2,77,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",23,"2026-01-25",8.8,0,0,1,0,47,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Newcastle",3,3,0.09,0.08,8,77,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",24,"2026-02-01",9.9,0,0,0,0,47,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Brentford",3,3,0.21,0.33,2,77,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",25,"2026-02-07",9.9,1,0,0,0,47,1,1,"a",3,90,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.12,0.08,10,76,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",26,"2026-02-11",7.9,0,0,0,0,47,0,1,"h",0,90,1,0,0,0,0,1,0,2025,"Brighton",3,3,0.2,0.03,2,76,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",27,"2026-02-21",4.6,0,0,0,0,47,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,3,0.07,0.2,2,77,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",28,"2026-02-27",5.4,0,0,0,0,47,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Wolves",2,3,0.21,0.03,2,77,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",29,"2026-03-04",3.1,0,0,0,0,47,4,1,"h",0,90,1,0,4,0,0,1,4,2025,"Chelsea",4,3,0.13,0.01,1,76,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",30,"2026-03-15",3.8,0,0,0,0,47,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Man Utd",4,3,0.06,0.19,2,75,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",31,"2026-03-22",11.4,0,0,1,0,47,0,2,"h",0,76,0,0,0,0,0,2,0,2025,"West Ham",3,3,0.46,0.15,6,75,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",32,"2026-04-12",3.6,0,0,1,0,47,1,1,"a",0,77,0,0,1,0,0,1,1,2025,"Forest",3,3,0.18,0.03,5,74,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",33,"2026-04-19",8,1,0,0,0,47,3,4,"h",2,90,0,0,3,0,0,4,3,2025,"Sunderland",3,3,0.5,0.49,9,74,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",34,"2026-04-25",2.2,0,0,0,0,47,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.15,0.02,2,74,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",35,"2026-05-03",2.7,0,0,0,0,47,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Tottenham",3,3,0.03,0,1,75,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",36,"2026-05-10",3.6,0,0,0,0,47,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Burnley",2,3,0.14,0.03,2,75,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",37,"2026-05-15",13.8,1,0,1,0,47,2,4,"h",2,90,0,0,2,0,0,4,2,2025,"Liverpool",4,3,0.05,0.27,12,74,TRUE
+"Morgan Rogers","Rogers","Aston Villa","MID",38,"2026-05-24",0,0,0,0,0,47,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Man City",4,3,0,0,0,73,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Amine Adli","Adli","Bournemouth","MID",1,"2025-08-15",NA,NA,NA,NA,NA,697,NA,NA,"a",NA,NA,NA,NA,NA,NA,NA,NA,NA,2025,"Liverpool",4,3,NA,NA,NA,NA,TRUE
+"Amine Adli","Adli","Bournemouth","MID",2,"2025-08-23",2.7,0,0,0,0,697,0,1,"h",0,24,0,0,0,0,0,1,0,2025,"Wolves",2,3,0,0.02,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",3,"2025-08-30",2.3,0,0,0,0,697,1,0,"a",0,26,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0.01,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",4,"2025-09-13",1.5,0,0,0,0,697,1,2,"h",0,23,0,0,0,0,0,2,1,2025,"Brighton",3,3,0.04,0,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",5,"2025-09-21",0.3,0,0,0,0,697,0,0,"h",0,15,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0,0,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",6,"2025-09-27",6.3,0,0,0,0,697,2,2,"a",0,59,0,0,2,0,0,2,2,2025,"Leeds",3,3,0.06,0.06,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",7,"2025-10-03",0,0,0,0,0,697,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Fulham",3,3,0,0,0,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",8,"2025-10-18",0.6,0,0,0,0,697,3,3,"a",0,15,0,0,1,0,0,3,3,2025,"Crystal Palace",3,3,0,0,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",9,"2025-10-26",0,0,0,0,0,697,0,2,"h",0,21,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",10,"2025-11-02",0,0,0,0,0,697,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Man City",4,3,0,0,0,55,TRUE
+"Amine Adli","Adli","Bournemouth","MID",11,"2025-11-09",0.1,0,0,0,0,697,0,4,"a",0,27,0,0,2,0,0,0,4,2025,"Aston Villa",3,3,0,0.01,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",12,"2025-11-22",3.7,0,0,0,0,697,2,2,"h",0,29,0,0,0,0,0,2,2,2025,"West Ham",3,3,0.48,0.11,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",13,"2025-11-29",7.8,1,0,0,0,697,2,3,"a",0,70,0,0,3,0,0,2,3,2025,"Sunderland",3,3,0.36,0.01,7,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",14,"2025-12-02",1.3,0,0,0,0,697,1,0,"h",0,59,0,0,0,0,0,0,1,2025,"Everton",3,3,0,0.01,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",15,"2025-12-06",0.3,0,0,0,0,697,0,0,"h",0,16,0,0,0,0,0,0,0,2025,"Chelsea",4,3,0,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",16,"2025-12-15",0,0,0,0,0,697,4,4,"a",0,0,0,0,0,0,0,4,4,2025,"Man Utd",4,3,0,0,0,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",17,"2025-12-20",0.2,0,0,0,0,697,1,1,"h",0,1,0,0,0,0,0,1,1,2025,"Burnley",2,3,0.02,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",18,"2025-12-27",1.3,0,0,0,0,697,1,4,"a",0,6,0,0,1,0,0,1,4,2025,"Brentford",3,3,0.03,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",19,"2025-12-30",1.8,0,0,0,0,697,2,2,"a",0,12,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0,0.13,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",20,"2026-01-03",0,0,0,0,0,697,3,2,"h",0,23,1,0,1,0,0,2,3,2025,"Arsenal",5,3,0.01,0.01,0,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",21,"2026-01-07",0.1,0,0,0,0,697,2,3,"h",0,3,0,0,0,0,0,3,2,2025,"Tottenham",3,3,0,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",22,"2026-01-19",1.2,0,0,1,0,697,1,1,"a",0,78,0,0,0,0,0,1,1,2025,"Brighton",3,3,0,0.02,6,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",23,"2026-01-24",10.1,1,0,0,0,697,2,3,"h",1,90,0,0,2,0,0,3,2,2025,"Liverpool",4,3,0.38,0.1,10,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",24,"2026-01-31",8.3,0,0,1,0,697,2,0,"a",0,67,1,0,0,0,0,2,0,2025,"Wolves",2,3,0.3,0.08,5,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",25,"2026-02-07",6.5,0,0,0,0,697,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.06,0.86,2,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",26,"2026-02-10",8.8,1,0,0,0,697,2,1,"a",3,79,0,0,1,0,0,2,1,2025,"Everton",3,3,0.75,0.02,10,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",27,"2026-02-21",2.3,0,0,0,0,697,0,0,"a",0,65,0,0,0,0,0,0,0,2025,"West Ham",3,3,0,0.02,3,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",28,"2026-02-28",1.1,0,0,0,0,697,1,1,"h",0,9,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0,0.02,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",29,"2026-03-03",1.4,0,0,0,0,697,0,0,"h",0,16,0,0,0,0,0,0,0,2025,"Brentford",3,3,0.04,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",30,"2026-03-14",1.5,0,0,0,0,697,0,0,"a",0,29,0,0,0,0,0,0,0,2025,"Burnley",2,3,0.02,0.04,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",31,"2026-03-20",1.8,0,0,0,0,697,2,2,"h",0,72,0,0,2,0,0,2,2,2025,"Man Utd",4,3,0,0.06,2,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",32,"2026-04-11",0,0,0,0,0,697,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Arsenal",5,3,0,0,0,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",33,"2026-04-18",0,0,0,0,0,697,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",33,"2026-04-22",2.1,0,0,0,0,697,2,2,"h",0,17,0,0,1,0,0,2,2,2025,"Leeds",3,3,0.05,0.03,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",35,"2026-05-03",0.1,0,0,0,0,697,0,3,"h",0,4,0,0,0,0,0,3,0,2025,"Crystal Palace",3,3,0,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",36,"2026-05-09",0,0,0,0,0,697,1,0,"a",0,12,0,0,0,0,0,1,0,2025,"Fulham",3,3,0,0,1,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",37,"2026-05-19",0,0,0,0,0,697,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0,0,54,TRUE
+"Amine Adli","Adli","Bournemouth","MID",38,"2026-05-24",0.6,0,0,0,0,697,1,1,"a",0,17,0,0,0,0,0,1,1,2025,"Forest",3,3,0,0,1,54,TRUE

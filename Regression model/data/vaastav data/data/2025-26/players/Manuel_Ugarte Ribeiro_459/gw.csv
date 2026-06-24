@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",1,"2025-08-17",1.2,0,0,0,0,459,1,0,"h",0,25,0,0,0,0,0,0,1,2025,"Arsenal",5,4,0.03,0.01,1,50,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",2,"2025-08-24",0.9,0,0,0,0,459,1,1,"a",0,21,0,0,1,0,0,1,1,2025,"Fulham",3,4,0,0,1,50,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",3,"2025-08-30",0,0,0,0,0,459,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Burnley",2,4,0,0,0,49,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",4,"2025-09-14",1.7,0,0,0,0,459,0,3,"a",0,79,0,0,3,0,0,0,3,2025,"Man City",4,4,0.02,0.01,4,49,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",5,"2025-09-20",1.3,0,0,0,0,459,1,2,"h",0,45,0,0,1,0,0,2,1,2025,"Chelsea",4,4,0,0,1,49,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",6,"2025-09-27",0.9,0,0,0,0,459,1,3,"a",0,65,0,0,2,0,0,1,3,2025,"Brentford",3,4,0,0.01,2,49,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",7,"2025-10-04",0,0,0,0,0,459,0,2,"h",0,5,0,0,0,0,0,2,0,2025,"Sunderland",3,4,0,0,1,49,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",8,"2025-10-19",1,0,0,0,0,459,2,1,"a",0,32,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0,1,48,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",9,"2025-10-25",0.6,0,0,0,0,459,2,4,"h",0,9,0,0,1,0,0,4,2,2025,"Brighton",3,4,0,0,1,48,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",10,"2025-11-01",0,0,0,0,0,459,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Forest",3,4,0,0,0,48,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",11,"2025-11-08",0.6,0,0,0,0,459,2,2,"a",0,18,0,0,2,0,0,2,2,2025,"Tottenham",3,4,0,0,1,48,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",12,"2025-11-24",0,0,0,0,0,459,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Everton",3,4,0,0,0,48,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",13,"2025-11-30",0,0,0,0,0,459,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",14,"2025-12-04",0.3,0,0,0,0,459,1,1,"h",0,13,0,0,1,0,0,1,1,2025,"West Ham",3,4,0,0.01,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",15,"2025-12-08",0,0,0,0,0,459,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Wolves",2,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",16,"2025-12-15",0,0,0,0,0,459,4,4,"h",0,0,0,0,0,0,0,4,4,2025,"Bournemouth",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",17,"2025-12-21",0.9,0,0,0,0,459,1,2,"a",0,72,1,0,2,0,0,1,2,2025,"Aston Villa",3,4,0,0.01,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",18,"2025-12-26",3.6,0,0,0,0,459,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Newcastle",3,4,0,0,5,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",19,"2025-12-30",2.2,0,0,0,0,459,1,1,"h",0,74,0,0,1,0,0,1,1,2025,"Wolves",2,4,0.03,0.05,2,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",20,"2026-01-04",2.4,0,0,0,0,459,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Leeds",3,4,0.12,0.01,4,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",21,"2026-01-07",2.9,0,0,0,0,459,2,2,"a",0,83,0,0,2,0,0,2,2,2025,"Burnley",2,4,0.11,0.04,2,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",22,"2026-01-17",0.2,0,0,0,0,459,0,2,"h",0,9,0,0,0,0,0,2,0,2025,"Man City",4,4,0,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",23,"2026-01-25",0,0,0,0,0,459,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Arsenal",5,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",24,"2026-02-01",0.9,0,0,0,0,459,2,3,"h",0,15,0,0,2,0,0,3,2,2025,"Fulham",3,4,0,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",25,"2026-02-07",0.7,0,0,0,0,459,0,2,"h",0,3,0,0,0,0,0,2,0,2025,"Tottenham",3,4,0,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",26,"2026-02-10",0,0,0,0,0,459,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",27,"2026-02-23",0,0,0,0,0,459,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Everton",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",28,"2026-03-01",0,0,0,0,0,459,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",29,"2026-03-04",1.3,0,0,0,0,459,1,2,"a",0,29,0,0,1,0,0,1,2,2025,"Newcastle",3,4,0.19,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",30,"2026-03-15",0.1,0,0,0,0,459,1,3,"h",0,1,0,0,0,0,0,3,1,2025,"Aston Villa",3,4,0,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",31,"2026-03-20",1.4,0,0,0,0,459,2,2,"a",0,8,0,0,0,0,0,2,2,2025,"Bournemouth",3,4,0,0,1,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",32,"2026-04-13",4.7,0,0,0,0,459,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Leeds",3,4,0.22,0.01,4,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",33,"2026-04-18",0,0,0,0,0,459,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Chelsea",4,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",34,"2026-04-27",0,0,0,0,0,459,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",35,"2026-05-03",0,0,0,0,0,459,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Liverpool",4,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",36,"2026-05-09",0,0,0,0,0,459,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Sunderland",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",37,"2026-05-17",0,0,0,0,0,459,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Forest",3,4,0,0,0,47,TRUE
+"Manuel Ugarte Ribeiro","Ugarte","Man Utd","MID",38,"2026-05-24",0,0,0,0,0,459,3,0,"a",0,0,0,0,0,0,0,3,0,2025,"Brighton",3,4,0,0,0,47,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Connor Roberts","Roberts","Burnley","DEF",1,"2025-08-16",0,0,0,0,0,186,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Tottenham",3,2,0,0,0,45,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",2,"2025-08-23",0,0,0,0,0,186,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,2,0,0,0,45,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",3,"2025-08-30",0,0,0,0,0,186,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man Utd",4,2,0,0,0,45,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",4,"2025-09-14",0,0,0,0,0,186,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Liverpool",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",5,"2025-09-20",0,0,0,0,0,186,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Forest",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",6,"2025-09-27",0,0,0,0,0,186,1,5,"a",0,0,0,0,0,0,0,1,5,2025,"Man City",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",7,"2025-10-05",0,0,0,0,0,186,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",8,"2025-10-18",0,0,0,0,0,186,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Leeds",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",9,"2025-10-26",0,0,0,0,0,186,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Wolves",2,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",10,"2025-11-01",0,0,0,0,0,186,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",11,"2025-11-08",0,0,0,0,0,186,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"West Ham",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",12,"2025-11-22",0,0,0,0,0,186,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Chelsea",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",13,"2025-11-29",0,0,0,0,0,186,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Brentford",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",14,"2025-12-03",0,0,0,0,0,186,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Crystal Palace",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",15,"2025-12-06",0,0,0,0,0,186,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Newcastle",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",16,"2025-12-13",0,0,0,0,0,186,3,2,"h",0,0,0,0,0,0,0,2,3,2025,"Fulham",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",17,"2025-12-20",0,0,0,0,0,186,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",18,"2025-12-27",0,0,0,0,0,186,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Everton",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",19,"2025-12-30",0,0,0,0,0,186,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Newcastle",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",20,"2026-01-03",0,0,0,0,0,186,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Brighton",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",21,"2026-01-07",0,0,0,0,0,186,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Man Utd",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",22,"2026-01-17",0,0,0,0,0,186,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",23,"2026-01-24",0,0,0,0,0,186,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",24,"2026-02-02",0,0,0,0,0,186,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Sunderland",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",25,"2026-02-07",0,0,0,0,0,186,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"West Ham",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",26,"2026-02-11",0,0,0,0,0,186,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Crystal Palace",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",27,"2026-02-21",0,0,0,0,0,186,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Chelsea",4,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",28,"2026-02-28",0,0,0,0,0,186,4,3,"h",0,0,0,0,0,0,0,3,4,2025,"Brentford",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",29,"2026-03-03",0,0,0,0,0,186,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Everton",3,2,0,0,0,44,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",30,"2026-03-14",0,0,0,0,0,186,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Bournemouth",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",31,"2026-03-21",0,0,0,0,0,186,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Fulham",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",32,"2026-04-11",0,0,0,0,0,186,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Brighton",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",33,"2026-04-19",0,0,0,0,0,186,1,4,"a",0,0,0,0,0,0,0,1,4,2025,"Forest",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",33,"2026-04-22",0,0,0,0,0,186,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",35,"2026-05-01",0,0,0,0,0,186,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Leeds",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",36,"2026-05-10",0,0,0,0,0,186,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Aston Villa",3,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",37,"2026-05-18",0,0,0,0,0,186,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,2,0,0,0,43,TRUE
+"Connor Roberts","Roberts","Burnley","DEF",38,"2026-05-24",0,0,0,0,0,186,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,2,0,0,0,43,TRUE

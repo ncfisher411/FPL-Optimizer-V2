@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",1,"2025-08-18",2,0,0,0,0,311,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Leeds",3,3,0.06,0.01,2,55,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",2,"2025-08-24",0.5,0,0,0,0,311,0,2,"h",0,26,1,0,0,0,0,2,0,2025,"Brighton",3,3,0.14,0,0,55,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",3,"2025-08-30",8.5,1,0,0,0,311,3,2,"a",1,75,0,0,1,0,0,3,2,2025,"Wolves",2,3,0.63,0.08,7,54,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",4,"2025-09-13",2.5,0,0,0,0,311,0,0,"h",0,74,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0.97,0,2,54,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",5,"2025-09-20",0.6,0,0,0,0,311,1,2,"a",0,45,0,0,2,0,0,1,2,2025,"Liverpool",4,3,0.2,0,1,54,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",6,"2025-09-29",2.8,0,0,0,0,311,1,1,"h",0,68,0,0,1,0,0,1,1,2025,"West Ham",3,3,0.18,0,2,54,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",7,"2025-10-05",6.2,0,0,0,0,311,1,2,"h",0,45,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0.34,0.01,1,54,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",8,"2025-10-18",1.8,0,0,0,0,311,0,2,"a",0,74,0,0,2,0,0,0,2,2025,"Man City",4,3,0.6,0.01,2,53,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",9,"2025-10-26",6.1,0,0,0,0,311,3,0,"h",0,65,0,0,2,0,0,0,3,2025,"Tottenham",3,3,0.56,0,2,53,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",10,"2025-11-03",0.7,0,0,0,0,311,1,1,"a",0,33,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0,0,1,52,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",11,"2025-11-08",1.6,0,0,0,0,311,0,2,"h",0,11,0,0,0,0,0,2,0,2025,"Fulham",3,3,0.18,0.01,1,52,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",12,"2025-11-24",0.3,0,0,0,0,311,1,0,"a",0,9,0,0,0,0,0,1,0,2025,"Man Utd",4,3,0,0,1,52,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",13,"2025-11-29",0.1,0,0,0,0,311,4,1,"h",0,3,0,0,0,0,0,1,4,2025,"Newcastle",3,3,0,0,1,51,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",14,"2025-12-02",0.1,0,0,0,0,311,1,0,"a",0,10,0,0,0,0,0,1,0,2025,"Bournemouth",3,3,0,0,1,51,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",15,"2025-12-06",0.9,0,0,0,0,311,0,3,"h",0,28,0,0,0,0,0,3,0,2025,"Forest",3,3,0.19,0.01,1,51,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",16,"2025-12-13",0.4,0,0,0,0,311,0,2,"a",0,22,0,0,0,0,0,0,2,2025,"Chelsea",4,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",17,"2025-12-20",1.3,0,0,0,0,311,1,0,"h",0,24,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0.01,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",18,"2025-12-27",2.8,0,0,0,0,311,0,0,"a",0,69,0,0,0,0,0,0,0,2025,"Burnley",2,3,0.26,0.01,2,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",19,"2025-12-30",0.4,0,0,0,0,311,2,0,"a",0,5,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",20,"2026-01-04",5.7,1,0,0,0,311,4,2,"h",0,45,0,0,3,0,0,2,4,2025,"Brentford",3,3,0.14,0,5,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",21,"2026-01-07",0,0,0,0,0,311,1,1,"h",0,3,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",22,"2026-01-18",0.2,0,0,0,0,311,1,0,"a",0,6,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",23,"2026-01-26",0,0,0,0,0,311,1,1,"h",0,1,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",24,"2026-01-31",6.6,1,0,0,0,311,1,1,"a",2,1,0,0,0,0,0,1,1,2025,"Brighton",3,3,0.59,0,7,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",25,"2026-02-07",0.7,0,0,0,0,311,2,1,"a",0,21,0,0,0,0,0,2,1,2025,"Fulham",3,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",26,"2026-02-10",2,0,0,0,0,311,2,1,"h",0,28,1,0,1,0,0,1,2,2025,"Bournemouth",3,3,0.1,0.01,0,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",27,"2026-02-23",1.4,0,0,0,0,311,1,0,"h",0,11,0,0,0,0,0,0,1,2025,"Man Utd",4,3,0,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",28,"2026-02-28",9.8,1,0,0,0,311,3,2,"a",3,73,0,0,1,0,0,3,2,2025,"Newcastle",3,3,1.02,0.01,9,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",29,"2026-03-03",3.8,0,0,0,0,311,0,2,"h",0,82,0,0,0,0,0,2,0,2025,"Burnley",2,3,0.28,0,2,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",30,"2026-03-14",4.5,0,0,0,0,311,0,2,"a",0,68,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0.11,0,2,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",31,"2026-03-21",16.3,2,0,1,0,311,0,3,"h",3,81,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0.6,0.05,16,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",32,"2026-04-11",9,1,0,0,0,311,2,2,"a",1,73,0,0,1,0,0,2,2,2025,"Brentford",3,3,0.57,0.01,7,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",33,"2026-04-19",11.9,1,0,0,0,311,2,1,"h",3,72,0,0,1,0,0,1,2,2025,"Liverpool",4,3,0.47,0,9,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",34,"2026-04-25",0,0,0,0,0,311,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",35,"2026-05-04",4.3,0,0,0,0,311,3,3,"h",0,63,1,0,1,0,0,3,3,2025,"Man City",4,3,0.2,0,1,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",36,"2026-05-10",7.1,1,0,0,0,311,2,2,"a",2,69,0,0,1,0,0,2,2,2025,"Crystal Palace",3,3,0.29,0.01,8,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",37,"2026-05-17",1.6,0,0,0,0,311,3,1,"h",0,72,0,0,1,0,0,1,3,2025,"Sunderland",3,3,0.21,0,2,50,TRUE
+"Norberto Bercique Gomes Betuncal","Beto","Everton","FWD",38,"2026-05-24",0,0,0,0,0,311,0,1,"a",0,6,0,0,0,0,0,0,1,2025,"Tottenham",3,3,0,0,1,51,TRUE

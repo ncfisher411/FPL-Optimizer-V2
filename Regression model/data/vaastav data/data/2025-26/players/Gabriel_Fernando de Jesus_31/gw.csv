@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",1,"2025-08-17",0,0,0,0,0,31,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Man Utd",4,5,0,0,0,65,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",2,"2025-08-23",0,0,0,0,0,31,0,5,"h",0,0,0,0,0,0,0,5,0,2025,"Leeds",3,5,0,0,0,65,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",3,"2025-08-31",0,0,0,0,0,31,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Liverpool",4,5,0,0,0,65,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",4,"2025-09-13",0,0,0,0,0,31,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Forest",3,5,0,0,0,65,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",5,"2025-09-21",0,0,0,0,0,31,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man City",4,5,0,0,0,65,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",6,"2025-09-28",0,0,0,0,0,31,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",7,"2025-10-04",0,0,0,0,0,31,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",8,"2025-10-18",0,0,0,0,0,31,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Fulham",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",9,"2025-10-26",0,0,0,0,0,31,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Crystal Palace",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",10,"2025-11-01",0,0,0,0,0,31,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",11,"2025-11-08",0,0,0,0,0,31,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Sunderland",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",12,"2025-11-23",0,0,0,0,0,31,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Tottenham",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",13,"2025-11-30",0,0,0,0,0,31,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Chelsea",4,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",14,"2025-12-03",0,0,0,0,0,31,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Brentford",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",15,"2025-12-06",0,0,0,0,0,31,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",16,"2025-12-13",2.2,0,0,0,0,31,1,2,"h",0,9,0,0,1,0,0,2,1,2025,"Wolves",2,5,0.12,0,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",17,"2025-12-20",1.2,0,0,0,0,31,1,0,"a",0,25,0,0,0,0,0,1,0,2025,"Everton",3,5,0.02,0.02,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",18,"2025-12-27",2.4,0,0,0,0,31,1,2,"h",0,19,0,0,0,0,0,2,1,2025,"Brighton",3,5,0.09,0.01,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",19,"2025-12-30",4.4,1,0,0,0,31,1,4,"h",0,13,1,0,1,0,0,4,1,2025,"Aston Villa",3,5,0.09,0,4,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",20,"2026-01-03",2.8,0,0,0,0,31,3,2,"a",0,24,0,0,1,0,0,3,2,2025,"Bournemouth",3,5,0.02,0,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",21,"2026-01-08",2.3,0,0,0,0,31,0,0,"h",0,26,0,0,0,0,0,0,0,2025,"Liverpool",4,5,0.13,0,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",22,"2026-01-17",3.9,0,0,0,0,31,0,0,"a",0,33,0,0,0,0,0,0,0,2025,"Forest",3,5,0.51,0.09,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",23,"2026-01-25",2.7,0,0,0,0,31,3,2,"h",0,57,0,0,2,0,0,2,3,2025,"Man Utd",4,5,0.02,0.03,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",24,"2026-01-31",8.4,1,0,0,0,31,4,0,"a",0,14,0,0,0,0,0,4,0,2025,"Leeds",3,5,0.74,0,5,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",25,"2026-02-07",2.2,0,0,0,0,31,0,3,"h",0,59,0,0,0,0,0,3,0,2025,"Sunderland",3,5,0.01,0.03,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",26,"2026-02-12",0,0,0,0,0,31,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brentford",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",26,"2026-02-18",0.5,0,0,0,0,31,2,2,"a",0,25,1,0,1,0,0,2,2,2025,"Wolves",2,5,0,0.01,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",27,"2026-02-22",0,0,0,0,0,31,4,1,"a",0,0,0,0,0,0,0,4,1,2025,"Tottenham",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",28,"2026-03-01",0,0,0,0,0,31,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",29,"2026-03-04",0,0,0,0,0,31,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Brighton",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",30,"2026-03-14",0,0,0,0,0,31,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Everton",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",32,"2026-04-11",3.9,0,0,0,0,31,2,1,"h",0,14,0,0,0,0,0,1,2,2025,"Bournemouth",3,5,0.08,0.04,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",33,"2026-04-19",0,0,0,0,0,31,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man City",4,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",34,"2026-04-25",0,0,0,0,0,31,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",35,"2026-05-02",0.2,0,0,0,0,31,0,3,"h",0,26,0,0,0,0,0,3,0,2025,"Fulham",3,5,0,0,1,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",36,"2026-05-10",0,0,0,0,0,31,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"West Ham",3,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",37,"2026-05-18",0,0,0,0,0,31,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Burnley",2,5,0,0,0,64,TRUE
+"Gabriel Fernando de Jesus","G.Jesus","Arsenal","FWD",38,"2026-05-24",10.4,1,0,0,0,31,2,1,"a",0,74,1,0,0,0,0,2,1,2025,"Crystal Palace",3,5,0.88,0.03,5,64,TRUE

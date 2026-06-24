@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Alisson Becker","A.Becker","Liverpool","GKP",1,"2025-08-15",1.4,0,0,0,0,366,2,4,"h",0,90,0,0,2,1,0,4,2,2025,"Bournemouth",3,4,0,0.01,1,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",2,"2025-08-25",1.4,0,0,0,0,366,3,2,"a",0,90,0,0,2,1,0,3,2,2025,"Newcastle",3,4,0,0,1,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",3,"2025-08-31",1.7,0,0,0,0,366,0,1,"h",2,90,0,0,0,1,0,1,0,2025,"Arsenal",5,4,0,0,8,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",4,"2025-09-14",0.4,0,0,0,0,366,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Burnley",2,4,0,0,6,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",5,"2025-09-20",1.2,0,0,0,0,366,1,2,"h",0,90,0,0,1,1,0,2,1,2025,"Everton",3,4,0,0,2,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",6,"2025-09-27",4.6,0,0,0,0,366,1,2,"a",0,90,0,0,2,5,0,1,2,2025,"Crystal Palace",3,4,0,0,2,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",7,"2025-10-04",0,0,0,0,0,366,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Chelsea",4,4,0,0,0,55,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",8,"2025-10-19",0,0,0,0,0,366,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",9,"2025-10-25",0,0,0,0,0,366,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Brentford",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",10,"2025-11-01",0,0,0,0,0,366,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Aston Villa",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",11,"2025-11-09",0,0,0,0,0,366,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",12,"2025-11-22",2.4,0,0,0,0,366,3,0,"h",0,90,0,0,3,4,0,0,3,2025,"Forest",3,4,0,0,2,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",13,"2025-11-30",0.4,0,0,0,0,366,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,4,0,0,6,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",14,"2025-12-03",2.4,0,0,0,0,366,1,1,"h",0,90,0,0,1,4,0,1,1,2025,"Sunderland",3,4,0,0,3,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",15,"2025-12-06",1.5,0,0,0,0,366,3,3,"a",0,90,0,0,3,2,0,3,3,2025,"Leeds",3,4,0,0,1,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",16,"2025-12-13",1.5,0,0,0,0,366,0,2,"h",1,90,0,0,0,1,0,2,0,2025,"Brighton",3,4,0,0.01,7,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",17,"2025-12-20",2.6,0,0,0,0,366,2,1,"a",0,90,0,0,1,4,0,2,1,2025,"Tottenham",3,4,0,0,3,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",18,"2025-12-27",1.9,0,0,0,0,366,1,2,"h",0,90,0,0,1,3,0,2,1,2025,"Wolves",2,4,0,0,3,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",19,"2026-01-01",1.3,0,0,0,0,366,0,0,"h",0,90,0,0,0,2,0,0,0,2025,"Leeds",3,4,0,0,6,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",20,"2026-01-04",0.6,0,0,0,0,366,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Fulham",3,4,0,0,1,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",21,"2026-01-08",2.7,0,0,0,0,366,0,0,"a",3,90,0,0,0,4,0,0,0,2025,"Arsenal",5,4,0,0,10,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",22,"2026-01-17",0.9,0,0,0,0,366,1,1,"h",0,90,0,0,1,1,0,1,1,2025,"Burnley",2,4,0,0,2,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",23,"2026-01-24",1.8,0,0,0,0,366,2,3,"a",0,90,0,0,3,2,0,2,3,2025,"Bournemouth",3,4,0,0,1,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",24,"2026-01-31",1.1,0,0,0,0,366,1,4,"h",0,90,0,0,1,1,0,4,1,2025,"Newcastle",3,4,0,0.01,2,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",25,"2026-02-08",3.4,0,0,0,0,366,2,1,"h",0,90,1,0,2,5,0,1,2,2025,"Man City",4,4,0,0,1,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",26,"2026-02-11",1.5,0,0,0,0,366,1,0,"a",1,90,0,0,0,2,0,1,0,2025,"Sunderland",3,4,0,0,7,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",27,"2026-02-22",2.5,0,0,0,0,366,1,0,"a",1,90,0,0,0,2,0,1,0,2025,"Forest",3,4,0,0,7,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",28,"2026-02-28",2.2,0,0,0,0,366,2,5,"h",0,90,0,0,2,3,0,5,2,2025,"West Ham",3,4,0,0,2,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",29,"2026-03-03",1.4,0,0,0,0,366,1,2,"a",0,90,0,0,2,1,0,1,2,2025,"Wolves",2,4,0,0,1,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",30,"2026-03-15",3.9,0,0,0,0,366,1,1,"h",0,90,0,0,1,6,0,1,1,2025,"Tottenham",3,4,0,0,4,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",31,"2026-03-21",0,0,0,0,0,366,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Brighton",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",32,"2026-04-11",0,0,0,0,0,366,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Fulham",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",33,"2026-04-19",0,0,0,0,0,366,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Everton",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",34,"2026-04-25",0,0,0,0,0,366,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Crystal Palace",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",35,"2026-05-03",0,0,0,0,0,366,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man Utd",4,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",36,"2026-05-09",0,0,0,0,0,366,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Chelsea",4,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",37,"2026-05-15",0,0,0,0,0,366,2,4,"a",0,0,0,0,0,0,0,2,4,2025,"Aston Villa",3,4,0,0,0,54,TRUE
+"Alisson Becker","A.Becker","Liverpool","GKP",38,"2026-05-24",1.1,0,0,0,0,366,1,1,"h",0,90,0,0,1,1,0,1,1,2025,"Brentford",3,4,0,0,2,54,TRUE

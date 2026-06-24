@@ -1,5 +1,5 @@
 "name","id","strength"
-"Arsenal",1,4
+"Arsenal",1,5
 "Aston Villa",2,3
 "Burnley",3,2
 "Bournemouth",4,3
@@ -9,13 +9,13 @@
 "Crystal Palace",8,3
 "Everton",9,3
 "Fulham",10,3
-"Leeds",11,2
-"Liverpool",12,5
+"Leeds",11,3
+"Liverpool",12,4
 "Man City",13,4
-"Man Utd",14,3
-"Newcastle",15,4
+"Man Utd",14,4
+"Newcastle",15,3
 "Forest",16,3
-"Sunderland",17,2
+"Sunderland",17,3
 "Tottenham",18,3
 "West Ham",19,3
-"Wolves",20,3
+"Wolves",20,2

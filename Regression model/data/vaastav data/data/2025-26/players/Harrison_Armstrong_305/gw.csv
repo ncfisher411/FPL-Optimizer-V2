@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Harrison Armstrong","Armstrong","Everton","MID",1,"2025-08-18",0,0,0,0,0,305,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Leeds",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",2,"2025-08-24",0,0,0,0,0,305,0,2,"h",0,1,0,0,0,0,0,2,0,2025,"Brighton",3,3,0,0,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",3,"2025-08-30",0,0,0,0,0,305,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Wolves",2,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",4,"2025-09-13",0,0,0,0,0,305,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Aston Villa",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",5,"2025-09-20",0,0,0,0,0,305,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Liverpool",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",6,"2025-09-29",0,0,0,0,0,305,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",7,"2025-10-05",0,0,0,0,0,305,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",8,"2025-10-18",0,0,0,0,0,305,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man City",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",9,"2025-10-26",0,0,0,0,0,305,3,0,"h",0,0,0,0,0,0,0,0,3,2025,"Tottenham",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",10,"2025-11-03",0,0,0,0,0,305,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",11,"2025-11-08",0,0,0,0,0,305,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Fulham",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",12,"2025-11-24",0,0,0,0,0,305,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Man Utd",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",13,"2025-11-29",0,0,0,0,0,305,4,1,"h",0,0,0,0,0,0,0,1,4,2025,"Newcastle",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",14,"2025-12-02",0,0,0,0,0,305,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Bournemouth",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",15,"2025-12-06",0,0,0,0,0,305,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Forest",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",16,"2025-12-13",0,0,0,0,0,305,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Chelsea",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",17,"2025-12-20",0,0,0,0,0,305,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",18,"2025-12-27",0,0,0,0,0,305,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Burnley",2,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",19,"2025-12-30",0,0,0,0,0,305,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",20,"2026-01-04",1.5,0,0,0,0,305,4,2,"h",0,13,0,0,1,0,0,2,4,2025,"Brentford",3,3,0,0.05,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",21,"2026-01-07",2.3,0,0,0,0,305,1,1,"h",0,86,0,0,1,0,0,1,1,2025,"Wolves",2,3,0,0.02,4,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",22,"2026-01-18",2.9,0,0,0,0,305,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0.04,3,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",23,"2026-01-26",0.6,0,0,0,0,305,1,1,"h",0,45,0,0,1,0,0,1,1,2025,"Leeds",3,3,0,0.01,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",24,"2026-01-31",1.1,0,0,0,0,305,1,1,"a",0,79,0,0,1,0,0,1,1,2025,"Brighton",3,3,0,0.01,2,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",25,"2026-02-07",2.5,0,0,0,0,305,2,1,"a",0,68,0,0,1,0,0,2,1,2025,"Fulham",3,3,0.37,0.01,2,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",26,"2026-02-10",4.9,0,0,0,0,305,2,1,"h",0,28,0,0,1,0,0,1,2,2025,"Bournemouth",3,3,0.33,0.03,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",27,"2026-02-23",4.2,0,0,0,0,305,1,0,"h",0,72,0,0,1,0,0,0,1,2025,"Man Utd",4,3,0.09,0.04,2,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",28,"2026-02-28",0.4,0,0,0,0,305,3,2,"a",0,9,0,0,1,0,0,3,2,2025,"Newcastle",3,3,0,0,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",29,"2026-03-03",0,0,0,0,0,305,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",30,"2026-03-14",0.1,0,0,0,0,305,0,2,"a",0,4,0,0,2,0,0,0,2,2025,"Arsenal",5,3,0,0,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",31,"2026-03-21",0,0,0,0,0,305,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",32,"2026-04-11",0,0,0,0,0,305,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Brentford",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",33,"2026-04-19",0,0,0,0,0,305,2,1,"h",0,0,0,0,0,0,0,1,2,2025,"Liverpool",4,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",34,"2026-04-25",0,0,0,0,0,305,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"West Ham",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",35,"2026-05-04",0,0,0,0,0,305,3,3,"h",0,1,0,0,1,0,0,3,3,2025,"Man City",4,3,0,0,1,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",36,"2026-05-10",0,0,0,0,0,305,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Crystal Palace",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",37,"2026-05-17",0,0,0,0,0,305,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Sunderland",3,3,0,0,0,45,TRUE
+"Harrison Armstrong","Armstrong","Everton","MID",38,"2026-05-24",0.5,0,0,0,0,305,0,1,"a",0,28,0,0,0,0,0,0,1,2025,"Tottenham",3,3,0,0.01,1,45,TRUE

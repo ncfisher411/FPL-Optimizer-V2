@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Sean Longstaff","Longstaff","Leeds","MID",1,"2025-08-18",0.1,0,0,0,0,493,0,1,"h",0,1,0,0,0,0,0,1,0,2025,"Everton",3,3,0,0,1,50,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",2,"2025-08-23",0.2,0,0,0,0,493,0,5,"a",0,32,0,0,1,0,0,0,5,2025,"Arsenal",5,3,0,0,1,50,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",3,"2025-08-30",2.6,0,0,0,0,493,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0,0.01,5,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",4,"2025-09-13",1.3,0,0,0,0,493,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0.04,0.02,2,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",5,"2025-09-20",3.2,0,0,0,0,493,3,1,"a",0,82,0,0,1,0,0,3,1,2025,"Wolves",2,3,0.07,0,2,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",6,"2025-09-27",20.7,1,0,1,0,493,2,2,"h",3,90,0,0,2,0,0,2,2,2025,"Bournemouth",3,3,0.1,0.25,15,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",7,"2025-10-04",9,0,0,0,0,493,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.22,0.2,2,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",8,"2025-10-18",8.9,0,0,0,0,493,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Burnley",2,3,0,0.15,2,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",9,"2025-10-24",4.8,0,0,1,0,493,1,2,"h",1,90,0,0,1,0,0,2,1,2025,"West Ham",3,3,0,0.18,6,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",10,"2025-11-01",3.9,0,0,0,0,493,0,3,"a",0,59,0,0,1,0,0,0,3,2025,"Brighton",3,3,0.25,0.11,1,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",11,"2025-11-09",1.5,0,0,0,0,493,1,3,"a",0,73,1,0,2,0,0,1,3,2025,"Forest",3,3,0,0,1,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",12,"2025-11-23",4.7,0,0,0,0,493,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Aston Villa",3,3,0.06,0.35,2,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",13,"2025-11-29",0,0,0,0,0,493,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man City",4,3,0,0,0,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",14,"2025-12-03",0,0,0,0,0,493,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Chelsea",4,3,0,0,0,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",15,"2025-12-06",0,0,0,0,0,493,3,3,"h",0,0,0,0,0,0,0,3,3,2025,"Liverpool",4,3,0,0,0,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",16,"2025-12-14",0,0,0,0,0,493,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Brentford",3,3,0,0,0,49,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",17,"2025-12-20",0,0,0,0,0,493,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Crystal Palace",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",18,"2025-12-28",0,0,0,0,0,493,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Sunderland",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",19,"2026-01-01",0,0,0,0,0,493,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Liverpool",4,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",20,"2026-01-04",0,0,0,0,0,493,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Man Utd",4,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",21,"2026-01-07",0,0,0,0,0,493,3,4,"a",0,0,0,0,0,0,0,3,4,2025,"Newcastle",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",22,"2026-01-17",0,0,0,0,0,493,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Fulham",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",23,"2026-01-26",1.8,0,0,0,0,493,1,1,"a",0,5,0,0,0,0,0,1,1,2025,"Everton",3,3,0.06,0.02,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",24,"2026-01-31",1.8,0,0,0,0,493,4,0,"h",0,45,0,0,2,0,0,0,4,2025,"Arsenal",5,3,0.03,0,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",25,"2026-02-06",0,0,0,0,0,493,1,3,"h",0,8,0,0,1,0,0,3,1,2025,"Forest",3,3,0,0,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",26,"2026-02-10",0,0,0,0,0,493,2,2,"a",0,1,1,0,0,0,0,2,2,2025,"Chelsea",4,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",27,"2026-02-21",2.3,0,0,0,0,493,1,1,"a",0,7,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0,0.19,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",28,"2026-02-28",0,0,0,0,0,493,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",29,"2026-03-03",0,0,0,0,0,493,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Sunderland",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",30,"2026-03-15",0,0,0,0,0,493,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",31,"2026-03-21",0,0,0,0,0,493,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Brentford",3,3,0,0,0,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",32,"2026-04-13",0.3,0,0,0,0,493,2,1,"a",0,4,0,0,0,0,0,2,1,2025,"Man Utd",4,3,0,0,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",33,"2026-04-18",1.6,0,0,0,0,493,0,3,"h",0,1,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,0.13,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",33,"2026-04-22",4.9,1,0,0,0,493,2,2,"a",1,6,0,0,1,0,0,2,2,2025,"Bournemouth",3,3,0.15,0,7,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",35,"2026-05-01",3.4,0,0,0,0,493,1,3,"h",0,18,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0.11,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",36,"2026-05-11",3.6,0,0,0,0,493,1,1,"a",0,1,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0.25,0.02,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",37,"2026-05-17",0.6,0,0,0,0,493,0,1,"h",0,30,0,0,0,0,0,1,0,2025,"Brighton",3,3,0,0.13,1,48,TRUE
+"Sean Longstaff","Longstaff","Leeds","MID",38,"2026-05-24",0,0,0,0,0,493,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"West Ham",3,3,0,0,0,48,TRUE

@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Chris Rigg","Rigg","Sunderland","MID",1,"2025-08-16",0,0,0,0,0,551,0,3,"h",0,1,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,1,50,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",2,"2025-08-23",0,0,0,0,0,551,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Burnley",2,3,0,0,0,50,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",3,"2025-08-30",0,0,0,0,0,551,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,3,0,0,0,49,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",4,"2025-09-13",0,0,0,0,0,551,0,0,"a",0,1,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,1,49,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",5,"2025-09-21",1.8,0,0,0,0,551,1,1,"h",0,36,0,0,0,0,0,1,1,2025,"Aston Villa",3,3,0.06,0.03,1,49,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",6,"2025-09-27",0.7,0,0,0,0,551,1,0,"a",0,58,0,0,0,0,0,1,0,2025,"Forest",3,3,0.06,0.01,1,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",7,"2025-10-04",0,0,0,0,0,551,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",8,"2025-10-18",1.6,0,0,0,0,551,0,2,"h",0,75,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0.01,3,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",9,"2025-10-25",0.2,0,0,0,0,551,2,1,"a",0,15,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0.01,1,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",10,"2025-11-03",0,0,0,0,0,551,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",11,"2025-11-08",0,0,0,0,0,551,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Arsenal",5,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",12,"2025-11-22",0,0,0,0,0,551,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Fulham",3,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",13,"2025-11-29",0,0,0,0,0,551,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Bournemouth",3,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",14,"2025-12-03",0,0,0,0,0,551,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",15,"2025-12-06",0,0,0,0,0,551,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,48,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",16,"2025-12-14",0,0,0,0,0,551,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",17,"2025-12-20",1.1,0,0,0,0,551,0,0,"a",0,63,0,0,0,0,0,0,0,2025,"Brighton",3,3,0.2,0.01,3,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",18,"2025-12-28",2.4,0,0,0,0,551,1,1,"h",0,67,0,0,1,0,0,1,1,2025,"Leeds",3,3,0,0.18,2,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",19,"2026-01-01",0,0,0,0,0,551,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",20,"2026-01-04",0.6,0,0,0,0,551,1,1,"a",0,8,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0.04,1,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",21,"2026-01-07",0.5,0,0,0,0,551,0,3,"a",0,51,0,0,1,0,0,0,3,2025,"Brentford",3,3,0,0.06,1,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",22,"2026-01-17",0,0,0,0,0,551,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Crystal Palace",3,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",23,"2026-01-24",0,0,0,0,0,551,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"West Ham",3,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",24,"2026-02-02",0,0,0,0,0,551,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Burnley",2,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",25,"2026-02-07",0,0,0,0,0,551,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Arsenal",5,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",26,"2026-02-11",0,0,0,0,0,551,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Liverpool",4,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",27,"2026-02-22",0,0,0,0,0,551,3,1,"h",0,0,0,0,0,0,0,1,3,2025,"Fulham",3,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",28,"2026-02-28",0,0,0,0,0,551,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",29,"2026-03-03",0,0,0,0,0,551,1,0,"a",0,1,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,1,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",30,"2026-03-14",2.8,0,0,0,0,551,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.1,0.01,2,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",31,"2026-03-22",10.1,0,0,0,0,551,2,1,"a",1,90,0,0,1,0,0,2,1,2025,"Newcastle",3,3,0.18,0.35,3,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",32,"2026-04-12",1.8,0,0,0,0,551,0,1,"h",0,81,1,0,0,0,0,1,0,2025,"Tottenham",3,3,0.05,0.14,2,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",33,"2026-04-19",6.5,1,0,0,0,551,3,4,"a",0,62,0,0,3,0,0,3,4,2025,"Aston Villa",3,3,0.1,0.01,7,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",34,"2026-04-24",2.7,0,0,0,0,551,5,0,"h",0,45,0,0,4,0,0,0,5,2025,"Forest",3,3,0.11,0.06,1,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",35,"2026-05-02",0,0,0,0,0,551,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",36,"2026-05-09",0,0,0,0,0,551,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0,0,0,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",37,"2026-05-17",3.2,0,0,1,0,551,3,1,"a",0,13,0,0,0,0,0,3,1,2025,"Everton",3,3,0,0.01,4,47,TRUE
+"Chris Rigg","Rigg","Sunderland","MID",38,"2026-05-24",0,0,0,0,0,551,1,2,"h",0,1,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0,1,47,TRUE

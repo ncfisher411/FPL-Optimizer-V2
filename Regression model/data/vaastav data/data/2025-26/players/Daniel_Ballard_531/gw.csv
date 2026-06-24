@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Daniel Ballard","Ballard","Sunderland","DEF",1,"2025-08-16",13.4,1,0,0,0,531,0,3,"h",3,90,0,0,0,0,0,3,0,2025,"West Ham",3,3,0.18,0.01,17,45,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",2,"2025-08-23",1.8,0,0,0,0,531,0,2,"a",0,8,0,0,0,0,0,0,2,2025,"Burnley",2,3,0,0.17,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",3,"2025-08-30",0,0,0,0,0,531,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,3,0,0,0,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",4,"2025-09-13",0,0,0,0,0,531,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,0,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",5,"2025-09-21",2.4,0,0,0,0,531,1,1,"h",0,53,0,0,1,0,0,1,1,2025,"Aston Villa",3,3,0.01,0,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",6,"2025-09-27",1.1,0,0,0,0,531,1,0,"a",0,15,0,0,0,0,0,1,0,2025,"Forest",3,3,0.13,0,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",7,"2025-10-04",4.4,0,0,0,0,531,0,2,"a",0,53,0,0,0,0,0,0,2,2025,"Man Utd",4,3,0.17,0,3,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",8,"2025-10-18",8.4,0,0,0,0,531,0,2,"h",2,90,0,0,0,0,0,2,0,2025,"Wolves",2,3,0.06,0.13,10,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",9,"2025-10-25",3.8,0,0,0,0,531,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0.05,0.01,2,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",10,"2025-11-03",5.8,0,0,0,0,531,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Everton",3,3,0.28,0.03,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",11,"2025-11-08",7.3,1,0,1,0,531,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Arsenal",5,3,0.09,0,10,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",12,"2025-11-22",0.8,0,0,0,0,531,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.02,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",13,"2025-11-29",5.4,0,0,0,0,531,2,3,"h",0,90,0,0,2,0,0,3,2,2025,"Bournemouth",3,3,0.07,0,3,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",14,"2025-12-03",3,0,0,0,0,531,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0,0,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",15,"2025-12-06",2.2,0,0,0,0,531,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Man City",4,3,0,0,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",16,"2025-12-14",2.9,0,0,0,0,531,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0.13,0.01,8,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",17,"2025-12-20",6.5,0,0,0,0,531,0,0,"a",2,90,1,0,0,0,0,0,0,2025,"Brighton",3,3,0.16,0.01,9,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",18,"2025-12-28",0,0,0,0,0,531,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",19,"2026-01-01",0,0,0,0,0,531,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",20,"2026-01-04",1,0,0,0,0,531,1,1,"a",0,24,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",21,"2026-01-07",2.2,0,0,0,0,531,0,3,"a",0,78,0,0,3,0,0,0,3,2025,"Brentford",3,3,0.03,0,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",22,"2026-01-17",11.2,0,0,0,0,531,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0.62,0.09,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",23,"2026-01-24",3.4,0,0,0,0,531,1,3,"a",0,90,1,0,3,0,0,1,3,2025,"West Ham",3,3,0.02,0.01,2,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",24,"2026-02-02",2.6,0,0,0,0,531,0,3,"h",1,90,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.18,0.01,9,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",25,"2026-02-07",3.9,0,0,0,0,531,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Arsenal",5,3,0,0.01,1,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",26,"2026-02-11",3.9,0,0,0,0,531,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0.05,0,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",27,"2026-02-22",5,0,0,1,0,531,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Fulham",3,3,0,0.06,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",28,"2026-02-28",4.8,0,0,0,0,531,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.13,0.01,4,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",29,"2026-03-03",4.3,0,0,0,0,531,1,0,"a",1,90,0,0,0,0,0,1,0,2025,"Leeds",3,3,0.01,0,9,46,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",30,"2026-03-14",5.4,0,0,0,0,531,1,0,"h",0,63,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.05,0,4,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",31,"2026-03-22",0,0,0,0,0,531,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",32,"2026-04-12",0,0,0,0,0,531,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",33,"2026-04-19",0.7,0,0,0,0,531,3,4,"a",0,27,1,0,1,0,0,3,4,2025,"Aston Villa",3,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",34,"2026-04-24",3.9,0,0,0,0,531,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.04,0.05,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",35,"2026-05-02",0,0,0,0,0,531,1,1,"a",0,23,0,1,1,0,0,1,1,2025,"Wolves",2,3,0,0,-2,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",36,"2026-05-09",0,0,0,0,0,531,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",37,"2026-05-17",0,0,0,0,0,531,3,1,"a",0,0,0,0,0,0,0,3,1,2025,"Everton",3,3,0,0,0,47,TRUE
+"Daniel Ballard","Ballard","Sunderland","DEF",38,"2026-05-24",0,0,0,0,0,531,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Chelsea",4,3,0,0,0,46,TRUE

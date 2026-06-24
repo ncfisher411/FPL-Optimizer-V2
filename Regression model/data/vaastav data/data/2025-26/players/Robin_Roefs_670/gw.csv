@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Robin Roefs","Roefs","Sunderland","GKP",1,"2025-08-16",3,0,0,0,0,670,0,3,"h",1,90,0,0,0,4,0,3,0,2025,"West Ham",3,3,0,0,8,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",2,"2025-08-23",0.4,0,0,0,0,670,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Burnley",2,3,0,0,1,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",3,"2025-08-30",4.7,0,0,0,0,670,1,2,"h",0,90,0,0,1,3,1,2,1,2025,"Brentford",3,3,0,0,8,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",4,"2025-09-13",4.3,0,0,0,0,670,0,0,"a",3,90,1,0,0,6,0,0,0,2025,"Crystal Palace",3,3,0,0,10,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",5,"2025-09-21",0.6,0,0,0,0,670,1,1,"h",0,90,0,0,1,1,0,1,1,2025,"Aston Villa",3,3,0,0,2,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",6,"2025-09-27",6.9,0,0,0,0,670,1,0,"a",2,90,0,0,0,6,0,1,0,2025,"Forest",3,3,0,0.01,10,45,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",7,"2025-10-04",2.8,0,0,0,0,670,0,2,"a",0,90,0,0,2,4,0,0,2,2025,"Man Utd",4,3,0,0,2,46,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",8,"2025-10-18",2.3,0,0,0,0,670,0,2,"h",0,90,0,0,0,3,0,2,0,2025,"Wolves",2,3,0,0,7,46,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",9,"2025-10-25",4.4,0,0,0,0,670,2,1,"a",0,90,0,0,1,6,0,2,1,2025,"Chelsea",4,3,0,0,4,46,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",10,"2025-11-03",0.9,0,0,0,0,670,1,1,"h",0,90,0,0,1,1,0,1,1,2025,"Everton",3,3,0,0,2,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",11,"2025-11-08",4,0,0,0,0,670,2,2,"h",0,90,0,0,2,5,0,2,2,2025,"Arsenal",5,3,0,0,2,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",12,"2025-11-22",4.3,0,0,0,0,670,0,1,"a",0,90,0,0,1,4,0,0,1,2025,"Fulham",3,3,0,0,3,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",13,"2025-11-29",3.5,0,0,0,0,670,2,3,"h",0,90,1,0,2,4,0,3,2,2025,"Bournemouth",3,3,0,0.02,1,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",14,"2025-12-03",3.8,0,0,0,0,670,1,1,"a",0,90,0,0,1,4,0,1,1,2025,"Liverpool",4,3,0,0,3,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",15,"2025-12-06",2.3,0,0,0,0,670,0,3,"a",0,90,0,0,3,2,0,0,3,2025,"Man City",4,3,0,0,1,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",16,"2025-12-14",1.1,0,0,0,0,670,0,1,"h",3,90,0,0,0,2,0,1,0,2025,"Newcastle",3,3,0,0,9,47,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",17,"2025-12-20",1.8,0,0,0,0,670,0,0,"a",0,90,0,0,0,4,0,0,0,2025,"Brighton",3,3,0,0,7,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",18,"2025-12-28",2.9,0,0,0,0,670,1,1,"h",0,90,0,0,1,4,0,1,1,2025,"Leeds",3,3,0,0,3,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",19,"2026-01-01",3.6,0,0,0,0,670,0,0,"h",0,90,0,0,0,4,0,0,0,2025,"Man City",4,3,0,0.01,7,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",20,"2026-01-04",2.4,0,0,0,0,670,1,1,"a",0,90,0,0,1,3,0,1,1,2025,"Tottenham",3,3,0,0,3,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",21,"2026-01-07",3.2,0,0,0,0,670,0,3,"a",0,90,0,0,3,3,0,0,3,2025,"Brentford",3,3,0,0,2,49,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",22,"2026-01-17",1.4,0,0,0,0,670,1,2,"h",0,90,0,0,1,1,0,2,1,2025,"Crystal Palace",3,3,0,0,2,49,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",23,"2026-01-24",1.8,0,0,0,0,670,1,3,"a",0,90,0,0,3,2,0,1,3,2025,"West Ham",3,3,0,0.01,1,50,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",24,"2026-02-02",0.4,0,0,0,0,670,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Burnley",2,3,0,0.01,6,50,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",25,"2026-02-07",2.3,0,0,0,0,670,0,3,"a",0,90,0,0,3,2,0,0,3,2025,"Arsenal",5,3,0,0.01,1,50,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",26,"2026-02-11",1.9,0,0,0,0,670,1,0,"h",0,90,0,0,1,2,0,0,1,2025,"Liverpool",4,3,0,0,2,50,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",27,"2026-02-22",1.1,0,0,0,0,670,3,1,"h",0,90,0,0,3,1,0,1,3,2025,"Fulham",3,3,0,0.03,1,49,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",28,"2026-02-28",2.2,0,0,0,0,670,1,1,"a",0,90,1,0,1,4,0,1,1,2025,"Bournemouth",3,3,0,0,2,49,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",29,"2026-03-03",0,0,0,0,0,670,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,0,49,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",30,"2026-03-14",0,0,0,0,0,670,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Brighton",3,3,0,0,0,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",31,"2026-03-22",0,0,0,0,0,670,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",32,"2026-04-12",5.5,0,0,0,0,670,0,1,"h",3,90,0,0,0,7,0,1,0,2025,"Tottenham",3,3,0,0,11,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",33,"2026-04-19",2,0,0,0,0,670,3,4,"a",0,90,0,0,4,3,0,3,4,2025,"Aston Villa",3,3,0,0,1,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",34,"2026-04-24",1.2,0,0,0,0,670,5,0,"h",0,90,0,0,5,2,0,0,5,2025,"Forest",3,3,0,0,0,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",35,"2026-05-02",4.2,0,0,0,0,670,1,1,"a",0,90,1,0,1,6,0,1,1,2025,"Wolves",2,3,0,0,3,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",36,"2026-05-09",1.2,0,0,0,0,670,0,0,"h",0,90,0,0,0,1,0,0,0,2025,"Man Utd",4,3,0,0,6,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",37,"2026-05-17",2.5,0,0,0,0,670,3,1,"a",0,90,0,0,1,3,0,3,1,2025,"Everton",3,3,0,0,3,48,TRUE
+"Robin Roefs","Roefs","Sunderland","GKP",38,"2026-05-24",2.2,0,0,0,0,670,1,2,"h",0,90,0,0,1,2,0,2,1,2025,"Chelsea",4,3,0,0,2,48,TRUE

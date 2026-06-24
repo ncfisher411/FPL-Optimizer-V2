@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Time played model for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: June 19 2026
 #---------------------------------------#
 
 # Model set up
@@ -22,6 +22,10 @@ if(played_model=='linear'){
              played_validation=played-Probability_played) %>%
       select(-played, -minutes)
    
+   ## Save summary of model output
+   table_played = linear_played %>% tidy()
+   write.table(table_played, 'Model performance summaries/played.txt', sep = '\t', row.names = F)
+   
 } else if(played_model=='logit'){
    logit_played <- glm(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + strength + difficulty + h_a, data = est_data)  
    
@@ -39,6 +43,10 @@ if(played_model=='linear'){
              played_validation=played-Probability_played) %>%
       select(-played, -minutes)
    
+   ## Save summary of model output
+   table_played = logit_played %>% tidy()
+   write.table(table_played, 'Model performance summaries/played.txt', sep = '\t', row.names = F)
+   
 } else if(played_model=='random forest'){
    rf_played <- randomForest(played ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA + position + strength + difficulty + h_a, data = est_data)
    
@@ -55,7 +63,6 @@ if(played_model=='linear'){
              played=ifelse(minutes > 0, 1, 0),
              played_validation=played-Probability_played) %>%
       select(-played, -minutes)
-   
 }
 gc()
 
@@ -76,6 +83,10 @@ if(played60_model=='linear'){
              played60_validation=played60-Probability_played60) %>%
       select(-minutes)
    
+   ## Save summary of model output
+   table_played60 = linear_played60 %>% tidy()
+   write.table(table_played60, 'Model performance summaries/played60.txt', sep = '\t', row.names = F)
+   
 } else if(played60_model=='logit'){
    logit_played60 <- glm(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + strength + difficulty + h_a, data = est_data)
    
@@ -93,6 +104,10 @@ if(played60_model=='linear'){
              played60_validation=played60-Probability_played60) %>%
       select(-minutes)
    
+   ## Save summary of model output
+   table_played60 = logit_played60 %>% tidy()
+   write.table(table_played60, 'Model performance summaries/played60.txt', sep = '\t', row.names = F)
+   
 } else if(played60_model=='random forest'){
    rf_played60 <- randomForest(played60 ~ ict_index_opponent + xG_opponent + ict_index + goals_conceded + xG + xA +  position + strength + difficulty + h_a, data = est_data)
    
@@ -109,7 +124,6 @@ if(played60_model=='linear'){
              played60=ifelse(minutes > 59, 1, 0),
              played60_validation=played60-Probability_played60) %>%
       select(-minutes)
-   
 }
 gc()
 
@@ -131,6 +145,10 @@ if(cs_model=='linear'){
       mutate(Probability_cs=ifelse(Probability_cs < 0, 0, Probability_cs),
              Probability_cs=ifelse(Probability_cs > 1, 1, Probability_cs))
    
+   ## Save summary of model output
+   table_cs = linear_cs %>% tidy()
+   write.table(table_cs, 'Model performance summaries/clean_sheets.txt', sep = '\t', row.names = F)
+   
 } else if(cs_model=='logit'){
    logit_cs <- glm(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + strength + difficulty + h_a, data = est_data)
    
@@ -148,6 +166,10 @@ if(cs_model=='linear'){
       distinct(name, GW, .keep_all = T) %>%
       mutate(Probability_cs=ifelse(Probability_cs < 0, 0, Probability_cs),
              Probability_cs=ifelse(Probability_cs > 1, 1, Probability_cs))
+   
+   ## Save summary of model output
+   table_cs = logit_cs %>% tidy()
+   write.table(table_cs, 'Model performance summaries/clean_sheets.txt', sep = '\t', row.names = F)
    
 }  else if(cs_model=='random forest'){
    rf_cs <- randomForest(clean_sheet ~ played + played60 + ict_index + ict_index_opponent + xG_opponent + position + strength + difficulty + h_a, data = est_data)
@@ -180,7 +202,7 @@ time_results <- played_predictions %>% distinct(name, GW, .keep_all = T) %>%
    mutate(`Home/Away`=ifelse(`Home/Away`=='h', 'Home', 'Away'),
           Probability_cs=ifelse(Probability_played60<0.25, 0, Probability_cs)) %>%
    distinct(Player, Gameweek, .keep_all = T)
- 
+
  objects <- ls()
  keep <- objects[grep('results|model|data|fixtures|ids|teams', objects)]
  rm(list=setdiff(objects, keep))

@@ -1,121 +1,3 @@
-# Use this script to call the FPL API to get updated data
-# First compile the vaastav and understat data
-## To start load understat data for past seasons
-### This step takes a long time to run so will just save this as a CSV and call it from the directory
-# years <- c(2021:2024)
-#
-# df <- data.frame()
-#
-# for (i in years) {
-#   temp <- understat_league_season_shots('EPL', i) %>%
-#     mutate(goal=ifelse(result=='Goal',1,0),
-#            team=ifelse(h_a=='h', home_team, away_team),
-#            opponent=ifelse(h_a=='h', away_team, home_team),
-#            team_goals=ifelse(h_a=='h', home_goals, away_goals),
-#            opponent_goals=ifelse(h_a=='h', away_goals, home_goals),
-#            date=substr(date, start = 1, stop = 10)) %>%
-#     select(player, player_id, season, team, match_id, date, h_a, opponent, team_goals, opponent_goals, goal, xG) %>%
-#     group_by(player, player_id, season, team, match_id, date, h_a, opponent) %>%
-#     summarize(team_goals=mean(team_goals, na.rm = T),
-#               opponent_goals=mean(opponent_goals, na.rm = T),
-#               goals=sum(goal, na.rm = T), xG=sum(xG, na.rm = T)) %>%
-#     ungroup()
-#   df <- rbind(df, temp)
-# }
-#
-# write.csv(df, 'data/understat_xg_by_match.csv', row.names = F)
-# temp <- read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2021-22/id_dict.csv',
-#                  encoding = 'UTF-8') %>% mutate(season=2021) %>%
-#   rbind(read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2022-23/id_dict.csv',
-#                  encoding = 'UTF-8') %>% mutate(season=2022))
-#
-# df <- read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2021-22/gws/merged_gw.csv',
-#                   encoding = 'UTF-8') %>%
-#   mutate(h_a=ifelse(was_home=='True', 'h', 'a')) %>%
-#   select(name, position, team, assists, ict_index, influence, kickoff_time, opponent_team,
-#          team_a_score, team_h_score, h_a, GW) %>%
-#     left_join(temp, by=c('name'='FPL_Name')) %>%
-#   filter(!is.na(season)) %>%
-#   left_join(read.csv('https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2021-22/teams.csv',
-#                      encoding = 'UTF-8') %>% select(id, name) %>%
-#               rename(opponent=name),
-#             by = c('opponent_team'='id')) %>%
-#   select(-opponent_team)
-#
-# ## Temporarily cloned repo, but combined into full csv file and saved into data folder
-# dir <- paste0(getwd(), '/data/temp/Fantasy-Premier-League/data/2021-22/understat')
-#
-# files <- list.files(dir) %>% data.frame() %>%
-#   filter(!grepl('understat', .))
-#
-# df2 <- data.frame()
-#
-# for (i in files$.) {
-#   data <- read.csv(paste0(dir, '/', i)) %>%
-#     mutate(name=i)
-#   name_split <- strsplit(as.character(i), '_')
-#   data <- data %>%
-#     mutate(name=gsub('_', ' ', name),
-#            name=gsub('1|2|3|4|5|6|7|8|9|0', '', name),
-#            name=gsub('.csv', '', name))  %>%
-#     mutate(name=ifelse(grepl(' NA', name), gsub(' NA', '', name), name),
-#            season=2021) %>%
-#     filter(grepl('2021|2022', date))
-#
-#   df2 <- rbind(df2, data)
-# }
-#
-# dir <- paste0(getwd(), '/data/temp/Fantasy-Premier-League/data/2022-23/understat')
-#
-# files <- list.files(dir) %>% data.frame() %>%
-#   filter(!grepl('understat', .))
-#
-# for (i in files$.) {
-#   data <- read.csv(paste0(dir, '/', i)) %>%
-#     mutate(name=i)
-#   data <- data %>%
-#     mutate(name=gsub('_', ' ', name),
-#            name=gsub('1|2|3|4|5|6|7|8|9|0', '', name),
-#            name=gsub('.csv', '', name)) %>%
-#     mutate(name=ifelse(grepl(' NA', name), gsub(' NA', '', name), name),
-#            season=2022) %>%
-#     filter(grepl('2022|2023', date))
-#
-#   df2 <- rbind(df2, data)
-# }
-#
-# remove_trailing_spaces <- function(x) {
-#   if(substr(x, nchar(x), nchar(x)) == ' '){
-#     return(substring(x, 1, nchar(x)-1))
-#   } else{
-#     return(x)
-#   }
-# }
-#
-# df2$name <- sapply(df2$name, remove_trailing_spaces)
-#
-# df3 <- df2 %>% left_join(temp, by=c('name'='Understat_Name', 'season')) %>%
-#   filter(!is.na(FPL_Name)) %>%
-#   select(FPL_Name, xA, key_passes, date, season)
-# ## Save this here - fpl data for 2023/24 has xA so don't need to crosswalk with understat
-# write.csv(df3, 'data/xA_understat.csv', row.names = F)
-# 
-# list <- list.files('data/vaastav data/data/2024-25/gws')
-# list <- list[grepl('gw', list)]
-# list <- list[!grepl('_gw', list)]
-# 
-# df <- data.frame()
-# 
-# for(i in list){
-#   
-#   temp <- read.csv(paste0('data/vaastav data/data/2024-25/gws/', i)) %>%
-#     select(-contains('mng_'))
-#   df <- rbind(df, temp)
-#   
-# }
-# 
-# write.csv(df, 'data/vaastav data/data/2024-25/gws/merged_gw_new.csv', row.names = F)
-
 #-----------------------------------------------------------------------------#
 ## Loading the existing vaastav data
 xg <- read.csv('data/understat_xg_by_match.csv') %>%
@@ -283,28 +165,7 @@ temp <- df %>% distinct(team, season, .keep_all = T) %>%
          opponent_defense_rating = team_defense_rating)
 
 df <- df %>% left_join(temp)
-#-----------------------------------------------------------------------------#
 
-# temp <- df %>% filter(season==2023) %>%
-#   group_by(name, team, position, season) %>%
-#   summarize(total_points=sum(total_points, na.rm = T),
-#             goals=sum(goals, na.rm = T),
-#             assists=sum(assists, na.rm = T),
-#             own_goals=sum(own_goals, na.rm = T),
-#             penalties_missed=sum(penalties_missed, na.rm = T),
-#             bonus=sum(bonus, na.rm = T),
-#             minutes=sum(minutes, na.rm = T),
-#             yellow_cards=sum(yellow_cards, na.rm = T),
-#             red_cards=sum(red_cards, na.rm = T),
-#             goals_conceded=sum(goals_conceded, na.rm = T),
-#             saves=sum(saves, na.rm = T),
-#             penalties_saved=sum(penalties_saved, na.rm = T),
-#             xG=sum(xG, na.rm = T),
-#             xA=sum(xA, na.rm = T))
-# 
-# write.xlsx(temp, 'results_2324.xlsx')
-
-#-----------------------------------------------------------------------------#
 ## Call the FPL API for current matches
 url <- 'https://fantasy.premierleague.com/api/bootstrap-static/'
 json <- GET(url)
@@ -460,7 +321,7 @@ if(!file.exists(paste0(dir, '/fixtures.csv'))){
 write.csv(df2, paste0(dir, '/players_raw.csv'), row.names = F)
 
 df3 <- df2 %>%
-  mutate(clean_sheets = ifelse(goals_conceded==0) & minutes >= 60, 1, 0) %>%
+  mutate(clean_sheets = ifelse(goals_conceded==0 & minutes >= 60, 1, 0)) %>%
   group_by(name, web_name, position) %>%
   summarize(goals = sum(goals, na.rm = T),
             xG = sum(xG, na.rm = T),
@@ -487,7 +348,7 @@ df3 <- df2 %>% filter(finished=='TRUE')
 if(dim(df3)[1] > 0){
   for(i in unique(df3$GW)){
     temp <- df3 %>% filter(GW==i)
-    write.csv(paste0(dir, 'gws/gw', i, '.csv'))
+    write.csv(temp, paste0(dir, '/gws/gw', i, '.csv'))
   }
 }
 

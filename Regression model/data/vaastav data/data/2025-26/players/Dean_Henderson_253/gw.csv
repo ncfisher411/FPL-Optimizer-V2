@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Dean Henderson","Henderson","Crystal Palace","GKP",1,"2025-08-17",3.2,0,0,0,0,253,0,0,"a",0,90,0,0,0,2,0,0,0,2025,"Chelsea",4,3,0,0,6,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",2,"2025-08-24",0.3,0,0,0,0,253,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Forest",3,3,0,0,2,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",3,"2025-08-31",3.1,0,0,0,0,253,3,0,"a",0,90,0,0,0,4,0,3,0,2025,"Aston Villa",3,3,0,0,7,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",4,"2025-09-13",0.4,0,0,0,0,253,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0,0,6,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",5,"2025-09-20",2,0,0,0,0,253,2,1,"a",0,90,1,0,1,2,0,2,1,2025,"West Ham",3,3,0,0.03,1,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",6,"2025-09-27",2.1,0,0,0,0,253,1,2,"h",0,90,0,0,1,3,0,2,1,2025,"Liverpool",4,3,0,0,3,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",7,"2025-10-05",4.2,0,0,0,0,253,1,2,"a",0,90,0,0,2,5,0,1,2,2025,"Everton",3,3,0,0,2,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",8,"2025-10-18",1.5,0,0,0,0,253,3,3,"h",0,90,0,0,3,2,0,3,3,2025,"Bournemouth",3,3,0,0.02,1,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",9,"2025-10-26",1.7,0,0,0,0,253,0,1,"a",0,90,0,0,1,2,0,0,1,2025,"Arsenal",5,3,0,0.01,2,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",10,"2025-11-01",1.3,0,0,0,0,253,0,2,"h",0,90,0,0,0,2,0,2,0,2025,"Brentford",3,3,0,0,6,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",11,"2025-11-09",2.4,0,0,0,0,253,0,0,"h",2,90,0,0,0,3,0,0,0,2025,"Brighton",3,3,0,0,9,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",12,"2025-11-22",0.7,0,0,0,0,253,2,0,"a",0,90,0,0,0,1,0,2,0,2025,"Wolves",2,3,0,0,6,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",13,"2025-11-30",3,0,0,0,0,253,2,1,"h",0,90,0,0,2,4,0,1,2,2025,"Man Utd",4,3,0,0,2,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",14,"2025-12-03",2.5,0,0,0,0,253,1,0,"a",0,90,0,0,0,3,0,1,0,2025,"Burnley",2,3,0,0,7,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",15,"2025-12-07",2.2,0,0,0,0,253,2,1,"a",0,90,0,0,1,3,0,2,1,2025,"Fulham",3,3,0,0.01,3,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",16,"2025-12-14",1.6,0,0,0,0,253,3,0,"h",0,90,1,0,3,3,0,0,3,2025,"Man City",4,3,0,0,1,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",17,"2025-12-20",2.1,0,0,0,0,253,1,4,"a",0,90,0,0,4,2,0,1,4,2025,"Leeds",3,3,0,0.01,0,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",18,"2025-12-28",2.2,0,0,0,0,253,1,0,"h",0,90,0,0,1,3,0,0,1,2025,"Tottenham",3,3,0,0,3,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",19,"2026-01-01",3.1,0,0,0,0,253,1,1,"h",0,90,0,0,1,4,0,1,1,2025,"Fulham",3,3,0,0,3,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",20,"2026-01-04",4.1,0,0,0,0,253,0,2,"a",0,90,0,0,2,5,0,0,2,2025,"Newcastle",3,3,0,0,2,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",21,"2026-01-07",2.6,0,0,0,0,253,0,0,"h",0,90,0,0,0,4,0,0,0,2025,"Aston Villa",3,3,0,0,7,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",22,"2026-01-17",4.5,0,0,0,0,253,1,2,"a",0,90,0,0,2,5,0,1,2,2025,"Sunderland",3,3,0,0,2,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",23,"2026-01-25",1.6,0,0,0,0,253,3,1,"h",0,90,0,0,3,2,0,1,3,2025,"Chelsea",4,3,0,0,1,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",24,"2026-02-01",0.4,0,0,0,0,253,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Forest",3,3,0,0,2,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",25,"2026-02-08",1.6,0,0,0,0,253,1,0,"a",2,90,0,0,0,2,0,1,0,2025,"Brighton",3,3,0,0.01,8,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",26,"2026-02-11",1.1,0,0,0,0,253,3,2,"h",0,90,0,0,3,1,0,2,3,2025,"Burnley",2,3,0,0.01,1,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",27,"2026-02-22",7,0,0,0,0,253,0,1,"h",3,90,0,0,0,7,1,1,0,2025,"Wolves",2,3,0,0,16,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",28,"2026-03-01",4.9,0,0,0,0,253,1,2,"a",0,90,1,0,2,9,0,1,2,2025,"Man Utd",4,3,0,0,3,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",29,"2026-03-05",2.7,0,0,0,0,253,3,1,"a",0,90,0,0,1,3,0,3,1,2025,"Tottenham",3,3,0,0,3,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",30,"2026-03-15",0,0,0,0,0,253,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,50,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",32,"2026-04-12",1.5,0,0,0,0,253,1,2,"h",0,90,0,0,1,2,0,2,1,2025,"Newcastle",3,3,0,0,2,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",33,"2026-04-20",2.7,0,0,0,0,253,0,0,"h",0,90,0,0,0,3,0,0,0,2025,"West Ham",3,3,0,0,7,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",34,"2026-04-25",0.3,0,0,0,0,253,1,3,"a",0,90,1,0,3,0,0,1,3,2025,"Liverpool",4,3,0,0,0,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",35,"2026-05-03",1.3,0,0,0,0,253,0,3,"a",0,90,0,0,3,3,0,0,3,2025,"Bournemouth",3,3,0,0.01,2,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",36,"2026-05-13",0.7,0,0,0,0,253,0,3,"a",0,90,0,0,3,1,0,0,3,2025,"Man City",4,3,0,0,1,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",36,"2026-05-10",3.5,0,0,0,0,253,2,2,"h",0,90,0,0,2,5,0,2,2,2025,"Everton",3,3,0,0,2,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",37,"2026-05-17",0.9,0,0,0,0,253,2,2,"a",0,90,1,0,2,1,0,2,2,2025,"Brentford",3,3,0,0,0,51,TRUE
+"Dean Henderson","Henderson","Crystal Palace","GKP",38,"2026-05-24",3.7,0,0,0,0,253,2,1,"h",0,90,0,0,2,5,0,1,2,2025,"Arsenal",5,3,0,0,2,51,TRUE

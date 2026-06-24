@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Anton Stach","Stach","Leeds","MID",1,"2025-08-18",11.4,0,0,1,0,660,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Everton",3,3,0.27,0.29,8,50,TRUE
+"Anton Stach","Stach","Leeds","MID",2,"2025-08-23",3.8,0,0,0,0,660,0,5,"a",0,90,0,0,5,0,0,0,5,2025,"Arsenal",5,3,0,0.07,2,50,TRUE
+"Anton Stach","Stach","Leeds","MID",3,"2025-08-30",5.9,0,0,0,0,660,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Newcastle",3,3,0.18,0.02,3,50,TRUE
+"Anton Stach","Stach","Leeds","MID",4,"2025-09-13",3.3,0,0,0,0,660,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Fulham",3,3,0.08,0.11,1,50,TRUE
+"Anton Stach","Stach","Leeds","MID",5,"2025-09-20",9.4,1,0,1,0,660,3,1,"a",3,90,0,0,1,0,0,3,1,2025,"Wolves",2,3,0.08,0.06,15,50,TRUE
+"Anton Stach","Stach","Leeds","MID",6,"2025-09-27",2.3,0,0,0,0,660,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Bournemouth",3,3,0,0.01,2,50,TRUE
+"Anton Stach","Stach","Leeds","MID",7,"2025-10-04",3.3,0,0,0,0,660,2,1,"h",0,66,0,0,2,0,0,1,2,2025,"Tottenham",3,3,0.04,0.03,2,50,TRUE
+"Anton Stach","Stach","Leeds","MID",8,"2025-10-18",1.9,0,0,0,0,660,0,2,"a",0,72,0,0,2,0,0,0,2,2025,"Burnley",2,3,0.15,0.04,2,50,TRUE
+"Anton Stach","Stach","Leeds","MID",9,"2025-10-24",0,0,0,0,0,660,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"West Ham",3,3,0,0,0,51,TRUE
+"Anton Stach","Stach","Leeds","MID",10,"2025-11-01",3.2,0,0,0,0,660,0,3,"a",0,30,0,0,2,0,0,0,3,2025,"Brighton",3,3,0.09,0.01,1,50,TRUE
+"Anton Stach","Stach","Leeds","MID",11,"2025-11-09",5.1,0,0,0,0,660,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Forest",3,3,0,0.11,4,49,TRUE
+"Anton Stach","Stach","Leeds","MID",12,"2025-11-23",1,0,0,1,0,660,2,1,"h",0,22,0,0,0,0,0,1,2,2025,"Aston Villa",3,3,0.21,0,4,49,TRUE
+"Anton Stach","Stach","Leeds","MID",13,"2025-11-29",0,0,0,0,0,660,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man City",4,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",14,"2025-12-03",10.2,0,0,1,0,660,1,3,"h",0,90,1,0,1,0,0,3,1,2025,"Chelsea",4,3,0.11,0.21,6,48,TRUE
+"Anton Stach","Stach","Leeds","MID",15,"2025-12-06",10.9,1,0,1,0,660,3,3,"h",2,90,0,0,3,0,0,3,3,2025,"Liverpool",4,3,0.11,0.18,12,48,TRUE
+"Anton Stach","Stach","Leeds","MID",16,"2025-12-14",5.1,0,0,0,0,660,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Brentford",3,3,0.24,0.09,2,48,TRUE
+"Anton Stach","Stach","Leeds","MID",17,"2025-12-20",14,1,0,0,0,660,1,4,"h",1,90,0,0,1,0,0,4,1,2025,"Crystal Palace",3,3,0.11,0.56,8,48,TRUE
+"Anton Stach","Stach","Leeds","MID",18,"2025-12-28",10.5,0,0,0,0,660,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Sunderland",3,3,0.14,0.52,4,48,TRUE
+"Anton Stach","Stach","Leeds","MID",19,"2026-01-01",4.2,0,0,0,0,660,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Liverpool",4,3,0.16,0.04,5,49,TRUE
+"Anton Stach","Stach","Leeds","MID",20,"2026-01-04",7.2,0,0,0,0,660,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Man Utd",4,3,0.02,0.19,4,49,TRUE
+"Anton Stach","Stach","Leeds","MID",21,"2026-01-07",8.4,0,0,0,0,660,3,4,"a",0,79,0,0,2,0,0,3,4,2025,"Newcastle",3,3,0.1,0.31,2,49,TRUE
+"Anton Stach","Stach","Leeds","MID",22,"2026-01-17",0,0,0,0,0,660,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Fulham",3,3,0,0,0,49,TRUE
+"Anton Stach","Stach","Leeds","MID",23,"2026-01-26",9,0,0,1,0,660,1,1,"a",2,84,1,0,1,0,0,1,1,2025,"Everton",3,3,0.04,0.37,8,49,TRUE
+"Anton Stach","Stach","Leeds","MID",24,"2026-01-31",3.9,0,0,0,0,660,4,0,"h",0,80,0,0,3,0,0,0,4,2025,"Arsenal",5,3,0,0.07,2,48,TRUE
+"Anton Stach","Stach","Leeds","MID",25,"2026-02-06",0,0,0,0,0,660,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Forest",3,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",26,"2026-02-10",0,0,0,0,0,660,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",27,"2026-02-21",9.2,1,0,0,0,660,1,1,"a",3,82,0,0,0,0,0,1,1,2025,"Aston Villa",3,3,0.07,0.34,11,47,TRUE
+"Anton Stach","Stach","Leeds","MID",28,"2026-02-28",7.7,0,0,0,0,660,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man City",4,3,0.02,0.16,2,47,TRUE
+"Anton Stach","Stach","Leeds","MID",29,"2026-03-03",7.3,0,0,0,0,660,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Sunderland",3,3,0.16,0.2,4,47,TRUE
+"Anton Stach","Stach","Leeds","MID",30,"2026-03-15",7.1,0,0,0,0,660,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.02,0.19,5,47,TRUE
+"Anton Stach","Stach","Leeds","MID",31,"2026-03-21",7,0,0,0,0,660,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Brentford",3,3,0.1,0.11,3,47,TRUE
+"Anton Stach","Stach","Leeds","MID",32,"2026-04-13",0,0,0,0,0,660,2,1,"a",0,0,0,0,0,0,0,2,1,2025,"Man Utd",4,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",33,"2026-04-18",0,0,0,0,0,660,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",33,"2026-04-22",0,0,0,0,0,660,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Bournemouth",3,3,0,0,0,48,TRUE
+"Anton Stach","Stach","Leeds","MID",35,"2026-05-01",10.5,1,0,0,0,660,1,3,"h",3,71,0,0,1,0,0,3,1,2025,"Burnley",2,3,0.28,0.07,10,48,TRUE
+"Anton Stach","Stach","Leeds","MID",36,"2026-05-11",3,0,0,0,0,660,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Tottenham",3,3,0.04,0.04,2,48,TRUE
+"Anton Stach","Stach","Leeds","MID",37,"2026-05-17",3,0,0,0,0,660,0,1,"h",0,73,0,0,0,0,0,1,0,2025,"Brighton",3,3,0.06,0.07,3,48,TRUE
+"Anton Stach","Stach","Leeds","MID",38,"2026-05-24",0,0,0,0,0,660,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"West Ham",3,3,0,0,0,48,TRUE

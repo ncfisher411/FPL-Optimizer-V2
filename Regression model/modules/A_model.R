@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Assist model for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: June 19 2026
 #---------------------------------------#
 
 ## Now test the models: Linear, logit, random forest
@@ -21,6 +21,10 @@ if(assists_model=='linear'){
            Assists_validation=assists-Predicted_assists) %>%
     select(-assists)
   
+  ## Save summary of model output
+  table = linear_assist %>% tidy()
+  write.table(table, 'Model performance summaries/assists.txt', sep = '\t', row.names = F)
+  
 } else if(assists_model=='logit'){
   logit_assist <- glm(assists ~ xA + ict_index + xG + played60 + played + h_a + position + strength + difficulty, data = est_data)
   
@@ -34,6 +38,10 @@ if(assists_model=='linear'){
            Assists_validation=assists-Predicted_assists) %>%
     select(-assists)
   
+  ## Save summary of model output
+  table = logit_assist %>% tidy()
+  write.table(table, 'Model performance summaries/assists.txt', sep = '\t', row.names = F)
+  
 } else if(assists_model=='random forest'){
   rf_assist <- randomForest(assists ~ xA + ict_index + xG + played60 + played + h_a + position + strength + difficulty, data = est_data)
   
@@ -46,7 +54,6 @@ if(assists_model=='linear'){
     mutate(Predicted_assists = ifelse(Predicted_assists < 0, 0, Predicted_assists),
            Assists_validation=assists-Predicted_assists) %>%
     select(-assists)
-  
 }
 gc()
 

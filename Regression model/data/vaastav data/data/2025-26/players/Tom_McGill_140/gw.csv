@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Tom McGill","McGill","Brighton","GKP",1,"2025-08-16",0,0,0,0,0,140,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Fulham",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",2,"2025-08-24",0,0,0,0,0,140,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Everton",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",3,"2025-08-31",0,0,0,0,0,140,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Man City",4,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",4,"2025-09-13",0,0,0,0,0,140,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Bournemouth",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",5,"2025-09-20",0,0,0,0,0,140,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",6,"2025-09-27",0,0,0,0,0,140,3,1,"a",0,0,0,0,0,0,0,3,1,2025,"Chelsea",4,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",7,"2025-10-05",0,0,0,0,0,140,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Wolves",2,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",8,"2025-10-18",0,0,0,0,0,140,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Newcastle",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",9,"2025-10-25",0,0,0,0,0,140,2,4,"a",0,0,0,0,0,0,0,2,4,2025,"Man Utd",4,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",10,"2025-11-01",0,0,0,0,0,140,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Leeds",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",11,"2025-11-09",0,0,0,0,0,140,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",12,"2025-11-22",0,0,0,0,0,140,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Brentford",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",13,"2025-11-30",0,0,0,0,0,140,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Forest",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",14,"2025-12-03",0,0,0,0,0,140,4,3,"h",0,0,0,0,0,0,0,3,4,2025,"Aston Villa",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",15,"2025-12-07",0,0,0,0,0,140,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"West Ham",3,3,0,0,0,40,TRUE
+"Tom McGill","McGill","Brighton","GKP",16,"2025-12-13",0,0,0,0,0,140,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",17,"2025-12-20",0,0,0,0,0,140,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Sunderland",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",18,"2025-12-27",0,0,0,0,0,140,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",19,"2025-12-30",0,0,0,0,0,140,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"West Ham",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",20,"2026-01-03",0,0,0,0,0,140,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",21,"2026-01-07",0,0,0,0,0,140,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Man City",4,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",22,"2026-01-19",0,0,0,0,0,140,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Bournemouth",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",23,"2026-01-24",0,0,0,0,0,140,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Fulham",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",24,"2026-01-31",0,0,0,0,0,140,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Everton",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",25,"2026-02-08",0,0,0,0,0,140,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Crystal Palace",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",26,"2026-02-11",0,0,0,0,0,140,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Aston Villa",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",27,"2026-02-21",0,0,0,0,0,140,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Brentford",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",28,"2026-03-01",0,0,0,0,0,140,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Forest",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",29,"2026-03-04",0,0,0,0,0,140,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",30,"2026-03-14",0,0,0,0,0,140,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",31,"2026-03-21",0,0,0,0,0,140,1,2,"h",0,0,0,0,0,0,0,2,1,2025,"Liverpool",4,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",32,"2026-04-11",0,0,0,0,0,140,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Burnley",2,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",33,"2026-04-18",0,0,0,0,0,140,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Tottenham",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",33,"2026-04-21",0,0,0,0,0,140,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Chelsea",4,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",35,"2026-05-02",0,0,0,0,0,140,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Newcastle",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",36,"2026-05-09",0,0,0,0,0,140,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Wolves",2,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",37,"2026-05-17",0,0,0,0,0,140,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Leeds",3,3,0,0,0,39,TRUE
+"Tom McGill","McGill","Brighton","GKP",38,"2026-05-24",0,0,0,0,0,140,3,0,"h",0,0,0,0,0,0,0,0,3,2025,"Man Utd",4,3,0,0,0,39,TRUE

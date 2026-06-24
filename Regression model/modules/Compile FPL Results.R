@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Data compiler for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: July 23 2025
+# Last updated: June 19 2026
 #---------------------------------------#
 
 ## Paste timestamp for model beginning
@@ -304,9 +304,13 @@ if(nrow(temp) > 0) {
   suppressMessages(
     suppressWarnings(
       results2 <- results %>%
-        left_join(val_data,
-                  by=c('Player'='name', 'Position'='position', 'Team'='team', 'Gameweek'='GW',
-                       'Opponent'='opponent')) %>%
+        left_join(val_data %>% 
+                    select(name, web_name, GW, total_points,
+                           goals, assists, xG, xA, minutes, goals_conceded, own_goals,
+                           penalties_saved, penalties_missed, saves, yellow_cards,
+                           red_cards, bonus) %>%
+                    mutate(name = stri_trans_general(name, 'Latin-ASCII')),
+                  by=c('Player'='name', 'Gameweek'='GW')) %>%
         mutate(
           `Points validation`=`Expected points`-total_points,
           `Goals validation`=Goals-goals,
@@ -400,7 +404,7 @@ suppressMessages(
       left_join(
         val_data %>% select(
           name, position, GW, total_points
-        ),
+        ) %>% mutate(name = stri_trans_general(name, 'Latin-ASCII')),
           by=c('Full name'='name', 'Position'='position', 'Gameweek'='GW')
       ) %>% select(
         Player, `Full name`, Gameweek, `Expected points`, total_points
@@ -411,7 +415,7 @@ suppressMessages(
       )
   )
 )
-  
+
 }, error = function(err){
   error_occured <<- TRUE
   cat('Error in final results: ', conditionMessage(err), '\n')

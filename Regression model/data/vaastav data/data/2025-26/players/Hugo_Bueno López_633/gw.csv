@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Hugo Bueno López","H.Bueno","Wolves","DEF",1,"2025-08-16",2.2,0,0,0,0,633,4,0,"h",0,18,0,0,1,0,0,0,4,2025,"Man City",4,2,0,0.01,1,45,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",2,"2025-08-23",2.9,0,0,0,0,633,0,1,"a",0,45,1,0,0,0,0,0,1,2025,"Bournemouth",3,2,0.06,0.1,0,45,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",3,"2025-08-30",5.7,0,0,0,0,633,3,2,"h",0,74,0,0,3,0,0,2,3,2025,"Everton",3,2,0,0.04,1,45,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",4,"2025-09-13",6.7,0,0,0,0,633,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Newcastle",3,2,0,0.11,4,45,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",5,"2025-09-20",7.3,0,0,0,0,633,3,1,"h",0,45,0,0,0,0,0,1,3,2025,"Leeds",3,2,0,0.27,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",6,"2025-09-27",4.9,0,0,0,0,633,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Tottenham",3,2,0.08,0.01,2,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",7,"2025-10-05",4.2,0,0,0,0,633,1,1,"h",2,76,0,0,0,0,0,1,1,2025,"Brighton",3,2,0,0.2,8,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",8,"2025-10-18",6.3,0,0,0,0,633,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Sunderland",3,2,0,0.3,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",9,"2025-10-26",6.1,0,0,0,0,633,3,2,"h",0,84,0,0,2,0,0,2,3,2025,"Burnley",2,2,0.06,0.1,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",10,"2025-11-01",1.6,0,0,0,0,633,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Fulham",3,2,0,0.01,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",11,"2025-11-08",3.4,0,0,0,0,633,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Chelsea",4,2,0,0.02,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",12,"2025-11-22",0.3,0,0,0,0,633,2,0,"h",0,2,0,0,0,0,0,0,2,2025,"Crystal Palace",3,2,0,0,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",13,"2025-11-30",0.3,0,0,0,0,633,0,1,"a",0,13,0,0,0,0,0,0,1,2025,"Aston Villa",3,2,0,0,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",14,"2025-12-03",0,0,0,0,0,633,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Forest",3,2,0,0,0,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",15,"2025-12-08",0.5,0,0,0,0,633,4,1,"h",0,20,0,0,1,0,0,1,4,2025,"Man Utd",4,2,0,0,1,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",16,"2025-12-13",0,0,0,0,0,633,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,2,0,0,0,44,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",17,"2025-12-20",0,0,0,0,0,633,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Brentford",3,2,0,0,0,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",18,"2025-12-27",1.4,0,0,0,0,633,1,2,"a",0,61,0,0,2,0,0,1,2,2025,"Liverpool",4,2,0,0.01,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",19,"2025-12-30",3.5,0,0,1,0,633,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Man Utd",4,2,0.08,0.02,5,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",20,"2026-01-03",8.7,0,0,1,0,633,0,3,"h",2,90,0,0,0,0,0,3,0,2025,"West Ham",3,2,0.04,0.1,11,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",21,"2026-01-07",8.7,0,0,0,0,633,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Everton",3,2,0.05,0.27,2,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",22,"2026-01-18",1.6,0,0,0,0,633,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Newcastle",3,2,0.05,0.01,6,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",23,"2026-01-24",3.4,0,0,0,0,633,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Man City",4,2,0,0.13,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",24,"2026-01-31",4,0,0,0,0,633,2,0,"h",0,88,0,0,1,0,0,0,2,2025,"Bournemouth",3,2,0,0.24,2,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",25,"2026-02-07",5.6,0,0,0,0,633,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Chelsea",4,2,0.04,0.21,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",26,"2026-02-11",1.6,0,0,0,0,633,0,0,"a",0,59,0,0,0,0,0,0,0,2025,"Forest",3,2,0,0.04,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",26,"2026-02-18",6.7,1,0,0,0,633,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Arsenal",5,2,0.04,0.03,7,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",27,"2026-02-22",10,0,0,0,0,633,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Crystal Palace",3,2,0,0.42,4,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",28,"2026-02-27",1.6,0,0,0,0,633,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Aston Villa",3,2,0,0.01,6,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",29,"2026-03-03",0.7,0,0,0,0,633,1,2,"h",0,11,0,0,1,0,0,2,1,2025,"Liverpool",4,2,0,0.01,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",30,"2026-03-16",6.3,0,0,0,0,633,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Brentford",3,2,0,0.2,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",32,"2026-04-10",4.8,0,0,0,0,633,0,4,"a",0,90,0,0,4,0,0,0,4,2025,"West Ham",3,2,0.05,0.02,0,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",33,"2026-04-18",3.8,0,0,0,0,633,0,3,"a",0,90,1,0,3,0,0,0,3,2025,"Leeds",3,2,0,0.11,0,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",34,"2026-04-25",4.4,0,0,0,0,633,1,0,"h",0,90,1,0,1,0,0,0,1,2025,"Tottenham",3,2,0.14,0.11,3,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",35,"2026-05-02",8.3,0,0,1,0,633,1,1,"h",0,77,0,0,1,0,0,1,1,2025,"Sunderland",3,2,0.09,0.35,5,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",36,"2026-05-09",0.5,0,0,0,0,633,0,3,"a",0,45,0,0,2,0,0,0,3,2025,"Brighton",3,2,0,0,0,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",37,"2026-05-17",1.8,0,0,0,0,633,1,1,"h",0,5,0,0,0,0,0,1,1,2025,"Fulham",3,2,0,0.03,1,43,TRUE
+"Hugo Bueno López","H.Bueno","Wolves","DEF",38,"2026-05-24",0.6,0,0,0,0,633,1,1,"a",0,16,0,0,0,0,0,1,1,2025,"Burnley",2,2,0.08,0,1,43,TRUE

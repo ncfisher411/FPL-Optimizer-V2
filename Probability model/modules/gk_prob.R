@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Goalkeeping for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 30 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 
 ### Probability of saving shots by player, team, based on how many shots faced
@@ -9,7 +9,8 @@
 #### 1) estimate a basic model - how does the difference between xG against and
 #### actual goals against translate to goal saves?
 df <- combined_data %>% filter(position=='GK' & minutes > 0) %>%
-  mutate(xGA_per_90 = expected_goals_conceded/(minutes/90),
+  mutate(expected_goals_conceded = as.numeric(expected_goals_conceded),
+         xGA_per_90 = expected_goals_conceded/(minutes/90),
          ga_per_90 = goals_conceded/(minutes/90),
          xG_conceded_difference_per_90 = xGA_per_90 - ga_per_90)
 
@@ -65,7 +66,7 @@ if(status=='FALSE'){
               g_per_90_opponent = mean(goals_scored/(minutes/90), na.rm = T)) %>%
     ungroup() %>%
     mutate(xG_difference_per_90_opponent = xG_per_90_opponent - g_per_90_opponent) %>%
-    rename(opponent_team = team) %>%
+    rename(opponent_name = team) %>%
     mutate(across(where(is.numeric), ~ifelse(is.nan(.), 0, .)))
   
   df2 <- current_players %>%
@@ -73,8 +74,8 @@ if(status=='FALSE'){
     filter(position=='GK') %>%
     rename(team = team_name) %>%
     left_join(fixtures) %>%
-    rename(opponent_team = opponent) %>%
-    select(name, position, team, opponent_team) %>%
+    rename(opponent_name = opponent) %>%
+    select(name, position, team, opponent_name) %>%
     left_join(xg_against_player) %>%
     left_join(xg_against_team) %>%
     left_join(xg_opponent) %>%
@@ -94,7 +95,7 @@ if(status=='FALSE'){
   
   #### Get for team
   temp <- df2 %>% filter(team %in% teams) %>%
-    group_by(opponent_team, position) %>% 
+    group_by(opponent_name, position) %>% 
     summarize(across(contains('xG'), ~mean(., na.rm = T)),
               across(contains('ga'), ~mean(., na.rm = T)),
               across(contains('Prob'), ~mean(., na.rm = T)),
@@ -112,14 +113,14 @@ if(status=='FALSE'){
   
   df2 <- df2 %>% filter(team!='Sunderland') %>%
     rbind(temp) %>%
-    filter(team!=opponent_team)
+    filter(team!=opponent_name)
   
 } else if(status=='TRUE'){
   
   xg_against_team <- combined_data %>%
     filter(position=='GK') %>%
     group_by(team) %>%
-    summarize(xGA_per_90_team = mean(expected_goals_conceded/(minutes/90), na.rm = T),
+    summarize(xGA_per_90_team = mean(as.numeric(expected_goals_conceded)/(minutes/90), na.rm = T),
               ga_per_90_team = mean(goals_conceded/(minutes/90), na.rm = T)) %>%
     ungroup() %>%
     mutate(xG_conceded_difference_team = xGA_per_90_team - ga_per_90_team) %>%
@@ -128,7 +129,7 @@ if(status=='FALSE'){
   xg_against_player <- combined_data %>%
     filter(position=='GK') %>%
     group_by(name) %>%
-    summarize(xGA_per_90_player = mean(expected_goals_conceded/(minutes/90), na.rm = T),
+    summarize(xGA_per_90_player = mean(as.numeric(expected_goals_conceded)/(minutes/90), na.rm = T),
               ga_per_90_player = mean(goals_conceded/(minutes/90), na.rm = T)) %>%
     ungroup() %>%
     mutate(xG_conceded_difference_player = xGA_per_90_player - ga_per_90_player) %>%
@@ -137,11 +138,11 @@ if(status=='FALSE'){
   xg_opponent <- combined_data %>%
     filter(position!='GK' & minutes > 0) %>%
     group_by(team) %>%
-    summarize(xG_per_90_opponent = mean(expected_goals/(minutes/90), na.rm = T),
+    summarize(xG_per_90_opponent = mean(as.numeric(expected_goals)/(minutes/90), na.rm = T),
               g_per_90_opponent = mean(goals_scored/(minutes/90), na.rm = T)) %>%
     ungroup() %>%
     mutate(xG_difference_per_90_opponent = xG_per_90_opponent - g_per_90_opponent) %>%
-    rename(opponent_team = team) %>%
+    rename(opponent_name = team) %>%
     mutate(across(where(is.numeric), ~ifelse(is.nan(.), 0, .)))
   
   df2 <- current_players %>%
@@ -149,8 +150,8 @@ if(status=='FALSE'){
     filter(position=='GK') %>%
     rename(team = team_name) %>%
     left_join(fixtures) %>%
-    rename(opponent_team = opponent) %>%
-    select(name, position, team, opponent_team) %>%
+    rename(opponent_name = opponent) %>%
+    select(name, position, team, opponent_name) %>%
     left_join(xg_against_player) %>%
     left_join(xg_against_team) %>%
     left_join(xg_opponent) %>%
@@ -174,7 +175,7 @@ saves_probs <- df2 %>%
           rename(saves=1)) %>%
   mutate(saves = ifelse(saves < 0, 0, saves),
          saves = saves * Prob_played) %>%
-  group_by(name, team, opponent_team) %>%
+  group_by(name, team, opponent_name) %>%
   summarize(saves = mean(saves, na.rm = T)) %>%
   ungroup()
 
@@ -207,12 +208,10 @@ df2 <- understat_data %>%
 
 #### 5) combined with player probability for saves
 ##### Want to do intersectional probability - given that a penalty is awarded, what is the probability of the player saving it
-if(status=='FALSE'){
-  
   df3 <- combined_data %>%
     filter(position=='GK') %>%
     filter(season != max(season)) %>%
-    select(name, position, team, opponent_team, round, kickoff_time, season, was_home, penalties_saved) %>%
+    select(name, position, team, opponent_name, round, kickoff_time, season, was_home, penalties_saved) %>%
     mutate(date =as.character(substr(kickoff_time, 0, 10))) %>%
     left_join(df2) %>%
     left_join(temp <- df2 %>%
@@ -239,7 +238,7 @@ if(status=='FALSE'){
     filter(position=='GK') %>%
     filter(season != max(season)) %>%
     filter(team %in% teams) %>%
-    select(name, position, team, opponent_team, round, kickoff_time, season, was_home, penalties_saved) %>%
+    select(name, position, team, opponent_name, round, kickoff_time, season, was_home, penalties_saved) %>%
     mutate(date =as.character(substr(kickoff_time, 0, 10))) %>%
     left_join(df2) %>%
     left_join(temp <- df2 %>%
@@ -277,8 +276,6 @@ if(status=='FALSE'){
   saves_probs <- saves_probs %>%
     left_join(df3 %>% select(name, pen_save_prob)) %>%
     mutate(pen_save_prob = ifelse(is.na(pen_save_prob), 0, pen_save_prob))
-  
-}
 
 objects <- ls()
 keep <- objects[grep('combined_data|test|fixture|team|current_players|probs|understat|weight', objects)]

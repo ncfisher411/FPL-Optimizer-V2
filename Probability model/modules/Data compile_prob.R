@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Data compile script for FPL Probability Model
 # Written by: ncfisher
-# Last updated: July 10 2025
+# Last updated: June 23 2026
 #---------------------------------------#
 
 ## Start by compiling data sources - need the following measures conditional on being home/away:
@@ -67,11 +67,12 @@
 # write.csv(combined_data, 'data/Combined_data.csv', row.names = F)
 
 combined_data <- read.csv('data/Combined_data.csv') %>%
-  select(-fixture) %>%
+  # select(-fixture) %>%
   filter(position!='AM') %>%
   mutate(name = stri_trans_general(name, 'LATIN-ASCII'),
          name = ifelse(grepl('Becker', name), 'Alisson Becker', name),
-         name = ifelse(grepl('Antony', name), 'Antony dos Santos', name))
+         name = ifelse(grepl('Antony', name), 'Antony dos Santos', name),
+         defensive_contribution = 0)
 
 ## Step 2) Compile the current season data
 
@@ -156,8 +157,8 @@ if(test==FALSE){
                position=d$position[[1]],
                id=d$element[[1]]) %>%
         select(name, position, team, season, bonus, bps, clean_sheets, creativity, element, expected_assists,
-               expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded,
-               goals_scored, assists, ict_index, influence, kickoff_time, minutes, opponent_team, own_goals,
+               expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded, defensive_contribution,
+               goals_scored, assists, ict_index, influence, kickoff_time, minutes, opponent_name, own_goals,
                penalties_missed, penalties_saved, red_cards, round, saves, selected, starts, team_a_score,
                team_h_score, threat, total_points, transfers_balance, transfers_in, transfers_out,
                value, was_home, yellow_cards)
@@ -173,27 +174,42 @@ if(test==FALSE){
                creativity = NA, element = NA, influence = NA, minutes = NA, saves = NA, selected = NA,
                starts = NA, threat = NA, transfers_balance = NA, transfers_in = NA, transfers_out = NA) %>%
         rename(round = GW, opponent_team = opponent) %>%
-        mutate(was_home=ifelse(h_a=='h', 'True', 'False'),
+        mutate(was_home=ifelse(h_a=='h', 'TRUE', 'FALSE'),
                name = stri_trans_general(name, 'LATIN-ASCII')) %>%
         select(name, position, team, season, bonus, bps, clean_sheets, creativity, element, expected_assists,
-               expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded,
+               expected_goal_involvements, expected_goals, expected_goals_conceded, goals_conceded, defensive_contribution,
                goals_scored, assists, ict_index, influence, kickoff_time, minutes, opponent_team, own_goals,
                penalties_missed, penalties_saved, red_cards, round, saves, selected, starts, team_a_score,
                team_h_score, threat, total_points, transfers_balance, transfers_in, transfers_out,
                value, was_home, yellow_cards) %>% 
-        filter(round <= max) %>% filter(!is.na(name))
+        filter(round <= max) %>% filter(!is.na(name)) %>%
+        left_join(teams %>% select(id, name) %>% rename(opponent_name = name),
+                  by = c('opponent_team' = 'id')) %>%
+        select(-opponent_team)
 
     }
     
     df2 <- rbind(df2, d2)
   }
   
-  combined_data <- combined_data %>% 
-    mutate(opponent_team = opponent_name) %>%
-    select(-opponent_name) %>%
-    rbind(df2)
+  if(max(df2$season)==max(combined_data$season)){
+    
+    combined_data <- combined_data %>% 
+      select(-opponent_team) %>%
+      rbind(df2)
+  } else {
+    
+    combined_data <- combined_data %>% 
+      select(-opponent_team) %>%
+      rbind(df2)
+    
+    write.csv(combined_data, 'data/Combined_data.csv')
+    
+  }
   
 }
+
+
 
 url <- 'https://fantasy.premierleague.com/api/bootstrap-static/'
 json <- GET(url)
@@ -218,27 +234,8 @@ current_players <- ls$elements %>%
   mutate(chance_of_playing_this_round = ifelse(is.na(chance_of_playing_this_round) & status=='a', 100, 0),
          name = stri_trans_general(name, 'LATIN-ASCII'))
 
-#### Getting the understat league shots data
-# seasons <- c(min(combined_data$season):max(combined_data$season))
-# understat_data <- data.frame()
-# 
-# for(i in seasons){
-#   data <- understat_league_season_shots(season_start_year = i, league = 'EPL')
-#   understat_data <- rbind(understat_data, data)
-# }
-# 
-# write.csv(understat_data, 'data/understat_data.csv', row.names = F)
-
-understat_data <- read.csv('data/understat_data.csv') 
-data <- understat_league_season_shots(season_start_year = max(understat_data$season) + 1, league = 'EPL')
-
-if(max(combined_data$season) == max(understat_data$season)){
-  i = max(combined_data$season)
-  data <- understat_league_season_shots(season_start_year = i, league = 'EPL')
-  understat_data <- rbind(understat_data, data)
-  write.csv(understat_data, 'data/understat_data.csv', row.names = F)
-  understat_data <- read.csv('data/understat_data.csv')
-}
+### Understat data to use for modeling saves
+understat_data <- read.csv('data/understat_data.csv')
 
 understat_data <- understat_data %>%
   mutate(across(contains('_team'), ~ifelse(grepl('Manchester', .), gsub('Manchester', 'Man', .), .)),

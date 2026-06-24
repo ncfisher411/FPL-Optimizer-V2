@@ -1,7 +1,7 @@
 #---------------------------------------#
 # Bous points model for the FPL Lineup Optimizer
 # Written by: ncfisher
-# Last updated: August 31 2024
+# Last updated: June 19 2026
 #---------------------------------------#
 
 # Add in the model for bonus points here since we have all the data on-hand
@@ -21,6 +21,10 @@ if(bonus_model=='linear'){
            Bonus_validation=bonus-Predicted_bonus) %>%
     select(-bonus)
   
+  ## Save summary of model output
+  table = linear_bonus %>% tidy()
+  write.table(table, 'Model performance summaries/bonus.txt', sep = '\t', row.names = F)
+  
 } else if(bonus_model=='logit'){
   logit_bonus <- glm(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + difficulty + strength + position + h_a, data = est_data)
   
@@ -35,6 +39,10 @@ if(bonus_model=='linear'){
            Bonus_validation=bonus-Predicted_bonus) %>%
     select(-bonus)
   
+  ## Save summary of model output
+  table = logit_bonus %>% tidy()
+  write.table(table, 'Model performance summaries/bonus.txt', sep = '\t', row.names = F)
+  
 } else if(bonus_model=='random forest'){
   rf_bonus <- randomForest(bonus ~ ict_index + xG + xA + clean_sheet + played + played60 + ict_index_opponent + difficulty + strength + position + h_a, data = est_data)
   
@@ -48,7 +56,6 @@ if(bonus_model=='linear'){
            Predicted_bonus=ifelse(Predicted_bonus > 3, 3, Predicted_bonus),
            Bonus_validation=bonus-Predicted_bonus) %>%
     select(-bonus)
-  
 }
 gc()
 

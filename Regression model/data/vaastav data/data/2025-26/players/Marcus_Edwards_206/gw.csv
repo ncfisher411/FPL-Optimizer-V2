@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Marcus Edwards","Edwards","Burnley","MID",1,"2025-08-16",0,0,0,0,0,206,0,3,"a",0,5,0,0,0,0,0,0,3,2025,"Tottenham",3,2,0,0,1,50,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",2,"2025-08-23",0,0,0,0,0,206,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Sunderland",3,2,0,0,0,50,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",3,"2025-08-30",0,0,0,0,0,206,2,3,"a",0,0,0,0,0,0,0,2,3,2025,"Man Utd",4,2,0,0,0,49,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",4,"2025-09-14",0,0,0,0,0,206,1,0,"h",0,0,0,0,0,0,0,0,1,2025,"Liverpool",4,2,0,0,0,49,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",5,"2025-09-20",0,0,0,0,0,206,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Forest",3,2,0,0,0,48,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",6,"2025-09-27",0,0,0,0,0,206,1,5,"a",0,0,0,0,0,0,0,1,5,2025,"Man City",4,2,0,0,0,48,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",7,"2025-10-05",0,0,0,0,0,206,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Aston Villa",3,2,0,0,0,48,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",8,"2025-10-18",0,0,0,0,0,206,0,2,"h",0,0,0,0,0,0,0,2,0,2025,"Leeds",3,2,0,0,0,48,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",9,"2025-10-26",0,0,0,0,0,206,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Wolves",2,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",10,"2025-11-01",0.3,0,0,0,0,206,2,0,"h",0,8,0,0,0,0,0,0,2,2025,"Arsenal",5,2,0.05,0,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",11,"2025-11-08",2.3,0,0,0,0,206,2,3,"a",0,9,0,0,1,0,0,2,3,2025,"West Ham",3,2,0.05,0.01,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",12,"2025-11-22",0,0,0,0,0,206,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Chelsea",4,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",13,"2025-11-29",0,0,0,0,0,206,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Brentford",3,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",14,"2025-12-03",2.4,0,0,0,0,206,1,0,"h",0,32,0,0,0,0,0,0,1,2025,"Crystal Palace",3,2,0.16,0.09,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",15,"2025-12-06",2,0,0,0,0,206,1,2,"a",0,1,0,0,0,0,0,1,2,2025,"Newcastle",3,2,0,0.2,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",16,"2025-12-13",2.2,0,0,0,0,206,3,2,"h",0,28,0,0,0,0,0,2,3,2025,"Fulham",3,2,0.04,0.05,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",17,"2025-12-20",4,0,0,1,0,206,1,1,"a",0,13,0,0,0,0,0,1,1,2025,"Bournemouth",3,2,0,0.29,4,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",18,"2025-12-27",5.9,0,0,0,0,206,0,0,"h",0,87,0,0,0,0,0,0,0,2025,"Everton",3,2,0,0.38,3,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",19,"2025-12-30",8.6,0,0,0,0,206,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Newcastle",3,2,0.28,0.1,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",20,"2026-01-03",2.2,0,0,0,0,206,0,2,"a",0,35,0,0,0,0,0,0,2,2025,"Brighton",3,2,0,0.17,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",21,"2026-01-07",7,0,0,1,0,206,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Man Utd",4,2,0.09,0.03,5,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",22,"2026-01-17",6.4,1,0,0,0,206,1,1,"a",2,89,0,0,1,0,0,1,1,2025,"Liverpool",4,2,0.14,0.02,9,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",23,"2026-01-24",3.9,0,0,0,0,206,2,2,"h",0,84,0,0,1,0,0,2,2,2025,"Tottenham",3,2,0,0.15,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",24,"2026-02-02",0.8,0,0,0,0,206,0,3,"a",0,68,0,0,2,0,0,0,3,2025,"Sunderland",3,2,0,0.01,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",25,"2026-02-07",4.2,0,0,0,0,206,2,0,"h",0,66,0,0,2,0,0,0,2,2025,"West Ham",3,2,0.42,0.04,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",26,"2026-02-11",5.1,0,0,1,0,206,3,2,"a",0,72,0,0,2,0,0,3,2,2025,"Crystal Palace",3,2,0,0.1,5,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",27,"2026-02-21",2.2,0,0,0,0,206,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Chelsea",4,2,0.21,0.01,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",28,"2026-02-28",0,0,0,0,0,206,4,3,"h",0,0,0,0,0,0,0,3,4,2025,"Brentford",3,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",29,"2026-03-03",0,0,0,0,0,206,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Everton",3,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",30,"2026-03-14",1,0,0,0,0,206,0,0,"h",0,24,0,0,0,0,0,0,0,2025,"Bournemouth",3,2,0.02,0,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",31,"2026-03-21",0.2,0,0,0,0,206,1,3,"a",0,12,0,0,1,0,0,1,3,2025,"Fulham",3,2,0,0.01,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",32,"2026-04-11",2.8,0,0,0,0,206,2,0,"h",0,74,0,0,1,0,0,0,2,2025,"Brighton",3,2,0.02,0.02,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",33,"2026-04-19",1.1,0,0,0,0,206,1,4,"a",0,63,0,0,1,0,0,1,4,2025,"Forest",3,2,0,0.02,2,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",33,"2026-04-22",0,0,0,0,0,206,1,0,"h",0,3,0,0,0,0,0,0,1,2025,"Man City",4,2,0,0,1,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",35,"2026-05-01",0,0,0,0,0,206,1,3,"a",0,0,0,0,0,0,0,1,3,2025,"Leeds",3,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",36,"2026-05-10",0,0,0,0,0,206,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Aston Villa",3,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",37,"2026-05-18",0,0,0,0,0,206,0,1,"a",0,0,0,0,0,0,0,0,1,2025,"Arsenal",5,2,0,0,0,47,TRUE
+"Marcus Edwards","Edwards","Burnley","MID",38,"2026-05-24",4.3,0,0,0,0,206,1,1,"h",0,15,0,0,0,0,0,1,1,2025,"Wolves",2,2,0.01,0.14,1,47,TRUE

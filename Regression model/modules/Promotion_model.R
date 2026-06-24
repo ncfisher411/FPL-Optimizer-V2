@@ -4,7 +4,7 @@
 # Last updated: July 23 2025
 #---------------------------------------#
 
-promoted_teams <- c('Sunderland', 'Leeds', 'Burnley')
+promoted_teams <- c('Coventry City', 'Ipswich Town', 'Hull City')
 temp <- predict_data %>% filter(team %in% promoted_teams)
 
 if(is.nan(mean(temp$xG))){
@@ -20,7 +20,8 @@ summary(ict_model2)
 promoted_data <- est_data %>%
   filter(season > 2021) %>%
   filter(season==2023 & team=='Burnley' | season==2023 & team=='Luton' | season==2023 & team=='Sheffield' |
-         season==2024 & team=='Leicester' | season==2024 & team=='Ipswich' | season==2024 & team=='Southampton') %>%
+         season==2024 & team=='Leicester' | season==2024 & team=='Ipswich' | season==2024 & team=='Southampton' |
+          season==2025 & team=='Sunderland' | season==2025 & team=='Burnley' | season==2025 & team=='Leeds United') %>%
   group_by(name, position, season, strength, difficulty) %>%
   summarize(xG = mean(xG, na.rm = T),
             xA = mean(xA, na.rm = T),
@@ -100,7 +101,8 @@ df <- df %>%
 ## 4) Filter to just teams that were promoted and then join to the PL stats to examine changes
 df2 <- df %>% 
   filter(season==2022 & Squad=='Luton Town' | season==2022 & Squad=='Burnley' | season==2022 & Squad=='Sheffield Utd' |
-         season==2023 & Squad=='Ipswich Town' | season==2023 & Squad=='Leicester City' | season==2023 & Squad=='Southampton') %>%
+         season==2023 & Squad=='Ipswich Town' | season==2023 & Squad=='Leicester City' | season==2023 & Squad=='Southampton' |
+           season==2024 & Squad=='Sunderland' | season==2024 & Squad=='Burnley' | season==2024 & Squad=='Leeds United') %>%
   mutate(Squad = ifelse(Squad=='Luton Town', 'Luton', Squad),
          Squad = ifelse(Squad=='Sheffield Utd', 'Sheffield', Squad),
          Squad = ifelse(Squad=='Leicester City', 'Leicester', Squad),
@@ -174,7 +176,7 @@ comp <- df2 %>%
 
 ## 5) Apply the rates to promoted teams
 df4 <- predict_data %>%
-  filter(team=='Sunderland' | team=='Leeds' | team=='Burnley') %>%
+  filter(team=='Sunderland' | team=='Leeds United' | team=='Burnley') %>%
   select(name, web_name, team, position, season, value, GW, opponent, h_a, strength, difficulty, contains('rating')) %>%
   stringdist_inner_join(
     df %>%

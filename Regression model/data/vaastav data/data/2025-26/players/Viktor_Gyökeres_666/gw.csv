@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",1,"2025-08-17",1.2,0,0,0,0,666,1,0,"a",0,59,0,0,0,0,0,1,0,2025,"Man Utd",4,5,0,0.06,1,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",2,"2025-08-23",11.3,2,0,0,0,666,0,5,"h",2,90,0,0,0,0,0,5,0,2025,"Leeds",3,5,1.28,0.03,12,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",3,"2025-08-31",3.7,0,0,0,0,666,0,1,"a",0,90,1,0,1,0,0,0,1,2025,"Liverpool",4,5,0,0.16,1,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",4,"2025-09-13",9,1,0,0,0,666,0,3,"h",0,67,0,0,0,0,0,3,0,2025,"Forest",3,5,0.84,0.02,6,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",5,"2025-09-21",1.4,0,0,0,0,666,1,1,"h",0,90,0,0,1,0,0,1,1,2025,"Man City",4,5,0,0.01,2,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",6,"2025-09-28",8.1,0,0,0,0,666,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Newcastle",3,5,0.26,0.12,2,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",7,"2025-10-04",5.5,0,0,0,0,666,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"West Ham",3,5,0.63,0.05,2,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",8,"2025-10-18",5.2,0,0,0,0,666,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Fulham",3,5,0.4,0.02,2,91,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",9,"2025-10-26",1.5,0,0,0,0,666,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Crystal Palace",3,5,0.17,0.02,2,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",10,"2025-11-01",10.8,1,0,0,0,666,2,0,"a",2,45,0,0,0,0,0,2,0,2025,"Burnley",2,5,0.87,0.17,7,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",11,"2025-11-08",0,0,0,0,0,666,2,2,"a",0,0,0,0,0,0,0,2,2,2025,"Sunderland",3,5,0,0,0,89,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",12,"2025-11-23",0,0,0,0,0,666,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Tottenham",3,5,0,0,0,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",13,"2025-11-30",0.2,0,0,0,0,666,1,1,"a",0,18,1,0,0,0,0,1,1,2025,"Chelsea",4,5,0,0,0,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",14,"2025-12-03",0.1,0,0,0,0,666,0,2,"h",0,7,0,0,0,0,0,2,0,2025,"Brentford",3,5,0,0,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",15,"2025-12-06",0.6,0,0,0,0,666,1,2,"a",0,45,0,0,1,0,0,1,2,2025,"Aston Villa",3,5,0,0.03,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",16,"2025-12-13",1,0,0,0,0,666,1,2,"h",0,80,0,0,0,0,0,2,1,2025,"Wolves",2,5,0.04,0,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",17,"2025-12-20",7.5,1,0,0,0,666,1,0,"a",0,64,1,0,0,0,0,1,0,2025,"Everton",3,5,0.91,0.15,5,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",18,"2025-12-27",4.6,0,0,0,0,666,1,2,"h",0,70,0,0,1,0,0,2,1,2025,"Brighton",3,5,0.6,0.01,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",19,"2025-12-30",1.4,0,0,0,0,666,1,4,"h",0,76,0,0,0,0,0,4,1,2025,"Aston Villa",3,5,0.24,0.01,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",20,"2026-01-03",1.4,0,0,0,0,666,3,2,"a",0,65,0,0,1,0,0,3,2,2025,"Bournemouth",3,5,0.03,0,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",21,"2026-01-08",1.7,0,0,0,0,666,0,0,"h",0,63,0,0,0,0,0,0,0,2025,"Liverpool",4,5,0,0.02,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",22,"2026-01-17",0.7,0,0,0,0,666,0,0,"a",0,56,0,0,0,0,0,0,0,2025,"Forest",3,5,0.1,0.02,1,87,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",23,"2026-01-25",0.2,0,0,0,0,666,3,2,"h",0,32,0,0,1,0,0,2,3,2025,"Man Utd",4,5,0.03,0,1,87,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",24,"2026-01-31",9.3,1,0,0,0,666,4,0,"a",1,75,0,0,0,0,0,4,0,2025,"Leeds",3,5,0.56,0.01,7,87,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",25,"2026-02-07",11.6,2,0,0,0,666,0,3,"h",3,30,0,0,0,0,0,3,0,2025,"Sunderland",3,5,0.92,0,12,87,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",26,"2026-02-12",2.4,0,0,0,0,666,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Brentford",3,5,0,0.41,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",26,"2026-02-18",1.5,0,0,0,0,666,2,2,"a",0,64,0,0,1,0,0,2,2,2025,"Wolves",2,5,0,0.01,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",27,"2026-02-22",12,2,0,0,0,666,4,1,"a",3,90,0,0,1,0,0,4,1,2025,"Tottenham",3,5,0.32,0.36,13,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",28,"2026-03-01",0.6,0,0,0,0,666,1,2,"h",0,75,0,0,1,0,0,2,1,2025,"Chelsea",4,5,0.03,0.05,2,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",29,"2026-03-04",2,0,0,0,0,666,1,0,"a",0,58,0,0,0,0,0,1,0,2025,"Brighton",3,5,0,0.02,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",30,"2026-03-14",7.4,1,0,0,0,666,0,2,"h",2,29,0,0,0,0,0,2,0,2025,"Everton",3,5,1,0,7,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",32,"2026-04-11",6.5,1,0,0,0,666,2,1,"h",0,90,1,0,2,0,0,1,2,2025,"Bournemouth",3,5,1.02,0.01,5,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",33,"2026-04-19",0,0,0,0,0,666,1,2,"a",0,6,0,0,0,0,0,1,2,2025,"Man City",4,5,0,0,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",34,"2026-04-25",2.4,0,0,0,0,666,0,1,"h",0,56,0,0,0,0,0,1,0,2025,"Newcastle",3,5,0.03,0.01,1,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",35,"2026-05-02",19,2,0,1,0,666,0,3,"h",3,63,0,0,0,0,0,3,0,2025,"Fulham",3,5,1.7,0.02,16,88,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",36,"2026-05-10",2.2,0,0,0,0,666,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"West Ham",3,5,0.12,0.03,2,89,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",37,"2026-05-18",0.7,0,0,0,0,666,0,1,"h",0,17,0,0,0,0,0,1,0,2025,"Burnley",2,5,0,0.01,1,90,TRUE
+"Viktor Gyökeres","Gyökeres","Arsenal","FWD",38,"2026-05-24",2.8,0,0,0,0,666,2,1,"a",0,7,0,0,1,0,0,2,1,2025,"Crystal Palace",3,5,0.16,0.1,1,91,TRUE

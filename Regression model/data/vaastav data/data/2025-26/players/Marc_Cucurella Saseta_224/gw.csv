@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",1,"2025-08-17",4,0,0,0,0,224,0,0,"h",2,90,0,0,0,0,0,0,0,2025,"Crystal Palace",3,4,0.11,0.1,8,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",2,"2025-08-22",4.8,0,0,1,0,224,5,1,"a",0,68,0,0,1,0,0,5,1,2025,"West Ham",3,4,0,0.32,5,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",3,"2025-08-30",5.2,0,0,0,0,224,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Fulham",3,4,0,0.03,6,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",4,"2025-09-13",5.8,0,0,0,0,224,2,2,"a",0,45,0,0,1,0,0,2,2,2025,"Brentford",3,4,0.06,0.02,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",5,"2025-09-20",0.7,0,0,0,0,224,1,2,"a",0,63,1,0,2,0,0,1,2,2025,"Man Utd",4,4,0.05,0,0,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",6,"2025-09-27",2.9,0,0,0,0,224,3,1,"h",0,90,1,0,3,0,0,1,3,2025,"Brighton",3,4,0.02,0.01,0,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",7,"2025-10-04",8.2,0,0,1,0,224,1,2,"h",2,90,0,0,1,0,0,2,1,2025,"Liverpool",4,4,0,0.62,7,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",8,"2025-10-18",4,0,0,0,0,224,3,0,"a",0,90,0,0,0,0,0,3,0,2025,"Forest",3,4,0,0.01,8,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",9,"2025-10-25",6.9,0,0,0,0,224,2,1,"h",0,90,0,0,2,0,0,1,2,2025,"Sunderland",3,4,0.12,0.22,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",10,"2025-11-01",2.5,0,0,0,0,224,1,0,"a",1,90,0,0,0,0,0,1,0,2025,"Tottenham",3,4,0.03,0.01,7,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",11,"2025-11-08",3.6,0,0,0,0,224,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Wolves",2,4,0.05,0.05,6,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",12,"2025-11-22",3.9,0,0,0,0,224,2,0,"a",0,90,0,0,0,0,0,2,0,2025,"Burnley",2,4,0.09,0.03,6,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",13,"2025-11-30",4.7,0,0,0,0,224,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Arsenal",5,4,0,0.2,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",14,"2025-12-03",3.2,0,0,0,0,224,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Leeds",3,4,0,0.29,1,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",15,"2025-12-06",3,0,0,0,0,224,0,0,"a",0,90,0,0,0,0,0,0,0,2025,"Bournemouth",3,4,0.05,0.04,6,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",16,"2025-12-13",2.9,0,0,0,0,224,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Everton",3,4,0,0.03,6,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",17,"2025-12-20",2,0,0,0,0,224,2,2,"a",0,90,0,0,2,0,0,2,2,2025,"Newcastle",3,4,0,0.01,1,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",18,"2025-12-27",3.6,0,0,0,0,224,2,1,"h",0,68,0,0,1,0,0,1,2,2025,"Aston Villa",3,4,0,0.05,2,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",19,"2025-12-30",0,0,0,0,0,224,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Bournemouth",3,4,0,0,0,62,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",20,"2026-01-04",0,0,0,0,0,224,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Man City",4,4,0,0,0,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",21,"2026-01-07",0,0,0,0,0,224,1,2,"a",0,21,0,1,2,0,0,1,2,2025,"Fulham",3,4,0,0,-3,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",22,"2026-01-17",1.9,0,0,0,0,224,0,2,"h",0,90,1,0,0,0,0,2,0,2025,"Brentford",3,4,0,0.01,5,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",23,"2026-01-25",5.9,0,0,0,0,224,3,1,"a",0,90,0,0,1,0,0,3,1,2025,"Crystal Palace",3,4,0.14,0.22,4,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",24,"2026-01-31",11.1,1,0,0,0,224,2,3,"h",0,45,0,0,0,0,0,3,2,2025,"West Ham",3,4,0.81,0.1,7,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",25,"2026-02-07",7.9,0,0,1,0,224,3,1,"a",0,90,1,0,1,0,0,3,1,2025,"Wolves",2,4,0.11,0.34,4,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",26,"2026-02-10",2.1,0,0,0,0,224,2,2,"h",0,45,0,0,0,0,0,2,2,2025,"Leeds",3,4,0,0.02,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",27,"2026-02-21",0,0,0,0,0,224,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Burnley",2,4,0,0,0,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",28,"2026-03-01",0,0,0,0,0,224,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Arsenal",5,4,0,0,0,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",29,"2026-03-04",1.5,0,0,0,0,224,4,1,"a",0,11,0,0,0,0,0,4,1,2025,"Aston Villa",3,4,0,0.15,1,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",30,"2026-03-14",7.7,0,0,0,0,224,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Newcastle",3,4,0,0.06,2,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",31,"2026-03-21",4,0,0,0,0,224,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Everton",3,4,0.08,0.04,1,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",32,"2026-04-12",8.8,0,0,0,0,224,3,0,"h",0,90,1,0,3,0,0,0,3,2025,"Man City",4,4,0.54,0.04,0,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",33,"2026-04-18",5.3,0,0,0,0,224,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Man Utd",4,4,0,0.05,2,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",33,"2026-04-21",1.3,0,0,0,0,224,0,3,"a",0,90,0,0,3,0,0,0,3,2025,"Brighton",3,4,0,0,1,60,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",35,"2026-05-04",8.3,0,0,1,0,224,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Forest",3,4,0.05,0.12,4,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",36,"2026-05-09",5.5,0,0,0,0,224,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Liverpool",4,4,0.03,0.03,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",37,"2026-05-19",1.2,0,0,0,0,224,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Tottenham",3,4,0,0,1,61,TRUE
+"Marc Cucurella Saseta","Cucurella","Chelsea","DEF",38,"2026-05-24",0.7,0,0,0,0,224,1,2,"a",0,90,0,0,2,0,0,1,2,2025,"Sunderland",3,4,0,0.01,1,61,TRUE

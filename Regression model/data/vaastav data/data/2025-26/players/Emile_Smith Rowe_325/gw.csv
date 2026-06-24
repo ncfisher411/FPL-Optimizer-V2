@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",1,"2025-08-16",0.4,0,0,0,0,325,1,1,"a",0,13,0,0,0,0,0,1,1,2025,"Brighton",3,3,0.09,0,1,60,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",2,"2025-08-24",7.4,1,0,0,0,325,1,1,"h",0,19,0,0,0,0,0,1,1,2025,"Man Utd",4,3,0.7,0.02,6,59,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",3,"2025-08-30",1.6,0,0,0,0,325,0,2,"a",0,23,0,0,0,0,0,0,2,2025,"Chelsea",4,3,0,0.03,1,59,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",4,"2025-09-13",0.6,0,0,0,0,325,0,1,"h",0,30,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0,1,59,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",5,"2025-09-20",0.3,0,0,0,0,325,1,3,"h",0,10,0,0,0,0,0,3,1,2025,"Brentford",3,3,0,0,1,59,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",6,"2025-09-28",0.4,0,0,0,0,325,1,3,"a",0,25,0,0,0,0,0,1,3,2025,"Aston Villa",3,3,0,0.01,1,58,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",7,"2025-10-03",0.3,0,0,0,0,325,1,3,"a",0,4,0,0,1,0,0,1,3,2025,"Bournemouth",3,3,0,0.01,1,58,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",8,"2025-10-18",0.4,0,0,0,0,325,1,0,"h",0,26,0,0,0,0,0,0,1,2025,"Arsenal",5,3,0,0,1,57,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",9,"2025-10-25",4,0,0,0,0,325,1,2,"a",0,45,0,0,1,0,0,1,2,2025,"Newcastle",3,3,0.1,0.03,1,57,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",10,"2025-11-01",2.6,0,0,0,0,325,0,3,"h",0,18,0,0,0,0,0,3,0,2025,"Wolves",2,3,0.13,0.03,1,57,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",11,"2025-11-08",0,0,0,0,0,325,0,2,"a",0,3,0,0,0,0,0,0,2,2025,"Everton",3,3,0,0,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",12,"2025-11-22",2.6,0,0,0,0,325,0,1,"h",0,26,0,0,0,0,0,1,0,2025,"Sunderland",3,3,0.14,0.15,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",13,"2025-11-29",1.4,0,0,0,0,325,2,1,"a",0,22,0,0,0,0,0,2,1,2025,"Tottenham",3,3,0.09,0.01,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",14,"2025-12-02",8,1,0,0,0,325,5,4,"h",0,73,0,0,5,0,0,4,5,2025,"Man City",4,3,0.18,0.02,7,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",15,"2025-12-07",3.3,0,0,0,0,325,2,1,"h",0,67,0,0,1,0,0,1,2,2025,"Crystal Palace",3,3,0.27,0.01,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",16,"2025-12-13",8.1,1,0,0,0,325,3,2,"a",1,88,0,0,2,0,0,3,2,2025,"Burnley",2,3,0.71,0.02,8,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",17,"2025-12-22",2.2,0,0,0,0,325,0,1,"h",0,84,0,0,0,0,0,1,0,2025,"Forest",3,3,0,0.03,3,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",18,"2025-12-27",4.7,0,0,0,0,325,1,0,"a",0,81,0,0,0,0,0,1,0,2025,"West Ham",3,3,0.03,0.04,3,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",19,"2026-01-01",7.4,0,0,0,0,325,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Crystal Palace",3,3,0.44,0.16,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",20,"2026-01-04",1.6,0,0,0,0,325,2,2,"h",0,73,0,0,1,0,0,2,2,2025,"Liverpool",4,3,0,0.01,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",21,"2026-01-07",3.9,0,0,1,0,325,1,2,"h",0,82,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0.05,0.05,5,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",22,"2026-01-17",2.7,0,0,0,0,325,0,1,"a",0,76,0,0,0,0,0,0,1,2025,"Leeds",3,3,0.05,0.03,3,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",23,"2026-01-24",0.9,0,0,0,0,325,1,2,"h",0,68,0,0,1,0,0,2,1,2025,"Brighton",3,3,0,0.01,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",24,"2026-02-01",1.3,0,0,0,0,325,2,3,"a",0,70,0,0,2,0,0,2,3,2025,"Man Utd",4,3,0.03,0.04,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",25,"2026-02-07",4.9,0,0,0,0,325,2,1,"h",0,82,0,0,1,0,0,1,2,2025,"Everton",3,3,0.46,0.17,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",26,"2026-02-11",0.8,0,0,0,0,325,0,3,"a",0,59,0,0,3,0,0,0,3,2025,"Man City",4,3,0.05,0.02,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",27,"2026-02-22",2.2,0,0,0,0,325,3,1,"a",0,87,0,0,1,0,0,3,1,2025,"Sunderland",3,3,0,0.03,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",28,"2026-03-01",3.5,0,0,0,0,325,1,2,"h",0,71,0,0,1,0,0,2,1,2025,"Tottenham",3,3,0.49,0.02,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",29,"2026-03-04",4.7,0,0,0,0,325,1,0,"h",0,29,0,0,1,0,0,0,1,2025,"West Ham",3,3,0.19,0.01,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",30,"2026-03-15",0,0,0,0,0,325,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Forest",3,3,0,0,0,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",31,"2026-03-21",4.1,0,0,0,0,325,1,3,"h",0,8,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0.05,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",32,"2026-04-11",2.5,0,0,0,0,325,0,2,"a",0,45,0,0,0,0,0,0,2,2025,"Liverpool",4,3,0.22,0.01,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",33,"2026-04-18",2.7,0,0,0,0,325,0,0,"a",0,66,0,0,0,0,0,0,0,2025,"Brentford",3,3,0,0.04,3,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",34,"2026-04-25",1.9,0,0,0,0,325,0,1,"h",0,75,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0.04,0.02,3,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",35,"2026-05-02",1.8,0,0,0,0,325,0,3,"a",0,77,0,0,3,0,0,0,3,2025,"Arsenal",5,3,0.06,0.02,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",36,"2026-05-09",1.3,0,0,0,0,325,1,0,"h",0,45,0,0,0,0,0,0,1,2025,"Bournemouth",3,3,0.09,0,1,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",37,"2026-05-17",4.1,0,0,0,0,325,1,1,"a",0,78,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.04,0.02,2,56,TRUE
+"Emile Smith Rowe","Smith Rowe","Fulham","MID",38,"2026-05-24",2,0,0,0,0,325,0,2,"h",0,71,0,0,0,0,0,2,0,2025,"Newcastle",3,3,0.06,0,3,56,TRUE

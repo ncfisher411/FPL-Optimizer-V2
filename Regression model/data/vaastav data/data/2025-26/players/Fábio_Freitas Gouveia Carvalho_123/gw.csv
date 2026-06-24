@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",1,"2025-08-17",1.3,0,0,0,0,123,1,3,"a",0,90,0,0,3,0,0,1,3,2025,"Forest",3,3,0.03,0.03,2,50,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",2,"2025-08-23",0,0,0,0,0,123,0,1,"h",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,50,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",3,"2025-08-30",0,0,0,0,0,123,1,2,"a",0,1,0,0,1,0,0,1,2,2025,"Sunderland",3,3,0,0,1,50,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",4,"2025-09-13",6.6,1,0,0,0,123,2,2,"h",1,1,0,0,0,0,0,2,2,2025,"Chelsea",4,3,0.67,0,7,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",5,"2025-09-20",0.1,0,0,0,0,123,1,3,"a",0,3,0,0,0,0,0,1,3,2025,"Fulham",3,3,0,0,1,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",6,"2025-09-27",0,0,0,0,0,123,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Man Utd",4,3,0,0,0,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",7,"2025-10-05",0,0,0,0,0,123,1,0,"h",0,1,0,0,0,0,0,0,1,2025,"Man City",4,3,0,0,1,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",8,"2025-10-20",0,0,0,0,0,123,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"West Ham",3,3,0,0,0,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",9,"2025-10-25",0,0,0,0,0,123,2,3,"h",0,0,0,0,0,0,0,3,2,2025,"Liverpool",4,3,0,0,0,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",10,"2025-11-01",0.1,0,0,0,0,123,0,2,"a",0,4,0,0,0,0,0,0,2,2025,"Crystal Palace",3,3,0,0,1,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",11,"2025-11-09",0,0,0,0,0,123,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Newcastle",3,3,0,0,0,49,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",12,"2025-11-22",0,0,0,0,0,123,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Brighton",3,3,0,0,0,48,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",13,"2025-11-29",0,0,0,0,0,123,1,3,"h",0,0,0,0,0,0,0,3,1,2025,"Burnley",2,3,0,0,0,48,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",14,"2025-12-03",0,0,0,0,0,123,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Arsenal",5,3,0,0,0,48,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",15,"2025-12-06",0,0,0,0,0,123,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Tottenham",3,3,0,0,0,48,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",16,"2025-12-14",0,0,0,0,0,123,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",17,"2025-12-20",0,0,0,0,0,123,2,0,"a",0,0,0,0,0,0,0,2,0,2025,"Wolves",2,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",18,"2025-12-27",0,0,0,0,0,123,1,4,"h",0,0,0,0,0,0,0,4,1,2025,"Bournemouth",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",19,"2026-01-01",0,0,0,0,0,123,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Tottenham",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",20,"2026-01-04",0,0,0,0,0,123,4,2,"a",0,0,0,0,0,0,0,4,2,2025,"Everton",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",21,"2026-01-07",0,0,0,0,0,123,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"Sunderland",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",22,"2026-01-17",0,0,0,0,0,123,0,2,"a",0,0,0,0,0,0,0,0,2,2025,"Chelsea",4,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",23,"2026-01-25",0,0,0,0,0,123,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Forest",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",24,"2026-02-01",0,0,0,0,0,123,1,0,"a",0,0,0,0,0,0,0,1,0,2025,"Aston Villa",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",25,"2026-02-07",0,0,0,0,0,123,3,2,"a",0,0,0,0,0,0,0,3,2,2025,"Newcastle",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",26,"2026-02-12",0,0,0,0,0,123,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Arsenal",5,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",27,"2026-02-21",0,0,0,0,0,123,2,0,"h",0,0,0,0,0,0,0,0,2,2025,"Brighton",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",28,"2026-02-28",0,0,0,0,0,123,4,3,"a",0,0,0,0,0,0,0,4,3,2025,"Burnley",2,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",29,"2026-03-03",0,0,0,0,0,123,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Bournemouth",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",30,"2026-03-16",0,0,0,0,0,123,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Wolves",2,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",31,"2026-03-21",0,0,0,0,0,123,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Leeds",3,3,0,0,0,47,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",32,"2026-04-11",0,0,0,0,0,123,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Everton",3,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",33,"2026-04-18",0,0,0,0,0,123,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Fulham",3,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",34,"2026-04-27",0,0,0,0,0,123,1,2,"a",0,0,0,0,0,0,0,1,2,2025,"Man Utd",4,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",35,"2026-05-02",0,0,0,0,0,123,0,3,"h",0,0,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",36,"2026-05-09",0,0,0,0,0,123,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Man City",4,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",37,"2026-05-17",0,0,0,0,0,123,2,2,"h",0,0,0,0,0,0,0,2,2,2025,"Crystal Palace",3,3,0,0,0,46,TRUE
+"Fábio Freitas Gouveia Carvalho","Carvalho","Brentford","MID",38,"2026-05-24",0,0,0,0,0,123,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Liverpool",4,3,0,0,0,46,TRUE

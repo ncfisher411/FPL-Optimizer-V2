@@ -1,0 +1,39 @@
+"name","web_name","team","position","GW","kickoff_time","ict_index","goals","own_goals","assists","penalties_missed","id","team_a_score","team_h_score","h_a","bonus","minutes","yellow_cards","red_cards","goals_conceded","saves","penalties_saved","team_score","opponent_score","season","opponent","difficulty","strength","xG","xA","total_points","value","finished"
+"Noah Sadiki","Sadiki","Sunderland","MID",1,"2025-08-16",1.5,0,0,0,0,552,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"West Ham",3,3,0,0.01,3,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",2,"2025-08-23",2.3,0,0,0,0,552,0,2,"a",0,90,0,0,2,0,0,0,2,2025,"Burnley",2,3,0,0.08,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",3,"2025-08-30",3.7,0,0,0,0,552,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Brentford",3,3,0,0.19,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",4,"2025-09-13",1.9,0,0,0,0,552,0,0,"a",0,83,0,0,0,0,0,0,0,2025,"Crystal Palace",3,3,0.02,0.01,3,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",5,"2025-09-21",2.4,0,0,0,0,552,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Aston Villa",3,3,0,0,1,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",6,"2025-09-27",1.3,0,0,0,0,552,1,0,"a",0,90,1,0,0,0,0,1,0,2025,"Forest",3,3,0.03,0.02,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",7,"2025-10-04",1.6,0,0,0,0,552,0,2,"a",0,90,1,0,2,0,0,0,2,2025,"Man Utd",4,3,0,0.02,1,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",8,"2025-10-18",1.2,0,0,0,0,552,0,2,"h",0,90,0,0,0,0,0,2,0,2025,"Wolves",2,3,0.03,0.01,3,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",9,"2025-10-25",2.7,0,0,0,0,552,2,1,"a",0,90,0,0,1,0,0,2,1,2025,"Chelsea",4,3,0,0.01,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",10,"2025-11-03",3.5,0,0,0,0,552,1,1,"h",0,90,1,0,1,0,0,1,1,2025,"Everton",3,3,0.04,0.21,3,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",11,"2025-11-08",4.7,0,0,0,0,552,2,2,"h",0,90,0,0,2,0,0,2,2,2025,"Arsenal",5,3,0,0.08,4,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",12,"2025-11-22",2.6,0,0,0,0,552,0,1,"a",0,90,0,0,1,0,0,0,1,2025,"Fulham",3,3,0,0.05,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",13,"2025-11-29",0.7,0,0,0,0,552,2,3,"h",0,90,0,0,2,0,0,3,2,2025,"Bournemouth",3,3,0,0.01,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",14,"2025-12-03",2.7,0,0,0,0,552,1,1,"a",0,90,0,0,1,0,0,1,1,2025,"Liverpool",4,3,0.06,0.03,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",15,"2025-12-06",1.1,0,0,0,0,552,0,3,"a",0,71,0,0,3,0,0,0,3,2025,"Man City",4,3,0.06,0,2,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",16,"2025-12-14",1.4,0,0,0,0,552,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Newcastle",3,3,0,0.02,3,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",17,"2025-12-20",0,0,0,0,0,552,0,0,"a",0,0,0,0,0,0,0,0,0,2025,"Brighton",3,3,0,0,0,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",18,"2025-12-28",0,0,0,0,0,552,1,1,"h",0,0,0,0,0,0,0,1,1,2025,"Leeds",3,3,0,0,0,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",19,"2026-01-01",0,0,0,0,0,552,0,0,"h",0,0,0,0,0,0,0,0,0,2025,"Man City",4,3,0,0,0,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",20,"2026-01-04",0,0,0,0,0,552,1,1,"a",0,0,0,0,0,0,0,1,1,2025,"Tottenham",3,3,0,0,0,50,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",21,"2026-01-07",0,0,0,0,0,552,0,3,"a",0,0,0,0,0,0,0,0,3,2025,"Brentford",3,3,0,0,0,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",22,"2026-01-17",2.3,0,0,1,0,552,1,2,"h",0,90,0,0,1,0,0,2,1,2025,"Crystal Palace",3,3,0,0.02,5,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",23,"2026-01-24",3,0,0,0,0,552,1,3,"a",0,90,1,0,3,0,0,1,3,2025,"West Ham",3,3,0.06,0.01,3,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",24,"2026-02-02",0.5,0,0,0,0,552,0,3,"h",0,90,0,0,0,0,0,3,0,2025,"Burnley",2,3,0.02,0.03,3,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",25,"2026-02-07",2.3,0,0,0,0,552,0,3,"a",0,70,0,0,2,0,0,0,3,2025,"Arsenal",5,3,0,0.01,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",26,"2026-02-11",3.6,0,0,0,0,552,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Liverpool",4,3,0,0.06,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",27,"2026-02-22",2.2,0,0,0,0,552,3,1,"h",0,90,0,0,3,0,0,1,3,2025,"Fulham",3,3,0.02,0.03,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",28,"2026-02-28",2.1,0,0,0,0,552,1,1,"a",0,90,1,0,1,0,0,1,1,2025,"Bournemouth",3,3,0.03,0.02,1,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",29,"2026-03-03",1.1,0,0,0,0,552,1,0,"a",0,90,0,0,0,0,0,1,0,2025,"Leeds",3,3,0,0.01,3,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",30,"2026-03-14",2.6,0,0,0,0,552,1,0,"h",0,90,0,0,1,0,0,0,1,2025,"Brighton",3,3,0.09,0.01,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",31,"2026-03-22",3.5,0,0,0,0,552,2,1,"a",0,90,1,0,1,0,0,2,1,2025,"Newcastle",3,3,0.17,0.07,1,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",32,"2026-04-12",5.3,0,0,0,0,552,0,1,"h",0,90,0,0,0,0,0,1,0,2025,"Tottenham",3,3,0.16,0.04,3,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",33,"2026-04-19",6.6,0,0,1,0,552,3,4,"a",0,90,1,0,4,0,0,3,4,2025,"Aston Villa",3,3,0.08,0.03,4,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",34,"2026-04-24",2,0,0,0,0,552,5,0,"h",0,90,0,0,5,0,0,0,5,2025,"Forest",3,3,0.1,0.26,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",35,"2026-05-02",3.8,0,0,0,0,552,1,1,"a",0,71,0,0,1,0,0,1,1,2025,"Wolves",2,3,0.03,0.06,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",36,"2026-05-09",4.9,0,0,0,0,552,0,0,"h",0,90,0,0,0,0,0,0,0,2025,"Man Utd",4,3,0.43,0.02,5,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",37,"2026-05-17",0.4,0,0,0,0,552,3,1,"a",0,76,0,0,1,0,0,3,1,2025,"Everton",3,3,0,0.01,2,49,TRUE
+"Noah Sadiki","Sadiki","Sunderland","MID",38,"2026-05-24",3.1,0,0,0,0,552,1,2,"h",0,90,1,0,1,0,0,2,1,2025,"Chelsea",4,3,0,0.02,1,49,TRUE
