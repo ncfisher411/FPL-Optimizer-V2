@@ -44,7 +44,7 @@ if(goals_model=='linear'){
   write.table(table_goals, 'Model performance summaries/goals.txt', sep = '\t', row.names = F)
   
 } else if(goals_model=='random forest'){
-  rf_goals <- randomForest(goals ~ xG + ict_index + played + played60 + position + h_a + strength + difficulty, data = est_data)
+  rf_goals <- randomForest(goals ~ xG + ict_index + played + played60 + position + h_a + strength + difficulty, data = est_data %>% filter(!is.na(goals)))
   
   ### predictions
   goal_predictions <- predict(rf_goals, predict_data) %>% data.frame() %>%

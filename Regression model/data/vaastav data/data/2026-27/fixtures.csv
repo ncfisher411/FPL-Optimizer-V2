@@ -1,0 +1,761 @@
+"GW","GW_id","season","finished","kickoff_time","team","h_a","strength","opponent","difficulty"
+1,1,2026,FALSE,"2026-08-21T19:00:00Z","Arsenal","h",NA,"Coventry City",NA
+1,1,2026,FALSE,"2026-08-21T19:00:00Z","Coventry City","a",NA,"Arsenal",NA
+1,2,2026,FALSE,"2026-08-22T16:30:00Z","Brentford","h",NA,"Tottenham",NA
+1,2,2026,FALSE,"2026-08-22T16:30:00Z","Tottenham","a",NA,"Brentford",NA
+1,3,2026,FALSE,"2026-08-22T14:00:00Z","Everton","h",NA,"Crystal Palace",NA
+1,3,2026,FALSE,"2026-08-22T14:00:00Z","Crystal Palace","a",NA,"Everton",NA
+1,4,2026,FALSE,"2026-08-22T11:30:00Z","Hull City","h",NA,"Man Utd",NA
+1,4,2026,FALSE,"2026-08-22T11:30:00Z","Man Utd","a",NA,"Hull City",NA
+1,5,2026,FALSE,"2026-08-22T14:00:00Z","Ipswich Town","h",NA,"Sunderland",NA
+1,5,2026,FALSE,"2026-08-22T14:00:00Z","Sunderland","a",NA,"Ipswich Town",NA
+1,6,2026,FALSE,"2026-08-22T14:00:00Z","Forest","h",NA,"Leeds",NA
+1,6,2026,FALSE,"2026-08-22T14:00:00Z","Leeds","a",NA,"Forest",NA
+1,7,2026,FALSE,"2026-08-23T13:00:00Z","Brighton","h",NA,"Aston Villa",NA
+1,7,2026,FALSE,"2026-08-23T13:00:00Z","Aston Villa","a",NA,"Brighton",NA
+1,8,2026,FALSE,"2026-08-23T13:00:00Z","Man City","h",NA,"Bournemouth",NA
+1,8,2026,FALSE,"2026-08-23T13:00:00Z","Bournemouth","a",NA,"Man City",NA
+1,9,2026,FALSE,"2026-08-23T15:30:00Z","Newcastle","h",NA,"Liverpool",NA
+1,9,2026,FALSE,"2026-08-23T15:30:00Z","Liverpool","a",NA,"Newcastle",NA
+1,10,2026,FALSE,"2026-08-24T19:00:00Z","Fulham","h",NA,"Chelsea",NA
+1,10,2026,FALSE,"2026-08-24T19:00:00Z","Chelsea","a",NA,"Fulham",NA
+2,11,2026,FALSE,"2026-08-28T19:00:00Z","Crystal Palace","h",NA,"Man City",NA
+2,11,2026,FALSE,"2026-08-28T19:00:00Z","Man City","a",NA,"Crystal Palace",NA
+2,12,2026,FALSE,"2026-08-29T14:00:00Z","Bournemouth","h",NA,"Everton",NA
+2,12,2026,FALSE,"2026-08-29T14:00:00Z","Everton","a",NA,"Bournemouth",NA
+2,13,2026,FALSE,"2026-08-29T14:00:00Z","Coventry City","h",NA,"Hull City",NA
+2,13,2026,FALSE,"2026-08-29T14:00:00Z","Hull City","a",NA,"Coventry City",NA
+2,14,2026,FALSE,"2026-08-29T11:30:00Z","Liverpool","h",NA,"Forest",NA
+2,14,2026,FALSE,"2026-08-29T11:30:00Z","Forest","a",NA,"Liverpool",NA
+2,15,2026,FALSE,"2026-08-29T16:30:00Z","Tottenham","h",NA,"Newcastle",NA
+2,15,2026,FALSE,"2026-08-29T16:30:00Z","Newcastle","a",NA,"Tottenham",NA
+2,16,2026,FALSE,"2026-08-30T13:00:00Z","Chelsea","h",NA,"Brighton",NA
+2,16,2026,FALSE,"2026-08-30T13:00:00Z","Brighton","a",NA,"Chelsea",NA
+2,17,2026,FALSE,"2026-08-30T13:00:00Z","Leeds","h",NA,"Brentford",NA
+2,17,2026,FALSE,"2026-08-30T13:00:00Z","Brentford","a",NA,"Leeds",NA
+2,18,2026,FALSE,"2026-08-30T15:30:00Z","Man Utd","h",NA,"Ipswich Town",NA
+2,18,2026,FALSE,"2026-08-30T15:30:00Z","Ipswich Town","a",NA,"Man Utd",NA
+2,19,2026,FALSE,"2026-08-30T13:00:00Z","Sunderland","h",NA,"Fulham",NA
+2,19,2026,FALSE,"2026-08-30T13:00:00Z","Fulham","a",NA,"Sunderland",NA
+2,20,2026,FALSE,"2026-08-31T19:00:00Z","Aston Villa","h",NA,"Arsenal",NA
+2,20,2026,FALSE,"2026-08-31T19:00:00Z","Arsenal","a",NA,"Aston Villa",NA
+3,21,2026,FALSE,"2026-09-04T19:00:00Z","Ipswich Town","h",NA,"Liverpool",NA
+3,21,2026,FALSE,"2026-09-04T19:00:00Z","Liverpool","a",NA,"Ipswich Town",NA
+3,22,2026,FALSE,"2026-09-05T14:00:00Z","Brentford","h",NA,"Sunderland",NA
+3,22,2026,FALSE,"2026-09-05T14:00:00Z","Sunderland","a",NA,"Brentford",NA
+3,23,2026,FALSE,"2026-09-05T14:00:00Z","Brighton","h",NA,"Leeds",NA
+3,23,2026,FALSE,"2026-09-05T14:00:00Z","Leeds","a",NA,"Brighton",NA
+3,24,2026,FALSE,"2026-09-05T14:00:00Z","Fulham","h",NA,"Crystal Palace",NA
+3,24,2026,FALSE,"2026-09-05T14:00:00Z","Crystal Palace","a",NA,"Fulham",NA
+3,25,2026,FALSE,"2026-09-05T16:30:00Z","Hull City","h",NA,"Aston Villa",NA
+3,25,2026,FALSE,"2026-09-05T16:30:00Z","Aston Villa","a",NA,"Hull City",NA
+3,26,2026,FALSE,"2026-09-05T14:00:00Z","Man City","h",NA,"Coventry City",NA
+3,26,2026,FALSE,"2026-09-05T14:00:00Z","Coventry City","a",NA,"Man City",NA
+3,27,2026,FALSE,"2026-09-05T11:30:00Z","Newcastle","h",NA,"Bournemouth",NA
+3,27,2026,FALSE,"2026-09-05T11:30:00Z","Bournemouth","a",NA,"Newcastle",NA
+3,28,2026,FALSE,"2026-09-05T14:00:00Z","Forest","h",NA,"Tottenham",NA
+3,28,2026,FALSE,"2026-09-05T14:00:00Z","Tottenham","a",NA,"Forest",NA
+3,29,2026,FALSE,"2026-09-06T15:30:00Z","Arsenal","h",NA,"Chelsea",NA
+3,29,2026,FALSE,"2026-09-06T15:30:00Z","Chelsea","a",NA,"Arsenal",NA
+3,30,2026,FALSE,"2026-09-06T13:00:00Z","Everton","h",NA,"Man Utd",NA
+3,30,2026,FALSE,"2026-09-06T13:00:00Z","Man Utd","a",NA,"Everton",NA
+4,31,2026,FALSE,"2026-09-12T14:00:00Z","Aston Villa","h",NA,"Forest",NA
+4,31,2026,FALSE,"2026-09-12T14:00:00Z","Forest","a",NA,"Aston Villa",NA
+4,32,2026,FALSE,"2026-09-12T14:00:00Z","Bournemouth","h",NA,"Brentford",NA
+4,32,2026,FALSE,"2026-09-12T14:00:00Z","Brentford","a",NA,"Bournemouth",NA
+4,33,2026,FALSE,"2026-09-12T14:00:00Z","Chelsea","h",NA,"Hull City",NA
+4,33,2026,FALSE,"2026-09-12T14:00:00Z","Hull City","a",NA,"Chelsea",NA
+4,34,2026,FALSE,"2026-09-12T14:00:00Z","Crystal Palace","h",NA,"Ipswich Town",NA
+4,34,2026,FALSE,"2026-09-12T14:00:00Z","Ipswich Town","a",NA,"Crystal Palace",NA
+4,35,2026,FALSE,"2026-09-12T14:00:00Z","Liverpool","h",NA,"Fulham",NA
+4,35,2026,FALSE,"2026-09-12T14:00:00Z","Fulham","a",NA,"Liverpool",NA
+4,36,2026,FALSE,"2026-09-12T19:00:00Z","Sunderland","h",NA,"Arsenal",NA
+4,36,2026,FALSE,"2026-09-12T19:00:00Z","Arsenal","a",NA,"Sunderland",NA
+4,37,2026,FALSE,"2026-09-12T16:30:00Z","Tottenham","h",NA,"Everton",NA
+4,37,2026,FALSE,"2026-09-12T16:30:00Z","Everton","a",NA,"Tottenham",NA
+4,38,2026,FALSE,"2026-09-13T13:00:00Z","Coventry City","h",NA,"Brighton",NA
+4,38,2026,FALSE,"2026-09-13T13:00:00Z","Brighton","a",NA,"Coventry City",NA
+4,39,2026,FALSE,"2026-09-13T15:30:00Z","Man Utd","h",NA,"Man City",NA
+4,39,2026,FALSE,"2026-09-13T15:30:00Z","Man City","a",NA,"Man Utd",NA
+4,40,2026,FALSE,"2026-09-14T19:00:00Z","Leeds","h",NA,"Newcastle",NA
+4,40,2026,FALSE,"2026-09-14T19:00:00Z","Newcastle","a",NA,"Leeds",NA
+5,41,2026,FALSE,"2026-09-18T19:00:00Z","Brentford","h",NA,"Chelsea",NA
+5,41,2026,FALSE,"2026-09-18T19:00:00Z","Chelsea","a",NA,"Brentford",NA
+5,42,2026,FALSE,"2026-09-19T14:00:00Z","Brighton","h",NA,"Arsenal",NA
+5,42,2026,FALSE,"2026-09-19T14:00:00Z","Arsenal","a",NA,"Brighton",NA
+5,43,2026,FALSE,"2026-09-19T14:00:00Z","Everton","h",NA,"Ipswich Town",NA
+5,43,2026,FALSE,"2026-09-19T14:00:00Z","Ipswich Town","a",NA,"Everton",NA
+5,44,2026,FALSE,"2026-09-19T14:00:00Z","Leeds","h",NA,"Crystal Palace",NA
+5,44,2026,FALSE,"2026-09-19T14:00:00Z","Crystal Palace","a",NA,"Leeds",NA
+5,45,2026,FALSE,"2026-09-19T14:00:00Z","Man City","h",NA,"Sunderland",NA
+5,45,2026,FALSE,"2026-09-19T14:00:00Z","Sunderland","a",NA,"Man City",NA
+5,46,2026,FALSE,"2026-09-19T14:00:00Z","Newcastle","h",NA,"Hull City",NA
+5,46,2026,FALSE,"2026-09-19T14:00:00Z","Hull City","a",NA,"Newcastle",NA
+5,47,2026,FALSE,"2026-09-19T16:30:00Z","Forest","h",NA,"Coventry City",NA
+5,47,2026,FALSE,"2026-09-19T16:30:00Z","Coventry City","a",NA,"Forest",NA
+5,48,2026,FALSE,"2026-09-19T11:30:00Z","Tottenham","h",NA,"Aston Villa",NA
+5,48,2026,FALSE,"2026-09-19T11:30:00Z","Aston Villa","a",NA,"Tottenham",NA
+5,49,2026,FALSE,"2026-09-20T13:00:00Z","Bournemouth","h",NA,"Liverpool",NA
+5,49,2026,FALSE,"2026-09-20T13:00:00Z","Liverpool","a",NA,"Bournemouth",NA
+5,50,2026,FALSE,"2026-09-20T15:30:00Z","Fulham","h",NA,"Man Utd",NA
+5,50,2026,FALSE,"2026-09-20T15:30:00Z","Man Utd","a",NA,"Fulham",NA
+6,51,2026,FALSE,"2026-10-10T14:00:00Z","Arsenal","h",NA,"Leeds",NA
+6,51,2026,FALSE,"2026-10-10T14:00:00Z","Leeds","a",NA,"Arsenal",NA
+6,52,2026,FALSE,"2026-10-10T14:00:00Z","Aston Villa","h",NA,"Brentford",NA
+6,52,2026,FALSE,"2026-10-10T14:00:00Z","Brentford","a",NA,"Aston Villa",NA
+6,53,2026,FALSE,"2026-10-10T14:00:00Z","Chelsea","h",NA,"Bournemouth",NA
+6,53,2026,FALSE,"2026-10-10T14:00:00Z","Bournemouth","a",NA,"Chelsea",NA
+6,54,2026,FALSE,"2026-10-10T14:00:00Z","Coventry City","h",NA,"Newcastle",NA
+6,54,2026,FALSE,"2026-10-10T14:00:00Z","Newcastle","a",NA,"Coventry City",NA
+6,55,2026,FALSE,"2026-10-10T14:00:00Z","Crystal Palace","h",NA,"Forest",NA
+6,55,2026,FALSE,"2026-10-10T14:00:00Z","Forest","a",NA,"Crystal Palace",NA
+6,56,2026,FALSE,"2026-10-10T14:00:00Z","Hull City","h",NA,"Everton",NA
+6,56,2026,FALSE,"2026-10-10T14:00:00Z","Everton","a",NA,"Hull City",NA
+6,57,2026,FALSE,"2026-10-10T14:00:00Z","Ipswich Town","h",NA,"Fulham",NA
+6,57,2026,FALSE,"2026-10-10T14:00:00Z","Fulham","a",NA,"Ipswich Town",NA
+6,58,2026,FALSE,"2026-10-10T14:00:00Z","Liverpool","h",NA,"Man City",NA
+6,58,2026,FALSE,"2026-10-10T14:00:00Z","Man City","a",NA,"Liverpool",NA
+6,59,2026,FALSE,"2026-10-10T14:00:00Z","Man Utd","h",NA,"Tottenham",NA
+6,59,2026,FALSE,"2026-10-10T14:00:00Z","Tottenham","a",NA,"Man Utd",NA
+6,60,2026,FALSE,"2026-10-10T14:00:00Z","Sunderland","h",NA,"Brighton",NA
+6,60,2026,FALSE,"2026-10-10T14:00:00Z","Brighton","a",NA,"Sunderland",NA
+7,61,2026,FALSE,"2026-10-17T14:00:00Z","Bournemouth","h",NA,"Sunderland",NA
+7,61,2026,FALSE,"2026-10-17T14:00:00Z","Sunderland","a",NA,"Bournemouth",NA
+7,62,2026,FALSE,"2026-10-17T14:00:00Z","Brentford","h",NA,"Liverpool",NA
+7,62,2026,FALSE,"2026-10-17T14:00:00Z","Liverpool","a",NA,"Brentford",NA
+7,63,2026,FALSE,"2026-10-17T14:00:00Z","Brighton","h",NA,"Crystal Palace",NA
+7,63,2026,FALSE,"2026-10-17T14:00:00Z","Crystal Palace","a",NA,"Brighton",NA
+7,64,2026,FALSE,"2026-10-17T14:00:00Z","Everton","h",NA,"Chelsea",NA
+7,64,2026,FALSE,"2026-10-17T14:00:00Z","Chelsea","a",NA,"Everton",NA
+7,65,2026,FALSE,"2026-10-17T14:00:00Z","Fulham","h",NA,"Hull City",NA
+7,65,2026,FALSE,"2026-10-17T14:00:00Z","Hull City","a",NA,"Fulham",NA
+7,66,2026,FALSE,"2026-10-17T14:00:00Z","Leeds","h",NA,"Man Utd",NA
+7,66,2026,FALSE,"2026-10-17T14:00:00Z","Man Utd","a",NA,"Leeds",NA
+7,67,2026,FALSE,"2026-10-17T14:00:00Z","Man City","h",NA,"Ipswich Town",NA
+7,67,2026,FALSE,"2026-10-17T14:00:00Z","Ipswich Town","a",NA,"Man City",NA
+7,68,2026,FALSE,"2026-10-17T14:00:00Z","Newcastle","h",NA,"Aston Villa",NA
+7,68,2026,FALSE,"2026-10-17T14:00:00Z","Aston Villa","a",NA,"Newcastle",NA
+7,69,2026,FALSE,"2026-10-17T14:00:00Z","Forest","h",NA,"Arsenal",NA
+7,69,2026,FALSE,"2026-10-17T14:00:00Z","Arsenal","a",NA,"Forest",NA
+7,70,2026,FALSE,"2026-10-17T14:00:00Z","Tottenham","h",NA,"Coventry City",NA
+7,70,2026,FALSE,"2026-10-17T14:00:00Z","Coventry City","a",NA,"Tottenham",NA
+8,71,2026,FALSE,"2026-10-24T14:00:00Z","Arsenal","h",NA,"Everton",NA
+8,71,2026,FALSE,"2026-10-24T14:00:00Z","Everton","a",NA,"Arsenal",NA
+8,72,2026,FALSE,"2026-10-24T14:00:00Z","Aston Villa","h",NA,"Man City",NA
+8,72,2026,FALSE,"2026-10-24T14:00:00Z","Man City","a",NA,"Aston Villa",NA
+8,73,2026,FALSE,"2026-10-24T14:00:00Z","Chelsea","h",NA,"Tottenham",NA
+8,73,2026,FALSE,"2026-10-24T14:00:00Z","Tottenham","a",NA,"Chelsea",NA
+8,74,2026,FALSE,"2026-10-24T14:00:00Z","Coventry City","h",NA,"Fulham",NA
+8,74,2026,FALSE,"2026-10-24T14:00:00Z","Fulham","a",NA,"Coventry City",NA
+8,75,2026,FALSE,"2026-10-24T14:00:00Z","Crystal Palace","h",NA,"Newcastle",NA
+8,75,2026,FALSE,"2026-10-24T14:00:00Z","Newcastle","a",NA,"Crystal Palace",NA
+8,76,2026,FALSE,"2026-10-24T14:00:00Z","Hull City","h",NA,"Brentford",NA
+8,76,2026,FALSE,"2026-10-24T14:00:00Z","Brentford","a",NA,"Hull City",NA
+8,77,2026,FALSE,"2026-10-24T14:00:00Z","Ipswich Town","h",NA,"Forest",NA
+8,77,2026,FALSE,"2026-10-24T14:00:00Z","Forest","a",NA,"Ipswich Town",NA
+8,78,2026,FALSE,"2026-10-24T14:00:00Z","Liverpool","h",NA,"Brighton",NA
+8,78,2026,FALSE,"2026-10-24T14:00:00Z","Brighton","a",NA,"Liverpool",NA
+8,79,2026,FALSE,"2026-10-24T14:00:00Z","Man Utd","h",NA,"Bournemouth",NA
+8,79,2026,FALSE,"2026-10-24T14:00:00Z","Bournemouth","a",NA,"Man Utd",NA
+8,80,2026,FALSE,"2026-10-24T14:00:00Z","Sunderland","h",NA,"Leeds",NA
+8,80,2026,FALSE,"2026-10-24T14:00:00Z","Leeds","a",NA,"Sunderland",NA
+9,81,2026,FALSE,"2026-10-31T15:00:00Z","Aston Villa","h",NA,"Fulham",NA
+9,81,2026,FALSE,"2026-10-31T15:00:00Z","Fulham","a",NA,"Aston Villa",NA
+9,82,2026,FALSE,"2026-10-31T15:00:00Z","Bournemouth","h",NA,"Leeds",NA
+9,82,2026,FALSE,"2026-10-31T15:00:00Z","Leeds","a",NA,"Bournemouth",NA
+9,83,2026,FALSE,"2026-10-31T15:00:00Z","Brentford","h",NA,"Forest",NA
+9,83,2026,FALSE,"2026-10-31T15:00:00Z","Forest","a",NA,"Brentford",NA
+9,84,2026,FALSE,"2026-10-31T15:00:00Z","Chelsea","h",NA,"Man Utd",NA
+9,84,2026,FALSE,"2026-10-31T15:00:00Z","Man Utd","a",NA,"Chelsea",NA
+9,85,2026,FALSE,"2026-10-31T15:00:00Z","Coventry City","h",NA,"Sunderland",NA
+9,85,2026,FALSE,"2026-10-31T15:00:00Z","Sunderland","a",NA,"Coventry City",NA
+9,86,2026,FALSE,"2026-10-31T15:00:00Z","Hull City","h",NA,"Ipswich Town",NA
+9,86,2026,FALSE,"2026-10-31T15:00:00Z","Ipswich Town","a",NA,"Hull City",NA
+9,87,2026,FALSE,"2026-10-31T15:00:00Z","Liverpool","h",NA,"Arsenal",NA
+9,87,2026,FALSE,"2026-10-31T15:00:00Z","Arsenal","a",NA,"Liverpool",NA
+9,88,2026,FALSE,"2026-10-31T15:00:00Z","Man City","h",NA,"Brighton",NA
+9,88,2026,FALSE,"2026-10-31T15:00:00Z","Brighton","a",NA,"Man City",NA
+9,89,2026,FALSE,"2026-10-31T15:00:00Z","Newcastle","h",NA,"Everton",NA
+9,89,2026,FALSE,"2026-10-31T15:00:00Z","Everton","a",NA,"Newcastle",NA
+9,90,2026,FALSE,"2026-10-31T15:00:00Z","Tottenham","h",NA,"Crystal Palace",NA
+9,90,2026,FALSE,"2026-10-31T15:00:00Z","Crystal Palace","a",NA,"Tottenham",NA
+10,91,2026,FALSE,"2026-11-07T15:00:00Z","Arsenal","h",NA,"Hull City",NA
+10,91,2026,FALSE,"2026-11-07T15:00:00Z","Hull City","a",NA,"Arsenal",NA
+10,92,2026,FALSE,"2026-11-07T15:00:00Z","Brighton","h",NA,"Brentford",NA
+10,92,2026,FALSE,"2026-11-07T15:00:00Z","Brentford","a",NA,"Brighton",NA
+10,93,2026,FALSE,"2026-11-07T15:00:00Z","Crystal Palace","h",NA,"Liverpool",NA
+10,93,2026,FALSE,"2026-11-07T15:00:00Z","Liverpool","a",NA,"Crystal Palace",NA
+10,94,2026,FALSE,"2026-11-07T15:00:00Z","Everton","h",NA,"Coventry City",NA
+10,94,2026,FALSE,"2026-11-07T15:00:00Z","Coventry City","a",NA,"Everton",NA
+10,95,2026,FALSE,"2026-11-07T15:00:00Z","Fulham","h",NA,"Newcastle",NA
+10,95,2026,FALSE,"2026-11-07T15:00:00Z","Newcastle","a",NA,"Fulham",NA
+10,96,2026,FALSE,"2026-11-07T15:00:00Z","Ipswich Town","h",NA,"Bournemouth",NA
+10,96,2026,FALSE,"2026-11-07T15:00:00Z","Bournemouth","a",NA,"Ipswich Town",NA
+10,97,2026,FALSE,"2026-11-07T15:00:00Z","Leeds","h",NA,"Tottenham",NA
+10,97,2026,FALSE,"2026-11-07T15:00:00Z","Tottenham","a",NA,"Leeds",NA
+10,98,2026,FALSE,"2026-11-07T15:00:00Z","Man Utd","h",NA,"Aston Villa",NA
+10,98,2026,FALSE,"2026-11-07T15:00:00Z","Aston Villa","a",NA,"Man Utd",NA
+10,99,2026,FALSE,"2026-11-07T15:00:00Z","Forest","h",NA,"Man City",NA
+10,99,2026,FALSE,"2026-11-07T15:00:00Z","Man City","a",NA,"Forest",NA
+10,100,2026,FALSE,"2026-11-07T15:00:00Z","Sunderland","h",NA,"Chelsea",NA
+10,100,2026,FALSE,"2026-11-07T15:00:00Z","Chelsea","a",NA,"Sunderland",NA
+11,101,2026,FALSE,"2026-11-21T15:00:00Z","Aston Villa","h",NA,"Sunderland",NA
+11,101,2026,FALSE,"2026-11-21T15:00:00Z","Sunderland","a",NA,"Aston Villa",NA
+11,102,2026,FALSE,"2026-11-21T15:00:00Z","Bournemouth","h",NA,"Forest",NA
+11,102,2026,FALSE,"2026-11-21T15:00:00Z","Forest","a",NA,"Bournemouth",NA
+11,103,2026,FALSE,"2026-11-21T15:00:00Z","Brentford","h",NA,"Everton",NA
+11,103,2026,FALSE,"2026-11-21T15:00:00Z","Everton","a",NA,"Brentford",NA
+11,104,2026,FALSE,"2026-11-21T15:00:00Z","Chelsea","h",NA,"Leeds",NA
+11,104,2026,FALSE,"2026-11-21T15:00:00Z","Leeds","a",NA,"Chelsea",NA
+11,105,2026,FALSE,"2026-11-21T15:00:00Z","Coventry City","h",NA,"Crystal Palace",NA
+11,105,2026,FALSE,"2026-11-21T15:00:00Z","Crystal Palace","a",NA,"Coventry City",NA
+11,106,2026,FALSE,"2026-11-21T15:00:00Z","Hull City","h",NA,"Brighton",NA
+11,106,2026,FALSE,"2026-11-21T15:00:00Z","Brighton","a",NA,"Hull City",NA
+11,107,2026,FALSE,"2026-11-21T15:00:00Z","Liverpool","h",NA,"Man Utd",NA
+11,107,2026,FALSE,"2026-11-21T15:00:00Z","Man Utd","a",NA,"Liverpool",NA
+11,108,2026,FALSE,"2026-11-21T15:00:00Z","Man City","h",NA,"Fulham",NA
+11,108,2026,FALSE,"2026-11-21T15:00:00Z","Fulham","a",NA,"Man City",NA
+11,109,2026,FALSE,"2026-11-21T15:00:00Z","Newcastle","h",NA,"Arsenal",NA
+11,109,2026,FALSE,"2026-11-21T15:00:00Z","Arsenal","a",NA,"Newcastle",NA
+11,110,2026,FALSE,"2026-11-21T15:00:00Z","Tottenham","h",NA,"Ipswich Town",NA
+11,110,2026,FALSE,"2026-11-21T15:00:00Z","Ipswich Town","a",NA,"Tottenham",NA
+12,111,2026,FALSE,"2026-11-28T15:00:00Z","Arsenal","h",NA,"Man City",NA
+12,111,2026,FALSE,"2026-11-28T15:00:00Z","Man City","a",NA,"Arsenal",NA
+12,112,2026,FALSE,"2026-11-28T15:00:00Z","Brighton","h",NA,"Newcastle",NA
+12,112,2026,FALSE,"2026-11-28T15:00:00Z","Newcastle","a",NA,"Brighton",NA
+12,113,2026,FALSE,"2026-11-28T15:00:00Z","Crystal Palace","h",NA,"Hull City",NA
+12,113,2026,FALSE,"2026-11-28T15:00:00Z","Hull City","a",NA,"Crystal Palace",NA
+12,114,2026,FALSE,"2026-11-28T15:00:00Z","Everton","h",NA,"Liverpool",NA
+12,114,2026,FALSE,"2026-11-28T15:00:00Z","Liverpool","a",NA,"Everton",NA
+12,115,2026,FALSE,"2026-11-28T15:00:00Z","Fulham","h",NA,"Bournemouth",NA
+12,115,2026,FALSE,"2026-11-28T15:00:00Z","Bournemouth","a",NA,"Fulham",NA
+12,116,2026,FALSE,"2026-11-28T15:00:00Z","Ipswich Town","h",NA,"Aston Villa",NA
+12,116,2026,FALSE,"2026-11-28T15:00:00Z","Aston Villa","a",NA,"Ipswich Town",NA
+12,117,2026,FALSE,"2026-11-28T15:00:00Z","Leeds","h",NA,"Coventry City",NA
+12,117,2026,FALSE,"2026-11-28T15:00:00Z","Coventry City","a",NA,"Leeds",NA
+12,118,2026,FALSE,"2026-11-28T15:00:00Z","Man Utd","h",NA,"Brentford",NA
+12,118,2026,FALSE,"2026-11-28T15:00:00Z","Brentford","a",NA,"Man Utd",NA
+12,119,2026,FALSE,"2026-11-28T15:00:00Z","Forest","h",NA,"Chelsea",NA
+12,119,2026,FALSE,"2026-11-28T15:00:00Z","Chelsea","a",NA,"Forest",NA
+12,120,2026,FALSE,"2026-11-28T15:00:00Z","Sunderland","h",NA,"Tottenham",NA
+12,120,2026,FALSE,"2026-11-28T15:00:00Z","Tottenham","a",NA,"Sunderland",NA
+13,121,2026,FALSE,"2026-12-02T20:00:00Z","Aston Villa","h",NA,"Everton",NA
+13,121,2026,FALSE,"2026-12-02T20:00:00Z","Everton","a",NA,"Aston Villa",NA
+13,122,2026,FALSE,"2026-12-02T20:00:00Z","Bournemouth","h",NA,"Brighton",NA
+13,122,2026,FALSE,"2026-12-02T20:00:00Z","Brighton","a",NA,"Bournemouth",NA
+13,123,2026,FALSE,"2026-12-02T20:00:00Z","Brentford","h",NA,"Arsenal",NA
+13,123,2026,FALSE,"2026-12-02T20:00:00Z","Arsenal","a",NA,"Brentford",NA
+13,124,2026,FALSE,"2026-12-02T20:00:00Z","Chelsea","h",NA,"Crystal Palace",NA
+13,124,2026,FALSE,"2026-12-02T20:00:00Z","Crystal Palace","a",NA,"Chelsea",NA
+13,125,2026,FALSE,"2026-12-02T20:00:00Z","Coventry City","h",NA,"Ipswich Town",NA
+13,125,2026,FALSE,"2026-12-02T20:00:00Z","Ipswich Town","a",NA,"Coventry City",NA
+13,126,2026,FALSE,"2026-12-02T20:00:00Z","Hull City","h",NA,"Forest",NA
+13,126,2026,FALSE,"2026-12-02T20:00:00Z","Forest","a",NA,"Hull City",NA
+13,127,2026,FALSE,"2026-12-02T20:00:00Z","Liverpool","h",NA,"Sunderland",NA
+13,127,2026,FALSE,"2026-12-02T20:00:00Z","Sunderland","a",NA,"Liverpool",NA
+13,128,2026,FALSE,"2026-12-02T20:00:00Z","Man City","h",NA,"Leeds",NA
+13,128,2026,FALSE,"2026-12-02T20:00:00Z","Leeds","a",NA,"Man City",NA
+13,129,2026,FALSE,"2026-12-02T20:00:00Z","Newcastle","h",NA,"Man Utd",NA
+13,129,2026,FALSE,"2026-12-02T20:00:00Z","Man Utd","a",NA,"Newcastle",NA
+13,130,2026,FALSE,"2026-12-02T20:00:00Z","Tottenham","h",NA,"Fulham",NA
+13,130,2026,FALSE,"2026-12-02T20:00:00Z","Fulham","a",NA,"Tottenham",NA
+14,131,2026,FALSE,"2026-12-05T15:00:00Z","Aston Villa","h",NA,"Crystal Palace",NA
+14,131,2026,FALSE,"2026-12-05T15:00:00Z","Crystal Palace","a",NA,"Aston Villa",NA
+14,132,2026,FALSE,"2026-12-05T15:00:00Z","Bournemouth","h",NA,"Hull City",NA
+14,132,2026,FALSE,"2026-12-05T15:00:00Z","Hull City","a",NA,"Bournemouth",NA
+14,133,2026,FALSE,"2026-12-05T15:00:00Z","Brentford","h",NA,"Man City",NA
+14,133,2026,FALSE,"2026-12-05T15:00:00Z","Man City","a",NA,"Brentford",NA
+14,134,2026,FALSE,"2026-12-05T15:00:00Z","Chelsea","h",NA,"Liverpool",NA
+14,134,2026,FALSE,"2026-12-05T15:00:00Z","Liverpool","a",NA,"Chelsea",NA
+14,135,2026,FALSE,"2026-12-05T15:00:00Z","Everton","h",NA,"Fulham",NA
+14,135,2026,FALSE,"2026-12-05T15:00:00Z","Fulham","a",NA,"Everton",NA
+14,136,2026,FALSE,"2026-12-05T15:00:00Z","Leeds","h",NA,"Ipswich Town",NA
+14,136,2026,FALSE,"2026-12-05T15:00:00Z","Ipswich Town","a",NA,"Leeds",NA
+14,137,2026,FALSE,"2026-12-05T15:00:00Z","Man Utd","h",NA,"Coventry City",NA
+14,137,2026,FALSE,"2026-12-05T15:00:00Z","Coventry City","a",NA,"Man Utd",NA
+14,138,2026,FALSE,"2026-12-05T15:00:00Z","Newcastle","h",NA,"Sunderland",NA
+14,138,2026,FALSE,"2026-12-05T15:00:00Z","Sunderland","a",NA,"Newcastle",NA
+14,139,2026,FALSE,"2026-12-05T15:00:00Z","Forest","h",NA,"Brighton",NA
+14,139,2026,FALSE,"2026-12-05T15:00:00Z","Brighton","a",NA,"Forest",NA
+14,140,2026,FALSE,"2026-12-05T15:00:00Z","Tottenham","h",NA,"Arsenal",NA
+14,140,2026,FALSE,"2026-12-05T15:00:00Z","Arsenal","a",NA,"Tottenham",NA
+15,141,2026,FALSE,"2026-12-12T15:00:00Z","Arsenal","h",NA,"Bournemouth",NA
+15,141,2026,FALSE,"2026-12-12T15:00:00Z","Bournemouth","a",NA,"Arsenal",NA
+15,142,2026,FALSE,"2026-12-12T15:00:00Z","Brighton","h",NA,"Everton",NA
+15,142,2026,FALSE,"2026-12-12T15:00:00Z","Everton","a",NA,"Brighton",NA
+15,143,2026,FALSE,"2026-12-12T15:00:00Z","Coventry City","h",NA,"Aston Villa",NA
+15,143,2026,FALSE,"2026-12-12T15:00:00Z","Aston Villa","a",NA,"Coventry City",NA
+15,144,2026,FALSE,"2026-12-12T15:00:00Z","Crystal Palace","h",NA,"Man Utd",NA
+15,144,2026,FALSE,"2026-12-12T15:00:00Z","Man Utd","a",NA,"Crystal Palace",NA
+15,145,2026,FALSE,"2026-12-12T15:00:00Z","Fulham","h",NA,"Brentford",NA
+15,145,2026,FALSE,"2026-12-12T15:00:00Z","Brentford","a",NA,"Fulham",NA
+15,146,2026,FALSE,"2026-12-12T15:00:00Z","Hull City","h",NA,"Tottenham",NA
+15,146,2026,FALSE,"2026-12-12T15:00:00Z","Tottenham","a",NA,"Hull City",NA
+15,147,2026,FALSE,"2026-12-12T15:00:00Z","Ipswich Town","h",NA,"Newcastle",NA
+15,147,2026,FALSE,"2026-12-12T15:00:00Z","Newcastle","a",NA,"Ipswich Town",NA
+15,148,2026,FALSE,"2026-12-12T15:00:00Z","Liverpool","h",NA,"Leeds",NA
+15,148,2026,FALSE,"2026-12-12T15:00:00Z","Leeds","a",NA,"Liverpool",NA
+15,149,2026,FALSE,"2026-12-12T15:00:00Z","Man City","h",NA,"Chelsea",NA
+15,149,2026,FALSE,"2026-12-12T15:00:00Z","Chelsea","a",NA,"Man City",NA
+15,150,2026,FALSE,"2026-12-12T15:00:00Z","Sunderland","h",NA,"Forest",NA
+15,150,2026,FALSE,"2026-12-12T15:00:00Z","Forest","a",NA,"Sunderland",NA
+16,151,2026,FALSE,"2026-12-19T15:00:00Z","Arsenal","h",NA,"Man Utd",NA
+16,151,2026,FALSE,"2026-12-19T15:00:00Z","Man Utd","a",NA,"Arsenal",NA
+16,152,2026,FALSE,"2026-12-19T15:00:00Z","Bournemouth","h",NA,"Coventry City",NA
+16,152,2026,FALSE,"2026-12-19T15:00:00Z","Coventry City","a",NA,"Bournemouth",NA
+16,153,2026,FALSE,"2026-12-19T15:00:00Z","Brentford","h",NA,"Newcastle",NA
+16,153,2026,FALSE,"2026-12-19T15:00:00Z","Newcastle","a",NA,"Brentford",NA
+16,154,2026,FALSE,"2026-12-19T15:00:00Z","Brighton","h",NA,"Ipswich Town",NA
+16,154,2026,FALSE,"2026-12-19T15:00:00Z","Ipswich Town","a",NA,"Brighton",NA
+16,155,2026,FALSE,"2026-12-19T15:00:00Z","Chelsea","h",NA,"Aston Villa",NA
+16,155,2026,FALSE,"2026-12-19T15:00:00Z","Aston Villa","a",NA,"Chelsea",NA
+16,156,2026,FALSE,"2026-12-19T15:00:00Z","Leeds","h",NA,"Fulham",NA
+16,156,2026,FALSE,"2026-12-19T15:00:00Z","Fulham","a",NA,"Leeds",NA
+16,157,2026,FALSE,"2026-12-19T15:00:00Z","Liverpool","h",NA,"Tottenham",NA
+16,157,2026,FALSE,"2026-12-19T15:00:00Z","Tottenham","a",NA,"Liverpool",NA
+16,158,2026,FALSE,"2026-12-19T15:00:00Z","Man City","h",NA,"Hull City",NA
+16,158,2026,FALSE,"2026-12-19T15:00:00Z","Hull City","a",NA,"Man City",NA
+16,159,2026,FALSE,"2026-12-19T15:00:00Z","Forest","h",NA,"Everton",NA
+16,159,2026,FALSE,"2026-12-19T15:00:00Z","Everton","a",NA,"Forest",NA
+16,160,2026,FALSE,"2026-12-19T15:00:00Z","Sunderland","h",NA,"Crystal Palace",NA
+16,160,2026,FALSE,"2026-12-19T15:00:00Z","Crystal Palace","a",NA,"Sunderland",NA
+17,161,2026,FALSE,"2026-12-26T15:00:00Z","Aston Villa","h",NA,"Leeds",NA
+17,161,2026,FALSE,"2026-12-26T15:00:00Z","Leeds","a",NA,"Aston Villa",NA
+17,162,2026,FALSE,"2026-12-26T15:00:00Z","Coventry City","h",NA,"Chelsea",NA
+17,162,2026,FALSE,"2026-12-26T15:00:00Z","Chelsea","a",NA,"Coventry City",NA
+17,163,2026,FALSE,"2026-12-26T15:00:00Z","Crystal Palace","h",NA,"Arsenal",NA
+17,163,2026,FALSE,"2026-12-26T15:00:00Z","Arsenal","a",NA,"Crystal Palace",NA
+17,164,2026,FALSE,"2026-12-26T15:00:00Z","Everton","h",NA,"Sunderland",NA
+17,164,2026,FALSE,"2026-12-26T15:00:00Z","Sunderland","a",NA,"Everton",NA
+17,165,2026,FALSE,"2026-12-26T15:00:00Z","Fulham","h",NA,"Brighton",NA
+17,165,2026,FALSE,"2026-12-26T15:00:00Z","Brighton","a",NA,"Fulham",NA
+17,166,2026,FALSE,"2026-12-26T15:00:00Z","Hull City","h",NA,"Liverpool",NA
+17,166,2026,FALSE,"2026-12-26T15:00:00Z","Liverpool","a",NA,"Hull City",NA
+17,167,2026,FALSE,"2026-12-26T15:00:00Z","Ipswich Town","h",NA,"Brentford",NA
+17,167,2026,FALSE,"2026-12-26T15:00:00Z","Brentford","a",NA,"Ipswich Town",NA
+17,168,2026,FALSE,"2026-12-26T15:00:00Z","Man Utd","h",NA,"Forest",NA
+17,168,2026,FALSE,"2026-12-26T15:00:00Z","Forest","a",NA,"Man Utd",NA
+17,169,2026,FALSE,"2026-12-26T15:00:00Z","Newcastle","h",NA,"Man City",NA
+17,169,2026,FALSE,"2026-12-26T15:00:00Z","Man City","a",NA,"Newcastle",NA
+17,170,2026,FALSE,"2026-12-26T15:00:00Z","Tottenham","h",NA,"Bournemouth",NA
+17,170,2026,FALSE,"2026-12-26T15:00:00Z","Bournemouth","a",NA,"Tottenham",NA
+18,171,2026,FALSE,"2026-12-30T20:00:00Z","Aston Villa","h",NA,"Liverpool",NA
+18,171,2026,FALSE,"2026-12-30T20:00:00Z","Liverpool","a",NA,"Aston Villa",NA
+18,172,2026,FALSE,"2026-12-30T20:00:00Z","Coventry City","h",NA,"Brentford",NA
+18,172,2026,FALSE,"2026-12-30T20:00:00Z","Brentford","a",NA,"Coventry City",NA
+18,173,2026,FALSE,"2026-12-30T20:00:00Z","Crystal Palace","h",NA,"Bournemouth",NA
+18,173,2026,FALSE,"2026-12-30T20:00:00Z","Bournemouth","a",NA,"Crystal Palace",NA
+18,174,2026,FALSE,"2026-12-30T20:00:00Z","Everton","h",NA,"Man City",NA
+18,174,2026,FALSE,"2026-12-30T20:00:00Z","Man City","a",NA,"Everton",NA
+18,175,2026,FALSE,"2026-12-30T20:00:00Z","Fulham","h",NA,"Arsenal",NA
+18,175,2026,FALSE,"2026-12-30T20:00:00Z","Arsenal","a",NA,"Fulham",NA
+18,176,2026,FALSE,"2026-12-30T20:00:00Z","Hull City","h",NA,"Leeds",NA
+18,176,2026,FALSE,"2026-12-30T20:00:00Z","Leeds","a",NA,"Hull City",NA
+18,177,2026,FALSE,"2026-12-30T20:00:00Z","Ipswich Town","h",NA,"Chelsea",NA
+18,177,2026,FALSE,"2026-12-30T20:00:00Z","Chelsea","a",NA,"Ipswich Town",NA
+18,178,2026,FALSE,"2026-12-30T20:00:00Z","Man Utd","h",NA,"Sunderland",NA
+18,178,2026,FALSE,"2026-12-30T20:00:00Z","Sunderland","a",NA,"Man Utd",NA
+18,179,2026,FALSE,"2026-12-30T20:00:00Z","Newcastle","h",NA,"Forest",NA
+18,179,2026,FALSE,"2026-12-30T20:00:00Z","Forest","a",NA,"Newcastle",NA
+18,180,2026,FALSE,"2026-12-30T20:00:00Z","Tottenham","h",NA,"Brighton",NA
+18,180,2026,FALSE,"2026-12-30T20:00:00Z","Brighton","a",NA,"Tottenham",NA
+19,181,2026,FALSE,"2027-01-02T15:00:00Z","Arsenal","h",NA,"Ipswich Town",NA
+19,181,2026,FALSE,"2027-01-02T15:00:00Z","Ipswich Town","a",NA,"Arsenal",NA
+19,182,2026,FALSE,"2027-01-02T15:00:00Z","Bournemouth","h",NA,"Aston Villa",NA
+19,182,2026,FALSE,"2027-01-02T15:00:00Z","Aston Villa","a",NA,"Bournemouth",NA
+19,183,2026,FALSE,"2027-01-02T15:00:00Z","Brentford","h",NA,"Crystal Palace",NA
+19,183,2026,FALSE,"2027-01-02T15:00:00Z","Crystal Palace","a",NA,"Brentford",NA
+19,184,2026,FALSE,"2027-01-02T15:00:00Z","Brighton","h",NA,"Man Utd",NA
+19,184,2026,FALSE,"2027-01-02T15:00:00Z","Man Utd","a",NA,"Brighton",NA
+19,185,2026,FALSE,"2027-01-02T15:00:00Z","Chelsea","h",NA,"Newcastle",NA
+19,185,2026,FALSE,"2027-01-02T15:00:00Z","Newcastle","a",NA,"Chelsea",NA
+19,186,2026,FALSE,"2027-01-02T15:00:00Z","Leeds","h",NA,"Everton",NA
+19,186,2026,FALSE,"2027-01-02T15:00:00Z","Everton","a",NA,"Leeds",NA
+19,187,2026,FALSE,"2027-01-02T15:00:00Z","Liverpool","h",NA,"Coventry City",NA
+19,187,2026,FALSE,"2027-01-02T15:00:00Z","Coventry City","a",NA,"Liverpool",NA
+19,188,2026,FALSE,"2027-01-02T15:00:00Z","Man City","h",NA,"Tottenham",NA
+19,188,2026,FALSE,"2027-01-02T15:00:00Z","Tottenham","a",NA,"Man City",NA
+19,189,2026,FALSE,"2027-01-02T15:00:00Z","Forest","h",NA,"Fulham",NA
+19,189,2026,FALSE,"2027-01-02T15:00:00Z","Fulham","a",NA,"Forest",NA
+19,190,2026,FALSE,"2027-01-02T15:00:00Z","Sunderland","h",NA,"Hull City",NA
+19,190,2026,FALSE,"2027-01-02T15:00:00Z","Hull City","a",NA,"Sunderland",NA
+20,191,2026,FALSE,"2027-01-06T20:00:00Z","Arsenal","h",NA,"Brentford",NA
+20,191,2026,FALSE,"2027-01-06T20:00:00Z","Brentford","a",NA,"Arsenal",NA
+20,192,2026,FALSE,"2027-01-06T20:00:00Z","Brighton","h",NA,"Bournemouth",NA
+20,192,2026,FALSE,"2027-01-06T20:00:00Z","Bournemouth","a",NA,"Brighton",NA
+20,193,2026,FALSE,"2027-01-06T20:00:00Z","Crystal Palace","h",NA,"Chelsea",NA
+20,193,2026,FALSE,"2027-01-06T20:00:00Z","Chelsea","a",NA,"Crystal Palace",NA
+20,194,2026,FALSE,"2027-01-06T20:00:00Z","Everton","h",NA,"Aston Villa",NA
+20,194,2026,FALSE,"2027-01-06T20:00:00Z","Aston Villa","a",NA,"Everton",NA
+20,195,2026,FALSE,"2027-01-06T20:00:00Z","Fulham","h",NA,"Tottenham",NA
+20,195,2026,FALSE,"2027-01-06T20:00:00Z","Tottenham","a",NA,"Fulham",NA
+20,196,2026,FALSE,"2027-01-06T20:00:00Z","Ipswich Town","h",NA,"Coventry City",NA
+20,196,2026,FALSE,"2027-01-06T20:00:00Z","Coventry City","a",NA,"Ipswich Town",NA
+20,197,2026,FALSE,"2027-01-06T20:00:00Z","Leeds","h",NA,"Man City",NA
+20,197,2026,FALSE,"2027-01-06T20:00:00Z","Man City","a",NA,"Leeds",NA
+20,198,2026,FALSE,"2027-01-06T20:00:00Z","Man Utd","h",NA,"Newcastle",NA
+20,198,2026,FALSE,"2027-01-06T20:00:00Z","Newcastle","a",NA,"Man Utd",NA
+20,199,2026,FALSE,"2027-01-06T20:00:00Z","Forest","h",NA,"Hull City",NA
+20,199,2026,FALSE,"2027-01-06T20:00:00Z","Hull City","a",NA,"Forest",NA
+20,200,2026,FALSE,"2027-01-06T20:00:00Z","Sunderland","h",NA,"Liverpool",NA
+20,200,2026,FALSE,"2027-01-06T20:00:00Z","Liverpool","a",NA,"Sunderland",NA
+21,201,2026,FALSE,"2027-01-16T15:00:00Z","Aston Villa","h",NA,"Man Utd",NA
+21,201,2026,FALSE,"2027-01-16T15:00:00Z","Man Utd","a",NA,"Aston Villa",NA
+21,202,2026,FALSE,"2027-01-16T15:00:00Z","Bournemouth","h",NA,"Ipswich Town",NA
+21,202,2026,FALSE,"2027-01-16T15:00:00Z","Ipswich Town","a",NA,"Bournemouth",NA
+21,203,2026,FALSE,"2027-01-16T15:00:00Z","Brentford","h",NA,"Brighton",NA
+21,203,2026,FALSE,"2027-01-16T15:00:00Z","Brighton","a",NA,"Brentford",NA
+21,204,2026,FALSE,"2027-01-16T15:00:00Z","Chelsea","h",NA,"Sunderland",NA
+21,204,2026,FALSE,"2027-01-16T15:00:00Z","Sunderland","a",NA,"Chelsea",NA
+21,205,2026,FALSE,"2027-01-16T15:00:00Z","Coventry City","h",NA,"Everton",NA
+21,205,2026,FALSE,"2027-01-16T15:00:00Z","Everton","a",NA,"Coventry City",NA
+21,206,2026,FALSE,"2027-01-16T15:00:00Z","Hull City","h",NA,"Arsenal",NA
+21,206,2026,FALSE,"2027-01-16T15:00:00Z","Arsenal","a",NA,"Hull City",NA
+21,207,2026,FALSE,"2027-01-16T15:00:00Z","Liverpool","h",NA,"Crystal Palace",NA
+21,207,2026,FALSE,"2027-01-16T15:00:00Z","Crystal Palace","a",NA,"Liverpool",NA
+21,208,2026,FALSE,"2027-01-16T15:00:00Z","Man City","h",NA,"Forest",NA
+21,208,2026,FALSE,"2027-01-16T15:00:00Z","Forest","a",NA,"Man City",NA
+21,209,2026,FALSE,"2027-01-16T15:00:00Z","Newcastle","h",NA,"Fulham",NA
+21,209,2026,FALSE,"2027-01-16T15:00:00Z","Fulham","a",NA,"Newcastle",NA
+21,210,2026,FALSE,"2027-01-16T15:00:00Z","Tottenham","h",NA,"Leeds",NA
+21,210,2026,FALSE,"2027-01-16T15:00:00Z","Leeds","a",NA,"Tottenham",NA
+22,211,2026,FALSE,"2027-01-23T15:00:00Z","Arsenal","h",NA,"Newcastle",NA
+22,211,2026,FALSE,"2027-01-23T15:00:00Z","Newcastle","a",NA,"Arsenal",NA
+22,212,2026,FALSE,"2027-01-23T15:00:00Z","Brighton","h",NA,"Man City",NA
+22,212,2026,FALSE,"2027-01-23T15:00:00Z","Man City","a",NA,"Brighton",NA
+22,213,2026,FALSE,"2027-01-23T15:00:00Z","Crystal Palace","h",NA,"Tottenham",NA
+22,213,2026,FALSE,"2027-01-23T15:00:00Z","Tottenham","a",NA,"Crystal Palace",NA
+22,214,2026,FALSE,"2027-01-23T15:00:00Z","Everton","h",NA,"Brentford",NA
+22,214,2026,FALSE,"2027-01-23T15:00:00Z","Brentford","a",NA,"Everton",NA
+22,215,2026,FALSE,"2027-01-23T15:00:00Z","Fulham","h",NA,"Aston Villa",NA
+22,215,2026,FALSE,"2027-01-23T15:00:00Z","Aston Villa","a",NA,"Fulham",NA
+22,216,2026,FALSE,"2027-01-23T15:00:00Z","Ipswich Town","h",NA,"Hull City",NA
+22,216,2026,FALSE,"2027-01-23T15:00:00Z","Hull City","a",NA,"Ipswich Town",NA
+22,217,2026,FALSE,"2027-01-23T15:00:00Z","Leeds","h",NA,"Chelsea",NA
+22,217,2026,FALSE,"2027-01-23T15:00:00Z","Chelsea","a",NA,"Leeds",NA
+22,218,2026,FALSE,"2027-01-23T15:00:00Z","Man Utd","h",NA,"Liverpool",NA
+22,218,2026,FALSE,"2027-01-23T15:00:00Z","Liverpool","a",NA,"Man Utd",NA
+22,219,2026,FALSE,"2027-01-23T15:00:00Z","Forest","h",NA,"Bournemouth",NA
+22,219,2026,FALSE,"2027-01-23T15:00:00Z","Bournemouth","a",NA,"Forest",NA
+22,220,2026,FALSE,"2027-01-23T15:00:00Z","Sunderland","h",NA,"Coventry City",NA
+22,220,2026,FALSE,"2027-01-23T15:00:00Z","Coventry City","a",NA,"Sunderland",NA
+23,221,2026,FALSE,"2027-01-30T15:00:00Z","Aston Villa","h",NA,"Ipswich Town",NA
+23,221,2026,FALSE,"2027-01-30T15:00:00Z","Ipswich Town","a",NA,"Aston Villa",NA
+23,222,2026,FALSE,"2027-01-30T15:00:00Z","Bournemouth","h",NA,"Fulham",NA
+23,222,2026,FALSE,"2027-01-30T15:00:00Z","Fulham","a",NA,"Bournemouth",NA
+23,223,2026,FALSE,"2027-01-30T15:00:00Z","Brentford","h",NA,"Man Utd",NA
+23,223,2026,FALSE,"2027-01-30T15:00:00Z","Man Utd","a",NA,"Brentford",NA
+23,224,2026,FALSE,"2027-01-30T15:00:00Z","Chelsea","h",NA,"Forest",NA
+23,224,2026,FALSE,"2027-01-30T15:00:00Z","Forest","a",NA,"Chelsea",NA
+23,225,2026,FALSE,"2027-01-30T15:00:00Z","Coventry City","h",NA,"Leeds",NA
+23,225,2026,FALSE,"2027-01-30T15:00:00Z","Leeds","a",NA,"Coventry City",NA
+23,226,2026,FALSE,"2027-01-30T15:00:00Z","Hull City","h",NA,"Crystal Palace",NA
+23,226,2026,FALSE,"2027-01-30T15:00:00Z","Crystal Palace","a",NA,"Hull City",NA
+23,227,2026,FALSE,"2027-01-30T15:00:00Z","Liverpool","h",NA,"Everton",NA
+23,227,2026,FALSE,"2027-01-30T15:00:00Z","Everton","a",NA,"Liverpool",NA
+23,228,2026,FALSE,"2027-01-30T15:00:00Z","Man City","h",NA,"Arsenal",NA
+23,228,2026,FALSE,"2027-01-30T15:00:00Z","Arsenal","a",NA,"Man City",NA
+23,229,2026,FALSE,"2027-01-30T15:00:00Z","Newcastle","h",NA,"Brighton",NA
+23,229,2026,FALSE,"2027-01-30T15:00:00Z","Brighton","a",NA,"Newcastle",NA
+23,230,2026,FALSE,"2027-01-30T15:00:00Z","Tottenham","h",NA,"Sunderland",NA
+23,230,2026,FALSE,"2027-01-30T15:00:00Z","Sunderland","a",NA,"Tottenham",NA
+24,231,2026,FALSE,"2027-02-06T15:00:00Z","Arsenal","h",NA,"Liverpool",NA
+24,231,2026,FALSE,"2027-02-06T15:00:00Z","Liverpool","a",NA,"Arsenal",NA
+24,232,2026,FALSE,"2027-02-06T15:00:00Z","Brighton","h",NA,"Hull City",NA
+24,232,2026,FALSE,"2027-02-06T15:00:00Z","Hull City","a",NA,"Brighton",NA
+24,233,2026,FALSE,"2027-02-06T15:00:00Z","Crystal Palace","h",NA,"Coventry City",NA
+24,233,2026,FALSE,"2027-02-06T15:00:00Z","Coventry City","a",NA,"Crystal Palace",NA
+24,234,2026,FALSE,"2027-02-06T15:00:00Z","Everton","h",NA,"Newcastle",NA
+24,234,2026,FALSE,"2027-02-06T15:00:00Z","Newcastle","a",NA,"Everton",NA
+24,235,2026,FALSE,"2027-02-06T15:00:00Z","Fulham","h",NA,"Man City",NA
+24,235,2026,FALSE,"2027-02-06T15:00:00Z","Man City","a",NA,"Fulham",NA
+24,236,2026,FALSE,"2027-02-06T15:00:00Z","Ipswich Town","h",NA,"Tottenham",NA
+24,236,2026,FALSE,"2027-02-06T15:00:00Z","Tottenham","a",NA,"Ipswich Town",NA
+24,237,2026,FALSE,"2027-02-06T15:00:00Z","Leeds","h",NA,"Bournemouth",NA
+24,237,2026,FALSE,"2027-02-06T15:00:00Z","Bournemouth","a",NA,"Leeds",NA
+24,238,2026,FALSE,"2027-02-06T15:00:00Z","Man Utd","h",NA,"Chelsea",NA
+24,238,2026,FALSE,"2027-02-06T15:00:00Z","Chelsea","a",NA,"Man Utd",NA
+24,239,2026,FALSE,"2027-02-06T15:00:00Z","Forest","h",NA,"Brentford",NA
+24,239,2026,FALSE,"2027-02-06T15:00:00Z","Brentford","a",NA,"Forest",NA
+24,240,2026,FALSE,"2027-02-06T15:00:00Z","Sunderland","h",NA,"Aston Villa",NA
+24,240,2026,FALSE,"2027-02-06T15:00:00Z","Aston Villa","a",NA,"Sunderland",NA
+25,241,2026,FALSE,"2027-02-10T20:00:00Z","Aston Villa","h",NA,"Bournemouth",NA
+25,241,2026,FALSE,"2027-02-10T20:00:00Z","Bournemouth","a",NA,"Aston Villa",NA
+25,242,2026,FALSE,"2027-02-10T20:00:00Z","Coventry City","h",NA,"Liverpool",NA
+25,242,2026,FALSE,"2027-02-10T20:00:00Z","Liverpool","a",NA,"Coventry City",NA
+25,243,2026,FALSE,"2027-02-10T20:00:00Z","Crystal Palace","h",NA,"Brentford",NA
+25,243,2026,FALSE,"2027-02-10T20:00:00Z","Brentford","a",NA,"Crystal Palace",NA
+25,244,2026,FALSE,"2027-02-10T20:00:00Z","Everton","h",NA,"Leeds",NA
+25,244,2026,FALSE,"2027-02-10T20:00:00Z","Leeds","a",NA,"Everton",NA
+25,245,2026,FALSE,"2027-02-10T20:00:00Z","Fulham","h",NA,"Forest",NA
+25,245,2026,FALSE,"2027-02-10T20:00:00Z","Forest","a",NA,"Fulham",NA
+25,246,2026,FALSE,"2027-02-10T20:00:00Z","Hull City","h",NA,"Sunderland",NA
+25,246,2026,FALSE,"2027-02-10T20:00:00Z","Sunderland","a",NA,"Hull City",NA
+25,247,2026,FALSE,"2027-02-10T20:00:00Z","Ipswich Town","h",NA,"Arsenal",NA
+25,247,2026,FALSE,"2027-02-10T20:00:00Z","Arsenal","a",NA,"Ipswich Town",NA
+25,248,2026,FALSE,"2027-02-10T20:00:00Z","Man Utd","h",NA,"Brighton",NA
+25,248,2026,FALSE,"2027-02-10T20:00:00Z","Brighton","a",NA,"Man Utd",NA
+25,249,2026,FALSE,"2027-02-10T20:00:00Z","Newcastle","h",NA,"Chelsea",NA
+25,249,2026,FALSE,"2027-02-10T20:00:00Z","Chelsea","a",NA,"Newcastle",NA
+25,250,2026,FALSE,"2027-02-10T20:00:00Z","Tottenham","h",NA,"Man City",NA
+25,250,2026,FALSE,"2027-02-10T20:00:00Z","Man City","a",NA,"Tottenham",NA
+26,251,2026,FALSE,"2027-02-20T15:00:00Z","Arsenal","h",NA,"Fulham",NA
+26,251,2026,FALSE,"2027-02-20T15:00:00Z","Fulham","a",NA,"Arsenal",NA
+26,252,2026,FALSE,"2027-02-20T15:00:00Z","Bournemouth","h",NA,"Crystal Palace",NA
+26,252,2026,FALSE,"2027-02-20T15:00:00Z","Crystal Palace","a",NA,"Bournemouth",NA
+26,253,2026,FALSE,"2027-02-20T15:00:00Z","Brentford","h",NA,"Coventry City",NA
+26,253,2026,FALSE,"2027-02-20T15:00:00Z","Coventry City","a",NA,"Brentford",NA
+26,254,2026,FALSE,"2027-02-20T15:00:00Z","Brighton","h",NA,"Tottenham",NA
+26,254,2026,FALSE,"2027-02-20T15:00:00Z","Tottenham","a",NA,"Brighton",NA
+26,255,2026,FALSE,"2027-02-20T15:00:00Z","Chelsea","h",NA,"Ipswich Town",NA
+26,255,2026,FALSE,"2027-02-20T15:00:00Z","Ipswich Town","a",NA,"Chelsea",NA
+26,256,2026,FALSE,"2027-02-20T15:00:00Z","Leeds","h",NA,"Aston Villa",NA
+26,256,2026,FALSE,"2027-02-20T15:00:00Z","Aston Villa","a",NA,"Leeds",NA
+26,257,2026,FALSE,"2027-02-20T15:00:00Z","Liverpool","h",NA,"Hull City",NA
+26,257,2026,FALSE,"2027-02-20T15:00:00Z","Hull City","a",NA,"Liverpool",NA
+26,258,2026,FALSE,"2027-02-20T15:00:00Z","Man City","h",NA,"Newcastle",NA
+26,258,2026,FALSE,"2027-02-20T15:00:00Z","Newcastle","a",NA,"Man City",NA
+26,259,2026,FALSE,"2027-02-20T15:00:00Z","Forest","h",NA,"Man Utd",NA
+26,259,2026,FALSE,"2027-02-20T15:00:00Z","Man Utd","a",NA,"Forest",NA
+26,260,2026,FALSE,"2027-02-20T15:00:00Z","Sunderland","h",NA,"Everton",NA
+26,260,2026,FALSE,"2027-02-20T15:00:00Z","Everton","a",NA,"Sunderland",NA
+27,261,2026,FALSE,"2027-02-27T15:00:00Z","Aston Villa","h",NA,"Chelsea",NA
+27,261,2026,FALSE,"2027-02-27T15:00:00Z","Chelsea","a",NA,"Aston Villa",NA
+27,262,2026,FALSE,"2027-02-27T15:00:00Z","Coventry City","h",NA,"Bournemouth",NA
+27,262,2026,FALSE,"2027-02-27T15:00:00Z","Bournemouth","a",NA,"Coventry City",NA
+27,263,2026,FALSE,"2027-02-27T15:00:00Z","Crystal Palace","h",NA,"Sunderland",NA
+27,263,2026,FALSE,"2027-02-27T15:00:00Z","Sunderland","a",NA,"Crystal Palace",NA
+27,264,2026,FALSE,"2027-02-27T15:00:00Z","Everton","h",NA,"Forest",NA
+27,264,2026,FALSE,"2027-02-27T15:00:00Z","Forest","a",NA,"Everton",NA
+27,265,2026,FALSE,"2027-02-27T15:00:00Z","Fulham","h",NA,"Leeds",NA
+27,265,2026,FALSE,"2027-02-27T15:00:00Z","Leeds","a",NA,"Fulham",NA
+27,266,2026,FALSE,"2027-02-27T15:00:00Z","Hull City","h",NA,"Man City",NA
+27,266,2026,FALSE,"2027-02-27T15:00:00Z","Man City","a",NA,"Hull City",NA
+27,267,2026,FALSE,"2027-02-27T15:00:00Z","Ipswich Town","h",NA,"Brighton",NA
+27,267,2026,FALSE,"2027-02-27T15:00:00Z","Brighton","a",NA,"Ipswich Town",NA
+27,268,2026,FALSE,"2027-02-27T15:00:00Z","Man Utd","h",NA,"Arsenal",NA
+27,268,2026,FALSE,"2027-02-27T15:00:00Z","Arsenal","a",NA,"Man Utd",NA
+27,269,2026,FALSE,"2027-02-27T15:00:00Z","Newcastle","h",NA,"Brentford",NA
+27,269,2026,FALSE,"2027-02-27T15:00:00Z","Brentford","a",NA,"Newcastle",NA
+27,270,2026,FALSE,"2027-02-27T15:00:00Z","Tottenham","h",NA,"Liverpool",NA
+27,270,2026,FALSE,"2027-02-27T15:00:00Z","Liverpool","a",NA,"Tottenham",NA
+28,271,2026,FALSE,"2027-03-03T20:00:00Z","Arsenal","h",NA,"Crystal Palace",NA
+28,271,2026,FALSE,"2027-03-03T20:00:00Z","Crystal Palace","a",NA,"Arsenal",NA
+28,272,2026,FALSE,"2027-03-03T20:00:00Z","Bournemouth","h",NA,"Tottenham",NA
+28,272,2026,FALSE,"2027-03-03T20:00:00Z","Tottenham","a",NA,"Bournemouth",NA
+28,273,2026,FALSE,"2027-03-03T20:00:00Z","Brentford","h",NA,"Ipswich Town",NA
+28,273,2026,FALSE,"2027-03-03T20:00:00Z","Ipswich Town","a",NA,"Brentford",NA
+28,274,2026,FALSE,"2027-03-03T20:00:00Z","Brighton","h",NA,"Fulham",NA
+28,274,2026,FALSE,"2027-03-03T20:00:00Z","Fulham","a",NA,"Brighton",NA
+28,275,2026,FALSE,"2027-03-03T20:00:00Z","Chelsea","h",NA,"Coventry City",NA
+28,275,2026,FALSE,"2027-03-03T20:00:00Z","Coventry City","a",NA,"Chelsea",NA
+28,276,2026,FALSE,"2027-03-03T20:00:00Z","Leeds","h",NA,"Hull City",NA
+28,276,2026,FALSE,"2027-03-03T20:00:00Z","Hull City","a",NA,"Leeds",NA
+28,277,2026,FALSE,"2027-03-03T20:00:00Z","Liverpool","h",NA,"Aston Villa",NA
+28,277,2026,FALSE,"2027-03-03T20:00:00Z","Aston Villa","a",NA,"Liverpool",NA
+28,278,2026,FALSE,"2027-03-03T20:00:00Z","Man City","h",NA,"Everton",NA
+28,278,2026,FALSE,"2027-03-03T20:00:00Z","Everton","a",NA,"Man City",NA
+28,279,2026,FALSE,"2027-03-03T20:00:00Z","Forest","h",NA,"Newcastle",NA
+28,279,2026,FALSE,"2027-03-03T20:00:00Z","Newcastle","a",NA,"Forest",NA
+28,280,2026,FALSE,"2027-03-03T20:00:00Z","Sunderland","h",NA,"Man Utd",NA
+28,280,2026,FALSE,"2027-03-03T20:00:00Z","Man Utd","a",NA,"Sunderland",NA
+29,281,2026,FALSE,"2027-03-13T15:00:00Z","Aston Villa","h",NA,"Hull City",NA
+29,281,2026,FALSE,"2027-03-13T15:00:00Z","Hull City","a",NA,"Aston Villa",NA
+29,282,2026,FALSE,"2027-03-13T15:00:00Z","Bournemouth","h",NA,"Newcastle",NA
+29,282,2026,FALSE,"2027-03-13T15:00:00Z","Newcastle","a",NA,"Bournemouth",NA
+29,283,2026,FALSE,"2027-03-13T15:00:00Z","Chelsea","h",NA,"Arsenal",NA
+29,283,2026,FALSE,"2027-03-13T15:00:00Z","Arsenal","a",NA,"Chelsea",NA
+29,284,2026,FALSE,"2027-03-13T15:00:00Z","Coventry City","h",NA,"Man City",NA
+29,284,2026,FALSE,"2027-03-13T15:00:00Z","Man City","a",NA,"Coventry City",NA
+29,285,2026,FALSE,"2027-03-13T15:00:00Z","Crystal Palace","h",NA,"Fulham",NA
+29,285,2026,FALSE,"2027-03-13T15:00:00Z","Fulham","a",NA,"Crystal Palace",NA
+29,286,2026,FALSE,"2027-03-13T15:00:00Z","Leeds","h",NA,"Brighton",NA
+29,286,2026,FALSE,"2027-03-13T15:00:00Z","Brighton","a",NA,"Leeds",NA
+29,287,2026,FALSE,"2027-03-13T15:00:00Z","Liverpool","h",NA,"Ipswich Town",NA
+29,287,2026,FALSE,"2027-03-13T15:00:00Z","Ipswich Town","a",NA,"Liverpool",NA
+29,288,2026,FALSE,"2027-03-13T15:00:00Z","Man Utd","h",NA,"Everton",NA
+29,288,2026,FALSE,"2027-03-13T15:00:00Z","Everton","a",NA,"Man Utd",NA
+29,289,2026,FALSE,"2027-03-13T15:00:00Z","Sunderland","h",NA,"Brentford",NA
+29,289,2026,FALSE,"2027-03-13T15:00:00Z","Brentford","a",NA,"Sunderland",NA
+29,290,2026,FALSE,"2027-03-13T15:00:00Z","Tottenham","h",NA,"Forest",NA
+29,290,2026,FALSE,"2027-03-13T15:00:00Z","Forest","a",NA,"Tottenham",NA
+30,291,2026,FALSE,"2027-03-20T15:00:00Z","Arsenal","h",NA,"Sunderland",NA
+30,291,2026,FALSE,"2027-03-20T15:00:00Z","Sunderland","a",NA,"Arsenal",NA
+30,292,2026,FALSE,"2027-03-20T15:00:00Z","Brentford","h",NA,"Bournemouth",NA
+30,292,2026,FALSE,"2027-03-20T15:00:00Z","Bournemouth","a",NA,"Brentford",NA
+30,293,2026,FALSE,"2027-03-20T15:00:00Z","Brighton","h",NA,"Coventry City",NA
+30,293,2026,FALSE,"2027-03-20T15:00:00Z","Coventry City","a",NA,"Brighton",NA
+30,294,2026,FALSE,"2027-03-20T15:00:00Z","Everton","h",NA,"Tottenham",NA
+30,294,2026,FALSE,"2027-03-20T15:00:00Z","Tottenham","a",NA,"Everton",NA
+30,295,2026,FALSE,"2027-03-20T15:00:00Z","Fulham","h",NA,"Liverpool",NA
+30,295,2026,FALSE,"2027-03-20T15:00:00Z","Liverpool","a",NA,"Fulham",NA
+30,296,2026,FALSE,"2027-03-20T15:00:00Z","Hull City","h",NA,"Chelsea",NA
+30,296,2026,FALSE,"2027-03-20T15:00:00Z","Chelsea","a",NA,"Hull City",NA
+30,297,2026,FALSE,"2027-03-20T15:00:00Z","Ipswich Town","h",NA,"Crystal Palace",NA
+30,297,2026,FALSE,"2027-03-20T15:00:00Z","Crystal Palace","a",NA,"Ipswich Town",NA
+30,298,2026,FALSE,"2027-03-20T15:00:00Z","Man City","h",NA,"Man Utd",NA
+30,298,2026,FALSE,"2027-03-20T15:00:00Z","Man Utd","a",NA,"Man City",NA
+30,299,2026,FALSE,"2027-03-20T15:00:00Z","Newcastle","h",NA,"Leeds",NA
+30,299,2026,FALSE,"2027-03-20T15:00:00Z","Leeds","a",NA,"Newcastle",NA
+30,300,2026,FALSE,"2027-03-20T15:00:00Z","Forest","h",NA,"Aston Villa",NA
+30,300,2026,FALSE,"2027-03-20T15:00:00Z","Aston Villa","a",NA,"Forest",NA
+31,301,2026,FALSE,"2027-04-10T14:00:00Z","Aston Villa","h",NA,"Brighton",NA
+31,301,2026,FALSE,"2027-04-10T14:00:00Z","Brighton","a",NA,"Aston Villa",NA
+31,302,2026,FALSE,"2027-04-10T14:00:00Z","Bournemouth","h",NA,"Man City",NA
+31,302,2026,FALSE,"2027-04-10T14:00:00Z","Man City","a",NA,"Bournemouth",NA
+31,303,2026,FALSE,"2027-04-10T14:00:00Z","Chelsea","h",NA,"Fulham",NA
+31,303,2026,FALSE,"2027-04-10T14:00:00Z","Fulham","a",NA,"Chelsea",NA
+31,304,2026,FALSE,"2027-04-10T14:00:00Z","Coventry City","h",NA,"Arsenal",NA
+31,304,2026,FALSE,"2027-04-10T14:00:00Z","Arsenal","a",NA,"Coventry City",NA
+31,305,2026,FALSE,"2027-04-10T14:00:00Z","Crystal Palace","h",NA,"Everton",NA
+31,305,2026,FALSE,"2027-04-10T14:00:00Z","Everton","a",NA,"Crystal Palace",NA
+31,306,2026,FALSE,"2027-04-10T14:00:00Z","Leeds","h",NA,"Forest",NA
+31,306,2026,FALSE,"2027-04-10T14:00:00Z","Forest","a",NA,"Leeds",NA
+31,307,2026,FALSE,"2027-04-10T14:00:00Z","Liverpool","h",NA,"Newcastle",NA
+31,307,2026,FALSE,"2027-04-10T14:00:00Z","Newcastle","a",NA,"Liverpool",NA
+31,308,2026,FALSE,"2027-04-10T14:00:00Z","Man Utd","h",NA,"Hull City",NA
+31,308,2026,FALSE,"2027-04-10T14:00:00Z","Hull City","a",NA,"Man Utd",NA
+31,309,2026,FALSE,"2027-04-10T14:00:00Z","Sunderland","h",NA,"Ipswich Town",NA
+31,309,2026,FALSE,"2027-04-10T14:00:00Z","Ipswich Town","a",NA,"Sunderland",NA
+31,310,2026,FALSE,"2027-04-10T14:00:00Z","Tottenham","h",NA,"Brentford",NA
+31,310,2026,FALSE,"2027-04-10T14:00:00Z","Brentford","a",NA,"Tottenham",NA
+32,311,2026,FALSE,"2027-04-17T14:00:00Z","Arsenal","h",NA,"Aston Villa",NA
+32,311,2026,FALSE,"2027-04-17T14:00:00Z","Aston Villa","a",NA,"Arsenal",NA
+32,312,2026,FALSE,"2027-04-17T14:00:00Z","Brentford","h",NA,"Leeds",NA
+32,312,2026,FALSE,"2027-04-17T14:00:00Z","Leeds","a",NA,"Brentford",NA
+32,313,2026,FALSE,"2027-04-17T14:00:00Z","Brighton","h",NA,"Chelsea",NA
+32,313,2026,FALSE,"2027-04-17T14:00:00Z","Chelsea","a",NA,"Brighton",NA
+32,314,2026,FALSE,"2027-04-17T14:00:00Z","Everton","h",NA,"Bournemouth",NA
+32,314,2026,FALSE,"2027-04-17T14:00:00Z","Bournemouth","a",NA,"Everton",NA
+32,315,2026,FALSE,"2027-04-17T14:00:00Z","Fulham","h",NA,"Sunderland",NA
+32,315,2026,FALSE,"2027-04-17T14:00:00Z","Sunderland","a",NA,"Fulham",NA
+32,316,2026,FALSE,"2027-04-17T14:00:00Z","Hull City","h",NA,"Coventry City",NA
+32,316,2026,FALSE,"2027-04-17T14:00:00Z","Coventry City","a",NA,"Hull City",NA
+32,317,2026,FALSE,"2027-04-17T14:00:00Z","Ipswich Town","h",NA,"Man Utd",NA
+32,317,2026,FALSE,"2027-04-17T14:00:00Z","Man Utd","a",NA,"Ipswich Town",NA
+32,318,2026,FALSE,"2027-04-17T14:00:00Z","Man City","h",NA,"Crystal Palace",NA
+32,318,2026,FALSE,"2027-04-17T14:00:00Z","Crystal Palace","a",NA,"Man City",NA
+32,319,2026,FALSE,"2027-04-17T14:00:00Z","Newcastle","h",NA,"Tottenham",NA
+32,319,2026,FALSE,"2027-04-17T14:00:00Z","Tottenham","a",NA,"Newcastle",NA
+32,320,2026,FALSE,"2027-04-17T14:00:00Z","Forest","h",NA,"Liverpool",NA
+32,320,2026,FALSE,"2027-04-17T14:00:00Z","Liverpool","a",NA,"Forest",NA
+33,321,2026,FALSE,"2027-04-24T14:00:00Z","Aston Villa","h",NA,"Coventry City",NA
+33,321,2026,FALSE,"2027-04-24T14:00:00Z","Coventry City","a",NA,"Aston Villa",NA
+33,322,2026,FALSE,"2027-04-24T14:00:00Z","Bournemouth","h",NA,"Arsenal",NA
+33,322,2026,FALSE,"2027-04-24T14:00:00Z","Arsenal","a",NA,"Bournemouth",NA
+33,323,2026,FALSE,"2027-04-24T14:00:00Z","Brentford","h",NA,"Fulham",NA
+33,323,2026,FALSE,"2027-04-24T14:00:00Z","Fulham","a",NA,"Brentford",NA
+33,324,2026,FALSE,"2027-04-24T14:00:00Z","Chelsea","h",NA,"Man City",NA
+33,324,2026,FALSE,"2027-04-24T14:00:00Z","Man City","a",NA,"Chelsea",NA
+33,325,2026,FALSE,"2027-04-24T14:00:00Z","Everton","h",NA,"Brighton",NA
+33,325,2026,FALSE,"2027-04-24T14:00:00Z","Brighton","a",NA,"Everton",NA
+33,326,2026,FALSE,"2027-04-24T14:00:00Z","Leeds","h",NA,"Liverpool",NA
+33,326,2026,FALSE,"2027-04-24T14:00:00Z","Liverpool","a",NA,"Leeds",NA
+33,327,2026,FALSE,"2027-04-24T14:00:00Z","Man Utd","h",NA,"Crystal Palace",NA
+33,327,2026,FALSE,"2027-04-24T14:00:00Z","Crystal Palace","a",NA,"Man Utd",NA
+33,328,2026,FALSE,"2027-04-24T14:00:00Z","Newcastle","h",NA,"Ipswich Town",NA
+33,328,2026,FALSE,"2027-04-24T14:00:00Z","Ipswich Town","a",NA,"Newcastle",NA
+33,329,2026,FALSE,"2027-04-24T14:00:00Z","Forest","h",NA,"Sunderland",NA
+33,329,2026,FALSE,"2027-04-24T14:00:00Z","Sunderland","a",NA,"Forest",NA
+33,330,2026,FALSE,"2027-04-24T14:00:00Z","Tottenham","h",NA,"Hull City",NA
+33,330,2026,FALSE,"2027-04-24T14:00:00Z","Hull City","a",NA,"Tottenham",NA
+34,331,2026,FALSE,"2027-05-01T14:00:00Z","Arsenal","h",NA,"Tottenham",NA
+34,331,2026,FALSE,"2027-05-01T14:00:00Z","Tottenham","a",NA,"Arsenal",NA
+34,332,2026,FALSE,"2027-05-01T14:00:00Z","Brighton","h",NA,"Forest",NA
+34,332,2026,FALSE,"2027-05-01T14:00:00Z","Forest","a",NA,"Brighton",NA
+34,333,2026,FALSE,"2027-05-01T14:00:00Z","Coventry City","h",NA,"Man Utd",NA
+34,333,2026,FALSE,"2027-05-01T14:00:00Z","Man Utd","a",NA,"Coventry City",NA
+34,334,2026,FALSE,"2027-05-01T14:00:00Z","Crystal Palace","h",NA,"Aston Villa",NA
+34,334,2026,FALSE,"2027-05-01T14:00:00Z","Aston Villa","a",NA,"Crystal Palace",NA
+34,335,2026,FALSE,"2027-05-01T14:00:00Z","Fulham","h",NA,"Everton",NA
+34,335,2026,FALSE,"2027-05-01T14:00:00Z","Everton","a",NA,"Fulham",NA
+34,336,2026,FALSE,"2027-05-01T14:00:00Z","Hull City","h",NA,"Bournemouth",NA
+34,336,2026,FALSE,"2027-05-01T14:00:00Z","Bournemouth","a",NA,"Hull City",NA
+34,337,2026,FALSE,"2027-05-01T14:00:00Z","Ipswich Town","h",NA,"Leeds",NA
+34,337,2026,FALSE,"2027-05-01T14:00:00Z","Leeds","a",NA,"Ipswich Town",NA
+34,338,2026,FALSE,"2027-05-01T14:00:00Z","Liverpool","h",NA,"Chelsea",NA
+34,338,2026,FALSE,"2027-05-01T14:00:00Z","Chelsea","a",NA,"Liverpool",NA
+34,339,2026,FALSE,"2027-05-01T14:00:00Z","Man City","h",NA,"Brentford",NA
+34,339,2026,FALSE,"2027-05-01T14:00:00Z","Brentford","a",NA,"Man City",NA
+34,340,2026,FALSE,"2027-05-01T14:00:00Z","Sunderland","h",NA,"Newcastle",NA
+34,340,2026,FALSE,"2027-05-01T14:00:00Z","Newcastle","a",NA,"Sunderland",NA
+35,341,2026,FALSE,"2027-05-08T14:00:00Z","Bournemouth","h",NA,"Man Utd",NA
+35,341,2026,FALSE,"2027-05-08T14:00:00Z","Man Utd","a",NA,"Bournemouth",NA
+35,342,2026,FALSE,"2027-05-08T14:00:00Z","Brentford","h",NA,"Aston Villa",NA
+35,342,2026,FALSE,"2027-05-08T14:00:00Z","Aston Villa","a",NA,"Brentford",NA
+35,343,2026,FALSE,"2027-05-08T14:00:00Z","Brighton","h",NA,"Sunderland",NA
+35,343,2026,FALSE,"2027-05-08T14:00:00Z","Sunderland","a",NA,"Brighton",NA
+35,344,2026,FALSE,"2027-05-08T14:00:00Z","Everton","h",NA,"Hull City",NA
+35,344,2026,FALSE,"2027-05-08T14:00:00Z","Hull City","a",NA,"Everton",NA
+35,345,2026,FALSE,"2027-05-08T14:00:00Z","Fulham","h",NA,"Ipswich Town",NA
+35,345,2026,FALSE,"2027-05-08T14:00:00Z","Ipswich Town","a",NA,"Fulham",NA
+35,346,2026,FALSE,"2027-05-08T14:00:00Z","Leeds","h",NA,"Arsenal",NA
+35,346,2026,FALSE,"2027-05-08T14:00:00Z","Arsenal","a",NA,"Leeds",NA
+35,347,2026,FALSE,"2027-05-08T14:00:00Z","Man City","h",NA,"Liverpool",NA
+35,347,2026,FALSE,"2027-05-08T14:00:00Z","Liverpool","a",NA,"Man City",NA
+35,348,2026,FALSE,"2027-05-08T14:00:00Z","Newcastle","h",NA,"Coventry City",NA
+35,348,2026,FALSE,"2027-05-08T14:00:00Z","Coventry City","a",NA,"Newcastle",NA
+35,349,2026,FALSE,"2027-05-08T14:00:00Z","Forest","h",NA,"Crystal Palace",NA
+35,349,2026,FALSE,"2027-05-08T14:00:00Z","Crystal Palace","a",NA,"Forest",NA
+35,350,2026,FALSE,"2027-05-08T14:00:00Z","Tottenham","h",NA,"Chelsea",NA
+35,350,2026,FALSE,"2027-05-08T14:00:00Z","Chelsea","a",NA,"Tottenham",NA
+36,351,2026,FALSE,"2027-05-15T14:00:00Z","Arsenal","h",NA,"Forest",NA
+36,351,2026,FALSE,"2027-05-15T14:00:00Z","Forest","a",NA,"Arsenal",NA
+36,352,2026,FALSE,"2027-05-15T14:00:00Z","Aston Villa","h",NA,"Newcastle",NA
+36,352,2026,FALSE,"2027-05-15T14:00:00Z","Newcastle","a",NA,"Aston Villa",NA
+36,353,2026,FALSE,"2027-05-15T14:00:00Z","Chelsea","h",NA,"Everton",NA
+36,353,2026,FALSE,"2027-05-15T14:00:00Z","Everton","a",NA,"Chelsea",NA
+36,354,2026,FALSE,"2027-05-15T14:00:00Z","Coventry City","h",NA,"Tottenham",NA
+36,354,2026,FALSE,"2027-05-15T14:00:00Z","Tottenham","a",NA,"Coventry City",NA
+36,355,2026,FALSE,"2027-05-15T14:00:00Z","Crystal Palace","h",NA,"Brighton",NA
+36,355,2026,FALSE,"2027-05-15T14:00:00Z","Brighton","a",NA,"Crystal Palace",NA
+36,356,2026,FALSE,"2027-05-15T14:00:00Z","Hull City","h",NA,"Fulham",NA
+36,356,2026,FALSE,"2027-05-15T14:00:00Z","Fulham","a",NA,"Hull City",NA
+36,357,2026,FALSE,"2027-05-15T14:00:00Z","Ipswich Town","h",NA,"Man City",NA
+36,357,2026,FALSE,"2027-05-15T14:00:00Z","Man City","a",NA,"Ipswich Town",NA
+36,358,2026,FALSE,"2027-05-15T14:00:00Z","Liverpool","h",NA,"Brentford",NA
+36,358,2026,FALSE,"2027-05-15T14:00:00Z","Brentford","a",NA,"Liverpool",NA
+36,359,2026,FALSE,"2027-05-15T14:00:00Z","Man Utd","h",NA,"Leeds",NA
+36,359,2026,FALSE,"2027-05-15T14:00:00Z","Leeds","a",NA,"Man Utd",NA
+36,360,2026,FALSE,"2027-05-15T14:00:00Z","Sunderland","h",NA,"Bournemouth",NA
+36,360,2026,FALSE,"2027-05-15T14:00:00Z","Bournemouth","a",NA,"Sunderland",NA
+37,361,2026,FALSE,"2027-05-23T14:00:00Z","Bournemouth","h",NA,"Chelsea",NA
+37,361,2026,FALSE,"2027-05-23T14:00:00Z","Chelsea","a",NA,"Bournemouth",NA
+37,362,2026,FALSE,"2027-05-23T14:00:00Z","Brentford","h",NA,"Hull City",NA
+37,362,2026,FALSE,"2027-05-23T14:00:00Z","Hull City","a",NA,"Brentford",NA
+37,363,2026,FALSE,"2027-05-23T14:00:00Z","Brighton","h",NA,"Liverpool",NA
+37,363,2026,FALSE,"2027-05-23T14:00:00Z","Liverpool","a",NA,"Brighton",NA
+37,364,2026,FALSE,"2027-05-23T14:00:00Z","Everton","h",NA,"Arsenal",NA
+37,364,2026,FALSE,"2027-05-23T14:00:00Z","Arsenal","a",NA,"Everton",NA
+37,365,2026,FALSE,"2027-05-23T14:00:00Z","Fulham","h",NA,"Coventry City",NA
+37,365,2026,FALSE,"2027-05-23T14:00:00Z","Coventry City","a",NA,"Fulham",NA
+37,366,2026,FALSE,"2027-05-23T14:00:00Z","Leeds","h",NA,"Sunderland",NA
+37,366,2026,FALSE,"2027-05-23T14:00:00Z","Sunderland","a",NA,"Leeds",NA
+37,367,2026,FALSE,"2027-05-23T14:00:00Z","Man City","h",NA,"Aston Villa",NA
+37,367,2026,FALSE,"2027-05-23T14:00:00Z","Aston Villa","a",NA,"Man City",NA
+37,368,2026,FALSE,"2027-05-23T14:00:00Z","Newcastle","h",NA,"Crystal Palace",NA
+37,368,2026,FALSE,"2027-05-23T14:00:00Z","Crystal Palace","a",NA,"Newcastle",NA
+37,369,2026,FALSE,"2027-05-23T14:00:00Z","Forest","h",NA,"Ipswich Town",NA
+37,369,2026,FALSE,"2027-05-23T14:00:00Z","Ipswich Town","a",NA,"Forest",NA
+37,370,2026,FALSE,"2027-05-23T14:00:00Z","Tottenham","h",NA,"Man Utd",NA
+37,370,2026,FALSE,"2027-05-23T14:00:00Z","Man Utd","a",NA,"Tottenham",NA
+38,371,2026,FALSE,"2027-05-30T15:00:00Z","Arsenal","h",NA,"Brighton",NA
+38,371,2026,FALSE,"2027-05-30T15:00:00Z","Brighton","a",NA,"Arsenal",NA
+38,372,2026,FALSE,"2027-05-30T15:00:00Z","Aston Villa","h",NA,"Tottenham",NA
+38,372,2026,FALSE,"2027-05-30T15:00:00Z","Tottenham","a",NA,"Aston Villa",NA
+38,373,2026,FALSE,"2027-05-30T15:00:00Z","Chelsea","h",NA,"Brentford",NA
+38,373,2026,FALSE,"2027-05-30T15:00:00Z","Brentford","a",NA,"Chelsea",NA
+38,374,2026,FALSE,"2027-05-30T15:00:00Z","Coventry City","h",NA,"Forest",NA
+38,374,2026,FALSE,"2027-05-30T15:00:00Z","Forest","a",NA,"Coventry City",NA
+38,375,2026,FALSE,"2027-05-30T15:00:00Z","Crystal Palace","h",NA,"Leeds",NA
+38,375,2026,FALSE,"2027-05-30T15:00:00Z","Leeds","a",NA,"Crystal Palace",NA
+38,376,2026,FALSE,"2027-05-30T15:00:00Z","Hull City","h",NA,"Newcastle",NA
+38,376,2026,FALSE,"2027-05-30T15:00:00Z","Newcastle","a",NA,"Hull City",NA
+38,377,2026,FALSE,"2027-05-30T15:00:00Z","Ipswich Town","h",NA,"Everton",NA
+38,377,2026,FALSE,"2027-05-30T15:00:00Z","Everton","a",NA,"Ipswich Town",NA
+38,378,2026,FALSE,"2027-05-30T15:00:00Z","Liverpool","h",NA,"Bournemouth",NA
+38,378,2026,FALSE,"2027-05-30T15:00:00Z","Bournemouth","a",NA,"Liverpool",NA
+38,379,2026,FALSE,"2027-05-30T15:00:00Z","Man Utd","h",NA,"Fulham",NA
+38,379,2026,FALSE,"2027-05-30T15:00:00Z","Fulham","a",NA,"Man Utd",NA
+38,380,2026,FALSE,"2027-05-30T15:00:00Z","Sunderland","h",NA,"Man City",NA
+38,380,2026,FALSE,"2027-05-30T15:00:00Z","Man City","a",NA,"Sunderland",NA

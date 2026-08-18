@@ -185,10 +185,10 @@ tryCatch({
        left_join(time_results) %>%
        left_join(save_results) %>%
        left_join(bonus_results) %>%
-       left_join(predict_data %>% select(name, team, season, GW, def_actions_per_90) %>%
+       left_join(predict_data %>% select(name, team, opponent, strength, difficulty, season, GW, def_actions_per_90) %>%
                    rename(Player = name, Team = team, Season = season, Gameweek = GW)) %>% # need to introduce some outlier controls
-       left_join(teams %>% select(name, strength) %>% rename(Team=name)) %>%
-       left_join(teams %>% select(name, strength) %>% rename(Opponent=name, difficulty = strength)) %>%
+       # left_join(teams %>% select(name, strength) %>% rename(Team=name)) %>%
+       # left_join(teams %>% select(name, strength) %>% rename(Opponent=name, difficulty = strength)) %>%
        mutate_all(funs(ifelse(is.na(.), 0, .))) %>%
        rename(Goals=Predicted_goals,
               Assists=Predicted_assists,

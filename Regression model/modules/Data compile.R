@@ -22,8 +22,7 @@ xA <- read.csv('data/xA_understat.csv') %>%
   select(-key_passes)
 
 df <- rbind(
-  read.csv('data/vaastav data/data/2021-22/gws/merged_gw.csv',
-           encoding = 'UTF-8') %>%
+  read.csv('data/vaastav data/data/2021-22/gws/merged_gw.csv') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -37,18 +36,15 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2021-22/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2021-22/teams.csv') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2021-22/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2021-22/teams.csv') %>%
         select(name, strength), by=c('team' = 'name')
     ),
-  read.csv('data/vaastav data/data/2022-23/gws/merged_gw.csv',
-           encoding = 'UTF-8') %>%
+  read.csv('data/vaastav data/data/2022-23/gws/merged_gw.csv') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -62,23 +58,20 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2022-23/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2022-23/teams.csv') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2022-23/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2022-23/teams.csv') %>%
         select(name, strength), by=c('team' = 'name')
     )
 ) %>% left_join(
   xg, by=c('name'='player', 'season', 'kickoff_time'='date')
 ) %>% left_join(
   xA, by=c('name'='FPL_Name', 'season', 'kickoff_time'='date')
-) %>% rbind(
-  read.csv('data/vaastav data/data/2023-24/gws/merged_gw.csv',
-           encoding = 'UTF-8') %>%
+) %>% distinct(name, kickoff_time, .keep_all = T) %>%
+  rbind(read.csv('data/vaastav data/data/2023-24/gws/merged_gw.csv') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists,own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -93,19 +86,16 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2023-24/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2023-24/teams.csv') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2023-24/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2023-24/teams.csv') %>%
         select(name, strength), by=c('team' = 'name')
     )
 ) %>% rbind(
-  temp <- read.csv('data/vaastav data/data/2024-25/gws/merged_gw_new.csv',
-           encoding = 'UTF-8') %>%
+  temp <- read.csv('data/vaastav data/data/2024-25/gws/merged_gw_new.csv') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists,own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -122,18 +112,25 @@ df <- rbind(
     filter(position!='AM') %>%
     mutate(season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2024-25/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2024-25/teams.csv') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2024-25/teams.csv',
-               encoding='UTF-8') %>%
+      read.csv('data/vaastav data/data/2024-25/teams.csv') %>%
         select(name, strength), by=c('team' = 'name')
     )
-) %>% #distinct(name, season, GW, .keep_all = T) %>%
-  mutate(opponent=ifelse(opponent=='Manchester City', 'Man City', opponent),
+) %>% rbind(
+  temp = read.csv('data/vaastav data/data/2025-26/gws/merged_gw.csv') %>%
+    mutate(opponent_team = opponent) %>%
+    select(name, team, position, kickoff_time, ict_index, goals, assists, own_goals,
+           penalties_missed, GW, id, opponent_team, opponent, team_a_score, team_h_score, h_a,
+           bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
+           xG, xA, total_points, value, season, opponent_score, team_score, opponent_score,
+           difficulty, strength, -X
+    ) 
+) %>% mutate(opponent = opponent_team,
+         opponent=ifelse(opponent=='Manchester City', 'Man City', opponent),
          opponent=ifelse(opponent=='Manchester United', 'Man Utd', opponent),
          opponent=ifelse(opponent=='Newcastle United', 'Newcastle', opponent),
          opponent=ifelse(opponent=='Wolverhampton Wanderers', 'Wolves', opponent),
@@ -172,7 +169,7 @@ json <- GET(url)
 json <- content(json, 'text')
 ls <- fromJSON(json)
 teams <- ls$teams %>%
-  select(name, id, strength) %>%
+  select(name, id) %>%
   mutate(name=ifelse(name=='Manchester City', 'Man City', name),
          name=ifelse(name=='Manchester United', 'Man Utd', name),
          name=ifelse(name=='Newcastle United', 'Newcastle', name),
@@ -186,22 +183,29 @@ json <- GET(url)
 json <- content(json, 'text')
 fixtures <- fromJSON(json) %>%
   rename(GW=event) %>%
-  select(GW, id, finished, kickoff_time, team_a, team_h, team_a_score, team_h_score) %>%
-  left_join(teams, by=c('team_a'='id')) %>%
-  rename(opponent=name,
-         difficulty=strength,
+  select(GW, id, finished, kickoff_time, team_a, team_h, team_a_score, team_h_score,
+         team_h_difficulty, team_a_difficulty) %>%
+  left_join(teams %>% rename(opponent=name), by=c('team_a'='id')) %>%
+  left_join(teams %>% rename(team=name), by=c('team_h'='id')) %>%
+  rename(difficulty=team_h_difficulty,
+         strength=team_a_difficulty,
          GW_id=id) %>%
-  left_join(teams, by=c('team_h'='id')) %>%
-  mutate(team=name,
-         h_a='h',
-         season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
-         season=min(season, na.rm = T)) %>%
+  rbind(
+    fromJSON(json) %>%
+      rename(GW=event) %>%
+      select(GW, id, finished, kickoff_time, team_a, team_h, team_a_score, team_h_score,
+             team_h_difficulty, team_a_difficulty) %>%
+      left_join(teams %>% rename(opponent=name), by=c('team_h'='id')) %>%
+      left_join(teams %>% rename(team=name), by=c('team_a'='id')) %>%
+      rename(difficulty=team_a_difficulty,
+             strength=team_h_difficulty,
+             GW_id=id)
+  ) %>% mutate(h_a='h',
+               season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
+               season=min(season, na.rm = T)) %>%
   select(GW, GW_id, season, finished, kickoff_time, team, h_a, strength,
          opponent, difficulty)
 
-fixtures <- fixtures %>%
-  rbind(fixtures %>% rename(opponent=team, team=opponent, strength=difficulty, difficulty=strength) %>%
-          mutate(h_a='a')) %>% arrange(GW, GW_id)
 #-----------------------------------------------------------------------------#
 
 #-----------------------------------------------------------------------------#
@@ -370,59 +374,36 @@ for(i in ids$name){
 
 #-----------------------------------------------------------------------------#
 ## Deal with transfers here
-url <- tm_league_team_urls(country_name = 'England', start_year = 2024)
-url <- gsub('2024', max(df2$season), url)
-dict <- player_dictionary_mapping()
-
-### Transfers by team
-transfers <- data.frame()
-for(i in url) {
-  temp <- tm_team_transfers(team_url = i, transfer_window = 'all')
-  transfers <- rbind(transfers, temp)
-}
-
-### Get arrivals data
-arrivals <- transfers %>% filter(transfer_type=='Arrivals')
-dict2 <- dict %>% filter(UrlTmarkt %in% arrivals$player_url)
-
-### Add the team ratings
-temp <- df2 %>% select(team, season, team_score, opponent_score) %>%
-  group_by(team, season) %>%
-  summarize(team_offense_rating = mean(team_score, na.rm = T),
-            team_defense_rating = mean(opponent_score, na.rm = T)) %>%
-  ungroup()
-
-df2 <- df2 %>%
-  left_join(temp) %>%
-  left_join(temp %>% 
-              rename(opponent=team,
-                     opponent_offense_rating=team_offense_rating,
-                     opponent_defense_rating=team_defense_rating))
-
-### Get a market value for each league based on TM player valuations; use as imperfect proxy for level of competition
-###### This step takes a long time to run; comment and save a csv for easy loading; push changes to github at beginning of each season
-# comps <- read.csv('https://raw.githubusercontent.com/JaseZiv/worldfootballR_data/master/raw-data/transfermarkt_leagues/main_comp_seasons.csv', encoding = 'UTF-8') %>%
-#   group_by(comp_name) %>%
-#   filter(season_start_year==max(season_start_year)) %>%
-#   ungroup()
-#
-# count <- c(1:nrow(comps))
-# values <- data.frame()
-#
-# for(c in count) {
-#   temp <- tm_player_market_values(start_year = comps$season_start_year[[c]], league_url = comps$comp_url[[c]]) %>%
-#     mutate(n=1) %>%
-#     group_by(country, comp_name) %>%
-#     summarize(total_players=sum(n, na.rm = T),
-#               mean_value_euros=mean(player_market_value_euro, na.rm = T),
-#               total_value_euros=sum(player_market_value_euro, na.rm = T)) %>%
-#     ungroup()
-#
-#   values <- rbind(values, temp)
-#
+### AS OF 8/18/26 THE WORLDFOOTBALLR PACKAGE NOT FUNCTIONING BETWEEN 2024/2025???
+### LEAVE THIS SEGMENT COMMENTED OUT
+# url <- tm_league_team_urls(country_name = 'England', start_year = max(df2$season))
+# url <- gsub('2024', max(df2$season), url)
+# dict <- player_dictionary_mapping()
+# 
+# ### Transfers by team
+# transfers <- data.frame()
+# for(i in url) {
+#   temp <- tm_team_transfers(team_url = i, transfer_window = 'all')
+#   transfers <- rbind(transfers, temp)
 # }
-#
-# write.csv(values, 'data/league_values.csv', row.names = F)
+# 
+# ### Get arrivals data
+# arrivals <- transfers %>% filter(transfer_type=='Arrivals')
+# dict2 <- dict %>% filter(UrlTmarkt %in% arrivals$player_url)
+# 
+# ### Add the team ratings
+# temp <- df2 %>% select(team, season, team_score, opponent_score) %>%
+#   group_by(team, season) %>%
+#   summarize(team_offense_rating = mean(team_score, na.rm = T),
+#             team_defense_rating = mean(opponent_score, na.rm = T)) %>%
+#   ungroup()
+# 
+# df2 <- df2 %>%
+#   left_join(temp) %>%
+#   left_join(temp %>% 
+#               rename(opponent=team,
+#                      opponent_offense_rating=team_offense_rating,
+#                      opponent_defense_rating=team_defense_rating))
 
 values <- read.csv('data/league_values.csv') %>% arrange(-mean_value_euros) %>%
   mutate(percentile=percent_rank(mean_value_euros),
@@ -530,81 +511,83 @@ transfer_data <- est_data %>%
             total_points=mean(total_points, na.rm = T)) %>%
   ungroup() %>% filter(!is.na(position))
 
-
-df3 <- arrivals %>% filter(!grepl('End of loan', transfer_notes)) %>%
-  select(player_name, league_2) %>%
-  rename(name=player_name) %>%
-  stringdist_inner_join(val_data, by='name') %>%
-  rename(name=name.x) %>%
-  select(name, web_name, league_2, position, team, kickoff_time, GW, id, 
-         team_h_score, h_a, team_a_score, team_score, opponent_score, season, opponent,
-         difficulty, strength, difficulty, team_offense_rating, team_defense_rating,
-         opponent_offense_rating, opponent_defense_rating, value, finished) %>%
-  left_join(transfer_data) %>%
-  rename(comp_name=league_2) %>%
-  left_join(values, by='comp_name') %>%
-  mutate(coef=ifelse(is.na(coef), 0.3, coef))
-
-temp <- c('goals', 'assists', 'ict_index', 'own_goals', 'penalties_missed', 'bonus',
-          'minutes', 'yellow_cards', 'red_cards', 'goals_conceded', 'saves', 'penalties_saved',
-          'xG', 'xA', 'total_points', 'played', 'played60', 'clean_sheet')
-
-df3 <- df3 %>%
-  mutate(across(all_of(temp), ~.x*coef)) %>%
-  select(intersect(colnames(df3), colnames(est_data)))
-
-temp <- df3 %>%
-  rename(team=opponent, opponent=team) %>%
-  group_by(team, season, GW) %>%
-  summarize(xG_opponent=sum(xG, na.rm = T),
-            ict_index_opponent=mean(ict_index, na.rm = T)) %>% 
-  ungroup()
-
-df3 <- df3 %>% left_join(temp) %>%
-  mutate(xG_opponent=ifelse(is.na(xG_opponent), median(xG_opponent), xG_opponent),
-         xG_opponent=xG_opponent*(minutes/90),
-         ict_index_opponent=ifelse(is.na(ict_index_opponent), median(ict_index_opponent), ict_index_opponent),
-         ict_index_opponent=ict_index_opponent*(minutes/90)) %>%
-  mutate(season=max(val_data$season)-1)
-  
-for (i in unique(df3$name)) {
-  
-  if (!(i %in% unique(est_data$name))) {
-    
-    temp <- df3 %>% filter(name==i)
-    
-    est_data <- est_data %>% rbind(temp)
-    
-  }
-}
-
-### Get ranking of minutes and avg goal differences
-temp <- est_data %>%
-  mutate(goal_difference=team_score-opponent_score) %>%
-  group_by(name, position, season, team) %>%
-  summarize(total_minutes=sum(minutes, na.rm = T),
-            goal_difference=mean(goal_difference, na.rm = T)) %>%
-  ungroup() %>%
-  group_by(team, position, season) %>%
-  mutate(rank_minutes=rank(-total_minutes/90)) %>%
-  ungroup()
-
-est_data <- est_data %>% left_join(temp) %>%
-  mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
-  filter(!is.na(position)) %>%
-  filter(GW!=0)
-
-temp <- val_data %>%
-  mutate(goal_difference=team_score-opponent_score) %>%
-  group_by(name, position, season, team) %>%
-  summarize(total_minutes=sum(minutes, na.rm = T),
-            goal_difference=mean(goal_difference, na.rm = T)) %>%
-  group_by(team, position, season) %>%
-  mutate(rank_minutes=rank(-total_minutes)) %>%
-  ungroup()
-
-val_data <- val_data %>% left_join(temp) %>%
-  mutate_if(is.numeric, replace_na, 0)
+## ADDED 8/18/26 TO DEAL WITH DATED TRANSFER CODE - comment it all out sadly
+# arrivals = df2 %>% filter(!(name %in% df$name))
+# 
+# df3 <- arrivals %>% filter(!grepl('End of loan', transfer_notes)) %>%
+#   select(player_name, league_2) %>%
+#   rename(name=player_name) %>%
+#   stringdist_inner_join(val_data, by='name') %>%
+#   rename(name=name.x) %>%
+#   select(name, web_name, league_2, position, team, kickoff_time, GW, id, 
+#          team_h_score, h_a, team_a_score, team_score, opponent_score, season, opponent,
+#          difficulty, strength, difficulty, team_offense_rating, team_defense_rating,
+#          opponent_offense_rating, opponent_defense_rating, value, finished) %>%
+#   left_join(transfer_data) %>%
+#   rename(comp_name=league_2) %>%
+#   left_join(values, by='comp_name') %>%
+#   mutate(coef=ifelse(is.na(coef), 0.3, coef))
+# 
+# temp <- c('goals', 'assists', 'ict_index', 'own_goals', 'penalties_missed', 'bonus',
+#           'minutes', 'yellow_cards', 'red_cards', 'goals_conceded', 'saves', 'penalties_saved',
+#           'xG', 'xA', 'total_points', 'played', 'played60', 'clean_sheet')
+# 
+# df3 <- df3 %>%
+#   mutate(across(all_of(temp), ~.x*coef)) %>%
+#   select(intersect(colnames(df3), colnames(est_data)))
+# 
+# temp <- df3 %>%
+#   rename(team=opponent, opponent=team) %>%
+#   group_by(team, season, GW) %>%
+#   summarize(xG_opponent=sum(xG, na.rm = T),
+#             ict_index_opponent=mean(ict_index, na.rm = T)) %>% 
+#   ungroup()
+# 
+# df3 <- df3 %>% left_join(temp) %>%
+#   mutate(xG_opponent=ifelse(is.na(xG_opponent), median(xG_opponent), xG_opponent),
+#          xG_opponent=xG_opponent*(minutes/90),
+#          ict_index_opponent=ifelse(is.na(ict_index_opponent), median(ict_index_opponent), ict_index_opponent),
+#          ict_index_opponent=ict_index_opponent*(minutes/90)) %>%
+#   mutate(season=max(val_data$season)-1)
+#   
+# for (i in unique(df3$name)) {
+#   
+#   if (!(i %in% unique(est_data$name))) {
+#     
+#     temp <- df3 %>% filter(name==i)
+#     
+#     est_data <- est_data %>% rbind(temp)
+#     
+#   }
+# }
+# 
+# ### Get ranking of minutes and avg goal differences
+# temp <- est_data %>%
+#   mutate(goal_difference=team_score-opponent_score) %>%
+#   group_by(name, position, season, team) %>%
+#   summarize(total_minutes=sum(minutes, na.rm = T),
+#             goal_difference=mean(goal_difference, na.rm = T)) %>%
+#   ungroup() %>%
+#   group_by(team, position, season) %>%
+#   mutate(rank_minutes=rank(-total_minutes/90)) %>%
+#   ungroup()
+# 
+# est_data <- est_data %>% left_join(temp) %>%
+#   mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
+#   filter(!is.na(position)) %>%
+#   filter(GW!=0)
+# 
+# temp <- val_data %>%
+#   mutate(goal_difference=team_score-opponent_score) %>%
+#   group_by(name, position, season, team) %>%
+#   summarize(total_minutes=sum(minutes, na.rm = T),
+#             goal_difference=mean(goal_difference, na.rm = T)) %>%
+#   group_by(team, position, season) %>%
+#   mutate(rank_minutes=rank(-total_minutes)) %>%
+#   ungroup()
+# 
+# val_data <- val_data %>% left_join(temp) %>%
+#   mutate_if(is.numeric, replace_na, 0)
 
 ##### Get correlations
 cor <- cor(est_data %>% mutate(position=as.numeric(as.factor(position))) %>% select(where(is.numeric))) %>%
@@ -778,20 +761,20 @@ if(dim(val_data)[1]==0){
   
 }
 
-  avg_h_a <- est_data %>%
-    group_by(name, h_a) %>%
-    summarize(
-      xG_h_a=mean(xG, na.rm = T),
-      xA_h_a=mean(xA, na.rm = T),
-      ict_index_h_a=mean(ict_index, na.rm = T),
-      played_h_a=mean(played, na.rm = T),
-      played60_h_a=mean(played60, na.rm = T),
-      clean_sheet_h_a=mean(clean_sheet, na.rm = T),
-      ict_index_opponent_h_a=mean(ict_index_opponent, na.rm = T),
-      xG_opponent_h_a=mean(xG_opponent, na.rm = T),
-      saves_h_a=mean(saves, na.rm = T),
-      goals_conceded_h_a=mean(goals_conceded, na.rm = T)
-    ) %>% ungroup()
+avg_h_a <- est_data %>%
+  group_by(name, h_a) %>%
+  summarize(
+    xG_h_a=mean(xG, na.rm = T),
+    xA_h_a=mean(xA, na.rm = T),
+    ict_index_h_a=mean(ict_index, na.rm = T),
+    played_h_a=mean(played, na.rm = T),
+    played60_h_a=mean(played60, na.rm = T),
+    clean_sheet_h_a=mean(clean_sheet, na.rm = T),
+    ict_index_opponent_h_a=mean(ict_index_opponent, na.rm = T),
+    xG_opponent_h_a=mean(xG_opponent, na.rm = T),
+    saves_h_a=mean(saves, na.rm = T),
+    goals_conceded_h_a=mean(goals_conceded, na.rm = T)
+  ) %>% ungroup()
   
 predict_data <- ids %>%
   select(name, web_name, team, position, value) %>%
