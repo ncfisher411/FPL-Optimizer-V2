@@ -22,7 +22,7 @@ xA <- read.csv('data/xA_understat.csv') %>%
   select(-key_passes)
 
 df <- rbind(
-  read.csv('data/vaastav data/data/2021-22/gws/merged_gw.csv') %>%
+  read.csv('data/vaastav data/data/2021-22/gws/merged_gw.csv', encoding = 'latin1') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -36,15 +36,15 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2021-22/teams.csv') %>%
+      read.csv('data/vaastav data/data/2021-22/teams.csv', encoding = 'UTF-8') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2021-22/teams.csv') %>%
+      read.csv('data/vaastav data/data/2021-22/teams.csv', encoding = 'UTF-8') %>%
         select(name, strength), by=c('team' = 'name')
     ),
-  read.csv('data/vaastav data/data/2022-23/gws/merged_gw.csv') %>%
+  read.csv('data/vaastav data/data/2022-23/gws/merged_gw.csv', encoding = 'latin1') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists, own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -58,12 +58,12 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2022-23/teams.csv') %>%
+      read.csv('data/vaastav data/data/2022-23/teams.csv', encoding = 'UTF-8') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2022-23/teams.csv') %>%
+      read.csv('data/vaastav data/data/2022-23/teams.csv', encoding = 'UTF-8') %>%
         select(name, strength), by=c('team' = 'name')
     )
 ) %>% left_join(
@@ -71,7 +71,7 @@ df <- rbind(
 ) %>% left_join(
   xA, by=c('name'='FPL_Name', 'season', 'kickoff_time'='date')
 ) %>% distinct(name, kickoff_time, .keep_all = T) %>%
-  rbind(read.csv('data/vaastav data/data/2023-24/gws/merged_gw.csv') %>%
+  rbind(read.csv('data/vaastav data/data/2023-24/gws/merged_gw.csv', encoding = 'latin1') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists,own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -86,16 +86,16 @@ df <- rbind(
            season=as.numeric(substr(kickoff_time, start = 1, stop = 4)),
            season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2023-24/teams.csv') %>%
+      read.csv('data/vaastav data/data/2023-24/teams.csv', encoding = 'UTF-8') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2023-24/teams.csv') %>%
+      read.csv('data/vaastav data/data/2023-24/teams.csv', encoding = 'UTF-8') %>%
         select(name, strength), by=c('team' = 'name')
     )
 ) %>% rbind(
-  temp <- read.csv('data/vaastav data/data/2024-25/gws/merged_gw_new.csv') %>%
+  temp <- read.csv('data/vaastav data/data/2024-25/gws/merged_gw_new.csv', encoding = 'latin1') %>%
     select(name, team, position, kickoff_time, ict_index, goals_scored, assists,own_goals,
            penalties_missed, round, element, opponent_team, team_a_score, team_h_score, was_home,
            bonus, minutes, yellow_cards, red_cards, goals_conceded, saves, penalties_saved,
@@ -112,16 +112,16 @@ df <- rbind(
     filter(position!='AM') %>%
     mutate(season=min(season)) %>%
     left_join(
-      read.csv('data/vaastav data/data/2024-25/teams.csv') %>%
+      read.csv('data/vaastav data/data/2024-25/teams.csv', encoding = 'UTF-8') %>%
         select(id, name, strength) %>%
         rename(opponent=name, difficulty=strength), by=c('opponent_team' = 'id')
     ) %>%
     left_join(
-      read.csv('data/vaastav data/data/2024-25/teams.csv') %>%
+      read.csv('data/vaastav data/data/2024-25/teams.csv', encoding = 'UTF-8') %>%
         select(name, strength), by=c('team' = 'name')
     )
 ) %>% rbind(
-  temp = read.csv('data/vaastav data/data/2025-26/gws/merged_gw.csv') %>%
+  temp = read.csv('data/vaastav data/data/2025-26/gws/merged_gw.csv', encoding = 'latin1') %>%
     mutate(opponent_team = opponent) %>%
     select(name, team, position, kickoff_time, ict_index, goals, assists, own_goals,
            penalties_missed, GW, id, opponent_team, opponent, team_a_score, team_h_score, h_a,
@@ -129,8 +129,7 @@ df <- rbind(
            xG, xA, total_points, value, season, opponent_score, team_score, opponent_score,
            difficulty, strength, -X
     ) 
-) %>% mutate(opponent = opponent_team,
-         opponent=ifelse(opponent=='Manchester City', 'Man City', opponent),
+) %>% mutate(opponent=ifelse(opponent=='Manchester City', 'Man City', opponent),
          opponent=ifelse(opponent=='Manchester United', 'Man Utd', opponent),
          opponent=ifelse(opponent=='Newcastle United', 'Newcastle', opponent),
          opponent=ifelse(opponent=='Wolverhampton Wanderers', 'Wolves', opponent),
@@ -562,35 +561,36 @@ transfer_data <- est_data %>%
 # }
 # 
 # ### Get ranking of minutes and avg goal differences
-# temp <- est_data %>%
-#   mutate(goal_difference=team_score-opponent_score) %>%
-#   group_by(name, position, season, team) %>%
-#   summarize(total_minutes=sum(minutes, na.rm = T),
-#             goal_difference=mean(goal_difference, na.rm = T)) %>%
-#   ungroup() %>%
-#   group_by(team, position, season) %>%
-#   mutate(rank_minutes=rank(-total_minutes/90)) %>%
-#   ungroup()
-# 
-# est_data <- est_data %>% left_join(temp) %>%
-#   mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
-#   filter(!is.na(position)) %>%
-#   filter(GW!=0)
-# 
-# temp <- val_data %>%
-#   mutate(goal_difference=team_score-opponent_score) %>%
-#   group_by(name, position, season, team) %>%
-#   summarize(total_minutes=sum(minutes, na.rm = T),
-#             goal_difference=mean(goal_difference, na.rm = T)) %>%
-#   group_by(team, position, season) %>%
-#   mutate(rank_minutes=rank(-total_minutes)) %>%
-#   ungroup()
-# 
-# val_data <- val_data %>% left_join(temp) %>%
-#   mutate_if(is.numeric, replace_na, 0)
+temp <- est_data %>%
+  mutate(goal_difference=team_score-opponent_score) %>%
+  group_by(name, position, season, team) %>%
+  summarize(total_minutes=sum(minutes, na.rm = T),
+            goal_difference=mean(goal_difference, na.rm = T)) %>%
+  ungroup() %>%
+  group_by(team, position, season) %>%
+  mutate(rank_minutes=rank(-total_minutes/90)) %>%
+  ungroup()
+
+est_data <- est_data %>% left_join(temp) %>%
+  mutate(across(where(is.numeric), ~replace_na(., 0))) %>%
+  filter(!is.na(position)) %>%
+  filter(GW!=0)
+
+temp <- val_data %>%
+  mutate(goal_difference=team_score-opponent_score) %>%
+  group_by(name, position, season, team) %>%
+  summarize(total_minutes=sum(minutes, na.rm = T),
+            goal_difference=mean(goal_difference, na.rm = T)) %>%
+  group_by(team, position, season) %>%
+  mutate(rank_minutes=rank(-total_minutes)) %>%
+  ungroup()
+
+val_data <- val_data %>% left_join(temp) %>%
+  mutate_if(is.numeric, replace_na, 0)
 
 ##### Get correlations
-cor <- cor(est_data %>% mutate(position=as.numeric(as.factor(position))) %>% select(where(is.numeric))) %>%
+cor <- cor(est_data %>% filter(finished == 'TRUE') %>%
+             mutate(position=as.numeric(as.factor(position))) %>% select(where(is.numeric))) %>%
   as.data.frame()
 
 #### In the goals model we are estimating goals, own goals, and penalties missed
@@ -725,7 +725,7 @@ if(dim(val_data)[1]==0){
   
   avg_season <- est_data %>%
     filter(season==max(season)) %>%
-    group_by(name, position, season) %>%
+    group_by(name, season) %>%
     summarize(
       xG_season=mean(xG, na.rm = T),
       xA_season=mean(xA, na.rm = T),
@@ -744,7 +744,7 @@ if(dim(val_data)[1]==0){
 } else{
   
   avg_season <- val_data %>%
-    group_by(name, position, season) %>%
+    group_by(name, season) %>%
     summarize(
       xG_season=mean(xG, na.rm = T),
       xA_season=mean(xA, na.rm = T),
@@ -783,13 +783,14 @@ predict_data <- ids %>%
   left_join(avg_team %>% mutate(name = stri_trans_general(name, 'Latin-ASCII'))) %>%
   left_join(avg_h_a %>% mutate(name = stri_trans_general(name, 'Latin-ASCII'))) %>%
   left_join(avg_season %>% mutate(name = stri_trans_general(name, 'Latin-ASCII'))) %>% ### get weighted avgs here: 70% season, 15% h_a, 15% strength/difficulty
-  mutate(
-    xG= 0.7*xG_season + 0.15*xG_h_a + 0.15*xG_season,
-    xA= 0.7*xA_season + 0.15*xA_h_a + 0.15*xA_season,
-    ict_index= 0.7*ict_index_season + 0.15*ict_index_h_a + 0.15*ict_index_season,
-    played= 0.7*played_season + 0.15*played_h_a + 0.15*played_season,
-    played60= 0.7*played60_season + 0.15*played60_h_a + 0.15*played60_season,
-    clean_sheet= 0.7*clean_sheet_season + 0.15*clean_sheet_h_a + 0.15*clean_sheet_season,
+  distinct(name, GW, .keep_all = T) %>%
+  mutate( ## WEIGHTS ADJUSTED 8/19
+    xG= 0.7*xG_season + 0.15*xG_h_a + 0.15*xG_opp,
+    xA= 0.7*xA_season + 0.15*xA_h_a + 0.15*xA_opp,
+    ict_index= 0.7*ict_index_season + 0.15*ict_index_h_a + 0.15*ict_index_opp,
+    played= 0.7*played_season + 0.15*played_h_a + 0.15*played_opp,
+    played60= 0.7*played60_season + 0.15*played60_h_a + 0.15*played60_opp,
+    clean_sheet= 0.7*clean_sheet_season + 0.15*clean_sheet_h_a + 0.15*clean_sheet_opp,
     ict_index_opponent= 0.7*ict_index_opponent_season + 0.15*ict_index_opponent_h_a + 0.15*ict_index_opponent_opp,
     xG_opponent= 0.7*xG_opponent_season + 0.15*xG_opponent_h_a + 0.15*xG_opponent_opp,
     saves= 0.7*saves_season + 0.15*saves_h_a + 0.15*saves_opp,
